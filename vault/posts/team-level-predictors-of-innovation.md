@@ -67,8 +67,8 @@ If that's true, not sure whether it's good news or bad news for companies' innov
 - [[team-design-creativity-innovation|How should teams be designed to be creative and innovative?]]
 - [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
-- [[career-hurdles|And what are your career hurdles?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[career-hurdles|And what are your career hurdles?]]
 <!-- RELATED:END -->
 
 ---

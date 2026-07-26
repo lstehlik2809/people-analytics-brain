@@ -4,7 +4,7 @@ description: A quick check of the topics covered at this year's SIOP conference.
 date: '2025-04-04'
 tags:
 - siop
-- i/o-psychology
+- i-o-psychology
 - topic-analysis
 original: https://blog-about-people-analytics.netlify.app/posts/2025-04-04-siop-2025-conference-events/
 ---

@@ -112,7 +112,7 @@ print(g)
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 - [[nudge-effectiveness|Signal vs. Noise: Why we can’t yet identify effective nudges]]
 - [[career-hurdles|And what are your career hurdles?]]
-- [[collaboration-and-personality|Collaboration and personality]]
+- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 <!-- RELATED:END -->
 
 ---

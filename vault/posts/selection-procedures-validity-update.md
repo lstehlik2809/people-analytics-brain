@@ -3,7 +3,7 @@ title: Visualizing shifts in validity estimates for selection procedures
 description: Let's take a slopegraph perspective to assess changes in estimates of the validity of selection procedures.
 date: '2023-05-26'
 tags:
-- i/o-psychology
+- i-o-psychology
 - validity
 - employee-selection
 - meta-analysis

@@ -5,7 +5,7 @@ date: '2024-12-12'
 tags:
 - performance-management
 - employee-survey
-- i/o-psychology
+- i-o-psychology
 original: https://blog-about-people-analytics.netlify.app/posts/2024-12-12-managers-and-performance-evaluations/
 ---
 

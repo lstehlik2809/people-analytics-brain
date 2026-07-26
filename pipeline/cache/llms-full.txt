@@ -3195,7 +3195,7 @@ P.S. This rant-ish post was prompted by my recent reading on causal inference, w
 # Big Five vs. HEXACO
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/big-five-vs-hexaco
 Date: 2025-09-02
-Tags: personality, big-five, validity, performance, i/o-psychology
+Tags: personality, big-five, validity, performance, i-o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-02-big-five-vs-hexaco/
 
 One of my old work friends asked me recently whether I’d recommend a [Big Five–](https://en.wikipedia.org/wiki/Big_Five_personality_traits) or [HEXACO](https://en.wikipedia.org/wiki/HEXACO_model_of_personality_structure)-based psychometric tool for employee selection, with predictive validity as the main criterion. Not being a super-expert on this topic, I told her that AFAIK they’re more or less equivalent, with HEXACO having that extra Honesty–Humility dimension, so if counterproductive work behavior (CWB) is a big deal for them, HEXACO might have a slight edge over the Big Five.
@@ -3670,7 +3670,7 @@ They found some universal patterns - for example, pretty much everywhere, people
 
 Sure, there’s still a lot of variation within each country, and individual differences can be as big as the ones between countries. Still, keeping these broad patterns in mind and adjusting the priors on your “emotional radar” a little when you’re interacting across cultures may help you be less likely to over- or underestimate what someone’s really feeling. 
 
-#HappySummer 😎
+\#HappySummer 😎
 
 
 ---
@@ -3708,7 +3708,7 @@ And here are their key findings:
 
 These results thus suggest that happiness isn’t merely a byproduct of financial success or a simple ‘feel-good’ state - it also appears to create the psychological and social conditions that make higher earnings more likely.
 
-⚠️ Sure, there are limitations - e.g., income was measured only once and early in the career, so we don’t know if the effect lasts, not all unobserved factors could be completely ruled out, even with sibling comparisons, etc. But here’s the good news: even if the causal link is weaker than it seems, boosting our happiness is still worth it for its own sake. Right? 😉 #HappySummer
+⚠️ Sure, there are limitations - e.g., income was measured only once and early in the career, so we don’t know if the effect lasts, not all unobserved factors could be completely ruled out, even with sibling comparisons, etc. But here’s the good news: even if the causal link is weaker than it seems, boosting our happiness is still worth it for its own sake. Right? 😉 \#HappySummer
 
 
 ---
@@ -5125,7 +5125,7 @@ In short, personality matters, but it seems to be far from the one-ideal-persona
 # What topics might you encounter at the SIOP 2025 conference?
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/siop-2025-conference-events
 Date: 2025-04-04
-Tags: siop, i/o-psychology, topic-analysis
+Tags: siop, i-o-psychology, topic-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-04-siop-2025-conference-events/
 
 My LinkedIn bubble these days is full of posts from the [SIOP](https://www.siop.org/) 2025 conference. Unfortunately, it’s too far for me to attend in person. So, to participate at least symbolically, I quickly ran a [BERTopic](https://maartengr.github.io/BERTopic/index.html) pipeline on the SIOP event schedule to see what some of the major topics are and what I'll be missing. 😁
@@ -5978,7 +5978,7 @@ Does anyone have experience with this specific approach to feature selection? Fe
 # And what are your career hurdles?
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/career-hurdles
 Date: 2025-02-05
-Tags: career-development, i/o-psychology, meta-analysis
+Tags: career-development, i-o-psychology, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-02-05-career-hurdles/
 
 I came across an interesting meta-analytic review by [Ng & Feldman (2014)](https://www.sciencedirect.com/science/article/pii/S0001879114000761) that might be useful for setting priors about the hurdles people face when it comes to their perception of subjective career success (SCS). The authors estimated the impact of 54 specific hurdles, grouped into six categories that can potentially lower people's SCS: 
@@ -6530,7 +6530,7 @@ plt.show()
 # "A new broom sweeps clean"
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/managers-and-performance-evaluations
 Date: 2024-12-12
-Tags: performance-management, employee-survey, i/o-psychology
+Tags: performance-management, employee-survey, i-o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-12-12-managers-and-performance-evaluations/
 
 As the year comes to a close, my LinkedIn feed is buzzing with posts about performance evaluations - some positive, but mostly calling out the negatives. This, combined with reflecting on one of my own past experiences as a people manager, got me wondering: do managers who are relatively new to their direct reports tend to be stricter (or perhaps more objective?) in their evaluations, on average?
@@ -8850,7 +8850,7 @@ The article also contains other interesting results of various moderation and po
 # Does agile pay off?
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/agile-project-management
 Date: 2024-03-06
-Tags: i/o-psychology, project-management, meta-analysis
+Tags: i-o-psychology, project-management, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-03-06-agile-project-management/
 
 I must admit with some shame that it was only when I came across the meta-analysis by [Koch et al. (2023)](https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/joop.12429) that I wondered whether there was any systematic evidence to support the benefits of an Agile Project Management (APM).
@@ -9620,7 +9620,7 @@ I know of at least two aspects of my personality that are unnecessarily costing 
 # How to support the adoption of Evidence-Based Management with a specialized GPT bot
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ebm-gpt-bot
 Date: 2023-11-29
-Tags: evidence-based-management, i/o-psychology, generative-ai, ai
+Tags: evidence-based-management, i-o-psychology, generative-ai, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-29-ebm-gpt-bot/
 
 One of the reasons why managers and organizations generally don't apply the principles of Evidence-Based Management as often as they could or should is the perceived difficulty and complexity of the entire process. Hiring professional consultants is one solution, but it may be too expensive for many.
@@ -11718,7 +11718,7 @@ It's true that the observed effect was rather small and barely distinguishable f
 # Visualizing shifts in validity estimates for selection procedures
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/selection-procedures-validity-update
 Date: 2023-05-26
-Tags: i/o-psychology, validity, employee-selection, meta-analysis, data-visualization
+Tags: i-o-psychology, validity, employee-selection, meta-analysis, data-visualization
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-05-26-selection-procedures-validity-update/
 
 I suppose that many, if not the majority, of I/O psychology and people analytics folks have already heard about a new meta-analytic estimation of validity for selection procedures that is based on a more realistic range-restriction correction performed by [Sackett et al. (2022)](https://psycnet.apa.org/record/2022-17327-001).   
@@ -13014,7 +13014,7 @@ So, next time you consider introducing a new business app, consider piloting it 
 # Impact of employee satisfaction at work on a company's bottom line
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/employee-satisfaction-and-company-bottom-line
 Date: 2023-04-11
-Tags: performance, employee-satisfaction, meta-analysis, i/o-psychology
+Tags: performance, employee-satisfaction, meta-analysis, i-o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-employee-satisfaction-and-company-bottom-line/
 
 There is now little doubt that employee attitudes, such as employee satisfaction or employee engagement, are to some extent related to performance - for some evidence in support of this claim, see, for example, the meta-analysis of the relationships between employee satisfaction, employee engagement and business unit-level performance conducted by [Harter, Schmidt, & Hayes (2002)](https://psycnet.apa.org/doiLanding?doi=10.1037%2F0021-9010.87.2.268).
@@ -13040,7 +13040,7 @@ Despite not being free of potential biases, these results add more weight to the
 # Effectiveness of interventions for encreasing employee engagement
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/engagement-interventions
 Date: 2023-04-11
-Tags: employee-engagement, causal-inference, meta-analysis, i/o-psychology
+Tags: employee-engagement, causal-inference, meta-analysis, i-o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-engagement-interventions/
 
 There is some evidence that engagement of employees has positive causal impact on the bottom line of organizations (see, for example, the meta-analysis by [Harter et al. (2010)](https://journals.sagepub.com/doi/abs/10.1177/1745691610374589), however, be aware of the specific definition of engagement used there, which focuses more on the contextual factors and conditions enabling engagement and less on the psychological states of engagement). Consequently, we might be naturally interested in whether we can positively influence engagement of employees through the use of certain interventions.
@@ -13088,7 +13088,7 @@ May the Excel be with you 🙂
 # Employee outcomes & employees' job attitudes
 URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-attitudes-and-employee-outcomes
 Date: 2023-04-11
-Tags: employee-satisfaction, performance, employee-turnover, i/o-psychology
+Tags: employee-satisfaction, performance, employee-turnover, i-o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-job-attitudes-and-employee-outcomes/
 
 If you've ever measured employee job attitudes (i.e. constructs such as organizational commitment, procedural justice, distributive justice, job involvement,  job engagement, job satisfaction, etc.), you probably won't be surprised to learn that job attitudes are usually quite strongly correlated.

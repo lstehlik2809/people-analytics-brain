@@ -3,7 +3,7 @@ title: Does agile pay off?
 description: During my career, I have been part of several teams that have organized their work using some of the existing agile methodologies. For the most part, agile principles made good sense to me and subjectively seemed to work, so I had no reason to question their supposed benefits.
 date: '2024-03-06'
 tags:
-- i/o-psychology
+- i-o-psychology
 - project-management
 - meta-analysis
 original: https://blog-about-people-analytics.netlify.app/posts/2024-03-06-agile-project-management/
@@ -33,8 +33,8 @@ So pretty good news for APM proponents, however, it's good to keep in mind that 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[time-management|Consequences of time management in the workplace]]
-- [[timeboxing|Timeboxing. Does it really work?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[timeboxing|Timeboxing. Does it really work?]]
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
 <!-- RELATED:END -->

@@ -28,7 +28,7 @@ At the same time, however, the authors themselves emphasize that “*[these] fin
 - [[time-management|Consequences of time management in the workplace]]
 - [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 - [[micro-breaks|Effectiveness of micro-breaks at work]]
-- [[career-hurdles|And what are your career hurdles?]]
+- [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
 <!-- RELATED:END -->
 
 ---

@@ -6,7 +6,7 @@ tags:
 - employee-satisfaction
 - performance
 - employee-turnover
-- i/o-psychology
+- i-o-psychology
 original: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-job-attitudes-and-employee-outcomes/
 ---
 

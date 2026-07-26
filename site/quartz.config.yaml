@@ -115,6 +115,9 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
+      # drops contentless generated pages (the posts/ folder page and the tag
+      # index) so they stop showing up as stray nodes in the graph
+      includeEmptyFiles: false
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"

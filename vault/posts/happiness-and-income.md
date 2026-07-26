@@ -33,7 +33,7 @@ And here are their key findings:
 
 These results thus suggest that happiness isn’t merely a byproduct of financial success or a simple ‘feel-good’ state - it also appears to create the psychological and social conditions that make higher earnings more likely.
 
-⚠️ Sure, there are limitations - e.g., income was measured only once and early in the career, so we don’t know if the effect lasts, not all unobserved factors could be completely ruled out, even with sibling comparisons, etc. But here’s the good news: even if the causal link is weaker than it seems, boosting our happiness is still worth it for its own sake. Right? 😉 #HappySummer
+⚠️ Sure, there are limitations - e.g., income was measured only once and early in the career, so we don’t know if the effect lasts, not all unobserved factors could be completely ruled out, even with sibling comparisons, etc. But here’s the good news: even if the causal link is weaker than it seems, boosting our happiness is still worth it for its own sake. Right? 😉 \#HappySummer
 
 <!-- RELATED:BEGIN -->
 ## Related notes

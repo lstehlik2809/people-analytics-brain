@@ -36,7 +36,9 @@ OTHER_CHUNK_RE = re.compile(r"^```\{[^}]*\}\s*$", re.M)
 
 
 def slugify_tag(tag: str) -> str:
-    return re.sub(r"[^a-z0-9/]+", "-", tag.lower().strip()).strip("-")
+    # "/" must not survive: Quartz reads it as tag hierarchy, so a category
+    # like "i/o psychology" would spawn a nonsensical parent tag "i"
+    return re.sub(r"[^a-z0-9]+", "-", tag.lower().strip()).strip("-")
 
 
 def note_slug(post_dir_name: str) -> str:
@@ -96,8 +98,23 @@ def convert_body(body: str, post_dir: Path, asset_dir: Path, slug: str, warnings
     body = HTML_IMG_RE.sub(html_img_sub, body)
     # strip pandoc attribute blocks like ){width=100%}
     body = ATTR_RE.sub(r"\1", body)
+    body = escape_inline_hashtags(body)
     body = blank_pad_html_wrappers(body)
     return body.strip()
+
+
+FENCE_SPLIT_RE = re.compile(r"(```.*?```)", re.S)
+# a decorative hashtag in prose (e.g. "#HappySummer"); Quartz would turn it
+# into a real tag, polluting the tag list and graph. Headings are safe: they
+# require a space after the hashes. URLs are safe: "#" follows "/" or a word.
+INLINE_HASHTAG_RE = re.compile(r"(^|[ \t])#([A-Za-z][\w-]*)", re.M)
+
+
+def escape_inline_hashtags(body: str) -> str:
+    parts = FENCE_SPLIT_RE.split(body)
+    for i in range(0, len(parts), 2):  # even indices are outside code fences
+        parts[i] = INLINE_HASHTAG_RE.sub(r"\1\\#\2", parts[i])
+    return "".join(parts)
 
 
 WRAP_OPEN_RE = re.compile(r"^<(div|center|aside|p)\b[^>]*>$", re.I)

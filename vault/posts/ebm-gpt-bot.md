@@ -4,7 +4,7 @@ description: Let's create your own consultant to help you apply the principles o
 date: '2023-11-29'
 tags:
 - evidence-based-management
-- i/o-psychology
+- i-o-psychology
 - generative-ai
 - ai
 original: https://blog-about-people-analytics.netlify.app/posts/2023-11-29-ebm-gpt-bot/

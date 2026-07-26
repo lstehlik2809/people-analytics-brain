@@ -20,7 +20,7 @@ They found some universal patterns - for example, pretty much everywhere, people
 
 Sure, there’s still a lot of variation within each country, and individual differences can be as big as the ones between countries. Still, keeping these broad patterns in mind and adjusting the priors on your “emotional radar” a little when you’re interacting across cultures may help you be less likely to over- or underestimate what someone’s really feeling. 
 
-#HappySummer 😎
+\#HappySummer 😎
 
 <!-- RELATED:BEGIN -->
 ## Related notes

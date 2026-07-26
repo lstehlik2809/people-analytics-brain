@@ -4,7 +4,7 @@ description: Visualization of the results from a meta-analytic review of the hur
 date: '2025-02-05'
 tags:
 - career-development
-- i/o-psychology
+- i-o-psychology
 - meta-analysis
 original: https://blog-about-people-analytics.netlify.app/posts/2025-02-05-career-hurdles/
 ---

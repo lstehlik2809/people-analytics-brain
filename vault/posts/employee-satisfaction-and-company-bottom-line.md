@@ -6,7 +6,7 @@ tags:
 - performance
 - employee-satisfaction
 - meta-analysis
-- i/o-psychology
+- i-o-psychology
 original: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-employee-satisfaction-and-company-bottom-line/
 ---
 
@@ -30,7 +30,7 @@ Despite not being free of potential biases, these results add more weight to the
 - [[job-attitudes-and-employee-outcomes|Employee outcomes & employees' job attitudes]]
 - [[performance-vs-motivation|Motivation vs. Performance: What causes what?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
-- [[happiness-and-income|Happy today, richer tomorrow?]]
+- [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
 <!-- RELATED:END -->
 
 ---
