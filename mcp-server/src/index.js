@@ -21,7 +21,7 @@ const TOOLS = [
     name: "search_notes",
     description:
       "Full-text search (BM25) across all notes on people analytics, statistics, " +
-      "causal inference, psychometrics, machine learning, and AI by Luděk Stehlík. " +
+      "causal inference, psychometrics, machine learning, and AI by Ludek Stehlik. " +
       "Returns ranked matches with snippets. Use get_note with a result's slug to read the full note.",
     inputSchema: {
       type: "object",
@@ -229,7 +229,7 @@ async function handleRpc(msg) {
         capabilities: { tools: {} },
         serverInfo: SERVER_INFO,
         instructions:
-          "Search and read Luděk Stehlík's public second brain on people analytics. " +
+          "Search and read Ludek Stehlik's public second brain on people analytics. " +
           "Typical flow: search_notes → get_note(slug). Browse topics with list_tags / list_notes. " +
           `Full corpus is also available as plain text at ${SITE}/llms-full.txt.`,
       });

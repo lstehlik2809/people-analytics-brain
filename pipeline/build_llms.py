@@ -41,7 +41,7 @@ def main():
         "# Ludek's People Analytics Second Brain",
         "",
         f"> A public second brain of {len(notes)} posts on people analytics, statistics, "
-        "causal inference, psychometrics, machine learning, and AI by Luděk Stehlík. "
+        "causal inference, psychometrics, machine learning, and AI by Ludek Stehlik. "
         f"Browsable knowledge graph at {SITE_URL}. "
         "The complete corpus is in /llms-full.txt.",
         "",
@@ -51,7 +51,7 @@ def main():
     full = [
         "# Ludek's People Analytics Second Brain — complete corpus",
         "",
-        f"Source: {SITE_URL} | Author: Luděk Stehlík "
+        f"Source: {SITE_URL} | Author: Ludek Stehlik "
         "(https://www.linkedin.com/in/ludekstehlik/)",
         "",
     ]

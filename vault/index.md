@@ -24,4 +24,4 @@ The whole brain is machine-readable:
 
 ## About me
 
-I'm **Luděk Stehlík** — people analytics practitioner and psychologist. You can find me on [LinkedIn](https://www.linkedin.com/in/ludekstehlik/) or read the [source blog](https://blog-about-people-analytics.netlify.app/).
+I'm **Ludek Stehlik** — people analytics practitioner and psychologist. You can find me on [LinkedIn](https://www.linkedin.com/in/ludekstehlik/) or read the [source blog](https://blog-about-people-analytics.netlify.app/).

@@ -1,6 +1,6 @@
 # Ludek's People Analytics Second Brain
 
-> A public second brain of 204 posts on people analytics, statistics, causal inference, psychometrics, machine learning, and AI by Luděk Stehlík. Browsable knowledge graph at https://lstehlik2809.github.io/people-analytics-second-brain. The complete corpus is in /llms-full.txt.
+> A public second brain of 204 posts on people analytics, statistics, causal inference, psychometrics, machine learning, and AI by Ludek Stehlik. Browsable knowledge graph at https://lstehlik2809.github.io/people-analytics-second-brain. The complete corpus is in /llms-full.txt.
 
 ## Notes
 
