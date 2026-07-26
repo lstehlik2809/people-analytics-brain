@@ -25,13 +25,9 @@ jobs:
       - name: Install Quartz dependencies
         working-directory: site
         run: npm ci
-      - name: Sync vault into site content
-        run: |
-          mkdir -p site/content
-          cp -r vault/. site/content/
       - name: Build site
         working-directory: site
-        run: npx quartz build
+        run: npx quartz build -d ../vault
       - name: Add llms.txt files
         run: |
           cp pipeline/cache/llms.txt site/public/llms.txt

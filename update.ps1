@@ -14,13 +14,9 @@ Write-Host "== 2/4 Embedding + relinking ==" -ForegroundColor Cyan
 python pipeline/embed_link.py
 if ($LASTEXITCODE) { exit 1 }
 
-Write-Host "== 3/4 Building llms.txt ==" -ForegroundColor Cyan
+Write-Host "== 3/3 Building llms.txt ==" -ForegroundColor Cyan
 python pipeline/build_llms.py
 if ($LASTEXITCODE) { exit 1 }
-
-Write-Host "== 4/4 Syncing site content ==" -ForegroundColor Cyan
-robocopy vault site\content /MIR /NFL /NDL /NJH /NJS
-if ($LASTEXITCODE -ge 8) { exit 1 }
 
 if (-not $NoPush) {
     git add -A
@@ -28,5 +24,5 @@ if (-not $NoPush) {
     git push
     Write-Host "Pushed - GitHub Actions will rebuild and deploy the site." -ForegroundColor Green
 } else {
-    Write-Host "Done (no push). Preview locally: cd site; npx quartz build --serve" -ForegroundColor Green
+    Write-Host "Done (no push). Preview locally: cd site; npx quartz build -d ..\vault --serve" -ForegroundColor Green
 }

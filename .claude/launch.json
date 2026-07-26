@@ -6,7 +6,7 @@
       "runtimeExecutable": "cmd",
       "runtimeArgs": [
         "/c",
-        "cd /d D:\\_WORKFORCE_ANALYTICS\\third_brain\\site && set PATH=C:\\Users\\ludek\\AppData\\Roaming\\nvm\\v22.17.1;%PATH% && npx quartz build --serve"
+        "cd /d D:\\_WORKFORCE_ANALYTICS\\third_brain\\site && set PATH=C:\\Users\\ludek\\AppData\\Roaming\\nvm\\v22.17.1;%PATH% && npx quartz build -d ..\\vault --serve"
       ],
       "port": 8080
     }
