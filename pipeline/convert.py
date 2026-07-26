@@ -24,7 +24,9 @@ NOTES_DIR = VAULT / "posts"
 CACHE = ROOT / "pipeline" / "cache"
 MANIFEST = CACHE / "manifest.json"
 
-IMG_RE = re.compile(r"!\[([^\]]*)\]\(\s*(\./)?([^)\s\"']+)(\s+\"[^\"]*\")?\s*\)")
+# target is parsed in img_sub, so filenames containing spaces still match
+IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]*)\)")
+TITLE_RE = re.compile(r"\s+\"[^\"]*\"\s*$")
 ATTR_RE = re.compile(r"(\)|\`)\{[^{}\n]*\}")  # pandoc attribute blocks after ) or `
 CHUNK_RE = re.compile(r"^```\{(r|R)\b[^}]*\}\s*$", re.M)
 PY_CHUNK_RE = re.compile(r"^```\{python[^}]*\}\s*$", re.M)
@@ -61,18 +63,20 @@ def convert_body(body: str, post_dir: Path, asset_dir: Path, slug: str, warnings
 
     # copy local images and rewrite refs
     def img_sub(m):
-        alt, _, path, _title = m.group(1), m.group(2), m.group(3), m.group(4)
+        alt, target = m.group(1), m.group(2).strip()
+        path = TITLE_RE.sub("", target).strip().strip("<>")
         if path.startswith(("http://", "https://", "data:")):
             return f"![{alt}]({path})"
-        src = post_dir / path
+        src = post_dir / unquote(path)
         if not src.exists():
             warnings.append(f"{slug}: missing image {path}")
             return f"![{alt}]({path})"
+        # spaces in a filename break markdown links, so normalize on copy
+        dest_name = src.name.replace(" ", "-")
         asset_dir.mkdir(parents=True, exist_ok=True)
-        dest = asset_dir / src.name
-        if not dest.exists():
-            shutil.copy2(src, dest)
-        return f"![{alt}](./{slug}/{src.name})"
+        if not (asset_dir / dest_name).exists():
+            shutil.copy2(src, asset_dir / dest_name)
+        return f"![{alt}](./{slug}/{dest_name})"
 
     body = IMG_RE.sub(img_sub, body)
     # strip pandoc attribute blocks like ){width=100%}

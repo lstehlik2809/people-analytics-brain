@@ -25,13 +25,13 @@ Below you can see the used meeting guidance corresponding to the two treatment c
 
 <div style="text-align:center">
 
-![](./Meeting guidance for the treatment needs.png)
+![](./psychological-safety-and-rct/Meeting-guidance-for-the-treatment-needs.png)
 
 </div>
 
 <div style="text-align:center">
 
-![](./Meeting guidance for the treatment tasks.png)
+![](./psychological-safety-and-rct/Meeting-guidance-for-the-treatment-tasks.png)
 
 </div>
 
