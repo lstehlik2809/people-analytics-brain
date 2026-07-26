@@ -1,0 +1,8 @@
+.env
+site/node_modules/
+site/public/
+site/content/
+site/.quartz-cache/
+pipeline/cache/embeddings.json
+pipeline/cache/search_index.json
+__pycache__/
