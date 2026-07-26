@@ -31,7 +31,9 @@ The contrast between the two analyses is where things become interesting.
 In the primary model, the focal responsiveness item is clearly positively associated with next-year participation. Employees who scored higher on that item were more likely to respond again the following year, even after adjustment for standard demographic and organizational covariates. The association was statistically detectable but modest in size, so I would read it as evidence of a repeat-participation pattern rather than a large practical shift (one possible positive interpretation being that lower perceived responsiveness does not appear to translate into broad withdrawal from the survey as a channel for voice). At a broad level, the data are therefore consistent with the conventional wisdom.
 
 <div style="text-align:center">
+
 ![](./you-said-we-did/pic1.png)
+
 </div>
 *Fig. 1: Average marginal effects from the primary model predicting next-year survey participation from prior-year survey items. Items are anonymized for public sharing; Action Taken Item is the focal perceived-responsiveness item. Horizontal bars show 95% confidence intervals.*
 
@@ -42,7 +44,9 @@ And the secondary model sharpens that point further.
 Once the shared general engagement factor is removed, the focal responsiveness item no longer stands out as a distinct residual predictor. Its residual association is essentially null. By contrast, some other item-specific residual signals continued to show clearer associations with repeat participation.
 
 <div style="text-align:center">
+
 ![](./you-said-we-did/pic2.png)
+
 </div>
 *Fig. 2: Average marginal effects from the secondary residual-signal model, where each item is adjusted for the broader survey-response pattern using a leave-one-item-out factor approach. Items use the same anonymized labels as in the primary chart; Action Taken Item is the focal perceived-responsiveness item. Horizontal bars show 95% cluster-bootstrap confidence intervals.*
 

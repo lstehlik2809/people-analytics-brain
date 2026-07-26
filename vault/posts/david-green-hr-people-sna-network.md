@@ -15,7 +15,9 @@ IMO, it nicely illustrates David's ongoing and successful effort to bring togeth
 If you'd like to explore it yourself, [here it is](https://lstehlik2809.github.io/david-green-hr-people-network/).
 
 <div style="text-align:center">
+
 ![](./david-green-hr-people-sna-network/ona_david_green.png)
+
 </div>
 
 A few tips for navigating the network:

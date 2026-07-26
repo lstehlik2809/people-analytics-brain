@@ -19,7 +19,9 @@ Here are just a few examples from my own recent analytical practice:
 4. Team non/participation in the employee survey as a proxy for team engagement, which in turn predicts individual-level voluntary attrition.
 
 <div style="text-align:center">
+
 ![](./self-selection-and-proxy-measures/growth_gig_plot.png)
+
 </div>
 
 Sure, such proxy measures aren’t perfect or clean representations of the variables of interest and, as such, require careful interpretation—ideally supported by empirical validation. That said, their imperfections usually don’t stop them from being useful, to paraphrase the famous George Box’s aphorism.

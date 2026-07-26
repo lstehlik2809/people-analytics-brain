@@ -21,7 +21,9 @@ This obsession with prediction might be part of the reason why people analytics 
 The good news is, we do have a method for answering causal, or “why”, questions. The less good news? In practice, causal inference is harder and less straightforward than making predictions. If you have a background in the social sciences, you probably remember from your methods classes that the gold standard for establishing causality is the experiment—specifically, the *randomized controlled trial* (RCT), also known in the business world as *A/B testing*. RCTs are powerful because they can effectively simulate comparison between factual and counterfactual scenarios—imagine being able to see what would happen to your headache both *with* and *without* taking aspirin. They do this by randomly assigning interventions to people (or other units of analysis), which helps break any systematic link between the outcome and all factors other than the intervention itself. 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/rct_illustration.png)
+
 </div>
 *Fig. 1: A diagram illustrating the design of a Randomized Controlled Trial (RCT). Patients are randomly assigned to either a treatment group receiving an intervention or a control group receiving a comparison, allowing for the assessment of the intervention's causal effect on outcomes. Randomization helps balance both known and unknown confounding variables across groups, reducing bias and making it more likely that any observed differences in outcomes are due to the intervention itself—not other factors. (Source: [SimplyPsychology](https://www.simplypsychology.org/randomized-controlled-trial.html))*
 
@@ -35,14 +37,18 @@ There could easily be a third, unmeasured variable, a so-called *confounder*, lu
 Then there’s the infamous *self-selection* effect: When people opt into a program for reasons tied to the very issue the program is meant to fix. That can make even a solid intervention look like it’s backfiring—not because it doesn’t work, but because those who join are systematically different from those who don’t, especially when it comes to the outcome of interest (e.g., if an optional manager coaching program seems to lower team satisfaction, it’s probably not the coaching that’s the problem—more likely, the only managers signing up are already struggling, and their teams were less satisfied from the start). 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/sketchplanations-sampling-bias.png)
+
 </div>
 *Fig. 2: A lighthearted illustration of the self-selection effect—where only a specific type of person ends up in the sample. (Source: [sketchplanations](https://sketchplanations.com/sampling-bias))*
 
 Even if we try to get clever and use our good old friend, regression analysis, to statistically control for everything we can measure, we might still end up with biased estimates—not despite controlling for variables, but because we’re controlling for variables we shouldn't. For instance, if we control for a *collider*—a variable influenced by both the outcome and the intervention—we can actually introduce bias rather than eliminate it (e.g., when looking at the relationship between technical and teamwork skills in job candidates, both might independently boost their chances of getting selected; but if we only analyze those who got through, we’re effectively controlling for selection, which can create a fake negative link between technical and teamwork skills, even if there’s no such relationship in the broader pool of applicants; see *Fig. 3*).
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/collider_plot.png)
+
 </div>
 *Fig. 3: Here we’ve plotted normally distributed technical versus teamwork scores for 1,000 simulated candidates—blue dots are all candidates, red dots are the selected candidates (you needed at least a 115 on one skill and no less than 100 on the other). The blue regression line is basically flat, but once we cherry-pick by our “either/or” rule (i.e., condition on selection), the red line tilts downward, showing a fake trade-off between skills that only crops up because of how we picked people, not because the skills are actually at odds.*
 
@@ -52,7 +58,9 @@ Another potential trap in this category is controlling for a *mediator*—a vari
 But things aren’t as bleak as they might seem. When we enrich observational data with some well-grounded assumptions—based on how we understand the data-generating process—we can get pretty close to simulating the counterfactual scenarios needed for causal inference. Some of these assumptions come from our general knowledge about how the world works (like the fact that causes precede effects). Others are rooted in our domain-specific knowledge drawn from prior research (for example, goal-setting typically boosts performance). And some come from nitty-gritty, context-specific knowledge about the details of how the data were collected (say, participants only got assigned to a training program if they met a certain cutoff score). By combining these assumptions with the data, we can start to rule out alternative, purely correlational explanations for the patterns we see—and, with some caution, move closer to a causal interpretation. It’s not unlike what the famous fictional detective Sherlock Holmes did to solve his cases: piecing together bits of evidence, applying prior knowledge, and methodically ruling out false leads—until only one plausible explanation remained.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/dagitty_example.png)
+
 </div>
 *Fig. 4: Researchers and analysts looking to figure out causal effects often use Directed Acyclic Graphs (DAGs) to lay out their assumptions about how different variables might be causally connected. A DAG is a visual and formal tool that shows the assumed causal relationships—where the nodes stand for variables and the arrows (or edges) indicate which ones are influencing others. By building a DAG, researchers can more clearly think through their causal claims, spot potential confounders, and figure out the right way to adjust their analysis. This approach helps make assumptions more transparent and supports solid causal reasoning from observational data. While most DAGs are manually constructed based on domain expertise, there is a growing body of work around causal discovery—automated methods that attempt to infer plausible causal structures directly from data. These algorithms (e.g., PC, FCI, GES, or more recent neural-based models) can be helpful for generating hypotheses, especially when theory is sparse or data complexity is high. That said, causal discovery comes with its own assumptions and limitations, and a full discussion is beyond the scope of this article. The attached example DAG shows the assumed causal structure for estimating the average treatment effect of training performance on productivity. It was created using [DAGitty](https://www.dagitty.net/dags.html)—a great browser-based tool for building and analyzing causal diagrams.*
 
@@ -74,7 +82,9 @@ DiD looks at how things change over time for a group exposed to an intervention 
 Let’s bring this back to our RTO example. The chart below shows the trailing 12-month voluntary attrition rate for our two departments—only one of which was supposed to be affected by a remote-work policy change, based on the nature of their work. Before the policy change, Department A (Facilities) had slightly higher attrition than Department B (Digital), but both were trending downward in parallel. After the change, the trend diverged sharply: attrition in Department B went up, while it continued downward in Department A. If we can reasonably confirm the other DiD assumptions, this gives us pretty solid evidence that the policy change caused the increase in attrition in Department B.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/did.png)
+
 </div>
 *Fig. 5: A figure showing the DiD method’s “parallel trends” assumption (red dotted line), which helps us imagine what would have happened in department B if the policy change hadn’t taken place. By comparing that hypothetical, counterfactual scenario to what actually happened (red vertical line), we can estimate the effect of the policy change on voluntary attrition in department B.*
 
@@ -84,7 +94,9 @@ If it seems to you that relying on just one comparison group (like department A 
 Below is an example of how this method was used to estimate the negative impact of Brexit on the UK’s economic performance, using GDP as the outcome measure. To model the UK’s pre-Brexit GDP, we used data from countries unlikely to be strongly affected by Brexit but whose GDP trends closely mirrored the UK’s during the pre-Brexit period (e.g., the US, Costa Rica, Germany, New Zealand, Sweden, Austria, etc.). As shown in the top chart, the model explains 99% of the variability in UK’s GDP from 2008 to 2020. This model was then used to predict what UK’s GDP would have looked like after Brexit (January 31, 2020) if Brexit hadn’t happened, and these predictions were compared to the actual observed values. The second and third charts from the top show how the predicted and actual values diverge—quarter by quarter and cumulatively over time—including uncertainty around the estimates. From these charts, it's clear that the data and the analysis support the hypothesis that Brexit had a negative effect on the UK economy, as measured by GDP.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/uk_chart.png)
+
 </div>
 *Fig. 6: A set of charts showing the estimated causal impact of Brexit on the UK’s GDP using a Bayesian synthetic control method implemented in the [CausaPy](https://causalpy.readthedocs.io/en/stable/) package. Top chart: It compares actual UK’s GDP (black dots) with a counterfactual scenario (orange line) — i.e., what GDP would likely have looked like had Brexit not occurred. The vertical red line marks the Brexit date (January 2020). The fit before that is very tight (R² = 0.99), indicating a very good approximation. Middle chart: This shows the instantaneous causal impact — the difference between actual and counterfactual GDP for each quarter. Post-Brexit, GDP is consistently below what it would have been otherwise, shown by the orange shaded area. Bottom chart: This plots the cumulative causal impact — essentially, how much GDP has been “lost” over time due to Brexit. By 2024, the cumulative loss reaches over 2 trillion USD.*
 
@@ -96,7 +108,9 @@ The “more or less similar” part is key. We can only make valid causal claims
 To illustrate this kind of scenario, imagine that—due to the capacity constraints mentioned earlier—a subgroup of managers starts and completes the transformation training before the regular annual employee survey is administered, while another subgroup begins and finishes it only afterward (see *Fig. 7*). In this case, only the first subgroup could potentially show a causal effect of the training in their survey scores for that year. That gives us a good opportunity to compare the change and transformation scores between the two groups. 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/staggered_rollout.png)
+
 </div>
 *Fig. 7: An illustration of a possible staggered rollout scenario, where one group of training participants started and completed the training before the employee survey was administered, and the second group did so afterward. Only for the first group (A) could a potential causal effect of the training be reflected in the survey results.*
 
@@ -106,12 +120,16 @@ However, we need to make sure these groups are comparable in terms of factors th
 When we “adjust” for a variable, we’re statistically controlling for it in the analysis—basically holding it constant so it doesn’t muddy the waters when we’re trying to see what really drives the outcome. The way we do this can vary depending on the specific analytical technique, but within causal inference the goal is always the same—to approximate random assignment as closely as possible. For instance, we might include the variable as a covariate in a regression model, match individuals based on that variable (see *Fig. 8*), re-weight the data with *Inverse-Probability-of-Treatment Weighting* (IPTW), where the weights are the inverse of each person’s estimated probability of receiving the treatment they actually got (see *Fig. 9*), split the data into subgroups (stratification), or condition on the variable in a ML model. With such adjustment, we can be more confident that we're comparing apples to apples and make some causal conclusions.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/matching.png)
+
 </div>
 *Fig. 8: An illustration of matching based on two covariates (X1 and X2). Each dotted circle represents a matched set containing individuals from the treated (red) and control (blue) populations with similar characteristics (X1 and X2), facilitating a fair, apple-to-apple comparison. (Source: [Applied Causal Inference](https://appliedcausalinference.github.io/aci_book_kr/03-causal-estimation-process.html))*
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/iptw.png)
+
 </div>
 *Fig. 9: An illustration of the Inverse-Probability-of-Treatment Weighting method (IPTW). Each person is given a weight equal to the inverse of the estimated probability—based on their observed characteristics—of receiving the treatment they actually received. After weighting, the treated and control groups look alike on those characteristics, so we can learn about cause and effect from observational data (assuming two extra assumptions hold: ignorability—i.e. there aren’t hidden factors that influence both treatment and outcome—and positivity—i.e. everyone had some chance to get each option). A chart: Observed data before reweighting. B chart: Observed data after reweighting. (Source: [Applied Causal Inference](https://appliedcausalinference.github.io/aci_book_kr/03-causal-estimation-process.html))*
 
@@ -119,7 +137,9 @@ When we “adjust” for a variable, we’re statistically controlling for it in
 Another technique that can be used for causal analysis of staggered rollout data is a specific type of DiD model tailored to handle the fact that we implemented changes or interventions at different times across various parts of an organization. The classic DiD works best when all members of the treatment group are exposed to the intervention at the same time. But what if, like in many real-world situations, a new policy is rolled out gradually? Imagine that Department A adopts it in January, Department B in April, Department C in July, and Department D either never adopts it—or does so much later (see *Fig. 10*). 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/staggered_rollout2.png)
+
 </div>
 *Fig. 10: An illustration of a staggered rollout of a new policy across several departments: Department A adopts it in January, Department B in April, Department C in July, and Department D either never adopts it—or does so much later.*
 
@@ -138,7 +158,9 @@ Another type of situation that can help us obtain comparable groups—differing 
 To implement RDD, we start by identifying a continuous assignment variable (like tenure or performance score) and the specific cutoff that determines who gets the intervention. Then we collect data on individuals just above and just below that threshold (in a region called the "bandwidth")—people who are otherwise very similar except for whether they received the intervention. Next, we visualize the relationship between the assignment variable and the outcome to see if there's a clear jump at the cutoff. If there is, that’s a signal the treatment may have had an effect. To formally estimate this, we fit two separate regression lines—one on each side of the cutoff—using only data near the threshold, and then calculate the size of the jump between them at the cutoff. This estimated difference gives us the treatment effect.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/rdd.png)
+
 </div>
 *Fig. 11: An illustration of the Regression Discontinuity Design (RDD) method using a hypothetical leadership development initiative where eligibility is determined by employee performance (the assignment variable, x-axis) crossing a specific threshold. Employees below the threshold (red dots) were ineligible, while those above (green dots) were eligible. RDD isolates the program's impact by comparing the leadership effectiveness (the outcome variable, y-axis) of employees just below the threshold to those just above it; the distinct jump, or discontinuity, observed between the fitted regression lines (red and green) precisely at the threshold represents the estimated treatment effect of the initiative.*
 
@@ -153,14 +175,18 @@ We can make use of these abrupt changes—and the stable/predictable patterns th
 One useful method for analyzing data in this kind of scenario is *segmented regression analysis of interrupted time series*. It lets us model changes in outcomes that happen after a specific intervention at a known point in time, while also accounting for other possible influences—like seasonal patterns that would’ve happened anyway, or external “shocks” that might explain the changes too. In effect, it helps us spot shifts in both level and trend, and see how things played out compared to how they likely would’ve gone if nothing had been introduced at all (see *Fig. 12*).
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/segmented_regression.png)
+
 </div>
 *Fig. 12: A general structure of the segmented regression model. The β0 coefficient estimates the baseline level of the outcome variable at time zero; β1 coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); β2 coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and β3 estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of β1 and β3 equals to the post-intervention slope). Since time series data often exhibit autocorrelation and seasonal patterns, the model should include terms to account for both—such as an autoregressive term to handle autocorrelation, and a seasonal indicator (e.g., month) to capture recurring seasonal effects. If we know that other external 'shocks' may have occurred around the same time as the main intervention, we should also include those as additional covariates to isolate their potential impact. (Source: [Turner et al. (2021)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01306-w))*
 
 Let’s illustrate this kind of analysis by looking at the supposed impact of GenAI on how people write emails. Since plenty of [studies](https://seosandwitch.com/microsoft-copilot-statistics/) show that one of the most common business uses of GenAI is helping with email writing, it makes sense to think that people might be turning to the internet less often for advice on the topic. One way to check that is by looking at [Google Trends](https://trends.google.com/trends/) data for searches like “how to write an email” and seeing if there’s a noticeable drop after ChatGPT was officially released. As the output charts from the Bayesian interrupted time series analysis below show, there’s indeed a clear decline in this type of search activity. In fact, the shift is so pronounced that even a quick eyeballing analysis picks it up. Sure, we could imagine alternative explanations—maybe people are just sending fewer emails because they’re relying more on tools like Slack or Teams—but [other available stats](https://financesonline.com/email-statistics/) suggest that’s more wishful thinking than reality. 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/output_plot.png)
+
 </div>
 *Fig. 13: Charts showing the estimated causal impact of ChatGPT availability on the popularity of Google searches for 'how to write an email.', using a Bayesian interrupted time series analysis implemented in the [CausalPy](https://causalpy.readthedocs.io/en/stable/) package. Top chart: This compares the actual popularity of the search term (black dots) with a counterfactual scenario (orange line)—basically, an estimate of what search interest would have looked like if ChatGPT hadn’t been released. The vertical red line marks the official release of ChatGPT (November 2022). The model fits the pre-release data fairly well (R² = 0.66), suggesting it’s a good approximation. Middle chart: This shows the immediate causal impact—week by week, it displays the difference between actual search interest and the counterfactual. After ChatGPT’s release, the actual search interest stays consistently below the expected level, as shown by the orange shaded area. Note: As far as we know, the InterruptedTimeSeries class from the CausalPy library used here assumes independent observations and does not account for autocorrelation, which may lead to underestimated and time-insensitive uncertainty. The model also does not consider the truncated nature of the data, with possible values limited to the 0–100 range. These specifics could be better addressed in a more flexible modeling environment, such as the brms library in R or the PyMC library in Python.*
 
@@ -181,14 +207,18 @@ Relevance can often be tested statistically, but the exclusion restriction leans
 As an example of this analytical approach, consider a study by [Chang & Kang (2019)](https://link.springer.com/article/10.1007/s12122-018-9273-z#:~:text=crucial%20factors%20to%20improve%20firm,the%20ordinary%20least%20square%20estimation), which tackled the classic chicken-or-egg problem in organizational research: Do better management and HR practices actually cause higher productivity, or do already successful firms simply tend to adopt them? The researchers suspected *endogeneity*—unobserved factors like culture or leadership quality might drive both. To get around this, they used firms’ historical change experiences as instrumental variables—specifically, whether the company had previously undergone major reorganizations, implemented empowerment programs, invested in IT, or had strong motivation for change. These factors predicted current management practices but were unlikely to directly affect present-day productivity except through those practices (see *Fig. 14*). Using 2SLS, they found that once this endogeneity was accounted for, structured HR and management practices had a clear, positive impact on productivity—an effect that standard regression analysis had missed entirely.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/dagitty_model_legend.png)
+
 </div>
 *Fig. 14: A DAG capturing Chang & Kang’s (2019) IV-based approach to answering the causal question of whether better management and HR practices actually cause higher productivity. For more context, see the details in the main text.*
 
 A second, more unexpected example comes from the world of CEO succession. [Bennedsen et al. (2007)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=925650) examined whether appointing a family member as CEO in family-owned firms impacts firm performance. The catch? Succession choices aren’t random—stronger firms might be more (or less) inclined to keep leadership in the family, and hidden factors like founder legacy or firm culture could influence both who gets the top job and how the firm performs. To isolate a source of random variation, the researchers used a surprisingly clever instrument: the gender of the outgoing CEO’s firstborn child. In Denmark, because of the societal preference for male heirs at the time, having a firstborn son significantly boosted the chances of a family CEO being appointed—by around 30%—but was otherwise unlikely to affect firm performance, either directly or through any other indirect channels (see *Fig. 15*). With this instrument, their 2SLS analysis revealed that family CEO appointments caused a substantial drop in firm performance—at least 4 percentage points in operating return on assets, especially in fast-growing or large firms. Once again, the IV approach helped cut through the noise, showing that what might look like a neutral or even positive correlation at first glance actually hides a meaningful causal effect in the opposite direction.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/dagitty_model_legend2.png)
+
 </div>
 *Fig. 15: A DAG capturing Bennedsen et al.’s (2007) IV-based approach to answering the causal question of whether appointing a family member as CEO in family-owned firms impacts firm performance. For more context, see the details in the main text.*
 
@@ -208,13 +238,17 @@ A nice example of repurposing ML for causal inference is available on [EconML’
 1. Fine-tuning and training a traditional ML model.
 2. Using SHAP values for a purely correlational interpretation of the results—identifying the top predictors flagged by the ML model and helping to surface candidates for follow-up causal exploration (see *Fig. 16*).
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/shap.png)
+
 </div>
 *Fig. 16: A SHAP (SHapley Additive exPlanations) summary plot illustrating feature importance and impact on the ML model's prediction of employee attrition. Features are ranked by decreasing importance vertically, with "OverTime_Yes" appearing as the most impactful and "HourlyRate" as the least impactful. Each point represents an individual observation; its horizontal position indicates the feature's impact on the model's prediction of attrition (positive values increase the prediction, negative values decrease it). The color indicates the feature's value for that observation, with red representing high values and blue representing low values. For example, high values for "OverTime_Yes" (indicating an employee works overtime) and low values for features like "JobSatisfaction," "MonthlyIncome/1K," or "StockOptionLevel" generally show a positive SHAP value, thus contributing to a higher predicted risk of attrition. (Source: [EconML](https://github.com/py-why/EconML/blob/main/notebooks/Solutions/Causal%20Interpretation%20for%20Employee%20Attrition%20Dataset.ipynb))*
 3. Employing DML—which uses ML with sample splitting to control for confounders in treatment and outcome models—combined with HTE estimation to test whether these top predictors actually have a direct causal effect on attrition. While these might be strong predictors of employee departure, that doesn’t mean they’re actually driving people to leave.
 4. Using the HTE component to segment employees by specific risk factors, enabling individualized plans to reduce attrition. For instance, salary might have a higher causal impact on short-tenured employees, whereas overtime could matter more for long-tenured ones.
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/causal_effect_chart_combo.png)
+
 </div>
 *Fig. 17: Causal analysis of employee attrition. The left chart displays the estimated ATE of five strong attrition predictors (e.g., "OverTime", "StockOptionLevel"), along with their 95% confidence intervals; from these, "OverTime" demonstrates the most pronounced positive causal impact on attrition. The right chart presents a shallow tree interpreter for the HTE of a salary-related intervention. Despite salary (represented as "MonthlyIncome/1K" on the left, showing a non-significant average effect) not being universally impactful, this HTE analysis identifies subgroups who may respond more favorably to an income raise (i.e., exhibit a greater reduction in attrition risk). The tree illustrates how the CATE mean of this salary intervention on attrition varies across subgroups defined by "YearsAtCompany" and "TotalWorkingYears," suggesting that the impact of salary adjustments differs depending on employee tenure and overall experience. Specifically, the intervention appears most effective in reducing attrition (CATE mean = -0.051) for employees with 1.5 years or less at the company and 1.5 years or less of total working experience. Conversely, its effect is minimal (CATE mean = -0.002) for employees with more than 6.5 years at the company. (Source: [EconML](https://github.com/py-why/EconML/blob/main/notebooks/Solutions/Causal%20Interpretation%20for%20Employee%20Attrition%20Dataset.ipynb))*
 

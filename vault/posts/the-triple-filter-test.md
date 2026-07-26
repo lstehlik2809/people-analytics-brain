@@ -15,7 +15,9 @@ As People Analytics practitioners, we’re often asked: “*Which lever should w
 [Recently](https://blog-about-people-analytics.netlify.app/posts/2025-10-21-cross-lagged-panel-modeling/), I shared how RI-CLPM (*Random Intercept Cross-Lagged Panel Models*) can move us beyond simple correlations by using survey data collected over time to separate stable differences from within-person change. As I’ve gone deeper into the model’s mechanics, I’ve realized it can help not only with identifying potential “drivers,” but also with prioritizing where to spend budget - as long as we’re careful about what the model can and can’t claim and we interpret results in the context of business strategy.
 
 <div style="text-align:center">
+
 ![](./the-triple-filter-test/ri_clpm_scheme_full.png)
+
 </div>
 
 Here’s the approach I’m experimenting with: applying a triple filter to every relevant survey variable before recommending action.

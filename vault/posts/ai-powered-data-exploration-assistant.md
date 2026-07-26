@@ -23,7 +23,9 @@ For that purpose I built a simple app consisting of several agent-like component
 * another transforms the results of these analyses into a concise, clear narrative for a non-technical audience.
 
 <div style="text-align:center">
+
 ![](./ai-powered-data-exploration-assistant/data_exploration.gif)
+
 </div>
 
 *The attached video above shows the app in action, answering a question about the employee attitudes that are the most predictive of attrition using the [IBM Employee Attrition dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).* 

@@ -17,7 +17,9 @@ A recent meta-analysis by [Knotts et al. (2022)](https://www.tandfonline.com/doi
 * **Self-efficacy is a key mediator:** The meta-analysis also found that self-leadership boosts self-efficacy — confidence in one’s ability to succeed. This, in turn, leads to better outcomes like job satisfaction, work engagement, and creativity.
 
 <div style="text-align:center">
+
 ![](./self-leadership/path_model.png)
+
 </div>
 
 Caveat: Most of the studies included were correlational, meaning they show associations but don’t prove that self-leadership directly causes better performance. 

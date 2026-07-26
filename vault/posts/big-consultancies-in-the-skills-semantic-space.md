@@ -15,7 +15,9 @@ At first, I was pretty skeptical, but the more I thought about it, the more it m
 Check it out yourself - I reran the analysis using the publicly available [*Lightcast* skill taxonomy](https://lightcast.io/products/data/our-taxonomies) (with ~35k skills) and the [*gte-multilingual-base*](https://huggingface.co/Alibaba-NLP/gte-multilingual-base) embedding model to see where the big consultancies ended up in the semantic space of that skill taxonomy.
 
 <div style="text-align:center">
+
 ![](./big-consultancies-in-the-skills-semantic-space/skills_consultancies_map.png)
+
 </div>
 
 You can clearly see how the Big Four accounting firms cluster closely together. McKinsey - not part of the Big Four but focused primarily on strategic consulting - occupies a slightly separate position. Accenture stands even further apart, which makes sense given its dominant orientation toward technology consulting. Don’t know about you, but in my head, they’re parked in a very similar way 😉
@@ -26,9 +28,9 @@ P.S. The whole exercise reminded me of a [*semantic differential*](https://en.wi
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[daily-activities-among-business-skills|The hidden skill map - where life meets work]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[ona-skills-exploration|ONA as a tool for exploring the skill space in your company?]]
 - [[rebuilding-a-survey-with-the-help-of-nlp-tools|Rebuilding an employee survey with the help of NLP tools]]
 <!-- RELATED:END -->

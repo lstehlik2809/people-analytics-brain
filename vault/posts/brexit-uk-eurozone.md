@@ -13,7 +13,9 @@ This gap in the conversation provides a great opportunity to try out a causal in
 For the analysis, I looked at the combined GDP of 20 eurozone countries from 2007 to 2023 as the outcome of interest. To construct the synthetic control group for counterfactual comparison, I used GDP data from selected OECD countries (non-EU, non-eurozone, non-UK) over the same period.
 
 <div style="text-align:center">
+
 ![](./brexit-uk-eurozone/uk_eu_chart.png)
+
 </div>
 
 To my surprise, the results for the eurozone countries contrast pretty starkly with those for the UK (see the charts above). There doesn’t seem to be strong evidence of a significant negative impact from Brexit on eurozone GDP. Of course, this is just one facet of Brexit’s potential effects. There may be many other consequences - beyond what GDP metrics reveal - that apply to the eurozone as well. Still, it’s interesting to observe such a stark difference using the same type of data and methodology. 

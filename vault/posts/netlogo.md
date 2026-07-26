@@ -19,10 +19,12 @@ One of them shows how this particular dilemma is solved by a colony of ants fora
 3. **Pheromone Decay:** Trails weaken over time, prompting exploration when resources dwindle.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <source src="netlogo-ants-colony.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
 </div>
 <br>
 

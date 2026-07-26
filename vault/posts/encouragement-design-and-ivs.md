@@ -17,7 +17,9 @@ While reading a paper on using IV to estimate causal effects in situations where
 Rather than randomly granting or denying access to a program - which would often be neither practical nor especially ethical in an HR context - we randomly select a subset of eligible employees to receive a targeted email (or another type of nudge) encouraging them to participate. The remaining eligible employees still have full access to the program; they just do not receive that specific encouragement.
 
 <div style="text-align:center">
+
 ![](./encouragement-design-and-ivs/iv_encouragement_design_diagram.png)
+
 </div>
 
 By comparing outcomes between the encouraged and non-encouraged groups, and using random encouragement assignment as an instrumental variable for actual participation, we can estimate the causal effect of the program for those employees whose participation was actually driven by the encouragement.

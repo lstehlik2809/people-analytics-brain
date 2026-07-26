@@ -27,11 +27,15 @@ The tool’s primary chart visualizes each company's results by showing, in stan
 With a standardized scale, one can quickly see how their company’s culture compares to that of other companies across individual values. The tool also allows side-by-side comparisons, helping leaders benchmark against both industry standards and standout peers (see the example below).
 
 <div style="text-align:center">
+
 ![](./culture-500/chart2.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./culture-500/chart3.png)
+
 </div>
 
 This tool can be a nice complement to an internal employee listening program, giving an outside perspective. That said, if your listening program is on point, the results shouldn’t come as a big surprise 😉 Also could be a helpful resource for anyone weighing job offers and looking to understand a company’s culture before joining.

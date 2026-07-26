@@ -22,7 +22,9 @@ Given the intuitive nature of DiD, even those who don’t work with data every d
 As an example, check out the chart below. It was created in one of those BI platforms just by picking a relevant metric and filtering for the right departments and time period. It shows the trailing 12-month voluntary attrition rate for two departments—only one of which was supposed to be affected by a policy change, based on the nature of their work. Before the policy change, Department A had slightly higher attrition than Department B, but both were trending downward in parallel. After the change, the trend diverged sharply: attrition in Department B went up, while it continued downward in Department A. If we can reasonably confirm the other DiD assumptions, this gives us pretty solid evidence that the policy change caused the increase in attrition in Department B.
 
 <div style="text-align:center">
+
 ![](./visual-diff-in-diff/plot2.png)
+
 </div>
 
 I'm definitely not saying this lighter version of DiD is a silver bullet for all causal questions in people analytics—especially since it depends on specific quasi-experimental setups, like the one shown above, and doesn’t deal with the uncertainty present in the data. That said, IMO, it can still help non-technical folks handle some of the lower-stakes cases on their own, giving data science teams more room to focus on the big stuff. 

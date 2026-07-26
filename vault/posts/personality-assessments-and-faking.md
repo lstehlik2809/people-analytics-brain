@@ -12,7 +12,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2024-01-11-perso
 If you are using personality assessments in a high-stakes setting where faking is a more frequent problem, such as in the context of employee selection, you should pay attention to the meta-analytic study by [Speer et al. (2023)](https://www.researchgate.net/publication/371619243_Comparing_forced-choice_and_single-stimulus_personality_scores_on_a_level_playing_field_A_meta-analysis_of_psychometric_properties_and_susceptibility_to_faking) that compared forced-choice (FC) and traditional single-stimulus (SS) personality assessments in terms of criterion-related validity and susceptibility to faking in terms of mean shifts and decreases in validity. 
 
 <div style="text-align:center">
+
 ![](./personality-assessments-and-faking/item_examples.png)
+
 </div>
 
 A specific feature of this study was that it compared FC and SS measures after placing them on an equal playing field by relying only on studies that examined matched assessments of each format, and thus, avoiding the extraneous confound of using comparisons from different contexts.

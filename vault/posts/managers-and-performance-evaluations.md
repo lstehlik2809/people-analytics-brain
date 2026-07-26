@@ -18,7 +18,9 @@ One straightforward way to explore this question is to analyze how employee eval
 Looking at the available data, it seems to support my initial “suspicion.” The effect is there but quite small - specifically, there’s only a 2.5% increase in the odds of being in a higher performance category for each additional year spent working under the same manager (95% CI [1.4%, 3.5%]). However, when compounded over four years - a realistic scenario for the average employee - this results in a more noticeable 10.3% increase.
 
 <div style="text-align:center">
+
 ![](./managers-and-performance-evaluations/performance_eval_estimates.png)
+
 </div>
 
 While this sheds some light on my original question, it’s worth noting that this pattern could still be explained by alternative mechanisms. For instance, over time, direct reports’ performance might better align with their manager’s expectations as they incorporate their feedback. Another possible explanation is a selection effect, where managers are more likely to retain those they consider to be high performers in their teams over time. So, the quest can happily continue 😉

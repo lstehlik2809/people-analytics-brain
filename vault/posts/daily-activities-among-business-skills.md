@@ -15,11 +15,15 @@ Check out where these two landed in the attached pics. Does it resonate? 🙃 Fo
 
 
 <div style="text-align:center">
+
 ![](./daily-activities-among-business-skills/parenting.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./daily-activities-among-business-skills/cooking.png)
+
 </div>
 
 <!-- RELATED:BEGIN -->

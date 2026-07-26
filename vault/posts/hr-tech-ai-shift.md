@@ -19,7 +19,9 @@ Scrolling through my LinkedIn feed over the past year or so, I got the impressio
 To check that hunch, I reviewed nearly 200 posts on [their blog](https://www.worklytics.co/blog) and looked at how the likelihood that a post was primarily about AI in the workplace changed over time. Since not all posts had a release date, I used the page number as a proxy for time (with ~9 posts per page), assuming the higher the page number, the older the posts. And as you can see in the attached plot below, the probability of a post being about AI in the workplace started rising steadily around February 2025 and reached its peak so far in August this year. So I guess my hunch wasn’t totally off, including the timing.
 
 <div style="text-align:center">
+
 ![](./hr-tech-ai-shift/ai_trends_annotated.png)
+
 </div>
 
 This isn’t meant to shame a vendor for jumping on a bandwagon - quite the opposite. In this case, the shift is a sensible move, imo, and highlights that the “boring” collaboration metadata we’ve all been analyzing for years can actually be extremely useful during the transition into the AI era. When trying to deploy or measure the impact of AI in the workplace, it’s tough to do it well without a baseline of how work has been done so far. And collaboration metadata can serve as a very handy sensor for that.
@@ -36,7 +38,7 @@ P.S. This was also a nice test of current agentic tools (Google [Antigravity](ht
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 - [[genai-and-disrupt-of-labor-market-signalling|Making talk cheap: How GenAI may disrupt labor-market signalling]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
-- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 <!-- RELATED:END -->
 
 ---

@@ -25,10 +25,10 @@ I know of at least two aspects of my personality that are unnecessarily costing 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[job-personality-fit|Do people’s personalities vary across different jobs?]]
-- [[collaboration-and-personality|Collaboration and personality]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[collaboration-and-personality|Collaboration and personality]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[big-five-vs-hexaco|Big Five vs. HEXACO]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 <!-- RELATED:END -->
 
 ---

@@ -24,11 +24,15 @@ The research team compared two types of brief 6-week email campaigns, which enco
 Below you can see the used meeting guidance corresponding to the two treatment conditions (individual needs vs. tasks focus). 
 
 <div style="text-align:center">
+
 ![](./Meeting guidance for the treatment needs.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./Meeting guidance for the treatment tasks.png)
+
 </div>
 
 

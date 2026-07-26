@@ -22,7 +22,9 @@ As the attached charts illustrate (based on a sample of dummy data tracking inte
 3. If eight consecutive points appear on one side of the average, that may signal a meaningful shift.
 
 <div style="text-align:center">
+
 ![](./xmr-charts-in-people-analytics/charts.png)
+
 </div>
 
 Would love to hear any experiences you might’ve had with XmR charts in the PA space! 🙏

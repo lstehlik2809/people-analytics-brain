@@ -34,7 +34,7 @@ Definitely [worth reading](https://open.substack.com/pub/experimentalhistory/p/f
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
 <!-- RELATED:END -->
 
 ---

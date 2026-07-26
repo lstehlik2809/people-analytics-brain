@@ -24,6 +24,7 @@ The main findings? They shouldn't be a big surprise to I/O psych folks, but IMO 
 * Participants preferred their Jungian assessments, likely due to its more positive framing and missing Neuroticism trait.
 
 <div style="text-align:center">
+
 ![](./personality-frameworks-contest/personality_frameworks_accuracy.png)
 
 </div>

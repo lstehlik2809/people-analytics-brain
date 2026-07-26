@@ -77,7 +77,29 @@ def convert_body(body: str, post_dir: Path, asset_dir: Path, slug: str, warnings
     body = IMG_RE.sub(img_sub, body)
     # strip pandoc attribute blocks like ){width=100%}
     body = ATTR_RE.sub(r"\1", body)
+    body = blank_pad_html_wrappers(body)
     return body.strip()
+
+
+WRAP_OPEN_RE = re.compile(r"^<(div|center|aside|p)\b[^>]*>$", re.I)
+WRAP_CLOSE_RE = re.compile(r"^</(div|center|aside|p)>$", re.I)
+
+
+def blank_pad_html_wrappers(body: str) -> str:
+    """Pandoc parses markdown inside HTML blocks; CommonMark does not unless
+    the markdown is separated from the wrapper tags by blank lines. Pad them
+    so e.g. images centered via <div> wrappers still render on the site."""
+    lines = body.split("\n")
+    out = []
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if WRAP_CLOSE_RE.match(stripped) and out and out[-1].strip():
+            out.append("")
+        out.append(line)
+        if (WRAP_OPEN_RE.match(stripped)
+                and i + 1 < len(lines) and lines[i + 1].strip()):
+            out.append("")
+    return "\n".join(out)
 
 
 def norm_code(text: str) -> str:

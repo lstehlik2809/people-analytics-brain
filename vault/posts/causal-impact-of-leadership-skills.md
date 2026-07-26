@@ -21,7 +21,9 @@ Those familiar with [causal inference](https://matheusfacure.github.io/python-ca
 Given the logistical difficulty of arranging such testing situations with human team members, the authors explored whether large language model (LLM) agents could stand in for real people. So, in a second pre-registered study, they tested this idea and found that leadership skill estimates based on teams consisting of human followers and AI-simulated followers correlated strongly (*ρ* = 0.81), which could make this assessment method much more practical and scalable.
 
 <div style="text-align:center">
+
 ![](./causal-impact-of-leadership-skills/leadership_skill_assessment_scheme.png)
+
 </div>
 *Illustration of the part of the experiment where half the leaders completed 6 group puzzles with human teammates followed by 6 group puzzles with AI teammates (the other half of the leader sample completed the group puzzles in reversed order - not shown here).*
 
@@ -44,7 +46,7 @@ P.S. Thanks to my boss, Nadzeya Laurentsyeva, for pointing me to this interestin
 - [[impact-of-leaders|Want to maximize your impact as a leader?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[self-selection-and-proxy-measures|When self-selected behavior is a blessing, not a headache]]
+- [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
 <!-- RELATED:END -->
 
 ---

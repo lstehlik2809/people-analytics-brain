@@ -15,7 +15,9 @@ A great example of this comes from [Silberzahn et al. (2018)](https://journals.s
 They found that analytical approaches varied widely, leading to effect size estimates ranging from 0.89 to 2.93 (Mdn = 1.31) in odds-ratio units. Twenty teams (69%) found a statistically significant positive effect, while nine teams (31%) did not. Interestingly, neither the analysts’ prior beliefs nor their level of expertise explained the variation. Even peer ratings of analysis quality failed to account for the differences.
 
 <div style="text-align:center">
+
 ![](./analytical-choices-and-variability/results_chart.jpeg)
+
 </div>
 
 This study highlights an important reality: even defensible, well-intentioned analytical choices can lead to vastly different results. What should we take from this? Should sensitivity analysis be a standard practice? Should we crowdsource high-profile analyses? What do you think?
@@ -28,7 +30,7 @@ P.S. If you want to see how your own approach would shape the results, you can d
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
 - [[visual-inference-statistics|Visual statistical inference]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

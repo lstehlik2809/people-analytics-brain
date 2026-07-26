@@ -56,7 +56,9 @@ The third layer is a set of three agent roles with explicit handoffs.
 In practice, this creates an iterative workflow rather than a single long prompt. The process usually involves several rounds between the Planner, Implementer, Reviewer, and the human analyst.
 
 <div style="text-align:center">
+
 ![](./agentic-workflow-for-causal-inference/causal_inference_agentic_workflow.png)
+
 </div>
 
 ### Project structure

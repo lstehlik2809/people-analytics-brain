@@ -17,10 +17,12 @@ Maybe I’m not the only one who was ignorant of this, so I’m sharing this sma
 If interested, check out, for example, the [following video](https://www.youtube.com/watch?v=Ala6PHlYjmw&t=8s), which, imo, does a decent job of explaining Git through a DAG lens. 
 
 <div style="text-align: center;">
+
   <video controls style="width: 100%; max-width: 100%; height: auto;">
     <source src="git_dag_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
 </div>
 
 <!-- RELATED:BEGIN -->
@@ -28,8 +30,8 @@ If interested, check out, for example, the [following video](https://www.youtube
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
 - [[exploration-vs-exploitation-tradeoff|Exploration vs. Exploitation trade-off in our calendars]]
+- [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
 - [[org-stats-and-graph-analysis|A graph approach to reporting structures: stop wrestling recursion]]
-- [[doppelganger-for-career-pathing|Using Doppelgänger for career pathing?]]
 <!-- RELATED:END -->
 
 ---

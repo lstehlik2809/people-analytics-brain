@@ -17,7 +17,9 @@ That this may already be happening - at least in some parts of the job market - 
 The authors observe that before widespread LLM adoption, employers paid a premium for more customised applications. After the rollout of AI-writing tools, that premium disappeared - writing quality generally increased and no longer differentiated good and bad candidates, as measured by actual job performance and completion outcomes.
 
 <div style="text-align:center">
+
 ![](./genai-and-disrupt-of-labor-market-signalling/charts.png)
+
 </div>
 
 

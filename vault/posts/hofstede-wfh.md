@@ -27,7 +27,9 @@ However, these other dimensions were not examined in the paper. Fortunately, the
 The results? The chart below presents posterior estimates from six separate Bayesian Gaussian regressions. Individualism emerged as the clearest positive correlate: 99.3% of posterior draws were above zero. Long-term orientation showed the most suggestive negative association, with 96.4% of draws below zero. Power distance and uncertainty avoidance also leaned negative, but with considerably more uncertainty. The estimates for masculinity and indulgence were weakly positive and highly uncertain.
 
 <div style="text-align:center">
+
 ![](./hofstede-wfh/posterior_cultural_densities.png)
+
 </div>
 
 To get a clearer view of whether WFH frequency is related to specific Hofstede dimensions, we need to account for the fact that the six cultural scores are correlated. In separate models, the coefficient for one dimension may partly capture variation that it shares with other dimensions. For example, an individualism coefficient may reflect not only individualism itself, but also the fact that more individualistic countries often differ systematically on power distance, uncertainty avoidance, or long-term orientation.
@@ -39,7 +41,9 @@ However, with only 37 countries and several correlated cultural predictors, the 
 The chart below compares the estimates from the separate models with those from the joint shrinkage model. Individualism remains the largest cultural estimate in the joint model, but the evidence is much weaker than in the separate model. Long-term orientation retains the second-largest directional signal, although it also shrinks substantially. The remaining dimensions are estimated much closer to zero, suggesting that their apparent associations in the separate models may have partly reflected variation shared with other cultural dimensions.
 
 <div style="text-align:center">
+
 ![](./hofstede-wfh/joint_shrinkage_cultural_estimates.png)
+
 </div>
 
 Do any of these findings surprise you - or do they mostly support your existing intuitions?
@@ -49,7 +53,9 @@ Do any of these findings surprise you - or do they mostly support your existing 
 P.S. If interested in exploring the data visually, visit [this dashboard](https://lstehlik2809.github.io/hofstede-wfh/). 
 
 <div style="text-align:center">
+
 ![](./hofstede-wfh/hofstede-wfh_dashboard.png)
+
 </div>
 
 <!-- RELATED:BEGIN -->

@@ -17,7 +17,9 @@ With a flatter org structure, however, the resulting larger spans of control can
 To illustrate this trade-off, see the four plots below showing [G-computation](https://medium.com/@akif.iips/a-short-introduction-to-g-computation-in-causal-inference-9a67bd9e2233) dose-response curves estimated using a Random Forest outcome model with bootstrapped uncertainty intervals that account for both sampling variability and model estimation error. The plots capture the causal effect of span of control (ranging from 1 to 22 direct reports) on four specific managerial behaviors (coaching, setting goals, communicating expectations, and providing feedback), as rated by direct reports, while controlling for common factors such as managers’ tenure, management level, department, performance rating, gender, age, region, job family, etc.
 
 <div style="text-align:center">
+
 ![](./span-of-control-and-managerial-behavior/charts.png)
+
 </div>
 
 As you can see, there is a negative - though non-linear and modest in absolute magnitude but very meaningful relative to the variability in the data - relationship between managers’ span of control and these managerial behaviors: the larger the former, the lower the latter.
@@ -289,8 +291,8 @@ if __name__ == "__main__":
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[mixed-level-ml|Beyond the “flat Earth”]]
 - [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 <!-- RELATED:END -->

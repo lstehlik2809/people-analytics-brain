@@ -15,7 +15,9 @@ What if ONA could help us explore the skill space—finding more viable and/or m
 Picture visualizing a skill’s ego-network (with radius = 1), centered on something you’ve already mastered, to spark ideas for other skills often developed alongside it and that have high closeness centrality—i.e., skills you might pick up fairly easily and through which you can reach a wide swath of other skills in just a couple of steps—ideal for incremental growth (see the attached dataviz skill ego-network for illustration).
 
 <div style="text-align:center">
+
 ![](./ona-skills-exploration/skills_ona_plot.png)
+
 </div>
 
 Or flip it around and imagine exploring weaker ties, "high-betweenness" bridging skills connecting disparate skill domains, or more distant parts of the skill network to uncover less common or totally unexpected skills to go after.
@@ -28,7 +30,7 @@ Curious if anyone’s already used ONA techniques with skill data like this—es
 - [[big-consultancies-in-the-skills-semantic-space|Big consultancies in the skills semantic space]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[org-chart-and-collaboration|Org chart and collaboration]]
-- [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
+- [[daily-activities-among-business-skills|The hidden skill map - where life meets work]]
 <!-- RELATED:END -->
 
 ---

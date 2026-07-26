@@ -39,7 +39,7 @@ Question for the PA folks here: Are you using "above expected" style models in P
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
 - [[impact-of-leaders|Want to maximize your impact as a leader?]]
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
-- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 <!-- RELATED:END -->
 
 ---

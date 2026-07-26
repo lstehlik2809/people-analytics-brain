@@ -88,7 +88,9 @@ GGally::ggpairs(
 ```
 
 <div style="text-align:center">
+
 ![](./extraversion-vs-neuroticism/pairplot2.png)
+
 </div>
 
 At the level of sub-facets of these two traits, we can observe in the correlation plot below - where individual items are ordered based on the first principal component, which groups together highly correlated variables - that the sub-facets of Extraversion are most strongly predicted by scores on the Neuroticism sub-facets of *Self-Consciousness* (sensitivity to others' judgments and fear of embarrassment) and *Depression* (inclination toward feelings of sadness, hopelessness, and low self-esteem). To some extent, *Anxiety* (tendency to worry, feel nervous, or experience fear) and *Vulnerability* (susceptibility to stress and inability to cope under pressure) also contribute.
@@ -179,7 +181,9 @@ title(
 ```
 
 <div style="text-align:center">
+
 ![](./extraversion-vs-neuroticism/corrplot2.png)
+
 </div>
 
 These patterns could indeed provide an answer to the question posed in the title of my post. However, the question now is whether, when discussing introverts, we should limit ourselves to behaviors that fall exclusively under the umbrella of Extraversion, as described in modern personality psychology, or whether we should also include other closely related behaviors. My personal stance is that we should include them, while explicitly noting that the picture we are describing is not a monolith but rather a blend of multiple traits. This approach helps prevent oversimplification, avoid stereotypes, and appreciate the complexity of introverts' strengths and challenges, ultimately leading to greater self-awareness and more tailored strategies in personal and professional contexts. What’s your take on this? 🤔

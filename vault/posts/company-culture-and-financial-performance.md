@@ -32,14 +32,18 @@ A separate Bayesian hierarchical model for each culture-and-outcome pair, with i
 * Work-life balance breaks from the pack. Under this model, it is only 14% likely to be positive for ROA. I would not read this necessarily as evidence that work-life balance hurts profitability; it may be picking up business model, growth stage, labor intensity, or review-selection differences.
 
 <div style="text-align:center">
+
 ![](./company-culture-and-financial-performance/forest_primary.png)
+
 </div>
 
 ### ACROSS THE FOUR OUTCOMES
 Re-running every dimension against all four metrics shows where the signal concentrates. The relational cluster is strongest for the two profitability outcomes, ROA and operating margin. Revenue growth is the weakest outcome: effects sit closer to zero and the relational ordering no longer holds. Excess TSR partly diverges: low toxicity, transparency, and leadership stay positive, while work-life balance flips from negative on profitability to positive on market return.
 
 <div style="text-align:center">
+
 ![](./company-culture-and-financial-performance/robustness_strip.png)
+
 </div>
 
 ### TWO THINGS I WOULD PUT NEXT TO ANY HEADLINE
@@ -51,7 +55,9 @@ Second, the dimensions are heavily correlated. When all nine compete in a single
 The ROA ordering is reasonably stable across several robustness checks. It holds when I swap headcount for assets as the size control, when baseline performance is a multi-year average instead of the latest level, and when industry is modeled with fixed effects, which sharpens the leading cluster to between 98% and 100%. The market-return signal also survives no-washout, three-month, and six-month return windows, so the result does not appear to be driven solely by the exact return-window choice.
 
 <div style="text-align:center">
+
 ![](./company-culture-and-financial-performance/washout_comparison.png)
+
 </div>
 
 ### THE CAVEAT

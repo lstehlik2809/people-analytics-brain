@@ -15,7 +15,9 @@ For a guest lecture I’m giving on personality in the business world, I built a
 The dashboard uses a random sample of 10k Big Five profiles from [Johnson’s IPIP-NEO-300 dataset](https://osf.io/wxvth/files/osfstorage). With a 3D scatter plot, profile line chart, UMAP dimensionality reduction, and the HDBSCAN clustering algorithm, it shows that even when groups of people with similar profiles do appear—and are large enough to matter (say, at least 1% of the population)—they still show pretty high within-group variability. On top of that, a big chunk (actually, the majority) of profiles can’t be assigned to any stable cluster at all, ending up as “noise” points in HDBSCAN’s terms.
 
 <div style="text-align:center">
+
 ![](./dimensional-traits-vs-personality-types/interactive_dataviz.gif)
+
 </div>
 
 If you find it useful for your teaching or training, check out the dataviz [here](https://sanofi-people-analytics.shinyapps.io/personality-mapping/). If you want to download the data and code to run it locally, take a look at [this GitHub repo](https://github.com/lstehlik2809/personality-mapping.git).

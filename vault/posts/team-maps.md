@@ -19,7 +19,9 @@ This exercise can then be further supported with a multidimensional team map tha
 This kind of dataviz can also help people recognize existing subgroups of like-minded individuals within the team. This process can even be automatized by applying a clustering algorithm to the personality profiles and displaying the results directly on the team map.
 
 <div style="text-align:center">
+
 ![](./team-maps/team_maps.gif)
+
 </div>
 
 *The GIF above shows several maps illustrating team members' psychological similarities across all HPI dimensions at once, their respective scores on individual HPI dimensions, and information about identified subgroups.*

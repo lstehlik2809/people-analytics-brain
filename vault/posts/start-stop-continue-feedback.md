@@ -17,13 +17,17 @@ I used a real-world dataset from various 360 feedback projects across several CE
 Interestingly - but perhaps not so surprisingly - the pattern I found was completely reversed from what we can see on Google Trends: people most often told others what they should keep doing (90.2%), then what they should start doing (65%), and least often what they should stop doing (37.8%).
 
 <div style="text-align:center">
+
 ![](./start-stop-continue-feedback/response_rate_chart.png)
+
 </div>
 
 When it comes to comment length, the comments are largely similar on average; only those in the Start section are slightly longer than the other two (median of 14 vs. 11 words).
 
 <div style="text-align:center">
+
 ![](./start-stop-continue-feedback/word_count_raincloud.png)
+
 </div>
 
 I can only speculate about the reasons behind this, but my guesses would probably include social politeness and relationship preservation motivation, psychological safety concerns (even in anonymous 360 systems), cultural conditioning around strengths-based development, discomfort with direct criticism, possibly also the order effect of question presentation, and new behaviors requiring more explanation and context. 

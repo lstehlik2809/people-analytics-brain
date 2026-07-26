@@ -14,7 +14,9 @@ One way to test whether this ‘political distortion’ exists, or to what exten
 In analyzing a sample dataset and focusing on 'direct manager' as a primary reason for leaving, the results from an ordinal regression analysis appear to support the second scenario described above. The results are illustrated by the pair of heatmaps below, which show the negative effect of that primary reason (i.e., direct manager vs. all other reasons) on ratings on the engagement survey, and the interaction between that primary reason and the distance between the two surveys in their effect on ratings of one particular engagement survey item related to the quality of the direct manager.
 
 <div style="text-align:center">
+
 ![](./honesty-in-engagement-vs-exit-surveys/pic_combo_manager.png)
+
 </div>
 
 However, this pattern could also be alternatively explained by the simple, non-problematic fact that people's opinions change over time. The closer the exit survey is to the last engagement survey, the more it reflects what people answered in the last engagement survey. This suggests that the observed interaction/ "diminishing" effect may be actually common across all stated reasons and engagement survey items. 
@@ -22,13 +24,17 @@ However, this pattern could also be alternatively explained by the simple, non-p
 To differentiate between these two explanations, one could examine another primary reason for leaving that is assumed to be less politically sensitive, where employees may feel more comfortable expressing their true opinions before deciding to leave. An example of such a reason might be dissatisfaction with flexibility in work location and/or schedule. In this case, the data shows a negative (though statistically non-significant) effect of the stated primary reason (i.e., flexibility vs. all other reasons) on engagement survey ratings, and almost zero interaction between the stated primary reason and the time between the two surveys. This finding seems to align more closely with the expectation of how honest responses should be reflected in the data. 
 
 <div style="text-align:center">
+
 ![](./honesty-in-engagement-vs-exit-surveys/pic_combo_flexibility.png)
+
 </div>
 
 However, we can still speculate about alternative explanations. It could be that the dynamics of different reasons for leaving evolve differently over time. For example, dissatisfaction with flexibility might stay similarly high over the long term without any employee’s action till the moment when better opportunity occurs and they leave. In contrast, dissatisfaction with a direct manager may have a tendency to show a more sudden, abrupt increase before an employee makes a final decision to depart. To further investigate this, we can examine a reason for leaving that is less politically sensitive than dissatisfaction with a direct manager but has similar dynamics over time. One such reason could be dissatisfaction with career growth opportunities. The data for this specific reason shows a pattern very similar to what we observed already for the 'flexibility' reason. 
 
 <div style="text-align:center">
+
 ![](./honesty-in-engagement-vs-exit-surveys/pic_combo_growth.png)
+
 </div>
 
 This similarity, therefore, supports the conclusion that, in cases of dissatisfaction with a direct manager, there is some evidence in the data of a "political distortion" in people's responses to the engagement survey on this topic. However, this conclusion should be taken with a big grain of salt, as it relies on several significant, and perhaps overly speculative, assumptions made throughout the analysis; and it is also crucial to consider the limitations of the data used, such as the shorter time span of the data and the self-selected nature of the group of people motivated enough to complete both the engagement and exit surveys. All this weakens the validity of the conclusion made above.
@@ -40,8 +46,8 @@ Despite all the uncertainty, it was a very useful exercise to confront my though
 - [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
-- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
+- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
 <!-- RELATED:END -->
 
 ---

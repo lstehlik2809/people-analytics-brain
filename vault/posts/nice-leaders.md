@@ -12,6 +12,7 @@ original: https://blog-about-people-analytics.netlify.app/posts/2024-03-21-nice-
 Contrary to the old adage that "nice guys finish last", a [meta-analysis by Blake et al. (2022)](https://www.sciencedirect.com/science/article/pii/S1048984321000989) that examined the relationship between leader agreeableness and leadership outcomes found that leader agreeableness was positively related to both leadership effectiveness and leadership emergence, though more strongly to the latter.
 
 <div style="text-align:center">
+
 ![](./nice-leaders/meta-analysis-results.png)
 
 </div>

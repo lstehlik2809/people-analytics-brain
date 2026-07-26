@@ -23,7 +23,9 @@ Also super interesting is the new method the authors developed, called RIFLE (Ra
 The chart below, from the paper, shows the method in action with famous NFL coach [Bill Belichick](https://en.wikipedia.org/wiki/Bill_Belichick). The histogram represents the distribution of the best records achievable over 17 seasons if outcomes were due to luck alone. The red line is Belichick's actual record - showing his success is an extreme statistical outlier, not just a lucky streak.
 
 <div style="text-align:center">
+
 ![](./impact-of-leaders/plot.png)
+
 </div>
 
 The key innovation is that RIFLE keeps the structure of the data intact while only randomizing who was in charge. That makes it possible to separate true leadership effects from the noise of luck and circumstance. While it's not a pure experiment, this method provides evidence that goes beyond simple correlation by ruling out some key alternative explanations, making a more confident, causal-like claim about a leader's actual impact.

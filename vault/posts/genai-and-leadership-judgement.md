@@ -21,9 +21,11 @@ For those who don’t know the tool, it’s based on the theory that leadership 
 * effective leaders must flex across various styles, even when they don’t come naturally to them.
 
 <div style="text-align:center">
+
 ![](./genai-and-leadership-judgement/lji_model.png)
 
 *Leadership decision-making model behind the LJI.*
+
 </div>
 
 <br>

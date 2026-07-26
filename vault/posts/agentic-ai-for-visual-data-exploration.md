@@ -27,7 +27,9 @@ The app uses several AI agents (powered by Google's Gemini 3 Flash Preview), eac
 After the initial analysis, you can ask up to 5 follow-up questions. The AI keeps full context from previous turns - including your answers to sharpening questions - so it builds on what it already knows rather than starting from scratch. Hit `✨ New Analysis ` to  start to  a fresh exploration.
 
 <div style="text-align:center">
+
 ![](./agentic-ai-for-visual-data-exploration/app_pic.png)
+
 </div>
 
 It usually provides good outputs even with really simple plain language - but based on my experiments, it helps if you know what kind of dataviz and insights you want and spell that out for the agents 😉

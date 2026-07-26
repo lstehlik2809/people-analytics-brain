@@ -13,7 +13,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2024-10-02-tenur
 In a [recent post on LinkedIn](https://www.linkedin.com/posts/ludekstehlik_employeesatisfaction-tenure-age-activity-7237423725715820545-Gr7x?utm_source=share&utm_medium=member_desktop), I shared a research paper by [Dobrow & Ganzach (2014)](https://www.researchgate.net/publication/276893636_Job_Satisfaction_over_Time_A_Longitudinal_Study_of_the_Differential_Roles_of_Age_and_Tenure) that used longitudinal data to disentangle the effects of age and job tenure on employee satisfaction and concluded that people are on average more satisfied with their jobs over their lifetimes, but their satisfaction declines over time within a given company (see the illustrative chart below).
 
 <div style="text-align:center">
+
 ![](./tenure-vs-satisfaction/plot.png)
+
 </div>
 
 A reader of this post reached out to me and asked how this might relate to the U-shaped pattern they observe in their data: new hires tend to be the most satisfied, then there is a slight decline at "mid-company" age, and then satisfaction rises again.
@@ -164,7 +166,9 @@ gganimate::anim_save(filename = "employee_tenure_satisfaction.gif", animation = 
 ```
 
 <div style="text-align:center">
+
 ![](./tenure-vs-satisfaction/employee_satisfaction_10_200_0.25.gif)
+
 </div>
 
 Although this mechanism seems to provide a plausible answer to the reader's question, perhaps I have missed something important or there are alternative or complementary explanations. Feel free to share your ideas and suggestions.

@@ -21,7 +21,9 @@ At first it felt like watching someone pour red wine into a coffee mug. Technica
 * The limits are real - and worth knowing. LPM can predict probabilities below 0 or above 1. If you're building a risk scoring model, that matters. If you're estimating an average effect from a matched sample, it usually doesn't - but one shouldn't stop there. When baseline rates are very high or very low, when you're estimating interaction effects, or when covariate relationships are strongly nonlinear, LPM and logit can diverge meaningfully. Out-of-bounds predictions are your canary: if you're seeing them, check whether the linear approximation is actually holding up. The point is to know when it breaks.
 
 <div style="text-align:center">
+
 ![](./ols-vs-logistic-regression/lpm_vs_logit.png)
+
 </div>
 
 The deeper lesson for me: the real question isn't "OLS vs logit." It's "what estimand do you want?" Risk difference → LPM is often the natural fit. Odds ratio → logistic regression. Risk ratio → log-binomial or modified Poisson. The tool follows the question, not the other way around.

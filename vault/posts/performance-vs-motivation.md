@@ -20,13 +20,17 @@ The authors of the paper examined four competing hypotheses:
 Below are visual illustrations of arguments for these four hypotheses.
 
 <div style="text-align:center">
+
 ![](./performance-vs-motivation/performance_motivation.png)
+
 </div>
 
 Their findings suggest that **work motivation is more likely to cause job performance than vice versa**. The results appear reasonably robust, as the finding that work motivation predicts job performance was consistent across various moderators, including the type of job performance measure, the type of motivation measure, and the length of the time lag.
 
 <div style="text-align:center">
+
 ![](./performance-vs-motivation/performance_motivation2.png)
+
 </div>
 
 The practical implications for people management are straightforward according to the authors: leveraging human performance practices (e.g., compensation management and performance management) and motivation-based leadership (e.g., empowering leadership) can positively influence employee motivation, which in turn enhances employee performance over the long term.

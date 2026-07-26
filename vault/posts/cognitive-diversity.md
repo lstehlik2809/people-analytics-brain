@@ -14,7 +14,9 @@ In a very interesting study, [Aggarwal et al. (2019)](https://www.frontiersin.or
 They found that cognitive style diversity has a curvilinear, inverted U-shaped relationship with collective intelligence, which is further positively related to the rate at which teams learn and is a mechanism guiding the indirect relationship between cognitive style diversity and team learning.
 
 <div style="text-align:center">
+
 ![](./cognitive-diversity/chart.jpg)
+
 </div>
 *The relationship between cognitive style diversity and collective intelligence controlling for team size and cognitive style level.*
 

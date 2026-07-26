@@ -17,7 +17,9 @@ However, with the introduction of customizable GPTs, there is now an affordable 
 As a first and modest step in this direction, I have created a GPT bot named [Assistant to the Evidence-Based Manager](https://chat.openai.com/g/g-SxPch3r5d-assistant-to-the-evidence-based-manager). It provides EBM-related consultancy based on general instructions and reliable materials about EBM. It will definitely not replace an experienced EBM consultant or practitioner, but it may help overcome the resistance threshold for adopting EBM principles in organizations.
 
 <div style="text-align:center">
+
 ![](./ebm-gpt-bot/gpt_bot.png)
+
 </div>
 
 Give it a try and let me know what you think about this approach. Or even better, [try building your own GPT bot](https://openai.com/blog/introducing-gpts) that will do better than mine and share it with us 😉

@@ -17,7 +17,9 @@ The notable exception was a [2010 article, “The Leadership Value Chain,” by 
 So, using the sources I found, I decided to put together my own model—a draft of which is attached. It starts with specific activities or processes that people managers more or less control or influence, driving people-related outcomes, which in turn fuel team-level results and ultimately contribute to firm performance.
 
 <div style="text-align:center">
+
 ![](./people-manager-value-chain/people_manager_value_chain.png)
+
 </div>
 
 Re methodology, I started with existing HRM value chain models (e.g., [Paauwe & Richardson, 1997](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20); [Hunt, 2014](https://www.amazon.com/Common-Sense-Talent-Management-Performance/dp/0470442417)) and research on the impact of HRM practices on business outcomes (e.g., [Huselid, 1995](https://www.researchgate.net/publication/228215412_The_Impact_of_Human_Resource_Management_Practices_on_Turnover_and_Productivity); [Combs et al., 2006](https://onlinelibrary.wiley.com/doi/10.1111/j.1744-6570.2006.00045.x?msockid=0007c754846062a23e99d26b850b6305); [Subramony, 2009](https://onlinelibrary.wiley.com/doi/10.1002/hrm.20315?msockid=0007c754846062a23e99d26b850b6305); [Jiang et al., 2012](https://journals.aom.org/doi/abs/10.5465/amj.2011.0088)), then distilled from specific HRM activities and processes the kinds of managerial actions that naturally overlap with or are part of them—things like coaching, mentoring, job design, feedback, goal setting, etc., and added a few extra elements based on other studies (e.g., [Jo & Hong’s 2022](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.900830/full) study on learning agility and innovative behavior) and plain common sense (e.g., people need functioning tools to do their job). For selected elements, I also checked existing evidence of their relationships—for instance, job crafting as a predictor of employee retention, using [Rubenstein et al.’s (2017)](https://onlinelibrary.wiley.com/doi/full/10.1111/peps.12226) meta-analysis on voluntary turnover.
@@ -30,8 +32,8 @@ Would love to hear if you’ve come across any solid sources on this topic—or 
 ## Related notes
 - [[good-manager|Signals of a good manager]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[value-added-modeling|Goals saved above expected… for managers?]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[value-added-modeling|Goals saved above expected… for managers?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
 <!-- RELATED:END -->
 

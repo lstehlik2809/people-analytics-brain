@@ -16,7 +16,9 @@ For example, a friend of mine once said (not a literal quote): “Treat it like 
 P.S. This rant-ish post was prompted by my recent reading on causal inference, where the author repeatedly described p-values as the probability that the null hypothesis is true. I was really surprised that an expert in econometrics can still get this wrong — funnily enough, even GenAIs these days seem to get it right (as shown by a bit of ChatGPT’s feedback on the problematic passage below).
 
 <div style="text-align:center">
+
 ![](./trust-errors-learning-reflection/chatgpt_check.png)
+
 </div>
 
 <!-- RELATED:BEGIN -->
@@ -24,8 +26,8 @@ P.S. This rant-ish post was prompted by my recent reading on causal inference, w
 - [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
 - [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 - [[matthew-effect-and-success-stories|Luck, cutoffs, and the stories we tell about success]]
-- [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
 - [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
+- [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
 <!-- RELATED:END -->
 
 ---

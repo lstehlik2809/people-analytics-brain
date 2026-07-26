@@ -26,7 +26,9 @@ And here are their key findings:
 * **Happiness works through multiple pathways:** Significant indirect/mediating pathways include a higher probability of obtaining a college degree, getting hired and promoted, having higher degrees of optimism and extraversion, and less neuroticism. Collectively, these factors explain a massive 68-78% of the total effect. 
 
 <div style="text-align:center">
+
 ![](./happiness-and-income/results_table_marked.png)
+
 </div>
 
 These results thus suggest that happiness isn’t merely a byproduct of financial success or a simple ‘feel-good’ state - it also appears to create the psychological and social conditions that make higher earnings more likely.
@@ -36,8 +38,8 @@ These results thus suggest that happiness isn’t merely a byproduct of financia
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
-- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
 - [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[expressive-differences-around-the-world|Adjusting priors on your “emotional radar” for smoother cross-cultural encounters]]
 <!-- RELATED:END -->

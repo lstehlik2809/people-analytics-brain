@@ -31,7 +31,9 @@ Being a psychologist by training, this reminded me of a mix between the fundamen
 P.S. I made [a simple tool](https://lstehlik2809.github.io/Car-Travel-Simulator/) to play with this idea. It lets you simulate a "null hypothesis world" where accident risk per unit of driving is constant, while trip lengths follow different distributions. A gamma distribution is a reasonable starting point for everyday driving, because most trips are short and a smaller number are much longer, but you can swap in others. The point is not that the null model is true. It obviously leaves out many real-world factors. And the concentration near home is not an artefact of any one distribution: it shows up whatever trip-length distribution you choose. That is the whole point. Even this stripped-down model already produces accident concentration near home. You can try it [here](https://lstehlik2809.github.io/Car-Travel-Simulator/).
 
 <div style="text-align:center">
+
 ![](./car-accidents-near-home/car-travel-sim-cut.gif)
+
 </div>
 
 <!-- RELATED:BEGIN -->

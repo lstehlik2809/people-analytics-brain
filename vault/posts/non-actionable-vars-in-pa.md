@@ -26,7 +26,9 @@ True, these potential actions don’t stem from these two variables alone but fr
 What’s your perspective? Have you seen an example of turning demographic data into real impact? Feel free to drop your thoughts in the comments. 
 
 <div style="text-align:center">
+
 ![](./non-actionable-vars-in-pa/change_my_mind.jfif)
+
 </div>
 
 <!-- RELATED:BEGIN -->
@@ -34,8 +36,8 @@ What’s your perspective? Have you seen an example of turning demographic data 
 - [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
-- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 - [[analytical-choices-and-variability|How variations in analytic choices affect results?]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 <!-- RELATED:END -->
 
 ---

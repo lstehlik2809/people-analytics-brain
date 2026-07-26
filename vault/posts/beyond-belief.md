@@ -21,7 +21,9 @@ The first point is a reminder that the latest trends and shiny new ideas in the 
 *These are all fairly obvious and, in most cases, says Barends, they are good enough. The biggest gains in management, he argues, are to be found in following basic evidence-backed principles rather than the latest trend.*”
 
 <div style="text-align:center">
+
 ![](./beyond-belief/mng_hygiene_pic.png)
+
 </div>
 *A graphical illustration of the point described above - not from the book, but AI-generated.* 
 

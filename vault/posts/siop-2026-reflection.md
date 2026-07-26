@@ -44,7 +44,9 @@ Methodological note: Results are based on Whova data from the three main confere
 P.S. If interested, you can check out [this simple interactive dashboard](https://lstehlik2809.github.io/siop-2026-reflection/), where you can explore the topics from other perspectives and drill down to individual sessions by topic and topic combinations.
 
 <div style="text-align:center">
+
 ![](./siop-2026-reflection/plot.png)
+
 </div>
 
 <!-- RELATED:BEGIN -->

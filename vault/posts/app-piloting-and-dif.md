@@ -24,8 +24,8 @@ So, next time you consider introducing a new business app, consider piloting it 
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 - [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
-- [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
 - [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
 <!-- RELATED:END -->
 
 ---

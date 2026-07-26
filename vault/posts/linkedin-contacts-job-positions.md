@@ -27,7 +27,9 @@ Next, I fed these descriptions into a [BERTopic](https://maartengr.github.io/BER
 As you can see in the chart below, the range of roles is quite broad, but it seems that most of my contacts work in people analytics, data science, HR & people management, as executives, and as researchers in academia or in enterprises.
 
 <div style="text-align:center">
+
 ![](./linkedin-contacts-job-positions/li_contacts_jobs.png)
+
 </div>
 
 Below is an interactive version of the chart, where you can check the individual job titles behind the job categories.
@@ -149,7 +151,7 @@ P.S. If interested, feel free to check out [one of my earlier apps](https://blog
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 - [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 <!-- RELATED:END -->
 
 ---

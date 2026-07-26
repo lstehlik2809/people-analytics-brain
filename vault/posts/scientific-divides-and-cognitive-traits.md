@@ -17,7 +17,9 @@ Researchers surveyed nearly 8,000 psychologists and found their positions on key
 For instance, psychologists with high tolerance for ambiguity favored holistic, context-driven explanations, while those preferring clear structure leaned toward clear-cut, rule-based models of mind.
 
 <div style="text-align:center">
+
 ![](./scientific-divides-and-cognitive-traits/charts.png)
+
 </div>
 
 ***a–d**,Regression coefficients for controversial themes as a function of research areas (**a**), research methods (**b**), cognitive traits (**c**) and gender (**d**). For tables of full numeric results, see Supplementary Tables 2–5. Cells marked ‘x’ are non-significant (with Bonferroni correction for multiple comparisons—the number of cells in each panel—yielding thresholds P < 0.000208 for a, P < 0.000142 for b and P < 0.000223 for c). All continuous variables are z-scored. Plot margins show hierarchical clusters (Ward’s method). d, In place of clusters for gender, given the low dimensionality of the space representing gender, two themes are shown where men gave lower scores than women and two with the reverse pattern (violin plots show full response distributions, with group means in red).*
@@ -32,7 +34,7 @@ The study thus serves as a valuable reminder that scientific disagreements may n
 - [[analytical-choices-and-variability|How variations in analytic choices affect results?]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
-- [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
+- [[personality-frameworks-contest|A showdown between the Big Five, Enneagram, MBTI, and astrology]]
 <!-- RELATED:END -->
 
 ---

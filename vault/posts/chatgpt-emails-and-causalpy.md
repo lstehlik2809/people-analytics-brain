@@ -14,13 +14,17 @@ original: https://blog-about-people-analytics.netlify.app/posts/2024-11-13-chatg
 I wanted to try out the new [CausalPy](https://causalpy.readthedocs.io/en/latest/?s=09) package for causal inference and was brainstorming interesting research questions to apply it to. My inspiration came from a recent wave of LI posts in my feed, all sharing a chart showing a drop in Stack Overflow traffic after ChatGPT’s release in November 2022.
 
 <div style="text-align:center">
+
 ![](./chatgpt-emails-and-causalpy/stackoverflow.png)
+
 </div>
 
 Given that many studies - including one we conducted internally at Sanofi - show that one of the most frequent use cases for GenAI in the business world is helping with email writing (we've probably all seen the hilarious meme on this topic shown below 😁), I got curious about whether a similar pattern might show up in Google Trends for searches like “*How to write an email.*”
 
 <div style="text-align:center">
+
 ![](./chatgpt-emails-and-causalpy/meme.png)
+
 </div>
 
 For the analysis, I used an [interrupted time series method](https://academic.oup.com/ije/article/46/1/348/2622842), which examines the effect of an intervention by comparing time series data before and after the intervention that happened at a known point in time, allowing us to assess any shifts in level or trend.
@@ -28,7 +32,9 @@ For the analysis, I used an [interrupted time series method](https://academic.ou
 As the resulting charts below show, there does seem to be a noticeable drop in searches on how to write emails following ChatGPT’s official release. In fact, the shift is so pronounced that it’s clear even with a quick eyeballing analysis. Sure, we can speculate about other factors to be involved - maybe we're sending fewer emails because we’re relying more on platforms like Slack or Teams - but as other available stats suggest (see, for example, [this one](https://financesonline.com/email-statistics/)), we can only wish that were the case 😉
 
 <div style="text-align:center">
+
 ![](./chatgpt-emails-and-causalpy/output_plot.png)
+
 </div>
 
 Either way, CausalPy turned out to be a super easy-to-use and user-friendly tool. I'm looking forward to using it in my future projects. Kudos to the entire CausalPy team! 👏
@@ -122,7 +128,7 @@ az.summary(last_cumulative_estimate)
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
-- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

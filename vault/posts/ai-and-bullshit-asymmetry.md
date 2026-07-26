@@ -17,7 +17,9 @@ The catch: the volume of information hitting our senses keeps growing, and a gro
 A small example. I built a [bot around the five-step causal reasoning framework](https://chatgpt.com/g/g-69afe08219508191b0806e31c5f0d0af-causal-mindset-agent) from [Dr. Quentin Gallea's "*The Causal Mindset Handbook*"](https://thecausalmindset.com/book) and ran it against a recent [whitepaper from an HR-tech vendor in the employee-listening space](https://offer.welliba.com/hubfs/Latest%20Files%20for%20Linking/Welliba%20S%26P%20500%20Hidden%20Economics%20Whitepaper%20v_01.0.pdf?hsLang=en).
 
 <div style="text-align:center">
+
 ![](./ai-and-bullshit-asymmetry/agent_pic.png)
+
 </div>
 
 The paper presents this as "*the hidden economic value of employee experience*" and pinpoints "*where investment in people delivers the greatest return.*" Specifically: the top 100 S&P 500 companies on employee experience (EX) outperformed the rest by 5% in total shareholder return over five years, based on AI analysis of 25 million data points pulled from more than 150,000 websites.
@@ -44,7 +46,9 @@ Curious what other frameworks you’ve made actionable in a similar way and foun
 **Update**: One of the commenters on the LinkedIn version of this post pointed me to the “*BS Detector*” created by Paul Sweeney, author of the excellent ["*Magnetic Nonsense: A Short History of Bullshit at Work and How to Make It Go Away*"](https://www.amazon.co.uk/MAGNETIC-NONSENSE-SHORT-HISTORY-BULLSHIT/dp/1068531037). You can access the tool [here](https://senselabs.co/bs-detector) or find it among the publicly available GPTs on OpenAI’s platform under the name "*Sense Lab BS Detector*". Give it a try. I tested it on several papers, and it’s brutally honest and direct, just like its author 🤓
 
 <div style="text-align:center">
+
 ![](./ai-and-bullshit-asymmetry/bs_detector.png)
+
 </div>
 
 P.S. If you don’t follow Paul, you should. His LinkedIn posts may challenge some of your favorite and deeply entrenched beliefs about work-related topics. He regularly brings a much-needed dose of skepticism to how we think about what we do in the HRM space.

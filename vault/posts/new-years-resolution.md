@@ -14,7 +14,9 @@ As we enter this part of the year when the 'fresh start' effect can kick in and 
 Looking at [Google Trends](https://trends.google.com/trends/) data and examining the frequency of search terms related to these three actions, it seems that people most often search for ways to stop doing things, followed by how to start doing things, and least often, how to continue doing things.
 
 <div style="text-align:center">
+
 ![](./new-years-resolution/google_trends.png)
+
 </div>
 
 Any hypotheses as to why this might be the case? Here are my 'three cents', based on my personal experience:

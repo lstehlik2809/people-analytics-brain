@@ -236,7 +236,9 @@ print(f"HEXACO Model:   {R_squared_hexaco_tp:.1%}")
 ```
 
 <div style="text-align:center">
+
 ![](./big-five-vs-hexaco/table.png)
+
 </div>
 
 The reason seems to be that HEXACO includes the extra Honesty–Humility trait (which captures ethical variance and is a decent predictor of negative workplace behaviors), shows higher predictive validity for the generally most predictive trait (Conscientiousness), and has less inter-correlation between traits (so their predictive power overlaps less).

@@ -14,7 +14,9 @@ From personal experience, I've “always” known that feedback can have both po
 Their study analyzed 607 effect sizes from 23,663 observations and found that while feedback interventions (FIs) generally improved performance (*d*=0.41), over one-third of the FIs actually decreased performance.
 
 <div style="text-align:center">
+
 ![](./feedback-effect-on-performance/effects_distribution.png)
+
 </div>
 
 To explain this pattern, the authors proposed and tested, using moderator analysis, a theory suggesting that **FIs shift the focus among three hierarchically organized levels of control, influencing how individuals process and react to feedback:**  

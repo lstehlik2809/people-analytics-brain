@@ -11,7 +11,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2026-04-18-siop-
 Excited to share that Marissa Post and I will be co-delivering a workshop at the [2026 SIOP Annual Conference in New Orleans](https://www.siop.org/events/the-annual-conference/program/schedule/).
 
 <div style="text-align:center">
+
 ![](./siop-2026-causal-inference-workshop/event_pic.png)
+
 </div>
 
 Most causal inference material focuses on clean examples or theory in isolation. In practice, causal analysis is a workflow - and a messy one.

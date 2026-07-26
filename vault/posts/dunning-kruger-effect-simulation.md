@@ -17,9 +17,11 @@ So I called Claude to the rescue and asked it to put together a simple simulator
 Within two or three iterations, in about 5 minutes total, the simulator was good enough to use. You can check it out for yourself [here](https://lstehlik2809.github.io/Dunning-Kruger-Effect-Statistical-Artifact/index.html).
 
 <div style="text-align:center;">
+
   <a href="https://lstehlik2809.github.io/Dunning-Kruger-Effect-Statistical-Artifact/index.html" target="_blank">
     <img src="app_pic.png" style="width:80%;" alt="Claude artifact preview">
   </a>
+
 </div>
 
 For anyone who teaches, lectures, or explains abstract ideas for a living - or just for fun - this kind of workflow is becoming hard to ignore.

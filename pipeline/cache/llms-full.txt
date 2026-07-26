@@ -23,7 +23,9 @@ The first point is a reminder that the latest trends and shiny new ideas in the 
 *These are all fairly obvious and, in most cases, says Barends, they are good enough. The biggest gains in management, he argues, are to be found in following basic evidence-backed principles rather than the latest trend.*”
 
 <div style="text-align:center">
+
 ![](./beyond-belief/mng_hygiene_pic.png)
+
 </div>
 *A graphical illustration of the point described above - not from the book, but AI-generated.* 
 
@@ -64,7 +66,9 @@ The contrast between the two analyses is where things become interesting.
 In the primary model, the focal responsiveness item is clearly positively associated with next-year participation. Employees who scored higher on that item were more likely to respond again the following year, even after adjustment for standard demographic and organizational covariates. The association was statistically detectable but modest in size, so I would read it as evidence of a repeat-participation pattern rather than a large practical shift (one possible positive interpretation being that lower perceived responsiveness does not appear to translate into broad withdrawal from the survey as a channel for voice). At a broad level, the data are therefore consistent with the conventional wisdom.
 
 <div style="text-align:center">
+
 ![](./you-said-we-did/pic1.png)
+
 </div>
 *Fig. 1: Average marginal effects from the primary model predicting next-year survey participation from prior-year survey items. Items are anonymized for public sharing; Action Taken Item is the focal perceived-responsiveness item. Horizontal bars show 95% confidence intervals.*
 
@@ -75,7 +79,9 @@ And the secondary model sharpens that point further.
 Once the shared general engagement factor is removed, the focal responsiveness item no longer stands out as a distinct residual predictor. Its residual association is essentially null. By contrast, some other item-specific residual signals continued to show clearer associations with repeat participation.
 
 <div style="text-align:center">
+
 ![](./you-said-we-did/pic2.png)
+
 </div>
 *Fig. 2: Average marginal effects from the secondary residual-signal model, where each item is adjusted for the broader survey-response pattern using a leave-one-item-out factor approach. Items use the same anonymized labels as in the primary chart; Action Taken Item is the focal perceived-responsiveness item. Horizontal bars show 95% cluster-bootstrap confidence intervals.*
 
@@ -126,7 +132,9 @@ Being a psychologist by training, this reminded me of a mix between the fundamen
 P.S. I made [a simple tool](https://lstehlik2809.github.io/Car-Travel-Simulator/) to play with this idea. It lets you simulate a "null hypothesis world" where accident risk per unit of driving is constant, while trip lengths follow different distributions. A gamma distribution is a reasonable starting point for everyday driving, because most trips are short and a smaller number are much longer, but you can swap in others. The point is not that the null model is true. It obviously leaves out many real-world factors. And the concentration near home is not an artefact of any one distribution: it shows up whatever trip-length distribution you choose. That is the whole point. Even this stripped-down model already produces accident concentration near home. You can try it [here](https://lstehlik2809.github.io/Car-Travel-Simulator/).
 
 <div style="text-align:center">
+
 ![](./car-accidents-near-home/car-travel-sim-cut.gif)
+
 </div>
 
 
@@ -163,14 +171,18 @@ A separate Bayesian hierarchical model for each culture-and-outcome pair, with i
 * Work-life balance breaks from the pack. Under this model, it is only 14% likely to be positive for ROA. I would not read this necessarily as evidence that work-life balance hurts profitability; it may be picking up business model, growth stage, labor intensity, or review-selection differences.
 
 <div style="text-align:center">
+
 ![](./company-culture-and-financial-performance/forest_primary.png)
+
 </div>
 
 ### ACROSS THE FOUR OUTCOMES
 Re-running every dimension against all four metrics shows where the signal concentrates. The relational cluster is strongest for the two profitability outcomes, ROA and operating margin. Revenue growth is the weakest outcome: effects sit closer to zero and the relational ordering no longer holds. Excess TSR partly diverges: low toxicity, transparency, and leadership stay positive, while work-life balance flips from negative on profitability to positive on market return.
 
 <div style="text-align:center">
+
 ![](./company-culture-and-financial-performance/robustness_strip.png)
+
 </div>
 
 ### TWO THINGS I WOULD PUT NEXT TO ANY HEADLINE
@@ -182,7 +194,9 @@ Second, the dimensions are heavily correlated. When all nine compete in a single
 The ROA ordering is reasonably stable across several robustness checks. It holds when I swap headcount for assets as the size control, when baseline performance is a multi-year average instead of the latest level, and when industry is modeled with fixed effects, which sharpens the leading cluster to between 98% and 100%. The market-return signal also survives no-washout, three-month, and six-month return windows, so the result does not appear to be driven solely by the exact return-window choice.
 
 <div style="text-align:center">
+
 ![](./company-culture-and-financial-performance/washout_comparison.png)
+
 </div>
 
 ### THE CAVEAT
@@ -223,7 +237,9 @@ It answers three questions:️
 * **Home away from home**: If I want to travel abroad without encountering too many cultural surprises - yes, even such travelers exist 😲 - which nearby countries are the best candidates?
 
 <div style="text-align:center">
+
 ![](./cultural-traveler/cultural-traveler-app.gif)
+
 </div>
 
 The search radius is based on distances between capital cities. You can also decide which cultural dimensions matter more to you. The app optionally considers differences in local price levels using World Bank PPP-based household-consumption data, but this is only a rough affordability indicator: it does not include flights, accommodation choices, seasonality, or your talent for finding suspiciously cheap restaurants 😉
@@ -239,7 +255,9 @@ P.S. Hofstede’s country scores are broad national averages. They capture only 
 **Update**: One of the commenters on the LinkedIn version of this post asked an interesting question relevant to the first and third use cases covered by the app: "*how often are 'similar countries' not neighboring countries?*" That question sent me back to the data to check. What were the results? Across all 69 countries, 78% had a closest cultural twin that wasn’t a neighbor, and even among countries with at least one land neighbor, the figure was 73%. However, that doesn’t mean geography and culture are unrelated, just less strongly related than one might expect - the rank correlation was fairly weak (*ρ* = -0.23), but robustly negative (95% HDI: -0.34 to -0.12), even after accounting for the non-independence of country pairs.
 
 <div style="text-align:center">
+
 ![](./cultural-traveler/distance_similarity_all_pairs.png)
+
 </div>
 
 
@@ -271,7 +289,9 @@ However, these other dimensions were not examined in the paper. Fortunately, the
 The results? The chart below presents posterior estimates from six separate Bayesian Gaussian regressions. Individualism emerged as the clearest positive correlate: 99.3% of posterior draws were above zero. Long-term orientation showed the most suggestive negative association, with 96.4% of draws below zero. Power distance and uncertainty avoidance also leaned negative, but with considerably more uncertainty. The estimates for masculinity and indulgence were weakly positive and highly uncertain.
 
 <div style="text-align:center">
+
 ![](./hofstede-wfh/posterior_cultural_densities.png)
+
 </div>
 
 To get a clearer view of whether WFH frequency is related to specific Hofstede dimensions, we need to account for the fact that the six cultural scores are correlated. In separate models, the coefficient for one dimension may partly capture variation that it shares with other dimensions. For example, an individualism coefficient may reflect not only individualism itself, but also the fact that more individualistic countries often differ systematically on power distance, uncertainty avoidance, or long-term orientation.
@@ -283,7 +303,9 @@ However, with only 37 countries and several correlated cultural predictors, the 
 The chart below compares the estimates from the separate models with those from the joint shrinkage model. Individualism remains the largest cultural estimate in the joint model, but the evidence is much weaker than in the separate model. Long-term orientation retains the second-largest directional signal, although it also shrinks substantially. The remaining dimensions are estimated much closer to zero, suggesting that their apparent associations in the separate models may have partly reflected variation shared with other cultural dimensions.
 
 <div style="text-align:center">
+
 ![](./hofstede-wfh/joint_shrinkage_cultural_estimates.png)
+
 </div>
 
 Do any of these findings surprise you - or do they mostly support your existing intuitions?
@@ -293,7 +315,9 @@ Do any of these findings surprise you - or do they mostly support your existing 
 P.S. If interested in exploring the data visually, visit [this dashboard](https://lstehlik2809.github.io/hofstede-wfh/). 
 
 <div style="text-align:center">
+
 ![](./hofstede-wfh/hofstede-wfh_dashboard.png)
+
 </div>
 
 
@@ -351,7 +375,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2026-05-31-
 I just finished reading Tom Griffiths’ amazing book, [*The Laws of Thought: The Quest for a Mathematical Theory of the Mind*](https://www.amazon.com/Laws-Thought-Quest-Mathematical-Theory/dp/1250358353), over the weekend.
 
 <div style="text-align:center">
+
 ![](./the-laws-of-thought/book_pic.jpg)
+
 </div>
 
 In a compact and very accessible way, it covers roughly 300 years of human efforts to understand how and why the mind does what it does, using various mathematical tools and frameworks.
@@ -363,6 +389,7 @@ Among other things, the book shows how attempts to understand human cognition an
 P.S. The chart bellow represents a kind of knowledge graph generated from the book. It shows two layers at once: key figures, such as Chomsky, Boole, Turing, Skinner, Rumelhart, McClelland, Marr, and Tenenbaum; and major topics that organize the book, such as formal logic, symbolic AI, generative grammar, connectionism, and Bayesian cognition. Green edges mark supportive relationships, such as influence or collaboration; red edges mark critique; and gray dashed edges connect people to topics. The graph includes 48 people, 12 topics, 64 aggregated figure-to-figure edges, and 50 person-topic edges. You may need to click on the image and zoom in to see all the details 🕵️‍♂️
 
 <div style="text-align:center;">
+
   <a href="./network_the_laws_of_thought.png" target="_blank">
     <img 
       src="./network_the_laws_of_thought.png" 
@@ -370,6 +397,7 @@ P.S. The chart bellow represents a kind of knowledge graph generated from the bo
       alt="Network: The Laws of Thought"
     />
   </a>
+
 </div>
 
 Methodological note on the knowledge graph: The relationships were not inferred from simple co-occurrence. Every figure-to-figure edge had to be explicitly asserted in the text and backed by a verbatim quote. The pipeline extracted and cleaned the PDF, split it into chapters, induced a fixed 12-topic taxonomy, built an entity catalog, used an LLM to identify and classify evidence-backed relationships, and then ran code to verify that every evidence quote appeared in the source chapter. Mechanical steps were handled by code, semantic steps by the LLM, and evidence quotes were checked by deterministic code.
@@ -393,7 +421,9 @@ The catch: the volume of information hitting our senses keeps growing, and a gro
 A small example. I built a [bot around the five-step causal reasoning framework](https://chatgpt.com/g/g-69afe08219508191b0806e31c5f0d0af-causal-mindset-agent) from [Dr. Quentin Gallea's "*The Causal Mindset Handbook*"](https://thecausalmindset.com/book) and ran it against a recent [whitepaper from an HR-tech vendor in the employee-listening space](https://offer.welliba.com/hubfs/Latest%20Files%20for%20Linking/Welliba%20S%26P%20500%20Hidden%20Economics%20Whitepaper%20v_01.0.pdf?hsLang=en).
 
 <div style="text-align:center">
+
 ![](./ai-and-bullshit-asymmetry/agent_pic.png)
+
 </div>
 
 The paper presents this as "*the hidden economic value of employee experience*" and pinpoints "*where investment in people delivers the greatest return.*" Specifically: the top 100 S&P 500 companies on employee experience (EX) outperformed the rest by 5% in total shareholder return over five years, based on AI analysis of 25 million data points pulled from more than 150,000 websites.
@@ -420,7 +450,9 @@ Curious what other frameworks you’ve made actionable in a similar way and foun
 **Update**: One of the commenters on the LinkedIn version of this post pointed me to the “*BS Detector*” created by Paul Sweeney, author of the excellent ["*Magnetic Nonsense: A Short History of Bullshit at Work and How to Make It Go Away*"](https://www.amazon.co.uk/MAGNETIC-NONSENSE-SHORT-HISTORY-BULLSHIT/dp/1068531037). You can access the tool [here](https://senselabs.co/bs-detector) or find it among the publicly available GPTs on OpenAI’s platform under the name "*Sense Lab BS Detector*". Give it a try. I tested it on several papers, and it’s brutally honest and direct, just like its author 🤓
 
 <div style="text-align:center">
+
 ![](./ai-and-bullshit-asymmetry/bs_detector.png)
+
 </div>
 
 P.S. If you don’t follow Paul, you should. His LinkedIn posts may challenge some of your favorite and deeply entrenched beliefs about work-related topics. He regularly brings a much-needed dose of skepticism to how we think about what we do in the HRM space.
@@ -483,7 +515,9 @@ The third layer is a set of three agent roles with explicit handoffs.
 In practice, this creates an iterative workflow rather than a single long prompt. The process usually involves several rounds between the Planner, Implementer, Reviewer, and the human analyst.
 
 <div style="text-align:center">
+
 ![](./agentic-workflow-for-causal-inference/causal_inference_agentic_workflow.png)
+
 </div>
 
 ### Project structure
@@ -641,7 +675,9 @@ Methodological note: Results are based on Whova data from the three main confere
 P.S. If interested, you can check out [this simple interactive dashboard](https://lstehlik2809.github.io/siop-2026-reflection/), where you can explore the topics from other perspectives and drill down to individual sessions by topic and topic combinations.
 
 <div style="text-align:center">
+
 ![](./siop-2026-reflection/plot.png)
+
 </div>
 
 
@@ -659,7 +695,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2026-04-18-
 Excited to share that Marissa Post and I will be co-delivering a workshop at the [2026 SIOP Annual Conference in New Orleans](https://www.siop.org/events/the-annual-conference/program/schedule/).
 
 <div style="text-align:center">
+
 ![](./siop-2026-causal-inference-workshop/event_pic.png)
+
 </div>
 
 Most causal inference material focuses on clean examples or theory in isolation. In practice, causal analysis is a workflow - and a messy one.
@@ -885,7 +923,9 @@ IMO, it nicely illustrates David's ongoing and successful effort to bring togeth
 If you'd like to explore it yourself, [here it is](https://lstehlik2809.github.io/david-green-hr-people-network/).
 
 <div style="text-align:center">
+
 ![](./david-green-hr-people-sna-network/ona_david_green.png)
+
 </div>
 
 A few tips for navigating the network:
@@ -919,13 +959,17 @@ I used a real-world dataset from various 360 feedback projects across several CE
 Interestingly - but perhaps not so surprisingly - the pattern I found was completely reversed from what we can see on Google Trends: people most often told others what they should keep doing (90.2%), then what they should start doing (65%), and least often what they should stop doing (37.8%).
 
 <div style="text-align:center">
+
 ![](./start-stop-continue-feedback/response_rate_chart.png)
+
 </div>
 
 When it comes to comment length, the comments are largely similar on average; only those in the Start section are slightly longer than the other two (median of 14 vs. 11 words).
 
 <div style="text-align:center">
+
 ![](./start-stop-continue-feedback/word_count_raincloud.png)
+
 </div>
 
 I can only speculate about the reasons behind this, but my guesses would probably include social politeness and relationship preservation motivation, psychological safety concerns (even in anonymous 360 systems), cultural conditioning around strengths-based development, discomfort with direct criticism, possibly also the order effect of question presentation, and new behaviors requiring more explanation and context. 
@@ -1287,7 +1331,9 @@ At first it felt like watching someone pour red wine into a coffee mug. Technica
 * The limits are real - and worth knowing. LPM can predict probabilities below 0 or above 1. If you're building a risk scoring model, that matters. If you're estimating an average effect from a matched sample, it usually doesn't - but one shouldn't stop there. When baseline rates are very high or very low, when you're estimating interaction effects, or when covariate relationships are strongly nonlinear, LPM and logit can diverge meaningfully. Out-of-bounds predictions are your canary: if you're seeing them, check whether the linear approximation is actually holding up. The point is to know when it breaks.
 
 <div style="text-align:center">
+
 ![](./ols-vs-logistic-regression/lpm_vs_logit.png)
+
 </div>
 
 The deeper lesson for me: the real question isn't "OLS vs logit." It's "what estimand do you want?" Risk difference → LPM is often the natural fit. Odds ratio → logistic regression. Risk ratio → log-binomial or modified Poisson. The tool follows the question, not the other way around.
@@ -1312,11 +1358,15 @@ Check out where these two landed in the attached pics. Does it resonate? 🙃 Fo
 
 
 <div style="text-align:center">
+
 ![](./daily-activities-among-business-skills/parenting.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./daily-activities-among-business-skills/cooking.png)
+
 </div>
 
 
@@ -1340,7 +1390,9 @@ While reading a paper on using IV to estimate causal effects in situations where
 Rather than randomly granting or denying access to a program - which would often be neither practical nor especially ethical in an HR context - we randomly select a subset of eligible employees to receive a targeted email (or another type of nudge) encouraging them to participate. The remaining eligible employees still have full access to the program; they just do not receive that specific encouragement.
 
 <div style="text-align:center">
+
 ![](./encouragement-design-and-ivs/iv_encouragement_design_diagram.png)
+
 </div>
 
 By comparing outcomes between the encouraged and non-encouraged groups, and using random encouragement assignment as an instrumental variable for actual participation, we can estimate the causal effect of the program for those employees whose participation was actually driven by the encouragement.
@@ -1418,7 +1470,9 @@ on a group that small gives you a gender coefficient you can barely trust.
 I've been thinking about partial pooling - hierarchical models that borrow strength across categories. Small groups get pulled toward the overall estimate; large groups keep their own. It's a well-established technique, but I haven't seen much discussion of it in the pay equity space.
 
 <div style="text-align:center">
+
 ![](./euptd-pay-gap-reporting/illustrative_chart.png)
+
 </div>
 
 *An illustration of how shrinkage works in hierarchical modeling across three pooling strategies. No-pooling treats each group independently, producing the highest variance in estimates. Partial pooling shrinks group-level estimates toward the global mean—balancing group-specific signal with overall trends. Complete pooling collapses all groups to a single estimate, eliminating between-group variance entirely. The vertical axis shows the estimated μ for each group; the horizontal axis compares the three approaches.*
@@ -1452,7 +1506,9 @@ As People Analytics practitioners, we’re often asked: “*Which lever should w
 [Recently](https://blog-about-people-analytics.netlify.app/posts/2025-10-21-cross-lagged-panel-modeling/), I shared how RI-CLPM (*Random Intercept Cross-Lagged Panel Models*) can move us beyond simple correlations by using survey data collected over time to separate stable differences from within-person change. As I’ve gone deeper into the model’s mechanics, I’ve realized it can help not only with identifying potential “drivers,” but also with prioritizing where to spend budget - as long as we’re careful about what the model can and can’t claim and we interpret results in the context of business strategy.
 
 <div style="text-align:center">
+
 ![](./the-triple-filter-test/ri_clpm_scheme_full.png)
+
 </div>
 
 Here’s the approach I’m experimenting with: applying a triple filter to every relevant survey variable before recommending action.
@@ -1515,7 +1571,9 @@ I was particularly curious about whose resignation is most strongly associated w
 Now, the major findings…
 
 <div style="text-align:center">
+
 ![](./contagious-turnover/resignation_effects.png)
+
 </div>
 
 ### **Manager Resignation: The “Universal Shock” & “The Long Tail”**
@@ -1531,7 +1589,9 @@ Manager departures show a distinctive pattern over time, and team size appears t
  By this point, the acute crisis is over, but the baseline risk remains elevated at +55%, regardless of team size. This persistence suggests that the issue has shifted from an acute reaction to a more chronic structural problem - though we cannot rule out that both the manager’s departure and the team’s attrition share a common cause.
 
 <div style="text-align:center">
+
 ![](./contagious-turnover/peers_manager_resignation_effects_team_size.png)
+
 </div>
  
 ### **Peer Resignation: The “Flash Flood”**
@@ -1547,7 +1607,9 @@ Peer resignations show a very different profile, consistent with the idea that t
  Unlike the manager effect, the peer contagion signal decays rapidly. The estimated risk drops to just 12% in Months 3–4 and becomes negligible by Months 5–6. This rapid decay is consistent with the notion that peer contagion is an acute, short-lived phenomenon rather than a long-term structural degrader.
 
 <div style="text-align:center">
+
 ![](./contagious-turnover/peers_resignation_effects_team_size.png)
+
 </div>
 
 ### **The Takeaway**
@@ -1593,7 +1655,9 @@ Teachers may understandably interpret those differences as indicators of ability
 In the UK, where the cutoff date is August 31st, this [“relative age effect”](https://en.wikipedia.org/wiki/Relative_age_effect) shows up clearly in the data. While the effect size decreases over time, it remains detectable on average through secondary school and even into university. It’s a classic example of cumulative advantage (the so-called [*Matthew Effect*](https://en.wikipedia.org/wiki/Matthew_effect)). See the attached [chart](https://en.wikipedia.org/wiki/Relative_age_effect#/media/File:Oxford_10_years.png) for illustration - it shows a near-perfect linear decline in Oxford graduation rates, with the oldest students (September) being 15% overrepresented and the youngest (August) 15% underrepresented relative to the UK norm.
 
 <div style="text-align:center">
+
 ![](./matthew-effect-and-success-stories/plot.png)
+
 </div>
 
 And of course, school entry dates are just one example. We could start with being born into a middle-class family, in a WEIRD country, at the end of the 20th century which already places you on a very particular starting point in life. And we could keep going. If you want a better sense of the background conditions we tend to leave out of our success (and failure) narratives, *Determined* is highly recommended - even if you don’t follow Sapolsky all the way on free will.
@@ -1617,9 +1681,11 @@ So I called Claude to the rescue and asked it to put together a simple simulator
 Within two or three iterations, in about 5 minutes total, the simulator was good enough to use. You can check it out for yourself [here](https://lstehlik2809.github.io/Dunning-Kruger-Effect-Statistical-Artifact/index.html).
 
 <div style="text-align:center;">
+
   <a href="https://lstehlik2809.github.io/Dunning-Kruger-Effect-Statistical-Artifact/index.html" target="_blank">
     <img src="app_pic.png" style="width:80%;" alt="Claude artifact preview">
   </a>
+
 </div>
 
 For anyone who teaches, lectures, or explains abstract ideas for a living - or just for fun - this kind of workflow is becoming hard to ignore.
@@ -1645,7 +1711,9 @@ With a flatter org structure, however, the resulting larger spans of control can
 To illustrate this trade-off, see the four plots below showing [G-computation](https://medium.com/@akif.iips/a-short-introduction-to-g-computation-in-causal-inference-9a67bd9e2233) dose-response curves estimated using a Random Forest outcome model with bootstrapped uncertainty intervals that account for both sampling variability and model estimation error. The plots capture the causal effect of span of control (ranging from 1 to 22 direct reports) on four specific managerial behaviors (coaching, setting goals, communicating expectations, and providing feedback), as rated by direct reports, while controlling for common factors such as managers’ tenure, management level, department, performance rating, gender, age, region, job family, etc.
 
 <div style="text-align:center">
+
 ![](./span-of-control-and-managerial-behavior/charts.png)
+
 </div>
 
 As you can see, there is a negative - though non-linear and modest in absolute magnitude but very meaningful relative to the variability in the data - relationship between managers’ span of control and these managerial behaviors: the larger the former, the lower the latter.
@@ -1929,13 +1997,17 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-17-
 Reading the book [*Existential Physics: A Scientist's Guide to Life's Biggest Questions*](https://en.wikipedia.org/wiki/Existential_Physics) (btw, highly recommended) made me rethink the popular image many people (including myself) use to signal their openness to new career and life directions - a [“garden of forking paths”](https://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths) where the future is a blank canvas of almost infinite potential, constrained only by our imagination.
 
 <div style="text-align:center">
+
 ![](./garden-of-forking-paths-redo/forking_paths_original.jfif)
+
 </div>
 
 My update tries to make this image more honestly reflect the reality we’re facing in such situations 🤓 Specifically, that some paths are effectively unreachable for us (e.g., in my middle forties, becoming a professional brain surgeon, no matter how much I might wish it), and others are far more probable than others (for example, for me it’s more likely that my next job will again be at the intersection of data and psychology than in psychotherapeutic care).
 
 <div style="text-align:center">
+
 ![](./garden-of-forking-paths-redo/forking_paths_updated.png)
+
 </div>
 
 Not sure if you’ll be interested in using this updated version of the image - after all, it removes a large part of the positive vibe of the original 🙃 - but if so, feel free to copy the image above and use it in your announcement 😊
@@ -1945,7 +2017,9 @@ Not sure if you’ll be interested in using this updated version of the image - 
 **Update**: After posting this on LinkedIn, Eric-Jan Wagenmakers pointed me to his article *A Deterministic View on Life*, which, imo, provides an even more honest account of the issue. It defends a deterministic perspective while explaining why uncertainty, choice, and responsibility remain meaningful despite the absence of genuine alternative possibilities. The core argument is that while life unfolds along a single, fully determined trajectory, our experience of uncertainty, deliberation, and choice arises from our incomplete knowledge, not from genuinely open alternatives. We reason, decide, and feel responsible because we must infer outcomes under uncertainty - even though, in retrospect, only one outcome was ever possible (see visualization of this deterministic perspective on life by Viktor Beekman below). But best to read it in full [here](https://www.bayesianspectacles.org/a-deterministic-view-on-life/).
 
 <div style="text-align:center">
+
 ![](./garden-of-forking-paths-redo/LifePathLightningLandscape.jpg)
+
 </div>
 
 
@@ -1967,10 +2041,12 @@ Maybe I’m not the only one who was ignorant of this, so I’m sharing this sma
 If interested, check out, for example, the [following video](https://www.youtube.com/watch?v=Ala6PHlYjmw&t=8s), which, imo, does a decent job of explaining Git through a DAG lens. 
 
 <div style="text-align: center;">
+
   <video controls style="width: 100%; max-width: 100%; height: auto;">
     <source src="git_dag_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
 </div>
 
 
@@ -1988,14 +2064,18 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-15-
 A recent [second-order meta-analysis](https://onlinelibrary.wiley.com/doi/10.1002/bdm.70053?af=R) synthesizing 14 meta-analyses, 1,600+ primary studies, and ~30 million participants finds that nudges show a small positive average effect (see the corresponding forest plot below). 
 
 <div style="text-align:center">
+
 ![](./nudge-effectiveness/metaanalyses.jpg)
+
 </div>
 *Forest plot of the effects of the nudging intervention.*
 
 However, after correcting for publication bias (see the corresponding funnel plot below), the pooled effect is statistically indistinguishable from zero.
 
 <div style="text-align:center">
+
 ![](./nudge-effectiveness/funnel_plot.jpg)
+
 </div>
 *Funnel plot of nudging intervention.*
 
@@ -2032,13 +2112,17 @@ From a technical perspective, I used [`DeepFace`](https://en.wikipedia.org/wiki/
 The result? See the network graph below - I’ll leave it to you to decide how these discovered similarities might translate into real-world relationships between individual politicians 😉
 
 <div style="text-align:center">
+
 ![](./ona-and-face-similarity/group_photos_network.png)
+
 </div>
 
 Note: Given the methodology, if you averaged all the faces, you’d get an “ideal” politician who should, on average, be in the best (central) position to align with the group as a whole. To get a better idea of what such a politician might look like, I also generated the morphed “average face” of this specific set of politicians - see the pic below. If you think your face looks similar, maybe you should consider entering politics 🙃 But don’t wait too long - politics isn’t exactly a stable profession, this crew can change fast, and your face might not fit as well later on 😁
 
 <div style="text-align:center">
+
 ![](./ona-and-face-similarity/average_face.png)
+
 </div>
 
 P.S. Out of curiosity, I also ran the analysis with my own photo, and it seems I should soon head to Mexico or Germany 🙂
@@ -2060,21 +2144,27 @@ We’ve all seen how GenAI chatbot responses can shift depending on the exact ph
 I’m referring to the [Loftus & Palmer (1974)](https://psycnet.apa.org/record/1975-04498-001) study (*Reconstruction of Automobile Destruction*), which examined how language shapes memory. For those unfamiliar with it, participants watched short films of car accidents and were asked to estimate the cars’ speed. The key manipulation was the intensity of the verb in the question. Those asked how fast the cars were going when they **“smashed”** gave higher estimates (~40.5 mph) than those asked with the verbs **“collided”** (39.3 mph), **“bumped”** (38.1 mph), **“hit”** (~34.0 mph), or **“contacted”** (~31.8 mph).
 
 <div style="text-align:center">
+
 ![](./ai-suggestibility/loftus_palmer_table.png)
+
 </div>
 *Results from the original Loftus & Palmer (1974) study (Experiment 1).*
 
 I tried something similar with a multimodal AI model - GPT-5.1, to be specific - but instead of relying on memory recall from a film, I provided a static image of a car accident (see the picture below) along with the task description (*Based on picture provided, estimate how fast were the cars going when they {word} each other? Don't refuse to make an estimation - make your best guess based on available information. Provide your response as a JSON object with a single key 'speed' and the value should be just the numerical estimation in km/h (without the unit, just the number).*). This made the experiment less about memory distortion/reconstruction and more about contextual drift - essentially testing whether the semantic weight of a single word could override the visual evidence in the pixel data.
 
 <div style="text-align:center">
+
 ![](./ai-suggestibility/car_accident_pic.jpg)
+
 </div>
 *The car-crash image shown to the AI as part of the prompt during the replication of the original Loftus & Palmer (1974) experiment.*
 
 I ran 100 trials for each of the five verb variations to capture the model’s non-deterministic variability. As shown in the chart below, the results only partially replicate the original findings.
 
 <div style="text-align:center">
+
 ![](./ai-suggestibility/speed_estimations_chart_gpt51.png)
+
 </div>
 
 On a broad level, the pattern holds: the two most intense verbs produce slightly higher estimates than the two least intense ones. However, the effect, though statistically robust, is less pronounced than in the original study.
@@ -2084,7 +2174,9 @@ One specific detail stands out: the middle verb, “bumped,” produced the lowe
 I also wondered whether the muted effect in the other verbs might arise from GPT-5.1 being a reasoning model that leans more on “deliberate analysis” than “intuition.” So, I repeated the experiment with OpenAI’s strongest non-reasoning model, GPT-4.1. And as shown in the chart below, its results aligned a bit more with the expected pattern - suggesting reasoning models might anchor more firmly to visual ground truth - but the overall picture is pretty similar to the previous results (aside from generally lower speed estimates), including the odd “bumped” dip.
 
 <div style="text-align:center">
+
 ![](./ai-suggestibility/speed_estimations_chart_gpt41.png)
+
 </div>
 
 This is just one small experiment with two specific models and one narrow task, so the conclusions definitely cannot be overstated. Still, imo, it demonstrates that the wording of our prompts can, at least in some cases, systematically bias GenAI outputs. So next time you craft a prompt, choose your words wisely - your leading questions can lead your favorite chatbot astray 😉
@@ -2112,7 +2204,9 @@ Scrolling through my LinkedIn feed over the past year or so, I got the impressio
 To check that hunch, I reviewed nearly 200 posts on [their blog](https://www.worklytics.co/blog) and looked at how the likelihood that a post was primarily about AI in the workplace changed over time. Since not all posts had a release date, I used the page number as a proxy for time (with ~9 posts per page), assuming the higher the page number, the older the posts. And as you can see in the attached plot below, the probability of a post being about AI in the workplace started rising steadily around February 2025 and reached its peak so far in August this year. So I guess my hunch wasn’t totally off, including the timing.
 
 <div style="text-align:center">
+
 ![](./hr-tech-ai-shift/ai_trends_annotated.png)
+
 </div>
 
 This isn’t meant to shame a vendor for jumping on a bandwagon - quite the opposite. In this case, the shift is a sensible move, imo, and highlights that the “boring” collaboration metadata we’ve all been analyzing for years can actually be extremely useful during the transition into the AI era. When trying to deploy or measure the impact of AI in the workplace, it’s tough to do it well without a baseline of how work has been done so far. And collaboration metadata can serve as a very handy sensor for that.
@@ -2156,13 +2250,17 @@ I didn’t have any strong hypotheses in advance, so at best this is exploratory
 To my surprise, the majority of these expectations were more or less met, as illustrated in the two charts below, although the effects are often not large enough to be reliably detected with such a small number of observations. 
 
 <div style="text-align:center">
+
 ![](./insights-discovery-and-skills/skills_totals_by_dominant_color.png)
+
 </div>
 
 <br>
 
 <div style="text-align:center">
+
 ![](./insights-discovery-and-skills/skill_profiles_by_dominant_color.png)
+
 </div>
 
 Besides that, some other interesting patterns emerged. For example:
@@ -2191,7 +2289,9 @@ That this may already be happening - at least in some parts of the job market - 
 The authors observe that before widespread LLM adoption, employers paid a premium for more customised applications. After the rollout of AI-writing tools, that premium disappeared - writing quality generally increased and no longer differentiated good and bad candidates, as measured by actual job performance and completion outcomes.
 
 <div style="text-align:center">
+
 ![](./genai-and-disrupt-of-labor-market-signalling/charts.png)
+
 </div>
 
 
@@ -2584,7 +2684,9 @@ print(p)
 ```
 
 <div style="text-align:center">
+
 ![](./cross-lagged-panel-modeling/sem_plot.png)
+
 </div>
 
 ---
@@ -2626,7 +2728,9 @@ At first, I was pretty skeptical, but the more I thought about it, the more it m
 Check it out yourself - I reran the analysis using the publicly available [*Lightcast* skill taxonomy](https://lightcast.io/products/data/our-taxonomies) (with ~35k skills) and the [*gte-multilingual-base*](https://huggingface.co/Alibaba-NLP/gte-multilingual-base) embedding model to see where the big consultancies ended up in the semantic space of that skill taxonomy.
 
 <div style="text-align:center">
+
 ![](./big-consultancies-in-the-skills-semantic-space/skills_consultancies_map.png)
+
 </div>
 
 You can clearly see how the Big Four accounting firms cluster closely together. McKinsey - not part of the Big Four but focused primarily on strategic consulting - occupies a slightly separate position. Accenture stands even further apart, which makes sense given its dominant orientation toward technology consulting. Don’t know about you, but in my head, they’re parked in a very similar way 😉
@@ -2661,7 +2765,9 @@ For that purpose I built a simple app consisting of several agent-like component
 * another transforms the results of these analyses into a concise, clear narrative for a non-technical audience.
 
 <div style="text-align:center">
+
 ![](./ai-powered-data-exploration-assistant/data_exploration.gif)
+
 </div>
 
 *The attached video above shows the app in action, answering a question about the employee attitudes that are the most predictive of attrition using the [IBM Employee Attrition dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).* 
@@ -2737,7 +2843,9 @@ The app uses several AI agents (powered by Google's Gemini 3 Flash Preview), eac
 After the initial analysis, you can ask up to 5 follow-up questions. The AI keeps full context from previous turns - including your answers to sharpening questions - so it builds on what it already knows rather than starting from scratch. Hit `✨ New Analysis ` to  start to  a fresh exploration.
 
 <div style="text-align:center">
+
 ![](./agentic-ai-for-visual-data-exploration/app_pic.png)
+
 </div>
 
 It usually provides good outputs even with really simple plain language - but based on my experiments, it helps if you know what kind of dataviz and insights you want and spell that out for the agents 😉
@@ -2775,9 +2883,11 @@ For those who don’t know the tool, it’s based on the theory that leadership 
 * effective leaders must flex across various styles, even when they don’t come naturally to them.
 
 <div style="text-align:center">
+
 ![](./genai-and-leadership-judgement/lji_model.png)
 
 *Leadership decision-making model behind the LJI.*
+
 </div>
 
 <br>
@@ -2905,7 +3015,9 @@ Specifically, the authors found that companies mandating five days in the office
 
 
 <div style="text-align:center">
+
 ![](./corporate-culture-trade-offs/economist_plot.png)
+
 </div>
 
 That got me wondering how these different dimensions of culture relate to each other more broadly—regardless of work arrangement—and what kinds of trade-offs might exist.
@@ -3045,7 +3157,9 @@ For a guest lecture I’m giving on personality in the business world, I built a
 The dashboard uses a random sample of 10k Big Five profiles from [Johnson’s IPIP-NEO-300 dataset](https://osf.io/wxvth/files/osfstorage). With a 3D scatter plot, profile line chart, UMAP dimensionality reduction, and the HDBSCAN clustering algorithm, it shows that even when groups of people with similar profiles do appear—and are large enough to matter (say, at least 1% of the population)—they still show pretty high within-group variability. On top of that, a big chunk (actually, the majority) of profiles can’t be assigned to any stable cluster at all, ending up as “noise” points in HDBSCAN’s terms.
 
 <div style="text-align:center">
+
 ![](./dimensional-traits-vs-personality-types/interactive_dataviz.gif)
+
 </div>
 
 If you find it useful for your teaching or training, check out the dataviz [here](https://sanofi-people-analytics.shinyapps.io/personality-mapping/). If you want to download the data and code to run it locally, take a look at [this GitHub repo](https://github.com/lstehlik2809/personality-mapping.git).
@@ -3071,7 +3185,9 @@ For example, a friend of mine once said (not a literal quote): “Treat it like 
 P.S. This rant-ish post was prompted by my recent reading on causal inference, where the author repeatedly described p-values as the probability that the null hypothesis is true. I was really surprised that an expert in econometrics can still get this wrong — funnily enough, even GenAIs these days seem to get it right (as shown by a bit of ChatGPT’s feedback on the problematic passage below).
 
 <div style="text-align:center">
+
 ![](./trust-errors-learning-reflection/chatgpt_check.png)
+
 </div>
 
 
@@ -3311,7 +3427,9 @@ print(f"HEXACO Model:   {R_squared_hexaco_tp:.1%}")
 ```
 
 <div style="text-align:center">
+
 ![](./big-five-vs-hexaco/table.png)
+
 </div>
 
 The reason seems to be that HEXACO includes the extra Honesty–Humility trait (which captures ethical variance and is a decent predictor of negative workplace behaviors), shows higher predictive validity for the generally most predictive trait (Conscientiousness), and has less inter-correlation between traits (so their predictive power overlaps less).
@@ -3345,7 +3463,9 @@ Also super interesting is the new method the authors developed, called RIFLE (Ra
 The chart below, from the paper, shows the method in action with famous NFL coach [Bill Belichick](https://en.wikipedia.org/wiki/Bill_Belichick). The histogram represents the distribution of the best records achievable over 17 seasons if outcomes were due to luck alone. The red line is Belichick's actual record - showing his success is an extreme statistical outlier, not just a lucky streak.
 
 <div style="text-align:center">
+
 ![](./impact-of-leaders/plot.png)
+
 </div>
 
 The key innovation is that RIFLE keeps the structure of the data intact while only randomizing who was in charge. That makes it possible to separate true leadership effects from the noise of luck and circumstance. While it's not a pure experiment, this method provides evidence that goes beyond simple correlation by ruling out some key alternative explanations, making a more confident, causal-like claim about a leader's actual impact.
@@ -3547,7 +3667,9 @@ I know the summer holidays - often spent abroad, outside our home countries - ar
 They found some universal patterns - for example, pretty much everywhere, people tend to show more emotion with close friends (in-groups) than with acquaintances (out-groups). But there are also clear cultural differences. Folks from more individualistic cultures often express emotions more openly, especially positive ones like happiness and surprise, and may show more warmth toward out-groups than people from more collectivistic cultures (see chart from the paper below).
 
 <div style="text-align:center">
+
 ![](./expressive-differences-around-the-world/chart_scatterplot.png)
+
 </div>
 
 Sure, there’s still a lot of variation within each country, and individual differences can be as big as the ones between countries. Still, keeping these broad patterns in mind and adjusting the priors on your “emotional radar” a little when you’re interacting across cultures may help you be less likely to over- or underestimate what someone’s really feeling. 
@@ -3583,7 +3705,9 @@ And here are their key findings:
 * **Happiness works through multiple pathways:** Significant indirect/mediating pathways include a higher probability of obtaining a college degree, getting hired and promoted, having higher degrees of optimism and extraversion, and less neuroticism. Collectively, these factors explain a massive 68-78% of the total effect. 
 
 <div style="text-align:center">
+
 ![](./happiness-and-income/results_table_marked.png)
+
 </div>
 
 These results thus suggest that happiness isn’t merely a byproduct of financial success or a simple ‘feel-good’ state - it also appears to create the psychological and social conditions that make higher earnings more likely.
@@ -3605,7 +3729,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2025-07-15-
 Some of you might be familiar with the psychometric tool [Hogan Development Survey (HDS)](https://www.hogandarkside.com/?lang=en), which measures the so‑called “dark side” of personality—essentially strengths overused under stress or when self-control wears thin, leading to behaviors that can derail performance, relationships, and leadership effectiveness. For example, a skeptical person’s vigilance and critical thinking can morph into distrust, negativity, or expecting betrayal, while a colorful person’s charisma and expressiveness can shift into being dramatic, attention-seeking, and overly bold.
 
 <div style="text-align:center">
+
 ![](./how-personality-risks-co-occur/hds_scales_description.png)
+
 </div>
 
 <span style="font-size: 16px; font-style: italic;">HDS scale descriptions taken from a sample HoganLead (Challenge) report found online.</span>
@@ -3623,7 +3749,9 @@ Here are some quick highlights from the data:
 * Community detection algo partially reconstructed—for those familiar with HDS, well-known—three clusters of behaviors: **Moving Against** (Bold, Mischievous, Colorful, and Imaginative) VS. **Moving Away** (Excitable, Skeptical, Cautious, Reserved, and Leisurely) + **Moving Toward** (Diligent and Dutiful).
 
 <div style="text-align:center">
+
 ![](./how-personality-risks-co-occur/hds_network_plot.png)
+
 </div>
 
 Anything that surprised you or caught your attention?
@@ -3649,7 +3777,9 @@ The notable exception was a [2010 article, “The Leadership Value Chain,” by 
 So, using the sources I found, I decided to put together my own model—a draft of which is attached. It starts with specific activities or processes that people managers more or less control or influence, driving people-related outcomes, which in turn fuel team-level results and ultimately contribute to firm performance.
 
 <div style="text-align:center">
+
 ![](./people-manager-value-chain/people_manager_value_chain.png)
+
 </div>
 
 Re methodology, I started with existing HRM value chain models (e.g., [Paauwe & Richardson, 1997](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20); [Hunt, 2014](https://www.amazon.com/Common-Sense-Talent-Management-Performance/dp/0470442417)) and research on the impact of HRM practices on business outcomes (e.g., [Huselid, 1995](https://www.researchgate.net/publication/228215412_The_Impact_of_Human_Resource_Management_Practices_on_Turnover_and_Productivity); [Combs et al., 2006](https://onlinelibrary.wiley.com/doi/10.1111/j.1744-6570.2006.00045.x?msockid=0007c754846062a23e99d26b850b6305); [Subramony, 2009](https://onlinelibrary.wiley.com/doi/10.1002/hrm.20315?msockid=0007c754846062a23e99d26b850b6305); [Jiang et al., 2012](https://journals.aom.org/doi/abs/10.5465/amj.2011.0088)), then distilled from specific HRM activities and processes the kinds of managerial actions that naturally overlap with or are part of them—things like coaching, mentoring, job design, feedback, goal setting, etc., and added a few extra elements based on other studies (e.g., [Jo & Hong’s 2022](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.900830/full) study on learning agility and innovative behavior) and plain common sense (e.g., people need functioning tools to do their job). For selected elements, I also checked existing evidence of their relationships—for instance, job crafting as a predictor of employee retention, using [Rubenstein et al.’s (2017)](https://onlinelibrary.wiley.com/doi/full/10.1111/peps.12226) meta-analysis on voluntary turnover.
@@ -3680,7 +3810,9 @@ Here are just a few examples from my own recent analytical practice:
 4. Team non/participation in the employee survey as a proxy for team engagement, which in turn predicts individual-level voluntary attrition.
 
 <div style="text-align:center">
+
 ![](./self-selection-and-proxy-measures/growth_gig_plot.png)
+
 </div>
 
 Sure, such proxy measures aren’t perfect or clean representations of the variables of interest and, as such, require careful interpretation—ideally supported by empirical validation. That said, their imperfections usually don’t stop them from being useful, to paraphrase the famous George Box’s aphorism.
@@ -3762,7 +3894,9 @@ What if ONA could help us explore the skill space—finding more viable and/or m
 Picture visualizing a skill’s ego-network (with radius = 1), centered on something you’ve already mastered, to spark ideas for other skills often developed alongside it and that have high closeness centrality—i.e., skills you might pick up fairly easily and through which you can reach a wide swath of other skills in just a couple of steps—ideal for incremental growth (see the attached dataviz skill ego-network for illustration).
 
 <div style="text-align:center">
+
 ![](./ona-skills-exploration/skills_ona_plot.png)
+
 </div>
 
 Or flip it around and imagine exploring weaker ties, "high-betweenness" bridging skills connecting disparate skill domains, or more distant parts of the skill network to uncover less common or totally unexpected skills to go after.
@@ -3790,7 +3924,9 @@ Those familiar with [causal inference](https://matheusfacure.github.io/python-ca
 Given the logistical difficulty of arranging such testing situations with human team members, the authors explored whether large language model (LLM) agents could stand in for real people. So, in a second pre-registered study, they tested this idea and found that leadership skill estimates based on teams consisting of human followers and AI-simulated followers correlated strongly (*ρ* = 0.81), which could make this assessment method much more practical and scalable.
 
 <div style="text-align:center">
+
 ![](./causal-impact-of-leadership-skills/leadership_skill_assessment_scheme.png)
+
 </div>
 *Illustration of the part of the experiment where half the leaders completed 6 group puzzles with human teammates followed by 6 group puzzles with AI teammates (the other half of the leader sample completed the group puzzles in reversed order - not shown here).*
 
@@ -3829,7 +3965,9 @@ The app illustrates the estimation of a psychological trait of [learning agility
 * **Efficiency and precision** – fewer items are needed to reach a reliable estimate compared to traditional fixed-form tests.
 
 <div style="text-align:center">
+
 ![](./cat-and-irt-demo/cat_irt_demo_app_screenshot.png)
+
 </div>
 
 Here’s the [link](https://cat-irt-demo.streamlit.app/) to the app (given that the app is hosted on Streamlit Community Cloud, it doesn’t stay awake all the time regardless of traffic—so if it hasn’t been used recently, you might need to wake it up and wait a few minutes). If you’re interested, you can copy the full code from [GitHub](https://github.com/lstehlik2809/Computerized-Adaptive-Testing-Demo.git) and customize the app to better suit your needs.
@@ -3859,7 +3997,9 @@ The idea was to spot potential blind spots—where employees might be over- or u
 Preliminary results? The rank-order correlation between the estimated predictive strength of these factors for the two criteria was fairly high—around -0.6—but far from perfect, with a few notable outliers suggesting interesting mismatches between perceived and actual “impact”. The difference seems to relate to a dimension we might call 'closeness to one's day-to-day functioning in their role'. The higher a factor is on this dimension, the more likely it is to be underestimated—and vice versa (for obvious reasons, I cannot be more specific 😉).
 
 <div style="text-align:center">
+
 ![](./predictors-of-stay-intentions-vs-actual-resignations/plot_results_unlabeled_blank.png)
+
 </div>
 
 Curious if anyone has done a similar analysis on their data and put the findings to practical use. Feel free to share your experiences in the comments.
@@ -3887,7 +4027,9 @@ This obsession with prediction might be part of the reason why people analytics 
 The good news is, we do have a method for answering causal, or “why”, questions. The less good news? In practice, causal inference is harder and less straightforward than making predictions. If you have a background in the social sciences, you probably remember from your methods classes that the gold standard for establishing causality is the experiment—specifically, the *randomized controlled trial* (RCT), also known in the business world as *A/B testing*. RCTs are powerful because they can effectively simulate comparison between factual and counterfactual scenarios—imagine being able to see what would happen to your headache both *with* and *without* taking aspirin. They do this by randomly assigning interventions to people (or other units of analysis), which helps break any systematic link between the outcome and all factors other than the intervention itself. 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/rct_illustration.png)
+
 </div>
 *Fig. 1: A diagram illustrating the design of a Randomized Controlled Trial (RCT). Patients are randomly assigned to either a treatment group receiving an intervention or a control group receiving a comparison, allowing for the assessment of the intervention's causal effect on outcomes. Randomization helps balance both known and unknown confounding variables across groups, reducing bias and making it more likely that any observed differences in outcomes are due to the intervention itself—not other factors. (Source: [SimplyPsychology](https://www.simplypsychology.org/randomized-controlled-trial.html))*
 
@@ -3901,14 +4043,18 @@ There could easily be a third, unmeasured variable, a so-called *confounder*, lu
 Then there’s the infamous *self-selection* effect: When people opt into a program for reasons tied to the very issue the program is meant to fix. That can make even a solid intervention look like it’s backfiring—not because it doesn’t work, but because those who join are systematically different from those who don’t, especially when it comes to the outcome of interest (e.g., if an optional manager coaching program seems to lower team satisfaction, it’s probably not the coaching that’s the problem—more likely, the only managers signing up are already struggling, and their teams were less satisfied from the start). 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/sketchplanations-sampling-bias.png)
+
 </div>
 *Fig. 2: A lighthearted illustration of the self-selection effect—where only a specific type of person ends up in the sample. (Source: [sketchplanations](https://sketchplanations.com/sampling-bias))*
 
 Even if we try to get clever and use our good old friend, regression analysis, to statistically control for everything we can measure, we might still end up with biased estimates—not despite controlling for variables, but because we’re controlling for variables we shouldn't. For instance, if we control for a *collider*—a variable influenced by both the outcome and the intervention—we can actually introduce bias rather than eliminate it (e.g., when looking at the relationship between technical and teamwork skills in job candidates, both might independently boost their chances of getting selected; but if we only analyze those who got through, we’re effectively controlling for selection, which can create a fake negative link between technical and teamwork skills, even if there’s no such relationship in the broader pool of applicants; see *Fig. 3*).
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/collider_plot.png)
+
 </div>
 *Fig. 3: Here we’ve plotted normally distributed technical versus teamwork scores for 1,000 simulated candidates—blue dots are all candidates, red dots are the selected candidates (you needed at least a 115 on one skill and no less than 100 on the other). The blue regression line is basically flat, but once we cherry-pick by our “either/or” rule (i.e., condition on selection), the red line tilts downward, showing a fake trade-off between skills that only crops up because of how we picked people, not because the skills are actually at odds.*
 
@@ -3918,7 +4064,9 @@ Another potential trap in this category is controlling for a *mediator*—a vari
 But things aren’t as bleak as they might seem. When we enrich observational data with some well-grounded assumptions—based on how we understand the data-generating process—we can get pretty close to simulating the counterfactual scenarios needed for causal inference. Some of these assumptions come from our general knowledge about how the world works (like the fact that causes precede effects). Others are rooted in our domain-specific knowledge drawn from prior research (for example, goal-setting typically boosts performance). And some come from nitty-gritty, context-specific knowledge about the details of how the data were collected (say, participants only got assigned to a training program if they met a certain cutoff score). By combining these assumptions with the data, we can start to rule out alternative, purely correlational explanations for the patterns we see—and, with some caution, move closer to a causal interpretation. It’s not unlike what the famous fictional detective Sherlock Holmes did to solve his cases: piecing together bits of evidence, applying prior knowledge, and methodically ruling out false leads—until only one plausible explanation remained.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/dagitty_example.png)
+
 </div>
 *Fig. 4: Researchers and analysts looking to figure out causal effects often use Directed Acyclic Graphs (DAGs) to lay out their assumptions about how different variables might be causally connected. A DAG is a visual and formal tool that shows the assumed causal relationships—where the nodes stand for variables and the arrows (or edges) indicate which ones are influencing others. By building a DAG, researchers can more clearly think through their causal claims, spot potential confounders, and figure out the right way to adjust their analysis. This approach helps make assumptions more transparent and supports solid causal reasoning from observational data. While most DAGs are manually constructed based on domain expertise, there is a growing body of work around causal discovery—automated methods that attempt to infer plausible causal structures directly from data. These algorithms (e.g., PC, FCI, GES, or more recent neural-based models) can be helpful for generating hypotheses, especially when theory is sparse or data complexity is high. That said, causal discovery comes with its own assumptions and limitations, and a full discussion is beyond the scope of this article. The attached example DAG shows the assumed causal structure for estimating the average treatment effect of training performance on productivity. It was created using [DAGitty](https://www.dagitty.net/dags.html)—a great browser-based tool for building and analyzing causal diagrams.*
 
@@ -3940,7 +4088,9 @@ DiD looks at how things change over time for a group exposed to an intervention 
 Let’s bring this back to our RTO example. The chart below shows the trailing 12-month voluntary attrition rate for our two departments—only one of which was supposed to be affected by a remote-work policy change, based on the nature of their work. Before the policy change, Department A (Facilities) had slightly higher attrition than Department B (Digital), but both were trending downward in parallel. After the change, the trend diverged sharply: attrition in Department B went up, while it continued downward in Department A. If we can reasonably confirm the other DiD assumptions, this gives us pretty solid evidence that the policy change caused the increase in attrition in Department B.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/did.png)
+
 </div>
 *Fig. 5: A figure showing the DiD method’s “parallel trends” assumption (red dotted line), which helps us imagine what would have happened in department B if the policy change hadn’t taken place. By comparing that hypothetical, counterfactual scenario to what actually happened (red vertical line), we can estimate the effect of the policy change on voluntary attrition in department B.*
 
@@ -3950,7 +4100,9 @@ If it seems to you that relying on just one comparison group (like department A 
 Below is an example of how this method was used to estimate the negative impact of Brexit on the UK’s economic performance, using GDP as the outcome measure. To model the UK’s pre-Brexit GDP, we used data from countries unlikely to be strongly affected by Brexit but whose GDP trends closely mirrored the UK’s during the pre-Brexit period (e.g., the US, Costa Rica, Germany, New Zealand, Sweden, Austria, etc.). As shown in the top chart, the model explains 99% of the variability in UK’s GDP from 2008 to 2020. This model was then used to predict what UK’s GDP would have looked like after Brexit (January 31, 2020) if Brexit hadn’t happened, and these predictions were compared to the actual observed values. The second and third charts from the top show how the predicted and actual values diverge—quarter by quarter and cumulatively over time—including uncertainty around the estimates. From these charts, it's clear that the data and the analysis support the hypothesis that Brexit had a negative effect on the UK economy, as measured by GDP.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/uk_chart.png)
+
 </div>
 *Fig. 6: A set of charts showing the estimated causal impact of Brexit on the UK’s GDP using a Bayesian synthetic control method implemented in the [CausaPy](https://causalpy.readthedocs.io/en/stable/) package. Top chart: It compares actual UK’s GDP (black dots) with a counterfactual scenario (orange line) — i.e., what GDP would likely have looked like had Brexit not occurred. The vertical red line marks the Brexit date (January 2020). The fit before that is very tight (R² = 0.99), indicating a very good approximation. Middle chart: This shows the instantaneous causal impact — the difference between actual and counterfactual GDP for each quarter. Post-Brexit, GDP is consistently below what it would have been otherwise, shown by the orange shaded area. Bottom chart: This plots the cumulative causal impact — essentially, how much GDP has been “lost” over time due to Brexit. By 2024, the cumulative loss reaches over 2 trillion USD.*
 
@@ -3962,7 +4114,9 @@ The “more or less similar” part is key. We can only make valid causal claims
 To illustrate this kind of scenario, imagine that—due to the capacity constraints mentioned earlier—a subgroup of managers starts and completes the transformation training before the regular annual employee survey is administered, while another subgroup begins and finishes it only afterward (see *Fig. 7*). In this case, only the first subgroup could potentially show a causal effect of the training in their survey scores for that year. That gives us a good opportunity to compare the change and transformation scores between the two groups. 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/staggered_rollout.png)
+
 </div>
 *Fig. 7: An illustration of a possible staggered rollout scenario, where one group of training participants started and completed the training before the employee survey was administered, and the second group did so afterward. Only for the first group (A) could a potential causal effect of the training be reflected in the survey results.*
 
@@ -3972,12 +4126,16 @@ However, we need to make sure these groups are comparable in terms of factors th
 When we “adjust” for a variable, we’re statistically controlling for it in the analysis—basically holding it constant so it doesn’t muddy the waters when we’re trying to see what really drives the outcome. The way we do this can vary depending on the specific analytical technique, but within causal inference the goal is always the same—to approximate random assignment as closely as possible. For instance, we might include the variable as a covariate in a regression model, match individuals based on that variable (see *Fig. 8*), re-weight the data with *Inverse-Probability-of-Treatment Weighting* (IPTW), where the weights are the inverse of each person’s estimated probability of receiving the treatment they actually got (see *Fig. 9*), split the data into subgroups (stratification), or condition on the variable in a ML model. With such adjustment, we can be more confident that we're comparing apples to apples and make some causal conclusions.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/matching.png)
+
 </div>
 *Fig. 8: An illustration of matching based on two covariates (X1 and X2). Each dotted circle represents a matched set containing individuals from the treated (red) and control (blue) populations with similar characteristics (X1 and X2), facilitating a fair, apple-to-apple comparison. (Source: [Applied Causal Inference](https://appliedcausalinference.github.io/aci_book_kr/03-causal-estimation-process.html))*
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/iptw.png)
+
 </div>
 *Fig. 9: An illustration of the Inverse-Probability-of-Treatment Weighting method (IPTW). Each person is given a weight equal to the inverse of the estimated probability—based on their observed characteristics—of receiving the treatment they actually received. After weighting, the treated and control groups look alike on those characteristics, so we can learn about cause and effect from observational data (assuming two extra assumptions hold: ignorability—i.e. there aren’t hidden factors that influence both treatment and outcome—and positivity—i.e. everyone had some chance to get each option). A chart: Observed data before reweighting. B chart: Observed data after reweighting. (Source: [Applied Causal Inference](https://appliedcausalinference.github.io/aci_book_kr/03-causal-estimation-process.html))*
 
@@ -3985,7 +4143,9 @@ When we “adjust” for a variable, we’re statistically controlling for it in
 Another technique that can be used for causal analysis of staggered rollout data is a specific type of DiD model tailored to handle the fact that we implemented changes or interventions at different times across various parts of an organization. The classic DiD works best when all members of the treatment group are exposed to the intervention at the same time. But what if, like in many real-world situations, a new policy is rolled out gradually? Imagine that Department A adopts it in January, Department B in April, Department C in July, and Department D either never adopts it—or does so much later (see *Fig. 10*). 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/staggered_rollout2.png)
+
 </div>
 *Fig. 10: An illustration of a staggered rollout of a new policy across several departments: Department A adopts it in January, Department B in April, Department C in July, and Department D either never adopts it—or does so much later.*
 
@@ -4004,7 +4164,9 @@ Another type of situation that can help us obtain comparable groups—differing 
 To implement RDD, we start by identifying a continuous assignment variable (like tenure or performance score) and the specific cutoff that determines who gets the intervention. Then we collect data on individuals just above and just below that threshold (in a region called the "bandwidth")—people who are otherwise very similar except for whether they received the intervention. Next, we visualize the relationship between the assignment variable and the outcome to see if there's a clear jump at the cutoff. If there is, that’s a signal the treatment may have had an effect. To formally estimate this, we fit two separate regression lines—one on each side of the cutoff—using only data near the threshold, and then calculate the size of the jump between them at the cutoff. This estimated difference gives us the treatment effect.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/rdd.png)
+
 </div>
 *Fig. 11: An illustration of the Regression Discontinuity Design (RDD) method using a hypothetical leadership development initiative where eligibility is determined by employee performance (the assignment variable, x-axis) crossing a specific threshold. Employees below the threshold (red dots) were ineligible, while those above (green dots) were eligible. RDD isolates the program's impact by comparing the leadership effectiveness (the outcome variable, y-axis) of employees just below the threshold to those just above it; the distinct jump, or discontinuity, observed between the fitted regression lines (red and green) precisely at the threshold represents the estimated treatment effect of the initiative.*
 
@@ -4019,14 +4181,18 @@ We can make use of these abrupt changes—and the stable/predictable patterns th
 One useful method for analyzing data in this kind of scenario is *segmented regression analysis of interrupted time series*. It lets us model changes in outcomes that happen after a specific intervention at a known point in time, while also accounting for other possible influences—like seasonal patterns that would’ve happened anyway, or external “shocks” that might explain the changes too. In effect, it helps us spot shifts in both level and trend, and see how things played out compared to how they likely would’ve gone if nothing had been introduced at all (see *Fig. 12*).
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/segmented_regression.png)
+
 </div>
 *Fig. 12: A general structure of the segmented regression model. The β0 coefficient estimates the baseline level of the outcome variable at time zero; β1 coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); β2 coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and β3 estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of β1 and β3 equals to the post-intervention slope). Since time series data often exhibit autocorrelation and seasonal patterns, the model should include terms to account for both—such as an autoregressive term to handle autocorrelation, and a seasonal indicator (e.g., month) to capture recurring seasonal effects. If we know that other external 'shocks' may have occurred around the same time as the main intervention, we should also include those as additional covariates to isolate their potential impact. (Source: [Turner et al. (2021)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01306-w))*
 
 Let’s illustrate this kind of analysis by looking at the supposed impact of GenAI on how people write emails. Since plenty of [studies](https://seosandwitch.com/microsoft-copilot-statistics/) show that one of the most common business uses of GenAI is helping with email writing, it makes sense to think that people might be turning to the internet less often for advice on the topic. One way to check that is by looking at [Google Trends](https://trends.google.com/trends/) data for searches like “how to write an email” and seeing if there’s a noticeable drop after ChatGPT was officially released. As the output charts from the Bayesian interrupted time series analysis below show, there’s indeed a clear decline in this type of search activity. In fact, the shift is so pronounced that even a quick eyeballing analysis picks it up. Sure, we could imagine alternative explanations—maybe people are just sending fewer emails because they’re relying more on tools like Slack or Teams—but [other available stats](https://financesonline.com/email-statistics/) suggest that’s more wishful thinking than reality. 
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/output_plot.png)
+
 </div>
 *Fig. 13: Charts showing the estimated causal impact of ChatGPT availability on the popularity of Google searches for 'how to write an email.', using a Bayesian interrupted time series analysis implemented in the [CausalPy](https://causalpy.readthedocs.io/en/stable/) package. Top chart: This compares the actual popularity of the search term (black dots) with a counterfactual scenario (orange line)—basically, an estimate of what search interest would have looked like if ChatGPT hadn’t been released. The vertical red line marks the official release of ChatGPT (November 2022). The model fits the pre-release data fairly well (R² = 0.66), suggesting it’s a good approximation. Middle chart: This shows the immediate causal impact—week by week, it displays the difference between actual search interest and the counterfactual. After ChatGPT’s release, the actual search interest stays consistently below the expected level, as shown by the orange shaded area. Note: As far as we know, the InterruptedTimeSeries class from the CausalPy library used here assumes independent observations and does not account for autocorrelation, which may lead to underestimated and time-insensitive uncertainty. The model also does not consider the truncated nature of the data, with possible values limited to the 0–100 range. These specifics could be better addressed in a more flexible modeling environment, such as the brms library in R or the PyMC library in Python.*
 
@@ -4047,14 +4213,18 @@ Relevance can often be tested statistically, but the exclusion restriction leans
 As an example of this analytical approach, consider a study by [Chang & Kang (2019)](https://link.springer.com/article/10.1007/s12122-018-9273-z#:~:text=crucial%20factors%20to%20improve%20firm,the%20ordinary%20least%20square%20estimation), which tackled the classic chicken-or-egg problem in organizational research: Do better management and HR practices actually cause higher productivity, or do already successful firms simply tend to adopt them? The researchers suspected *endogeneity*—unobserved factors like culture or leadership quality might drive both. To get around this, they used firms’ historical change experiences as instrumental variables—specifically, whether the company had previously undergone major reorganizations, implemented empowerment programs, invested in IT, or had strong motivation for change. These factors predicted current management practices but were unlikely to directly affect present-day productivity except through those practices (see *Fig. 14*). Using 2SLS, they found that once this endogeneity was accounted for, structured HR and management practices had a clear, positive impact on productivity—an effect that standard regression analysis had missed entirely.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/dagitty_model_legend.png)
+
 </div>
 *Fig. 14: A DAG capturing Chang & Kang’s (2019) IV-based approach to answering the causal question of whether better management and HR practices actually cause higher productivity. For more context, see the details in the main text.*
 
 A second, more unexpected example comes from the world of CEO succession. [Bennedsen et al. (2007)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=925650) examined whether appointing a family member as CEO in family-owned firms impacts firm performance. The catch? Succession choices aren’t random—stronger firms might be more (or less) inclined to keep leadership in the family, and hidden factors like founder legacy or firm culture could influence both who gets the top job and how the firm performs. To isolate a source of random variation, the researchers used a surprisingly clever instrument: the gender of the outgoing CEO’s firstborn child. In Denmark, because of the societal preference for male heirs at the time, having a firstborn son significantly boosted the chances of a family CEO being appointed—by around 30%—but was otherwise unlikely to affect firm performance, either directly or through any other indirect channels (see *Fig. 15*). With this instrument, their 2SLS analysis revealed that family CEO appointments caused a substantial drop in firm performance—at least 4 percentage points in operating return on assets, especially in fast-growing or large firms. Once again, the IV approach helped cut through the noise, showing that what might look like a neutral or even positive correlation at first glance actually hides a meaningful causal effect in the opposite direction.
 
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/dagitty_model_legend2.png)
+
 </div>
 *Fig. 15: A DAG capturing Bennedsen et al.’s (2007) IV-based approach to answering the causal question of whether appointing a family member as CEO in family-owned firms impacts firm performance. For more context, see the details in the main text.*
 
@@ -4074,13 +4244,17 @@ A nice example of repurposing ML for causal inference is available on [EconML’
 1. Fine-tuning and training a traditional ML model.
 2. Using SHAP values for a purely correlational interpretation of the results—identifying the top predictors flagged by the ML model and helping to surface candidates for follow-up causal exploration (see *Fig. 16*).
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/shap.png)
+
 </div>
 *Fig. 16: A SHAP (SHapley Additive exPlanations) summary plot illustrating feature importance and impact on the ML model's prediction of employee attrition. Features are ranked by decreasing importance vertically, with "OverTime_Yes" appearing as the most impactful and "HourlyRate" as the least impactful. Each point represents an individual observation; its horizontal position indicates the feature's impact on the model's prediction of attrition (positive values increase the prediction, negative values decrease it). The color indicates the feature's value for that observation, with red representing high values and blue representing low values. For example, high values for "OverTime_Yes" (indicating an employee works overtime) and low values for features like "JobSatisfaction," "MonthlyIncome/1K," or "StockOptionLevel" generally show a positive SHAP value, thus contributing to a higher predicted risk of attrition. (Source: [EconML](https://github.com/py-why/EconML/blob/main/notebooks/Solutions/Causal%20Interpretation%20for%20Employee%20Attrition%20Dataset.ipynb))*
 3. Employing DML—which uses ML with sample splitting to control for confounders in treatment and outcome models—combined with HTE estimation to test whether these top predictors actually have a direct causal effect on attrition. While these might be strong predictors of employee departure, that doesn’t mean they’re actually driving people to leave.
 4. Using the HTE component to segment employees by specific risk factors, enabling individualized plans to reduce attrition. For instance, salary might have a higher causal impact on short-tenured employees, whereas overtime could matter more for long-tenured ones.
 <div style="text-align:center">
+
 ![](./causal-inference-in-people-analytics/causal_effect_chart_combo.png)
+
 </div>
 *Fig. 17: Causal analysis of employee attrition. The left chart displays the estimated ATE of five strong attrition predictors (e.g., "OverTime", "StockOptionLevel"), along with their 95% confidence intervals; from these, "OverTime" demonstrates the most pronounced positive causal impact on attrition. The right chart presents a shallow tree interpreter for the HTE of a salary-related intervention. Despite salary (represented as "MonthlyIncome/1K" on the left, showing a non-significant average effect) not being universally impactful, this HTE analysis identifies subgroups who may respond more favorably to an income raise (i.e., exhibit a greater reduction in attrition risk). The tree illustrates how the CATE mean of this salary intervention on attrition varies across subgroups defined by "YearsAtCompany" and "TotalWorkingYears," suggesting that the impact of salary adjustments differs depending on employee tenure and overall experience. Specifically, the intervention appears most effective in reducing attrition (CATE mean = -0.051) for employees with 1.5 years or less at the company and 1.5 years or less of total working experience. Conversely, its effect is minimal (CATE mean = -0.002) for employees with more than 6.5 years at the company. (Source: [EconML](https://github.com/py-why/EconML/blob/main/notebooks/Solutions/Causal%20Interpretation%20for%20Employee%20Attrition%20Dataset.ipynb))*
 
@@ -4150,7 +4324,9 @@ Recently, I happened to stumble across some data I collected during my general p
 It was a partial replication of the [Little & Perrett (2007)](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1348/000712606X109648) study on how accurately people can judge personality based purely on facial features. We re-used their pairs of composite images—faces averaging people high and low in Big Five traits (see the picture from the original research paper below). With this setup, the signal was artificially boosted, so the test situation wasn’t exactly ecologically valid. Plus, students  were only ever asked about the relevant trait, and they always saw the high/low images side by side. Still, it was interesting to see whether people (here, psychologists in training) could pick up the signal from these images, even under such idealized conditions.
 
 <div style="text-align:center">
+
 ![](./detecting-personality-in-the-face/composite_images.gif)
+
 </div>
 
 The results? Since the task was binary (“*Who from this pair has a higher level of trait X?*”), an accuracy of 0.5 would mean pure random guessing with no skill involved. The students (*N*=382) actually did reliably better than chance, but not by much: their overall average accuracy was 0.6 (95% CrI [0.59, 0.61]), with the best results for openness (0.75, 95% CrI [0.72, 0.78]), agreeableness (0.7, 95% CrI [0.67, 0.73]), and extraversion (0.65, 95% CrI [0.61, 0.69]), and the worst for conscientiousness (0.53, 95% CrI [0.5, 0.56]) and neuroticism (0.42, 95% CrI [0.39, 0.45]). Interestingly, students were able to detect neuroticism in faces to some extent—but in the wrong direction; they consistently flipped the labels. Not the main topic of this post, but definitely something worth thinking about. Any guesses or working hypotheses as to why that might be?
@@ -4313,7 +4489,9 @@ final_plot +
 That inspired me to put together a simple Python script that compares someone’s facial photo to the “prototypical” high/low trait faces, and then makes a guess about that person’s trait level—all powered by the [FaceNet-512d](https://huggingface.co/py-feat/facenet) deep convolutional neural network (via the [deepface](https://github.com/serengil/deepface) package), which generates 512-dimensional embeddings of facial images, capturing the unique features of a face, and facilitating tasks like face recognition, verification, and clustering. 
 
 <div style="text-align:center">
+
 ![](./detecting-personality-in-the-face/schema.png)
+
 </div>
 
 It worked surprisingly well given how simple the approach is—at least for me and a few friends—though I haven’t tested it more widely yet. I’m curious how it’ll work for you. If you feel like giving it a shot, you’ll find the script and all the supp files in this [GitHub repo](https://github.com/lstehlik2809/Estimating-personality-from-a-facial-photo.git). Let me know how it goes in the comments if you try it out.
@@ -4446,7 +4624,9 @@ Early in my data science journey, one method that kept popping up in courses and
 Despite its popularity, up until recently, I never really found a practical use for this method in my day-to-day work. But now, after many years, I finally came across a situation in a PA project where it actually came in handy. The task was to identify, within a team profile analysis, which pairs or trios of motives—as measured by the MVPI method—tend to show up together in a team within individual team members. This was meant to support interpretation for those running a series of team workshops (see the illustrative chart below).
 
 <div style="text-align:center">
+
 ![](./people-analytics-and-market-basket-analysis/mvpi_basket_analysis.png)
+
 </div>
 
 The long wait was probably simply because the PA problems I’d worked on hadn’t really called for it before. But maybe it was also partly down to a lack of imagination on my part 🤔 What about you? Curious if you've found this method useful in any of the common PA tasks.
@@ -4845,7 +5025,9 @@ Researchers surveyed nearly 8,000 psychologists and found their positions on key
 For instance, psychologists with high tolerance for ambiguity favored holistic, context-driven explanations, while those preferring clear structure leaned toward clear-cut, rule-based models of mind.
 
 <div style="text-align:center">
+
 ![](./scientific-divides-and-cognitive-traits/charts.png)
+
 </div>
 
 ***a–d**,Regression coefficients for controversial themes as a function of research areas (**a**), research methods (**b**), cognitive traits (**c**) and gender (**d**). For tables of full numeric results, see Supplementary Tables 2–5. Cells marked ‘x’ are non-significant (with Bonferroni correction for multiple comparisons—the number of cells in each panel—yielding thresholds P < 0.000208 for a, P < 0.000142 for b and P < 0.000223 for c). All continuous variables are z-scored. Plot margins show hierarchical clusters (Ward’s method). d, In place of clusters for gender, given the low dimensionality of the space representing gender, two themes are shown where men gave lower scores than women and two with the reverse pattern (violin plots show full response distributions, with group means in red).*
@@ -4877,7 +5059,9 @@ Given the intuitive nature of DiD, even those who don’t work with data every d
 As an example, check out the chart below. It was created in one of those BI platforms just by picking a relevant metric and filtering for the right departments and time period. It shows the trailing 12-month voluntary attrition rate for two departments—only one of which was supposed to be affected by a policy change, based on the nature of their work. Before the policy change, Department A had slightly higher attrition than Department B, but both were trending downward in parallel. After the change, the trend diverged sharply: attrition in Department B went up, while it continued downward in Department A. If we can reasonably confirm the other DiD assumptions, this gives us pretty solid evidence that the policy change caused the increase in attrition in Department B.
 
 <div style="text-align:center">
+
 ![](./visual-diff-in-diff/plot2.png)
+
 </div>
 
 I'm definitely not saying this lighter version of DiD is a silver bullet for all causal questions in people analytics—especially since it depends on specific quasi-experimental setups, like the one shown above, and doesn’t deal with the uncertainty present in the data. That said, IMO, it can still help non-technical folks handle some of the lower-stakes cases on their own, giving data science teams more room to focus on the big stuff. 
@@ -4899,7 +5083,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-08-
 It's well-known that personality explains a large part of work engagement. For example, a recent meta-analysis by [Fokuzaki & Iwata (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8980698/?hl=en-US) on this topic concluded that “*conscientiousness had the strongest association with WE (ρ=0.41), followed by extraversion and openness to experience (0.38), neuroticism (−0.36), and agreeableness (0.27). Moreover, 30% of the WE variance could be explained by the five-factor model (R^2^=0.33, 95%CI=0.26–0.49)*”.
 
 <div style="text-align:center">
+
 ![](./personality-and-work-engagement/table1.png)
+
 </div>
 
 This pattern closely aligns with the theory of the general factor of personality (The Big One), a proposed basic, highest-level personality disposition characterized by high vs. low emotional stability, conscientiousness, agreeableness, extraversion, and openness, and associated with social desirability, emotionality, motivation, well-being, life satisfaction, and self-esteem [(Musek, 2007)](https://www.sciencedirect.com/science/article/pii/S0092656607000256).
@@ -4909,19 +5095,25 @@ But what about those of us who don’t fit the 'ideal' personality profile? Does
 First, 30% of the variance is substantial but still leaves much unexplained. Therefore, other factors certainly play a role, many of which we can influence more easily than our personality traits. For instance, a recent meta-analysis on the antecedents (and outcomes) of work engagement by Mazzetti et al. (2023) found that closely following personal resources, which had the strongest effect of *r*=.48, were organizational (.47) and developmental resources (.45), with social (.36) and job resources (.37) slightly further behind.
 
 <div style="text-align:center">
+
 ![](./personality-and-work-engagement/table_metaanalysis_results.png)
+
 </div>
 
 Second, various moderating mechanisms, such as workplace conditions, can be at play. For example, employees high in conscientiousness benefit more from increased job control, emotionally stable individuals respond better to higher job demands and greater autonomy, and introverted employees may derive more benefit from supervisor support compared to their extraverted counterparts [(Fokuzaki & Iwata, 2024)](https://www.mdpi.com/2076-328X/14/10/936).
 
 <div style="text-align:center">
+
 ![](./personality-and-work-engagement/interactions.png)
+
 </div>
 
 Third, the relationship between the two can be more complex, as suggested by [Narayanasami et al. (2023)](https://www.researchgate.net/publication/376263593_Disentangling_the_relationship_between_Big-Five_personality_characteristics_and_work_engagement_Evidence_from_India), who offered a more nuanced view by examining personality in relation to three specific facets of engagement—vigor, dedication, and absorption. Surprisingly, they found that “*contrary to what was hypothesized, the results suggest that (i) extraversion is negatively related to absorption, (ii) agreeableness is negatively related to dedication, (iii) neuroticism is positively related to vigor, and (iv) openness to experience is negatively related to dedication.*” 
 
 <div style="text-align:center">
+
 ![](./personality-and-work-engagement/path_diagram.png)
+
 </div>
 
 In short, personality matters, but it seems to be far from the one-ideal-personality-fits-all story. 😅
@@ -4943,7 +5135,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-04-
 My LinkedIn bubble these days is full of posts from the [SIOP](https://www.siop.org/) 2025 conference. Unfortunately, it’s too far for me to attend in person. So, to participate at least symbolically, I quickly ran a [BERTopic](https://maartengr.github.io/BERTopic/index.html) pipeline on the SIOP event schedule to see what some of the major topics are and what I'll be missing. 😁
 
 <div style="text-align:center">
+
 ![](./siop-2025-conference-events/plot.png)
+
 </div>
 
 Apparently, a large part is devoted to AI & ML, workplace experience, I/O psychology career-building, and networking—some really nice ones!
@@ -5116,7 +5310,9 @@ $$Y_{t} = β_{0} + β_{1}*time_{t} + β_{2}*intervention_{t} + β_{3}*time after
 The *β<sub>0</sub>* coefficient estimates the baseline level of the outcome variable at time zero; *β<sub>1</sub>* coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); *β<sub>2</sub>* coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and *β<sub>3</sub>* estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of *β<sub>1</sub>* and *β<sub>3</sub>* equals to the post-intervention slope). For a better understanding of the model, take a look at the illustrative chart taken from [Turner et al. (2021)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01306-w) below.
 
 <div style="text-align:center">
+
 ![](./nobel-prize-and-causal-inference-popularity/interruptedTimeSeriesAnalysis.png)
+
 </div>
 
 Since we are dealing with correlated and truncated data, we will also include two additional terms in the model—an autocorrelation term with lag 2 and a truncation term, to handle these specific properties of our data.
@@ -5465,7 +5661,9 @@ The entire pipeline includes the following steps:
 5. Finally, cohort analysis, enabling assessment of causal effects of selected factors on new datasets, even down to the individual employee level.
 
 <div style="text-align:center">
+
 ![](./econml-and-employee-attriton/causal_effect_chart_combo.png)
+
 </div>
 
 IMO, pretty cool stuff. It seems we indeed live not only in an AI revolution but also in a causal one ✊🙂
@@ -5706,7 +5904,9 @@ True, these potential actions don’t stem from these two variables alone but fr
 What’s your perspective? Have you seen an example of turning demographic data into real impact? Feel free to drop your thoughts in the comments. 
 
 <div style="text-align:center">
+
 ![](./non-actionable-vars-in-pa/change_my_mind.jfif)
+
 </div>
 
 
@@ -5730,7 +5930,9 @@ This exercise can then be further supported with a multidimensional team map tha
 This kind of dataviz can also help people recognize existing subgroups of like-minded individuals within the team. This process can even be automatized by applying a clustering algorithm to the personality profiles and displaying the results directly on the team map.
 
 <div style="text-align:center">
+
 ![](./team-maps/team_maps.gif)
+
 </div>
 
 *The GIF above shows several maps illustrating team members' psychological similarities across all HPI dimensions at once, their respective scores on individual HPI dimensions, and information about identified subgroups.*
@@ -5754,13 +5956,17 @@ I just came across an interesting paper by [Ding, Zhang, & Bos (2018)](https://a
 The authors specifically studied the experiences and choices of 3,293 visitors at a large theme park and attempted to use them to predict their Big Five personality characteristics. First, they applied two algorithms for causal identification—the [PC algorithm](https://mschauer.github.io/CausalInference.jl/latest/examples/pc_basic_examples/) and the [Fast Greedy Equivalence Search algorithm](https://github.com/juangamella/ges?tab=readme-ov-file)—to narrow down the candidate DAGs that explain the data. Then, they used the outputs from these algorithms to identify features that were causally impacted by the personality characteristic of interest. Finally, they built prediction models using only these features.
 
 <div style="text-align:center">
+
 ![](./causal-identification-and-feature-selection/fig1.png)
+
 </div>
 
 The authors found that their ML pipeline, which incorporated causal identification for feature selection, outperformed baseline models in predicting individual characteristics (specifically, they used [LASSO linear regression](https://en.wikipedia.org/wiki/Lasso_(statistics))) as the baseline model, which also performs automatic feature selection). Beyond that, these models, according to the authors, provided more human-interpretable results. A win-win.
 
 <div style="text-align:center">
+
 ![](./causal-identification-and-feature-selection/fig2.png)
+
 </div>
 
 For me, these results are quite surprising, as I would expect that if prediction performance were the only criterion, a purely “correlational” approach without causal constraints would perform better. I’m curious how these alleged benefits generalize to other types of situations—such as cases with less noise in the data. Definitely worth trying in one of my future projects.
@@ -5882,7 +6088,9 @@ A great example of this comes from [Silberzahn et al. (2018)](https://journals.s
 They found that analytical approaches varied widely, leading to effect size estimates ranging from 0.89 to 2.93 (Mdn = 1.31) in odds-ratio units. Twenty teams (69%) found a statistically significant positive effect, while nine teams (31%) did not. Interestingly, neither the analysts’ prior beliefs nor their level of expertise explained the variation. Even peer ratings of analysis quality failed to account for the differences.
 
 <div style="text-align:center">
+
 ![](./analytical-choices-and-variability/results_chart.jpeg)
+
 </div>
 
 This study highlights an important reality: even defensible, well-intentioned analytical choices can lead to vastly different results. What should we take from this? Should sensitivity analysis be a standard practice? Should we crowdsource high-profile analyses? What do you think?
@@ -5910,13 +6118,17 @@ But to explore this, we first need a way to measure self-awareness. One common (
 In a small-scale project, I had the opportunity to conduct exactly this type of analysis. The individuals assessed—a selected group of 72 managers from a large CEE company—were distributed relatively symmetrically around the zero difference between their self-evaluations and the average evaluations by others across several competencies, measured on a 1–5 Likert scale. For personality, I had access to their data from the [Hogan Personality Inventory](https://www.hoganassessments.com/assessment/hogan-personality-inventory/), a business-oriented personality measure based on the [Five-Factor Model of personality](https://www.sciencedirect.com/topics/psychology/five-factor-model-of-personality).    
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/differences_distribution_plot.png)
+
 </div>
 
 When modeling the relationship between the discrepancy in self-evaluation and evaluation by others and individual personality traits, I employed a [generalized linear model](https://en.wikipedia.org/wiki/Generalized_linear_model) with a Gaussian link function, and fitted it using the [brms package](https://github.com/paul-buerkner/brms) for Bayesian modeling with its default priors. The results were as follows:
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/density_plots.png)
+
 </div>
 
 1. People with higher ambition (assertive, competitive, goal-oriented) and higher sociability (outgoing, talkative, socially confident) tend to overrate their skills—and vice versa.
@@ -5926,19 +6138,27 @@ When modeling the relationship between the discrepancy in self-evaluation and ev
 To better understand the effects found, take a look at the scatter plots with fitted regression lines below:
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/ambition_scatter_plot.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/sociability_scatter_plot.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/learning_approach_scatter_plot.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/adjustment_scatter_plot.png)
+
 </div>
 
 These results are, IMO, pretty intuitive and not all that surprising—at least in hindsight 😉—though I personally expected a stronger effect of adjustment and inquisitive traits. What would be your take on it? Have you done a similar type of analysis? If so, what were your results? 
@@ -5962,13 +6182,17 @@ An interesting research paper by [Stackhouse et al. (2024)](https://www.scienced
 The authors used [intraclass correlation (ICC1)](https://en.wikipedia.org/wiki/Intraclass_correlation) to decompose the source of variance in these two constructs. Unsurprisingly, they found that personality only shows small variability that can be attributed to differences between nations (for individual traits, it ranged between 3.1% and 11%). However, surprisingly, similar results were found also for cultural values (from 3.6% to 9.7%)! We thus differ in our cultural values within nations more than we would have expected.
 
 <div style="text-align:center">
+
 ![](./personality-and-cultural-values/icc_table.png)
+
 </div>
 
 To assess the strength and direction of the association between personality and cultural values characteristics, the authors used [multilevel correlation analysis](https://www.sciencedirect.com/topics/psychology/multi-level-modeling) and found that the correlations are much weaker than those suggested by previous studies that used only aggregated, nation-level data. The top three correlations - between uncertainty avoidance and agreeableness (*r* = 0.25), gender egalitarianism and agreeableness (*r* = −0.23), and teamwork preference and extraversion (*r* = 0.20) - made it only into the ‘weak effect’ area.
 
 <div style="text-align:center">
+
 ![](./personality-and-cultural-values/correlations.jpg)
+
 </div>
 *Multilevel associations between the Five Factor Model and cultural values.*
 
@@ -6013,7 +6237,9 @@ A recent meta-analysis by [Knotts et al. (2022)](https://www.tandfonline.com/doi
 * **Self-efficacy is a key mediator:** The meta-analysis also found that self-leadership boosts self-efficacy — confidence in one’s ability to succeed. This, in turn, leads to better outcomes like job satisfaction, work engagement, and creativity.
 
 <div style="text-align:center">
+
 ![](./self-leadership/path_model.png)
+
 </div>
 
 Caveat: Most of the studies included were correlational, meaning they show associations but don’t prove that self-leadership directly causes better performance. 
@@ -6037,7 +6263,9 @@ As we enter this part of the year when the 'fresh start' effect can kick in and 
 Looking at [Google Trends](https://trends.google.com/trends/) data and examining the frequency of search terms related to these three actions, it seems that people most often search for ways to stop doing things, followed by how to start doing things, and least often, how to continue doing things.
 
 <div style="text-align:center">
+
 ![](./new-years-resolution/google_trends.png)
+
 </div>
 
 Any hypotheses as to why this might be the case? Here are my 'three cents', based on my personal experience:
@@ -6065,7 +6293,9 @@ This gap in the conversation provides a great opportunity to try out a causal in
 For the analysis, I looked at the combined GDP of 20 eurozone countries from 2007 to 2023 as the outcome of interest. To construct the synthetic control group for counterfactual comparison, I used GDP data from selected OECD countries (non-EU, non-eurozone, non-UK) over the same period.
 
 <div style="text-align:center">
+
 ![](./brexit-uk-eurozone/uk_eu_chart.png)
+
 </div>
 
 To my surprise, the results for the eurozone countries contrast pretty starkly with those for the UK (see the charts above). There doesn’t seem to be strong evidence of a significant negative impact from Brexit on eurozone GDP. Of course, this is just one facet of Brexit’s potential effects. There may be many other consequences - beyond what GDP metrics reveal - that apply to the eurozone as well. Still, it’s interesting to observe such a stark difference using the same type of data and methodology. 
@@ -6316,7 +6546,9 @@ One straightforward way to explore this question is to analyze how employee eval
 Looking at the available data, it seems to support my initial “suspicion.” The effect is there but quite small - specifically, there’s only a 2.5% increase in the odds of being in a higher performance category for each additional year spent working under the same manager (95% CI [1.4%, 3.5%]). However, when compounded over four years - a realistic scenario for the average employee - this results in a more noticeable 10.3% increase.
 
 <div style="text-align:center">
+
 ![](./managers-and-performance-evaluations/performance_eval_estimates.png)
+
 </div>
 
 While this sheds some light on my original question, it’s worth noting that this pattern could still be explained by alternative mechanisms. For instance, over time, direct reports’ performance might better align with their manager’s expectations as they incorporate their feedback. Another possible explanation is a selection effect, where managers are more likely to retain those they consider to be high performers in their teams over time. So, the quest can happily continue 😉
@@ -6341,7 +6573,9 @@ I recently came across an interesting and potentially useful meta-analysis by [P
 2. **Expressive networks:** These are connections with focus on emotional support, friendships, and social bonding, developed through activities like company social events, cross-team job rotations, and peer mentorship programs.
 
 <div style="text-align:center">
+
 ![](./instrumental-and-expressive-networks/model_to_be_tested.png)
+
 </div>
 
 The study found that both network types are connected with turnover but through different mechanisms. Instrumental ties reduce turnover by improving job performance (thanks to access to work-related resources) and strengthening organizational commitment. Meanwhile, expressive ties lower turnover by increasing job satisfaction (through emotional support and social bonds) and boosting organizational commitment.
@@ -6365,13 +6599,17 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2024-11-13-
 I wanted to try out the new [CausalPy](https://causalpy.readthedocs.io/en/latest/?s=09) package for causal inference and was brainstorming interesting research questions to apply it to. My inspiration came from a recent wave of LI posts in my feed, all sharing a chart showing a drop in Stack Overflow traffic after ChatGPT’s release in November 2022.
 
 <div style="text-align:center">
+
 ![](./chatgpt-emails-and-causalpy/stackoverflow.png)
+
 </div>
 
 Given that many studies - including one we conducted internally at Sanofi - show that one of the most frequent use cases for GenAI in the business world is helping with email writing (we've probably all seen the hilarious meme on this topic shown below 😁), I got curious about whether a similar pattern might show up in Google Trends for searches like “*How to write an email.*”
 
 <div style="text-align:center">
+
 ![](./chatgpt-emails-and-causalpy/meme.png)
+
 </div>
 
 For the analysis, I used an [interrupted time series method](https://academic.oup.com/ije/article/46/1/348/2622842), which examines the effect of an intervention by comparing time series data before and after the intervention that happened at a known point in time, allowing us to assess any shifts in level or trend.
@@ -6379,7 +6617,9 @@ For the analysis, I used an [interrupted time series method](https://academic.ou
 As the resulting charts below show, there does seem to be a noticeable drop in searches on how to write emails following ChatGPT’s official release. In fact, the shift is so pronounced that it’s clear even with a quick eyeballing analysis. Sure, we can speculate about other factors to be involved - maybe we're sending fewer emails because we’re relying more on platforms like Slack or Teams - but as other available stats suggest (see, for example, [this one](https://financesonline.com/email-statistics/)), we can only wish that were the case 😉
 
 <div style="text-align:center">
+
 ![](./chatgpt-emails-and-causalpy/output_plot.png)
+
 </div>
 
 Either way, CausalPy turned out to be a super easy-to-use and user-friendly tool. I'm looking forward to using it in my future projects. Kudos to the entire CausalPy team! 👏
@@ -6496,11 +6736,15 @@ The tool’s primary chart visualizes each company's results by showing, in stan
 With a standardized scale, one can quickly see how their company’s culture compares to that of other companies across individual values. The tool also allows side-by-side comparisons, helping leaders benchmark against both industry standards and standout peers (see the example below).
 
 <div style="text-align:center">
+
 ![](./culture-500/chart2.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./culture-500/chart3.png)
+
 </div>
 
 This tool can be a nice complement to an internal employee listening program, giving an outside perspective. That said, if your listening program is on point, the results shouldn’t come as a big surprise 😉 Also could be a helpful resource for anyone weighing job offers and looking to understand a company’s culture before joining.
@@ -6534,7 +6778,9 @@ As the attached charts illustrate (based on a sample of dummy data tracking inte
 3. If eight consecutive points appear on one side of the average, that may signal a meaningful shift.
 
 <div style="text-align:center">
+
 ![](./xmr-charts-in-people-analytics/charts.png)
+
 </div>
 
 Would love to hear any experiences you might’ve had with XmR charts in the PA space! 🙏
@@ -6558,6 +6804,7 @@ Over the years, it seems I’ve gravitated toward a job family that aligns well 
 Attached, you can see one of my results from an online tool that measures the Big Five personality traits and compares them with the personality profiles of individuals across various occupations.
 
 <div style="text-align:center">
+
 ![](./job-personality-fit/results_screenshot.jpg)
 
 </div>
@@ -6593,7 +6840,9 @@ This led me to reflect that maybe it’s not just the prediction power that suff
 For a quick visual, I’ve attached charts from one of my recent projects, illustrating how the top three personality trait predictors, as measured by the HPI, relate to employee performance across two competencies, as modeled by XGBoost and visualized using Partial Dependence Plots - a global ML interpretation tool. Notice how these relationships aren’t simply positive or negative but show clear non-linearities.
 
 <div style="text-align:center">
+
 ![](./personality-and-non-linearities/plots.png)
+
 </div>
 
 With interpretable ML, exploring these nuances becomes pretty straightforward. If you haven’t dived into these waters yet, give it a try - you might be surprised (or not) by what you find 😉
@@ -6772,7 +7021,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2024-10-02-
 In a [recent post on LinkedIn](https://www.linkedin.com/posts/ludekstehlik_employeesatisfaction-tenure-age-activity-7237423725715820545-Gr7x?utm_source=share&utm_medium=member_desktop), I shared a research paper by [Dobrow & Ganzach (2014)](https://www.researchgate.net/publication/276893636_Job_Satisfaction_over_Time_A_Longitudinal_Study_of_the_Differential_Roles_of_Age_and_Tenure) that used longitudinal data to disentangle the effects of age and job tenure on employee satisfaction and concluded that people are on average more satisfied with their jobs over their lifetimes, but their satisfaction declines over time within a given company (see the illustrative chart below).
 
 <div style="text-align:center">
+
 ![](./tenure-vs-satisfaction/plot.png)
+
 </div>
 
 A reader of this post reached out to me and asked how this might relate to the U-shaped pattern they observe in their data: new hires tend to be the most satisfied, then there is a slight decline at "mid-company" age, and then satisfaction rises again.
@@ -6923,7 +7174,9 @@ gganimate::anim_save(filename = "employee_tenure_satisfaction.gif", animation = 
 ```
 
 <div style="text-align:center">
+
 ![](./tenure-vs-satisfaction/employee_satisfaction_10_200_0.25.gif)
+
 </div>
 
 Although this mechanism seems to provide a plausible answer to the reader's question, perhaps I have missed something important or there are alternative or complementary explanations. Feel free to share your ideas and suggestions.
@@ -6950,13 +7203,17 @@ The authors of the paper examined four competing hypotheses:
 Below are visual illustrations of arguments for these four hypotheses.
 
 <div style="text-align:center">
+
 ![](./performance-vs-motivation/performance_motivation.png)
+
 </div>
 
 Their findings suggest that **work motivation is more likely to cause job performance than vice versa**. The results appear reasonably robust, as the finding that work motivation predicts job performance was consistent across various moderators, including the type of job performance measure, the type of motivation measure, and the length of the time lag.
 
 <div style="text-align:center">
+
 ![](./performance-vs-motivation/performance_motivation2.png)
+
 </div>
 
 The practical implications for people management are straightforward according to the authors: leveraging human performance practices (e.g., compensation management and performance management) and motivation-based leadership (e.g., empowering leadership) can positively influence employee motivation, which in turn enhances employee performance over the long term.
@@ -7057,7 +7314,9 @@ GGally::ggpairs(
 ```
 
 <div style="text-align:center">
+
 ![](./extraversion-vs-neuroticism/pairplot2.png)
+
 </div>
 
 At the level of sub-facets of these two traits, we can observe in the correlation plot below - where individual items are ordered based on the first principal component, which groups together highly correlated variables - that the sub-facets of Extraversion are most strongly predicted by scores on the Neuroticism sub-facets of *Self-Consciousness* (sensitivity to others' judgments and fear of embarrassment) and *Depression* (inclination toward feelings of sadness, hopelessness, and low self-esteem). To some extent, *Anxiety* (tendency to worry, feel nervous, or experience fear) and *Vulnerability* (susceptibility to stress and inability to cope under pressure) also contribute.
@@ -7148,7 +7407,9 @@ title(
 ```
 
 <div style="text-align:center">
+
 ![](./extraversion-vs-neuroticism/corrplot2.png)
+
 </div>
 
 These patterns could indeed provide an answer to the question posed in the title of my post. However, the question now is whether, when discussing introverts, we should limit ourselves to behaviors that fall exclusively under the umbrella of Extraversion, as described in modern personality psychology, or whether we should also include other closely related behaviors. My personal stance is that we should include them, while explicitly noting that the picture we are describing is not a monolith but rather a blend of multiple traits. This approach helps prevent oversimplification, avoid stereotypes, and appreciate the complexity of introverts' strengths and challenges, ultimately leading to greater self-awareness and more tailored strategies in personal and professional contexts. What’s your take on this? 🤔
@@ -7170,7 +7431,9 @@ One way to test whether this ‘political distortion’ exists, or to what exten
 In analyzing a sample dataset and focusing on 'direct manager' as a primary reason for leaving, the results from an ordinal regression analysis appear to support the second scenario described above. The results are illustrated by the pair of heatmaps below, which show the negative effect of that primary reason (i.e., direct manager vs. all other reasons) on ratings on the engagement survey, and the interaction between that primary reason and the distance between the two surveys in their effect on ratings of one particular engagement survey item related to the quality of the direct manager.
 
 <div style="text-align:center">
+
 ![](./honesty-in-engagement-vs-exit-surveys/pic_combo_manager.png)
+
 </div>
 
 However, this pattern could also be alternatively explained by the simple, non-problematic fact that people's opinions change over time. The closer the exit survey is to the last engagement survey, the more it reflects what people answered in the last engagement survey. This suggests that the observed interaction/ "diminishing" effect may be actually common across all stated reasons and engagement survey items. 
@@ -7178,13 +7441,17 @@ However, this pattern could also be alternatively explained by the simple, non-p
 To differentiate between these two explanations, one could examine another primary reason for leaving that is assumed to be less politically sensitive, where employees may feel more comfortable expressing their true opinions before deciding to leave. An example of such a reason might be dissatisfaction with flexibility in work location and/or schedule. In this case, the data shows a negative (though statistically non-significant) effect of the stated primary reason (i.e., flexibility vs. all other reasons) on engagement survey ratings, and almost zero interaction between the stated primary reason and the time between the two surveys. This finding seems to align more closely with the expectation of how honest responses should be reflected in the data. 
 
 <div style="text-align:center">
+
 ![](./honesty-in-engagement-vs-exit-surveys/pic_combo_flexibility.png)
+
 </div>
 
 However, we can still speculate about alternative explanations. It could be that the dynamics of different reasons for leaving evolve differently over time. For example, dissatisfaction with flexibility might stay similarly high over the long term without any employee’s action till the moment when better opportunity occurs and they leave. In contrast, dissatisfaction with a direct manager may have a tendency to show a more sudden, abrupt increase before an employee makes a final decision to depart. To further investigate this, we can examine a reason for leaving that is less politically sensitive than dissatisfaction with a direct manager but has similar dynamics over time. One such reason could be dissatisfaction with career growth opportunities. The data for this specific reason shows a pattern very similar to what we observed already for the 'flexibility' reason. 
 
 <div style="text-align:center">
+
 ![](./honesty-in-engagement-vs-exit-surveys/pic_combo_growth.png)
+
 </div>
 
 This similarity, therefore, supports the conclusion that, in cases of dissatisfaction with a direct manager, there is some evidence in the data of a "political distortion" in people's responses to the engagement survey on this topic. However, this conclusion should be taken with a big grain of salt, as it relies on several significant, and perhaps overly speculative, assumptions made throughout the analysis; and it is also crucial to consider the limitations of the data used, such as the shorter time span of the data and the self-selected nature of the group of people motivated enough to complete both the engagement and exit surveys. All this weakens the validity of the conclusion made above.
@@ -7471,11 +7738,15 @@ To expand on this post, I'd like to add another related fact that I've encounter
 We can view it as one specific manifestation of employees’ withdrawal that is highly predictive of the intention to leave, as illustrated in the attached chart showing the strength, direction, and estimation precision of voluntary turnover predictors, as assessed in [Rubenstein et al. (2017) meta-analysis](https://onlinelibrary.wiley.com/doi/10.1111/peps.12226?msockid=2f13ca573eec66351787ded23f9b6733).
 
 <div style="text-align:center">
+
 ![](./survey-participation-and-attrition-prediction/plot_predictors_screenshot.png)
+
 </div>
 
 <div style="text-align: center;">
+
 [Link to the app with the interactive plot](https://peopleanalyticsblog.shinyapps.io/voluntary_turnover_predictors/)
+
 </div>
 
 Apparently, people may signal their exit intentions not only by their actions but also by their inactions. As Sherlock Holmes famously observed in one of his cases, what’s suspicious is not only the barking of the dog but also its silence.
@@ -7508,7 +7779,9 @@ The lessons could be briefly summarized as follows:
 The article also included a screenshot of a data table with the C-suite teams’ TAS results, along with information about their respective team size and the extent to which they operate as a team versus as a group.
 
 <div style="text-align:center">
+
 ![](./tas-c-suit-teams/table_pic.png)
+
 </div>
 
 It sparked my curiosity about whether further insights could be gleaned from this data using an analytical technique known as a [regularized partial correlation network](https://eiko-fried.com/wp-content/uploads/Epskamp-Fried-2018-Tutorial-partial-corr.pdf), a method that identifies direct relationships between variables by controlling for others while using regularization to enforce sparsity, ensuring clarity and reducing overfitting.  
@@ -7765,7 +8038,9 @@ Next, I fed these descriptions into a [BERTopic](https://maartengr.github.io/BER
 As you can see in the chart below, the range of roles is quite broad, but it seems that most of my contacts work in people analytics, data science, HR & people management, as executives, and as researchers in academia or in enterprises.
 
 <div style="text-align:center">
+
 ![](./linkedin-contacts-job-positions/li_contacts_jobs.png)
+
 </div>
 
 Below is an interactive version of the chart, where you can check the individual job titles behind the job categories.
@@ -7901,6 +8176,7 @@ Such data seems to be provided by an interesting meta-analysis conducted by [Jia
 4. As other studies have shown, such as meta-analysis by [Jiang & Lavaysse (2018)](https://www.researchgate.net/publication/325022952_Cognitive_and_Affective_Job_Insecurity_A_Meta-Analysis_and_a_Primary_Study), increased job insecurity has unwanted negative impacts on employee well-being and job attitudes.
 
 <div style="text-align:center">
+
 ![](./job-insecurity-and-behavioral-outcomes/job_insecurity_plot.jpg)
 
 </div>
@@ -8238,7 +8514,9 @@ In a very interesting study, [Aggarwal et al. (2019)](https://www.frontiersin.or
 They found that cognitive style diversity has a curvilinear, inverted U-shaped relationship with collective intelligence, which is further positively related to the rate at which teams learn and is a mechanism guiding the indirect relationship between cognitive style diversity and team learning.
 
 <div style="text-align:center">
+
 ![](./cognitive-diversity/chart.jpg)
+
 </div>
 *The relationship between cognitive style diversity and collective intelligence controlling for team size and cognitive style level.*
 
@@ -8265,6 +8543,7 @@ Instead of using a ruler, you indicate how much you agree with statements like �
 Its decent psychometric qualities showed up in a fairly accurate estimate of my actual height (193 cm): it estimated my body height at 189 cm with a 95% confidence interval of [182-197] cm. The attached pic illustrates where the test put me. In terms of the height quotient (IQ), I was at 117 with a 95% CI of [100-129], so it's not up to Mensa, but at least I won't have to pay membership fees 😁
 
 <div style="text-align:center">
+
 ![](./body-height-inventory/height_histogram_results.jpg)
 
 
@@ -8295,6 +8574,7 @@ Btw, what’s your guess? And try to make a prediction before reading on and/or 
 To test my ideas, I used a classification RF model to be able to capture non-linear relationships, and used item score and some common controls as predictors of whether an employee would leave a comment on a given item. Then, I applied Partial Dependence Plot – a global ML interpretation tool – to the fitted model to examine the relationship between item scores and the likelihood of leaving a comment.
 
 <div style="text-align:center">
+
 ![](./probability-of-comments-in-a-survey/item_pdps.png)
 
 </div>
@@ -8494,10 +8774,12 @@ One of them shows how this particular dilemma is solved by a colony of ants fora
 3. **Pheromone Decay:** Trails weaken over time, prompting exploration when resources dwindle.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <source src="netlogo-ants-colony.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
 </div>
 <br>
 
@@ -8522,7 +8804,9 @@ From personal experience, I've “always” known that feedback can have both po
 Their study analyzed 607 effect sizes from 23,663 observations and found that while feedback interventions (FIs) generally improved performance (*d*=0.41), over one-third of the FIs actually decreased performance.
 
 <div style="text-align:center">
+
 ![](./feedback-effect-on-performance/effects_distribution.png)
+
 </div>
 
 To explain this pattern, the authors proposed and tested, using moderator analysis, a theory suggesting that **FIs shift the focus among three hierarchically organized levels of control, influencing how individuals process and react to feedback:**  
@@ -8548,6 +8832,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2024-03-21-
 Contrary to the old adage that "nice guys finish last", a [meta-analysis by Blake et al. (2022)](https://www.sciencedirect.com/science/article/pii/S1048984321000989) that examined the relationship between leader agreeableness and leadership outcomes found that leader agreeableness was positively related to both leadership effectiveness and leadership emergence, though more strongly to the latter.
 
 <div style="text-align:center">
+
 ![](./nice-leaders/meta-analysis-results.png)
 
 </div>
@@ -8583,6 +8868,7 @@ What did they find? Beneficial effects of APM across all three outcomes:
 * For the cognitive outcome of psychological empowerment, the results of the meta‐analysis suggest a medium effect.
 
 <div style="text-align:center">
+
 ![](./agile-project-management/metaanalysis_table_marked.png)
 
 
@@ -8618,6 +8904,7 @@ The main findings? They shouldn't be a big surprise to I/O psych folks, but IMO 
 * Participants preferred their Jungian assessments, likely due to its more positive framing and missing Neuroticism trait.
 
 <div style="text-align:center">
+
 ![](./personality-frameworks-contest/personality_frameworks_accuracy.png)
 
 </div>
@@ -8838,7 +9125,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2024-02-15-
 A recent set of experimental studies conducted by [Roulin et al. (2022)](https://onlinelibrary.wiley.com/doi/full/10.1002/job.2680) sought to determine whether and how the backgrounds in video interviews (VIs) could influence evaluators' judgments by revealing potentially stigmatizing features that are typically hidden in traditional selection contexts, but can become visible during VIs. The research specifically explored the impact of parental status, sexual orientation, and political affiliation on evaluators' perceptions. 
 
 <div style="text-align:center">
+
 ![](./video-interviews-and-biases/video_backgrounds.png)
+
 </div>
 
 
@@ -8965,11 +9254,15 @@ The research team compared two types of brief 6-week email campaigns, which enco
 Below you can see the used meeting guidance corresponding to the two treatment conditions (individual needs vs. tasks focus). 
 
 <div style="text-align:center">
+
 ![](./Meeting guidance for the treatment needs.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./Meeting guidance for the treatment tasks.png)
+
 </div>
 
 
@@ -8994,7 +9287,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2024-01-11-
 If you are using personality assessments in a high-stakes setting where faking is a more frequent problem, such as in the context of employee selection, you should pay attention to the meta-analytic study by [Speer et al. (2023)](https://www.researchgate.net/publication/371619243_Comparing_forced-choice_and_single-stimulus_personality_scores_on_a_level_playing_field_A_meta-analysis_of_psychometric_properties_and_susceptibility_to_faking) that compared forced-choice (FC) and traditional single-stimulus (SS) personality assessments in terms of criterion-related validity and susceptibility to faking in terms of mean shifts and decreases in validity. 
 
 <div style="text-align:center">
+
 ![](./personality-assessments-and-faking/item_examples.png)
+
 </div>
 
 A specific feature of this study was that it compared FC and SS measures after placing them on an equal playing field by relying only on studies that examined matched assessments of each format, and thus, avoiding the extraneous confound of using comparisons from different contexts.
@@ -9339,7 +9634,9 @@ However, with the introduction of customizable GPTs, there is now an affordable 
 As a first and modest step in this direction, I have created a GPT bot named [Assistant to the Evidence-Based Manager](https://chat.openai.com/g/g-SxPch3r5d-assistant-to-the-evidence-based-manager). It provides EBM-related consultancy based on general instructions and reliable materials about EBM. It will definitely not replace an experienced EBM consultant or practitioner, but it may help overcome the resistance threshold for adopting EBM principles in organizations.
 
 <div style="text-align:center">
+
 ![](./ebm-gpt-bot/gpt_bot.png)
+
 </div>
 
 Give it a try and let me know what you think about this approach. Or even better, [try building your own GPT bot](https://openai.com/blog/introducing-gpts) that will do better than mine and share it with us 😉
@@ -9387,7 +9684,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-22-
 * In addition to the meta-analysis, the study also included a forecasting challenge in which researchers and laypeople attempted to accurately estimate both time-trends and the current pervasiveness of gender biases in selection settings. Forecasters expected observed decline, but overestimated the degree of remaining bias.
 
 <div style="text-align:center">
+
 ![](./gender-gap-in-hiring-decisions/charts.jpg)
+
 </div>
 
 *Note on the attached chart: In all figures, odds ratios above 1 indicate a greater preference for male applicants and odds ratios below 1 indicate greater preference for female applicants.*
@@ -9409,7 +9708,9 @@ According to [Huth & Chung-Yan (2023)](https://psyarxiv.com/z5bdk/), contrary to
 As you can see from the table below, the data provided strong evidence for the absence of the interaction between job demands and control.
 
 <div style="text-align:center">
+
 ![](./job-demands-job-control-wellbeing/tab.png)
+
 </div>
 
 At the same time, however, the authors themselves emphasize that “*[these] findings do not suggest that job demands and job control are not important work design features when considering the well-being of workers. Their direct effects on worker well-being are well-established in past research.*” 
@@ -9883,7 +10184,9 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-09-24-
 As a ["maker"](http://www.paulgraham.com/makersschedule.html), I'm used to using my time in larger blocks of time to do focused work on various data products. Now, however, my time tends to be spread out between a series of 30-45 minute long meetings that help me navigate a complex organization like Sanofi, explore opportunities for collaboration, and make valuable contacts that can help me deliver on tasks in the future.
 
 <div style="text-align:center">
+
 ![Illustration of the Maker's vs. Manager's schedule.](./exploration-vs-exploitation-tradeoff/managerMakerCalendar.png)
+
 </div>
 
 I wondered if I could gain any potentially useful insights from this particular ["intuition pump"](https://en.wikipedia.org/wiki/Intuition_pump). I took the help of [the book "Algorithms to Live By"](https://algorithmstoliveby.com/) by Brian Christian and Tom Griffiths and found at least five such insights:
@@ -16872,10 +17175,12 @@ Once you upload your LinkedIn connections data to the app (you can easily downlo
 * Proportion of connections by their gender (based on your connections' first name)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <source src="video_tour.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
 </div>
 <br>
 

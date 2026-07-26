@@ -179,8 +179,8 @@ If you would like to apply the visual statistical inference approach to your own
 ## Related notes
 - [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
+- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 <!-- RELATED:END -->
 

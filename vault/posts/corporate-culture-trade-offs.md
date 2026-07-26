@@ -16,7 +16,9 @@ Specifically, the authors found that companies mandating five days in the office
 
 
 <div style="text-align:center">
+
 ![](./corporate-culture-trade-offs/economist_plot.png)
+
 </div>
 
 That got me wondering how these different dimensions of culture relate to each other more broadly—regardless of work arrangement—and what kinds of trade-offs might exist.
@@ -142,8 +144,8 @@ datatable(
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[company-culture-and-financial-performance|Company culture as a forward signal of financial performance?]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[culture-500|How does your company stack up in the Big Nine Cultural Values?]]
+- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 <!-- RELATED:END -->

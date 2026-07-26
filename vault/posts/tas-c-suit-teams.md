@@ -22,7 +22,9 @@ The lessons could be briefly summarized as follows:
 The article also included a screenshot of a data table with the C-suite teams’ TAS results, along with information about their respective team size and the extent to which they operate as a team versus as a group.
 
 <div style="text-align:center">
+
 ![](./tas-c-suit-teams/table_pic.png)
+
 </div>
 
 It sparked my curiosity about whether further insights could be gleaned from this data using an analytical technique known as a [regularized partial correlation network](https://eiko-fried.com/wp-content/uploads/Epskamp-Fried-2018-Tutorial-partial-corr.pdf), a method that identifies direct relationships between variables by controlling for others while using regularization to enforce sparsity, ensuring clarity and reducing overfitting.  

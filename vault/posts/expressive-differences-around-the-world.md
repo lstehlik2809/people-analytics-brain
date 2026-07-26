@@ -13,7 +13,9 @@ I know the summer holidays - often spent abroad, outside our home countries - ar
 They found some universal patterns - for example, pretty much everywhere, people tend to show more emotion with close friends (in-groups) than with acquaintances (out-groups). But there are also clear cultural differences. Folks from more individualistic cultures often express emotions more openly, especially positive ones like happiness and surprise, and may show more warmth toward out-groups than people from more collectivistic cultures (see chart from the paper below).
 
 <div style="text-align:center">
+
 ![](./expressive-differences-around-the-world/chart_scatterplot.png)
+
 </div>
 
 Sure, there’s still a lot of variation within each country, and individual differences can be as big as the ones between countries. Still, keeping these broad patterns in mind and adjusting the priors on your “emotional radar” a little when you’re interacting across cultures may help you be less likely to over- or underestimate what someone’s really feeling. 
@@ -25,8 +27,8 @@ Sure, there’s still a lot of variation within each country, and individual dif
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 - [[cultural-traveler|A nerdy way to choose your next holiday destination]]
 - [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 <!-- RELATED:END -->
 
 ---

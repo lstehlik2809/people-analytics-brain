@@ -23,13 +23,17 @@ From a technical perspective, I used [`DeepFace`](https://en.wikipedia.org/wiki/
 The result? See the network graph below - I’ll leave it to you to decide how these discovered similarities might translate into real-world relationships between individual politicians 😉
 
 <div style="text-align:center">
+
 ![](./ona-and-face-similarity/group_photos_network.png)
+
 </div>
 
 Note: Given the methodology, if you averaged all the faces, you’d get an “ideal” politician who should, on average, be in the best (central) position to align with the group as a whole. To get a better idea of what such a politician might look like, I also generated the morphed “average face” of this specific set of politicians - see the pic below. If you think your face looks similar, maybe you should consider entering politics 🙃 But don’t wait too long - politics isn’t exactly a stable profession, this crew can change fast, and your face might not fit as well later on 😁
 
 <div style="text-align:center">
+
 ![](./ona-and-face-similarity/average_face.png)
+
 </div>
 
 P.S. Out of curiosity, I also ran the analysis with my own photo, and it seems I should soon head to Mexico or Germany 🙂
@@ -39,8 +43,8 @@ P.S. Out of curiosity, I also ran the analysis with my own photo, and it seems I
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
 - [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
 - [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
-- [[induced-centrality|Induced centralities]]
 - [[collaboration-and-personality|Collaboration and personality]]
+- [[cultural-traveler|A nerdy way to choose your next holiday destination]]
 <!-- RELATED:END -->
 
 ---

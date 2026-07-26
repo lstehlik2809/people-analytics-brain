@@ -19,7 +19,9 @@ Teachers may understandably interpret those differences as indicators of ability
 In the UK, where the cutoff date is August 31st, this [“relative age effect”](https://en.wikipedia.org/wiki/Relative_age_effect) shows up clearly in the data. While the effect size decreases over time, it remains detectable on average through secondary school and even into university. It’s a classic example of cumulative advantage (the so-called [*Matthew Effect*](https://en.wikipedia.org/wiki/Matthew_effect)). See the attached [chart](https://en.wikipedia.org/wiki/Relative_age_effect#/media/File:Oxford_10_years.png) for illustration - it shows a near-perfect linear decline in Oxford graduation rates, with the oldest students (September) being 15% overrepresented and the youngest (August) 15% underrepresented relative to the UK norm.
 
 <div style="text-align:center">
+
 ![](./matthew-effect-and-success-stories/plot.png)
+
 </div>
 
 And of course, school entry dates are just one example. We could start with being born into a middle-class family, in a WEIRD country, at the end of the 20th century which already places you on a very particular starting point in life. And we could keep going. If you want a better sense of the background conditions we tend to leave out of our success (and failure) narratives, *Determined* is highly recommended - even if you don’t follow Sapolsky all the way on free will.

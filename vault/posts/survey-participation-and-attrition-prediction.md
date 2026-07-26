@@ -15,11 +15,15 @@ To expand on this post, I'd like to add another related fact that I've encounter
 We can view it as one specific manifestation of employees’ withdrawal that is highly predictive of the intention to leave, as illustrated in the attached chart showing the strength, direction, and estimation precision of voluntary turnover predictors, as assessed in [Rubenstein et al. (2017) meta-analysis](https://onlinelibrary.wiley.com/doi/10.1111/peps.12226?msockid=2f13ca573eec66351787ded23f9b6733).
 
 <div style="text-align:center">
+
 ![](./survey-participation-and-attrition-prediction/plot_predictors_screenshot.png)
+
 </div>
 
 <div style="text-align: center;">
+
 [Link to the app with the interactive plot](https://peopleanalyticsblog.shinyapps.io/voluntary_turnover_predictors/)
+
 </div>
 
 Apparently, people may signal their exit intentions not only by their actions but also by their inactions. As Sherlock Holmes famously observed in one of his cases, what’s suspicious is not only the barking of the dog but also its silence.
@@ -32,7 +36,7 @@ Have you noticed any other forms of inaction that might predict an intention to 
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
 - [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
-- [[managerial-quality|Unexpected protective effect of having a good manager?]]
+- [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 <!-- RELATED:END -->
 
 ---

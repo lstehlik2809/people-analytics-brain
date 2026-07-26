@@ -20,7 +20,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2023-11-22-gende
 * In addition to the meta-analysis, the study also included a forecasting challenge in which researchers and laypeople attempted to accurately estimate both time-trends and the current pervasiveness of gender biases in selection settings. Forecasters expected observed decline, but overestimated the degree of remaining bias.
 
 <div style="text-align:center">
+
 ![](./gender-gap-in-hiring-decisions/charts.jpg)
+
 </div>
 
 *Note on the attached chart: In all figures, odds ratios above 1 indicate a greater preference for male applicants and odds ratios below 1 indicate greater preference for female applicants.*

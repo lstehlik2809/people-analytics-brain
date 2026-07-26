@@ -233,8 +233,8 @@ dml_plr_xgb.confint()
 - [[mixed-level-ml|Beyond the “flat Earth”]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 <!-- RELATED:END -->
 
 ---

@@ -39,9 +39,9 @@ P.S. In a [later update](https://rework.withgoogle.com/blog/the-evolution-of-pro
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[people-manager-value-chain|What does a typical people manager value chain look like?]]
 - [[span-of-control|Span of control and collaboration data]]
 - [[managers-and-performance-evaluations|A new broom sweeps clean]]
+- [[people-manager-value-chain|What does a typical people manager value chain look like?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
 <!-- RELATED:END -->
 

@@ -15,7 +15,9 @@ Early in my data science journey, one method that kept popping up in courses and
 Despite its popularity, up until recently, I never really found a practical use for this method in my day-to-day work. But now, after many years, I finally came across a situation in a PA project where it actually came in handy. The task was to identify, within a team profile analysis, which pairs or trios of motives—as measured by the MVPI method—tend to show up together in a team within individual team members. This was meant to support interpretation for those running a series of team workshops (see the illustrative chart below).
 
 <div style="text-align:center">
+
 ![](./people-analytics-and-market-basket-analysis/mvpi_basket_analysis.png)
+
 </div>
 
 The long wait was probably simply because the PA problems I’d worked on hadn’t really called for it before. But maybe it was also partly down to a lack of imagination on my part 🤔 What about you? Curious if you've found this method useful in any of the common PA tasks.

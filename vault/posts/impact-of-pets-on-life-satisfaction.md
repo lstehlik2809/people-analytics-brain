@@ -41,9 +41,9 @@ P.S. For our household, the causal model is simpler: *Child wants cat → parent
 ## Related notes
 - [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
 - [[happiness-and-income|Happy today, richer tomorrow?]]
-- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
-- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
 - [[nudge-effectiveness|Signal vs. Noise: Why we can’t yet identify effective nudges]]
+- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
+- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 <!-- RELATED:END -->
 
 ---

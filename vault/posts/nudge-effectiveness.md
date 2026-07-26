@@ -12,14 +12,18 @@ original: https://blog-about-people-analytics.netlify.app/posts/2025-12-15-nudge
 A recent [second-order meta-analysis](https://onlinelibrary.wiley.com/doi/10.1002/bdm.70053?af=R) synthesizing 14 meta-analyses, 1,600+ primary studies, and ~30 million participants finds that nudges show a small positive average effect (see the corresponding forest plot below). 
 
 <div style="text-align:center">
+
 ![](./nudge-effectiveness/metaanalyses.jpg)
+
 </div>
 *Forest plot of the effects of the nudging intervention.*
 
 However, after correcting for publication bias (see the corresponding funnel plot below), the pooled effect is statistically indistinguishable from zero.
 
 <div style="text-align:center">
+
 ![](./nudge-effectiveness/funnel_plot.jpg)
+
 </div>
 *Funnel plot of nudging intervention.*
 

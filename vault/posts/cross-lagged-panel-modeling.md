@@ -295,7 +295,9 @@ print(p)
 ```
 
 <div style="text-align:center">
+
 ![](./cross-lagged-panel-modeling/sem_plot.png)
+
 </div>
 
 ---

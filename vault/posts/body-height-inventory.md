@@ -15,6 +15,7 @@ Instead of using a ruler, you indicate how much you agree with statements like â
 Its decent psychometric qualities showed up in a fairly accurate estimate of my actual height (193 cm): it estimated my body height at 189 cm with a 95% confidence interval of [182-197] cm. The attached pic illustrates where the test put me. In terms of the height quotient (IQ), I was at 117 with a 95% CI of [100-129], so it's not up to Mensa, but at least I won't have to pay membership fees ğŸ˜
 
 <div style="text-align:center">
+
 ![](./body-height-inventory/height_histogram_results.jpg)
 
 

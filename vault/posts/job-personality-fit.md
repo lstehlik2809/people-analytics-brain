@@ -13,6 +13,7 @@ Over the years, it seems I’ve gravitated toward a job family that aligns well 
 Attached, you can see one of my results from an online tool that measures the Big Five personality traits and compares them with the personality profiles of individuals across various occupations.
 
 <div style="text-align:center">
+
 ![](./job-personality-fit/results_screenshot.jpg)
 
 </div>

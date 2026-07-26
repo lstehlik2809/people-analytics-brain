@@ -19,7 +19,9 @@ The app illustrates the estimation of a psychological trait of [learning agility
 * **Efficiency and precision** – fewer items are needed to reach a reliable estimate compared to traditional fixed-form tests.
 
 <div style="text-align:center">
+
 ![](./cat-and-irt-demo/cat_irt_demo_app_screenshot.png)
+
 </div>
 
 Here’s the [link](https://cat-irt-demo.streamlit.app/) to the app (given that the app is hosted on Streamlit Community Cloud, it doesn’t stay awake all the time regardless of traffic—so if it hasn’t been used recently, you might need to wake it up and wait a few minutes). If you’re interested, you can copy the full code from [GitHub](https://github.com/lstehlik2809/Computerized-Adaptive-Testing-Demo.git) and customize the app to better suit your needs.
@@ -32,7 +34,7 @@ Here’s the [link](https://cat-irt-demo.streamlit.app/) to the app (given that 
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
 - [[dunning-kruger-effect-simulation|Making abstract ideas digestible with knobs and sliders]]
-- [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 <!-- RELATED:END -->
 
 ---

@@ -11,7 +11,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2024-02-15-video
 A recent set of experimental studies conducted by [Roulin et al. (2022)](https://onlinelibrary.wiley.com/doi/full/10.1002/job.2680) sought to determine whether and how the backgrounds in video interviews (VIs) could influence evaluators' judgments by revealing potentially stigmatizing features that are typically hidden in traditional selection contexts, but can become visible during VIs. The research specifically explored the impact of parental status, sexual orientation, and political affiliation on evaluators' perceptions. 
 
 <div style="text-align:center">
+
 ![](./video-interviews-and-biases/video_backgrounds.png)
+
 </div>
 
 

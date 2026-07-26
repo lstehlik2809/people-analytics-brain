@@ -13,7 +13,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2025-07-15-how-p
 Some of you might be familiar with the psychometric tool [Hogan Development Survey (HDS)](https://www.hogandarkside.com/?lang=en), which measures the so‑called “dark side” of personality—essentially strengths overused under stress or when self-control wears thin, leading to behaviors that can derail performance, relationships, and leadership effectiveness. For example, a skeptical person’s vigilance and critical thinking can morph into distrust, negativity, or expecting betrayal, while a colorful person’s charisma and expressiveness can shift into being dramatic, attention-seeking, and overly bold.
 
 <div style="text-align:center">
+
 ![](./how-personality-risks-co-occur/hds_scales_description.png)
+
 </div>
 
 <span style="font-size: 16px; font-style: italic;">HDS scale descriptions taken from a sample HoganLead (Challenge) report found online.</span>
@@ -31,7 +33,9 @@ Here are some quick highlights from the data:
 * Community detection algo partially reconstructed—for those familiar with HDS, well-known—three clusters of behaviors: **Moving Against** (Bold, Mischievous, Colorful, and Imaginative) VS. **Moving Away** (Excitable, Skeptical, Cautious, Reserved, and Leisurely) + **Moving Toward** (Diligent and Dutiful).
 
 <div style="text-align:center">
+
 ![](./how-personality-risks-co-occur/hds_network_plot.png)
+
 </div>
 
 Anything that surprised you or caught your attention?
@@ -42,7 +46,7 @@ Anything that surprised you or caught your attention?
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[collaboration-and-personality|Collaboration and personality]]
 - [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
-- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 <!-- RELATED:END -->
 
 ---

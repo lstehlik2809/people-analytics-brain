@@ -31,13 +31,17 @@ I didn’t have any strong hypotheses in advance, so at best this is exploratory
 To my surprise, the majority of these expectations were more or less met, as illustrated in the two charts below, although the effects are often not large enough to be reliably detected with such a small number of observations. 
 
 <div style="text-align:center">
+
 ![](./insights-discovery-and-skills/skills_totals_by_dominant_color.png)
+
 </div>
 
 <br>
 
 <div style="text-align:center">
+
 ![](./insights-discovery-and-skills/skill_profiles_by_dominant_color.png)
+
 </div>
 
 Besides that, some other interesting patterns emerged. For example:

@@ -20,7 +20,9 @@ I was particularly curious about whose resignation is most strongly associated w
 Now, the major findings…
 
 <div style="text-align:center">
+
 ![](./contagious-turnover/resignation_effects.png)
+
 </div>
 
 ### **Manager Resignation: The “Universal Shock” & “The Long Tail”**
@@ -36,7 +38,9 @@ Manager departures show a distinctive pattern over time, and team size appears t
  By this point, the acute crisis is over, but the baseline risk remains elevated at +55%, regardless of team size. This persistence suggests that the issue has shifted from an acute reaction to a more chronic structural problem - though we cannot rule out that both the manager’s departure and the team’s attrition share a common cause.
 
 <div style="text-align:center">
+
 ![](./contagious-turnover/peers_manager_resignation_effects_team_size.png)
+
 </div>
  
 ### **Peer Resignation: The “Flash Flood”**
@@ -52,7 +56,9 @@ Peer resignations show a very different profile, consistent with the idea that t
  Unlike the manager effect, the peer contagion signal decays rapidly. The estimated risk drops to just 12% in Months 3–4 and becomes negligible by Months 5–6. This rapid decay is consistent with the notion that peer contagion is an acute, short-lived phenomenon rather than a long-term structural degrader.
 
 <div style="text-align:center">
+
 ![](./contagious-turnover/peers_resignation_effects_team_size.png)
+
 </div>
 
 ### **The Takeaway**
@@ -83,7 +89,7 @@ To strengthen the conclusions in future iterations, the gold standard would be a
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 <!-- RELATED:END -->
 
 ---

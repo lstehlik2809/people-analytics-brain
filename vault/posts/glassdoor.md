@@ -168,8 +168,8 @@ However, it doesn't mean that there is no signal in Glassdoor ratings. For examp
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
+- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]

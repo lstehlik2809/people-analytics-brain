@@ -12,7 +12,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2025-04-04-siop-
 My LinkedIn bubble these days is full of posts from the [SIOP](https://www.siop.org/) 2025 conference. Unfortunately, it’s too far for me to attend in person. So, to participate at least symbolically, I quickly ran a [BERTopic](https://maartengr.github.io/BERTopic/index.html) pipeline on the SIOP event schedule to see what some of the major topics are and what I'll be missing. 😁
 
 <div style="text-align:center">
+
 ![](./siop-2025-conference-events/plot.png)
+
 </div>
 
 Apparently, a large part is devoted to AI & ML, workplace experience, I/O psychology career-building, and networking—some really nice ones!

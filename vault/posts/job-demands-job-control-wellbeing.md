@@ -13,7 +13,9 @@ According to [Huth & Chung-Yan (2023)](https://psyarxiv.com/z5bdk/), contrary to
 As you can see from the table below, the data provided strong evidence for the absence of the interaction between job demands and control.
 
 <div style="text-align:center">
+
 ![](./job-demands-job-control-wellbeing/tab.png)
+
 </div>
 
 At the same time, however, the authors themselves emphasize that “*[these] findings do not suggest that job demands and job control are not important work design features when considering the well-being of workers. Their direct effects on worker well-being are well-established in past research.*” 
@@ -22,11 +24,11 @@ At the same time, however, the authors themselves emphasize that “*[these] fin
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[time-management|Consequences of time management in the workplace]]
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
+- [[time-management|Consequences of time management in the workplace]]
 - [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 - [[micro-breaks|Effectiveness of micro-breaks at work]]
-- [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
+- [[career-hurdles|And what are your career hurdles?]]
 <!-- RELATED:END -->
 
 ---

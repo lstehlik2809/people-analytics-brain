@@ -23,7 +23,9 @@ It answers three questions:️
 * **Home away from home**: If I want to travel abroad without encountering too many cultural surprises - yes, even such travelers exist 😲 - which nearby countries are the best candidates?
 
 <div style="text-align:center">
+
 ![](./cultural-traveler/cultural-traveler-app.gif)
+
 </div>
 
 The search radius is based on distances between capital cities. You can also decide which cultural dimensions matter more to you. The app optionally considers differences in local price levels using World Bank PPP-based household-consumption data, but this is only a rough affordability indicator: it does not include flights, accommodation choices, seasonality, or your talent for finding suspiciously cheap restaurants 😉
@@ -39,7 +41,9 @@ P.S. Hofstede’s country scores are broad national averages. They capture only 
 **Update**: One of the commenters on the LinkedIn version of this post asked an interesting question relevant to the first and third use cases covered by the app: "*how often are 'similar countries' not neighboring countries?*" That question sent me back to the data to check. What were the results? Across all 69 countries, 78% had a closest cultural twin that wasn’t a neighbor, and even among countries with at least one land neighbor, the figure was 73%. However, that doesn’t mean geography and culture are unrelated, just less strongly related than one might expect - the rank correlation was fairly weak (*ρ* = -0.23), but robustly negative (95% HDI: -0.34 to -0.12), even after accounting for the non-independence of country pairs.
 
 <div style="text-align:center">
+
 ![](./cultural-traveler/distance_similarity_all_pairs.png)
+
 </div>
 
 <!-- RELATED:BEGIN -->
@@ -47,8 +51,8 @@ P.S. Hofstede’s country scores are broad national averages. They capture only 
 - [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
 - [[expressive-differences-around-the-world|Adjusting priors on your “emotional radar” for smoother cross-cultural encounters]]
-- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
 <!-- RELATED:END -->
 
 ---

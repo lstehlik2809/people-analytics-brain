@@ -16,7 +16,9 @@ Recently, I happened to stumble across some data I collected during my general p
 It was a partial replication of the [Little & Perrett (2007)](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1348/000712606X109648) study on how accurately people can judge personality based purely on facial features. We re-used their pairs of composite images—faces averaging people high and low in Big Five traits (see the picture from the original research paper below). With this setup, the signal was artificially boosted, so the test situation wasn’t exactly ecologically valid. Plus, students  were only ever asked about the relevant trait, and they always saw the high/low images side by side. Still, it was interesting to see whether people (here, psychologists in training) could pick up the signal from these images, even under such idealized conditions.
 
 <div style="text-align:center">
+
 ![](./detecting-personality-in-the-face/composite_images.gif)
+
 </div>
 
 The results? Since the task was binary (“*Who from this pair has a higher level of trait X?*”), an accuracy of 0.5 would mean pure random guessing with no skill involved. The students (*N*=382) actually did reliably better than chance, but not by much: their overall average accuracy was 0.6 (95% CrI [0.59, 0.61]), with the best results for openness (0.75, 95% CrI [0.72, 0.78]), agreeableness (0.7, 95% CrI [0.67, 0.73]), and extraversion (0.65, 95% CrI [0.61, 0.69]), and the worst for conscientiousness (0.53, 95% CrI [0.5, 0.56]) and neuroticism (0.42, 95% CrI [0.39, 0.45]). Interestingly, students were able to detect neuroticism in faces to some extent—but in the wrong direction; they consistently flipped the labels. Not the main topic of this post, but definitely something worth thinking about. Any guesses or working hypotheses as to why that might be?
@@ -179,7 +181,9 @@ final_plot +
 That inspired me to put together a simple Python script that compares someone’s facial photo to the “prototypical” high/low trait faces, and then makes a guess about that person’s trait level—all powered by the [FaceNet-512d](https://huggingface.co/py-feat/facenet) deep convolutional neural network (via the [deepface](https://github.com/serengil/deepface) package), which generates 512-dimensional embeddings of facial images, capturing the unique features of a face, and facilitating tasks like face recognition, verification, and clustering. 
 
 <div style="text-align:center">
+
 ![](./detecting-personality-in-the-face/schema.png)
+
 </div>
 
 It worked surprisingly well given how simple the approach is—at least for me and a few friends—though I haven’t tested it more widely yet. I’m curious how it’ll work for you. If you feel like giving it a shot, you’ll find the script and all the supp files in this [GitHub repo](https://github.com/lstehlik2809/Estimating-personality-from-a-facial-photo.git). Let me know how it goes in the comments if you try it out.
@@ -188,8 +192,8 @@ It worked surprisingly well given how simple the approach is—at least for me a
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
 - [[ona-and-face-similarity|When facial similarity meets Network Science]]
+- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[collaboration-and-personality|Collaboration and personality]]

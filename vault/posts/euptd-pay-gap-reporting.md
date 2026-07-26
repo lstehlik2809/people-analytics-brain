@@ -19,7 +19,9 @@ on a group that small gives you a gender coefficient you can barely trust.
 I've been thinking about partial pooling - hierarchical models that borrow strength across categories. Small groups get pulled toward the overall estimate; large groups keep their own. It's a well-established technique, but I haven't seen much discussion of it in the pay equity space.
 
 <div style="text-align:center">
+
 ![](./euptd-pay-gap-reporting/illustrative_chart.png)
+
 </div>
 
 *An illustration of how shrinkage works in hierarchical modeling across three pooling strategies. No-pooling treats each group independently, producing the highest variance in estimates. Partial pooling shrinks group-level estimates toward the global mean—balancing group-specific signal with overall trends. Complete pooling collapses all groups to a single estimate, eliminating between-group variance entirely. The vertical axis shows the estimated μ for each group; the horizontal axis compares the three approaches.*

@@ -21,10 +21,12 @@ Once you upload your LinkedIn connections data to the app (you can easily downlo
 * Proportion of connections by their gender (based on your connections' first name)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <source src="video_tour.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
 </div>
 <br>
 
@@ -39,8 +41,8 @@ P.P.S. Big thanks to [Sebastian Vorac](https://www.linkedin.com/in/sebastian-vor
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
-- [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 - [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
+- [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 - [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
 <!-- RELATED:END -->

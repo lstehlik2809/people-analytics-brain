@@ -15,7 +15,9 @@ I recently came across an interesting and potentially useful meta-analysis by [P
 2. **Expressive networks:** These are connections with focus on emotional support, friendships, and social bonding, developed through activities like company social events, cross-team job rotations, and peer mentorship programs.
 
 <div style="text-align:center">
+
 ![](./instrumental-and-expressive-networks/model_to_be_tested.png)
+
 </div>
 
 The study found that both network types are connected with turnover but through different mechanisms. Instrumental ties reduce turnover by improving job performance (thanks to access to work-related resources) and strengthening organizational commitment. Meanwhile, expressive ties lower turnover by increasing job satisfaction (through emotional support and social bonds) and boosting organizational commitment.

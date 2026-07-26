@@ -18,7 +18,9 @@ This led me to reflect that maybe it’s not just the prediction power that suff
 For a quick visual, I’ve attached charts from one of my recent projects, illustrating how the top three personality trait predictors, as measured by the HPI, relate to employee performance across two competencies, as modeled by XGBoost and visualized using Partial Dependence Plots - a global ML interpretation tool. Notice how these relationships aren’t simply positive or negative but show clear non-linearities.
 
 <div style="text-align:center">
+
 ![](./personality-and-non-linearities/plots.png)
+
 </div>
 
 With interpretable ML, exploring these nuances becomes pretty straightforward. If you haven’t dived into these waters yet, give it a try - you might be surprised (or not) by what you find 😉
@@ -188,7 +190,7 @@ ggplot()+
 - [[conditional-inference-tree|Divide and... understand]]
 - [[collaboration-and-personality|Collaboration and personality]]
 - [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
-- [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
+- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 <!-- RELATED:END -->
 
 ---

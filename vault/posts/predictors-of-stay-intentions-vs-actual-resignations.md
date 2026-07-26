@@ -20,7 +20,9 @@ The idea was to spot potential blind spots—where employees might be over- or u
 Preliminary results? The rank-order correlation between the estimated predictive strength of these factors for the two criteria was fairly high—around -0.6—but far from perfect, with a few notable outliers suggesting interesting mismatches between perceived and actual “impact”. The difference seems to relate to a dimension we might call 'closeness to one's day-to-day functioning in their role'. The higher a factor is on this dimension, the more likely it is to be underestimated—and vice versa (for obvious reasons, I cannot be more specific 😉).
 
 <div style="text-align:center">
+
 ![](./predictors-of-stay-intentions-vs-actual-resignations/plot_results_unlabeled_blank.png)
+
 </div>
 
 Curious if anyone has done a similar analysis on their data and put the findings to practical use. Feel free to share your experiences in the comments.
@@ -31,8 +33,8 @@ Curious if anyone has done a similar analysis on their data and put the findings
 ## Related notes
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
-- [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
 - [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
+- [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
 - [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 <!-- RELATED:END -->
 

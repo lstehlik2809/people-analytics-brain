@@ -24,7 +24,9 @@ The entire pipeline includes the following steps:
 5. Finally, cohort analysis, enabling assessment of causal effects of selected factors on new datasets, even down to the individual employee level.
 
 <div style="text-align:center">
+
 ![](./econml-and-employee-attriton/causal_effect_chart_combo.png)
+
 </div>
 
 IMO, pretty cool stuff. It seems we indeed live not only in an AI revolution but also in a causal one ✊🙂

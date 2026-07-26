@@ -20,6 +20,7 @@ What did they find? Beneficial effects of APM across all three outcomes:
 * For the cognitive outcome of psychological empowerment, the results of the meta‐analysis suggest a medium effect.
 
 <div style="text-align:center">
+
 ![](./agile-project-management/metaanalysis_table_marked.png)
 
 
@@ -32,8 +33,8 @@ So pretty good news for APM proponents, however, it's good to keep in mind that 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[time-management|Consequences of time management in the workplace]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[timeboxing|Timeboxing. Does it really work?]]
+- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
 <!-- RELATED:END -->

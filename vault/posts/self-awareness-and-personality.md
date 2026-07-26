@@ -17,13 +17,17 @@ But to explore this, we first need a way to measure self-awareness. One common (
 In a small-scale project, I had the opportunity to conduct exactly this type of analysis. The individuals assessed—a selected group of 72 managers from a large CEE company—were distributed relatively symmetrically around the zero difference between their self-evaluations and the average evaluations by others across several competencies, measured on a 1–5 Likert scale. For personality, I had access to their data from the [Hogan Personality Inventory](https://www.hoganassessments.com/assessment/hogan-personality-inventory/), a business-oriented personality measure based on the [Five-Factor Model of personality](https://www.sciencedirect.com/topics/psychology/five-factor-model-of-personality).    
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/differences_distribution_plot.png)
+
 </div>
 
 When modeling the relationship between the discrepancy in self-evaluation and evaluation by others and individual personality traits, I employed a [generalized linear model](https://en.wikipedia.org/wiki/Generalized_linear_model) with a Gaussian link function, and fitted it using the [brms package](https://github.com/paul-buerkner/brms) for Bayesian modeling with its default priors. The results were as follows:
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/density_plots.png)
+
 </div>
 
 1. People with higher ambition (assertive, competitive, goal-oriented) and higher sociability (outgoing, talkative, socially confident) tend to overrate their skills—and vice versa.
@@ -33,19 +37,27 @@ When modeling the relationship between the discrepancy in self-evaluation and ev
 To better understand the effects found, take a look at the scatter plots with fitted regression lines below:
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/ambition_scatter_plot.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/sociability_scatter_plot.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/learning_approach_scatter_plot.png)
+
 </div>
 
 <div style="text-align:center">
+
 ![](./self-awareness-and-personality/adjustment_scatter_plot.png)
+
 </div>
 
 These results are, IMO, pretty intuitive and not all that surprising—at least in hindsight 😉—though I personally expected a stronger effect of adjustment and inquisitive traits. What would be your take on it? Have you done a similar type of analysis? If so, what were your results? 

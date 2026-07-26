@@ -20,6 +20,7 @@ Btw, what’s your guess? And try to make a prediction before reading on and/or 
 To test my ideas, I used a classification RF model to be able to capture non-linear relationships, and used item score and some common controls as predictors of whether an employee would leave a comment on a given item. Then, I applied Partial Dependence Plot – a global ML interpretation tool – to the fitted model to examine the relationship between item scores and the likelihood of leaving a comment.
 
 <div style="text-align:center">
+
 ![](./probability-of-comments-in-a-survey/item_pdps.png)
 
 </div>

@@ -17,6 +17,7 @@ Such data seems to be provided by an interesting meta-analysis conducted by [Jia
 4. As other studies have shown, such as meta-analysis by [Jiang & Lavaysse (2018)](https://www.researchgate.net/publication/325022952_Cognitive_and_Affective_Job_Insecurity_A_Meta-Analysis_and_a_Primary_Study), increased job insecurity has unwanted negative impacts on employee well-being and job attitudes.
 
 <div style="text-align:center">
+
 ![](./job-insecurity-and-behavioral-outcomes/job_insecurity_plot.jpg)
 
 </div>
