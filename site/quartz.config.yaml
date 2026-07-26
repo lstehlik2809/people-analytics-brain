@@ -136,6 +136,14 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      globalGraph:
+        # label opacity is max((zoom * opacityScale - 1) / 3.75, 0), so the
+        # default of 1 hides every name until zoomed past 1x
+        opacityScale: 3
+        # `scale` only sets label scaling (labels render at 1/scale), so
+        # lowering it slightly enlarges the names
+        scale: 0.8
     layout:
       position: right
       priority: 10

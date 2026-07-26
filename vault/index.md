@@ -7,7 +7,7 @@ This is the interconnected, "second brain" version of my [blog about people anal
 
 ## How to explore
 
-- 🕸️ **Graph view** — the graph on each page shows how notes connect; click any node to jump. The global graph icon reveals the whole network.
+- 🕸️ **Graph view** — the graph on each page shows how notes connect; click any node to jump, or use the icon in its corner to open the whole network. Reading the nodes: **hollow rings are topics**, solid dots are posts; the **dark node is the page you're on**, **green ones are posts you've already opened** (remembered privately in your own browser), and grey ones are still unread. **Bigger nodes have more connections.**
 - 🔍 **Search** — press `Ctrl+K` (or `⌘K`) for full-text search across all notes.
 - 🔎 **<a href="./semantic-search.html" data-router-ignore>Semantic search</a>** — search by meaning rather than keywords; runs entirely in your browser (no server involved).
 - 🏷️ **Tags** — every note is tagged by topic (e.g. [[tags/causal-inference]], [[tags/employee-turnover]], [[tags/psychometrics]]); tag pages collect everything on a theme.
