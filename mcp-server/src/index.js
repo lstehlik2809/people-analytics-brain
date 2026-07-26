@@ -47,6 +47,28 @@ const TOOLS = [
     },
   },
   {
+    name: "get_section",
+    description:
+      "Read one section of a note instead of the whole thing — use this for long notes rather " +
+      "than spending the context on get_note. Call with only a slug to get the note's outline " +
+      "(headings and their sizes), then call again with a heading to get that section's markdown " +
+      "(including any subsections). The `section` field on a search_notes result can be passed " +
+      "here directly. Notes without headings return their full text.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "Note slug, e.g. 'causal-inference-in-people-analytics'" },
+        heading: {
+          type: "string",
+          description:
+            "Heading to read. Case-insensitive, and a distinctive fragment is enough. " +
+            "Omit to list the available headings.",
+        },
+      },
+      required: ["slug"],
+    },
+  },
+  {
     name: "list_notes",
     description:
       "List notes (title, slug, date, tags, description), newest first. Optionally filter by tag.",
@@ -156,6 +178,27 @@ function bm25(queryTokens, { docs, df, avgLen, n }) {
 
 const HEADING_RE = /^(#{1,6})\s+(.+)$/gm;
 
+/**
+ * Sections of a note. Each runs from its heading to the next heading of the
+ * same or higher level, so asking for a parent returns its subsections too.
+ */
+function parseSections(body) {
+  const heads = [];
+  HEADING_RE.lastIndex = 0;
+  for (let m; (m = HEADING_RE.exec(body)); ) {
+    heads.push({ level: m[1].length, heading: m[2].trim(), start: m.index });
+  }
+  return heads.map((h, i) => {
+    let end = body.length;
+    for (let j = i + 1; j < heads.length; j++) {
+      if (heads[j].level <= h.level) { end = heads[j].start; break; }
+    }
+    return { ...h, end, chars: end - h.start };
+  });
+}
+
+const normHeading = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
 /** Markdown heading containing `pos`, or null when the note has no sections. */
 function sectionAt(text, pos) {
   let current = null;
@@ -241,6 +284,44 @@ async function runTool(name, args) {
         url: note.url, original_post: note.original, markdown: note.body,
       };
     }
+    case "get_section": {
+      const slug = String(args?.slug ?? "").trim();
+      const note = notes.find((n) => n.slug === slug);
+      if (!note) throw new Error(`no note with slug '${slug}' — use search_notes or list_notes to find slugs`);
+      const sections = parseSections(note.body);
+      const outline = sections.map((s) => ({ heading: s.heading, level: s.level, chars: s.chars }));
+
+      const wanted = args?.heading ? String(args.heading).trim() : null;
+      if (!wanted) {
+        // no heading asked for: hand back the outline (or the whole note when
+        // it has no sections and is small enough to be worth returning)
+        return sections.length
+          ? { slug, title: note.title, url: note.url, chars: note.body.length,
+              sections: outline,
+              hint: "Call get_section again with one of these headings to read just that part." }
+          : { slug, title: note.title, url: note.url, chars: note.body.length,
+              sections: [], markdown: note.body,
+              note: "This note has no headings, so its full text is returned." };
+      }
+
+      const target = normHeading(wanted);
+      const hit =
+        sections.find((s) => normHeading(s.heading) === target) ??
+        sections.find((s) => normHeading(s.heading).includes(target)) ??
+        sections.find((s) => target.includes(normHeading(s.heading)));
+      if (!hit) {
+        throw new Error(
+          `no heading matching '${wanted}' in '${slug}'. Available: ` +
+          (outline.length ? outline.map((s) => s.heading).join(" | ") : "(none — this note has no headings)"),
+        );
+      }
+      return {
+        slug, title: note.title, url: note.url,
+        heading: hit.heading, level: hit.level,
+        chars: hit.chars, note_chars: note.body.length,
+        markdown: note.body.slice(hit.start, hit.end).trim(),
+      };
+    }
     case "list_notes": {
       const tag = args?.tag ? String(args.tag).toLowerCase() : null;
       const limit = Math.min(Math.max(1, args?.limit ?? 30), 250);
@@ -301,9 +382,11 @@ async function handleRpc(msg) {
           "conversational sentence. Search is lexical (BM25), so wording matters; the optional " +
           "tag argument narrows results.\n" +
           "2. Use the ranked snippets only to choose candidates. Before answering anything " +
-          "substantive, call get_note on the one or two most relevant slugs: a snippet is ~300 " +
-          "characters, roughly a tenth of a note, and routinely omits the caveats, assumptions " +
-          "and limitations that make these notes worth citing.\n" +
+          "substantive, read the full text of the one or two most relevant results: a snippet is " +
+          "~300 characters and routinely omits the caveats, assumptions and limitations that make " +
+          "these notes worth citing. Each result reports `chars` and the `section` it matched — " +
+          "for a long note prefer get_section(slug, section) over pulling the whole thing; " +
+          "get_note is the right call for short notes or when you need the whole argument.\n" +
           "3. If a search returns little, retry with related terminology (e.g. \"attrition\" vs " +
           "\"turnover\") or run several narrower searches.\n" +
           "4. For broad or exploratory questions, start with list_tags to see the topic map, or " +
