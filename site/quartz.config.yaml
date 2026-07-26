@@ -277,9 +277,10 @@ layout:
       positions:
         right: []
     tag:
+      # keep the graph + backlinks in the right sidebar on topic pages;
+      # only the table of contents is pointless on a listing page
       exclude:
         - reader-mode
-      positions:
-        right: []
+        - table-of-contents
     canvas: {}
     bases: {}
