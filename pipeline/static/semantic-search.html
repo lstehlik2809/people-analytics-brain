@@ -4,16 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Semantic search — Ludek's People Analytics Brain</title>
+<script>
+  // match the theme chosen via the site's toggle (same localStorage key
+  // and attribute as Quartz's darkmode plugin); falls back to OS scheme
+  const saved = localStorage.getItem("theme");
+  if (saved) document.documentElement.setAttribute("saved-theme", saved);
+</script>
 <style>
-  :root {
+  :root, :root[saved-theme="light"] {
     --bg: #faf8f8; --fg: #2b2b2b; --muted: #4e4e4e; --border: #e5e5e5;
     --accent: #284b63; --card: #ffffff; --tag-bg: #ecf1f4;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([saved-theme="light"]) {
       --bg: #161618; --fg: #ebebec; --muted: #d4d4d4; --border: #393639;
       --accent: #7b97aa; --card: #1e1e21; --tag-bg: #26303a;
     }
+  }
+  :root[saved-theme="dark"] {
+    --bg: #161618; --fg: #ebebec; --muted: #d4d4d4; --border: #393639;
+    --accent: #7b97aa; --card: #1e1e21; --tag-bg: #26303a;
   }
   * { box-sizing: border-box; }
   body {
