@@ -71,15 +71,20 @@ function tokenize(text) {
   return (text.toLowerCase().match(/[a-z0-9]+/g) || []).filter((t) => t.length > 1);
 }
 
+// Records emitted by pipeline/build_llms.py look like:
+//   ---\n\n# {title}\nURL: …\nDate: …\nTags: …\nOriginal post: …\n\n{body}
+// A body may itself contain a "---" horizontal rule, so records are matched by
+// their full header and terminated by a lookahead for the *next* header —
+// splitting on "---" alone silently truncates such notes.
+const RECORD_START_RE = /\n(?=---\n\n# [^\n]*\nURL: )/;
+const RECORD_RE =
+  /^---\n\n# (.+)\nURL: (.+)\nDate: (.*)\nTags: (.*)\nOriginal post: (.*)\n\n([\s\S]*)$/;
+
 function parseCorpus(text) {
-  // format produced by pipeline/build_llms.py: entries separated by "---",
-  // each starting "# {title}" followed by URL / Date / Tags / Original post lines
   const notes = [];
-  for (const block of text.split(/\n---\n/).slice(1)) {
-    const m = block.match(
-      /^\s*# (.+)\nURL: (.+)\nDate: (.*)\nTags: (.*)\nOriginal post: (.*)\n\n([\s\S]*)$/,
-    );
-    if (!m) continue;
+  for (const chunk of text.split(RECORD_START_RE)) {
+    const m = chunk.match(RECORD_RE);
+    if (!m) continue; // the file preamble
     const [, title, url, date, tags, original, body] = m;
     notes.push({
       slug: url.trim().split("/").pop(),
@@ -224,14 +229,35 @@ async function handleRpc(msg) {
   switch (method) {
     case "initialize": {
       const requested = params?.protocolVersion;
+      let size = "";
+      try {
+        // keep the corpus size accurate rather than hard-coded
+        size = ` (${(await getCorpus()).notes.length} notes)`;
+      } catch {
+        // handshake must not depend on the corpus being reachable
+      }
       return rpcResult(id, {
         protocolVersion: PROTOCOL_VERSIONS.includes(requested) ? requested : PROTOCOL_VERSIONS[0],
         capabilities: { tools: {} },
         serverInfo: SERVER_INFO,
         instructions:
-          "Search and read Ludek Stehlik's public second brain on people analytics. " +
-          "Typical flow: search_notes → get_note(slug). Browse topics with list_tags / list_notes. " +
-          `Full corpus is also available as plain text at ${SITE}/llms-full.txt.`,
+          `Search and read Ludek Stehlik's public second brain${size} on people analytics, ` +
+          "statistics, causal inference, psychometrics, machine learning, and AI.\n\n" +
+          "How to use it well:\n" +
+          "1. For a specific question, call search_notes with concise keywords, not a full " +
+          "conversational sentence. Search is lexical (BM25), so wording matters; the optional " +
+          "tag argument narrows results.\n" +
+          "2. Use the ranked snippets only to choose candidates. Before answering anything " +
+          "substantive, call get_note on the one or two most relevant slugs: a snippet is ~300 " +
+          "characters, roughly a tenth of a note, and routinely omits the caveats, assumptions " +
+          "and limitations that make these notes worth citing.\n" +
+          "3. If a search returns little, retry with related terminology (e.g. \"attrition\" vs " +
+          "\"turnover\") or run several narrower searches.\n" +
+          "4. For broad or exploratory questions, start with list_tags to see the topic map, or " +
+          "list_notes to browse; both accept a tag filter.\n" +
+          "5. Ground answers in the retrieved notes, keep their caveats, and cite the titles and " +
+          "URLs the tools return so readers can check the source.\n\n" +
+          `The complete corpus is also available as plain text at ${SITE}/llms-full.txt.`,
       });
     }
     case "ping":
