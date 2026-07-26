@@ -14,7 +14,7 @@ Being in the final phase of my new job search, I wanted to be able to aggregate 
 
 To do this, I put together a “back-of-the-envelope” calculation that combines, in a Bayesian way, the impressions one has of various aspects of the jobs one is applying for.  
 
-<img src="./dashboard.png">
+![](./job-comparator/dashboard.png)
 
 It works with several factors that research suggests are related to job satisfaction and that a person has the chance to estimate subjectively to some degree during the hiring process from job ads, interviews, sample tasks, company reviews from current or former employees on Glassdoor, etc. Specifically, it takes into account the following factors:
 
@@ -37,8 +37,8 @@ If you have at least two job offers to choose from, you may find the app as usef
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
 - [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 - [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
+- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 <!-- RELATED:END -->
 
 ---

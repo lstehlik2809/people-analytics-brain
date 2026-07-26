@@ -17,9 +17,9 @@ However, I adjusted my view after coming across the updated validity estimate in
 The latter study reported the following interesting findings:
 
 * Correlation between interest scores and job performance (corrected for both indirect range restriction and unreliability in the criterion) is 0.16 (SE=0.03).
-<img src="./scheme2.png">
+![](./vocational-interests/scheme2.png)
 * Interest congruence/match between an individual's interests and his or her work is a much stronger predictor of performance outcomes than interest scores alone, with baseline correlations of 0.32 and 0.16, respectively.
-<img src="./scheme1.png">
+![](./vocational-interests/scheme1.png)
 * Interests are significantly better predictors of organizational citizenship behavior than other criteria (job performance, task performance, OCB, persistence, CWB, and training performance) but are less valid for predicting CWB and task performance.
 
 If you tend to think about vocational interests as I have until recently, perhaps these two studies will help you update your priors a little bit 😉

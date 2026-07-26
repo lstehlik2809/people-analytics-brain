@@ -19,7 +19,7 @@ To pinpoint particular areas where managers and leaders are prone to overconfide
 4. **Mission:** What is the team’s purpose? What are its goals? How does the team define winning? What are its strategies and plans for accomplishing its goals?
 5. **Courage:** Do team members trust each other? Is there an optimal level of tension and collaboration on this team? Do team members challenge each other in a constructive manner?
 
-<img src="./plot.png">
+![](./managers-overconfidence/plot.png)
 
 When managers get overconfident in these areas, it can lead to all sorts of issues like underinvestment in critical resources, inefficient resource allocation, ignoring skill gaps, insufficient role clarity, making bad decisions, disjointed strategic planning, confusion, misaligned priorities, uncoordinated efforts, blocking innovation, etc.
 

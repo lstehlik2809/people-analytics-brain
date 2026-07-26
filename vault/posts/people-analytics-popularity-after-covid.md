@@ -50,7 +50,7 @@ gtrendsResultDf <- gtrendsResult %>%
 ```
 
 
-<img src="./peopleAnalyticsGoogleTrends.png">
+![](./people-analytics-popularity-after-covid/peopleAnalyticsGoogleTrends.png)
 
 Towards the end of the time series, somewhere between September 2019 and March 2020, it seems that the trend stops increasing and starts to stagnate, except for the very last part of the graph, which shows a sharp increase in searches for both terms, but this may just be the result of the improved data collection system from January 2022 onwards (as indicated by the vertical line in the graph with a note). Thus, the data seems to suggest the opposite of what we would expect if a pandemic were to have a positive effect on interest in people analytics.  
 
@@ -104,7 +104,7 @@ $$Y_{t} = β_{0} + β_{1}*time_{t} + β_{2}*intervention_{t} + β_{3}*time after
 
 The *β<sub>0</sub>* coefficient estimates the baseline level of the outcome variable at time zero; *β<sub>1</sub>* coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); *β<sub>2</sub>* coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and *β<sub>3</sub>* estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of *β<sub>1</sub>* and *β<sub>3</sub>* equals to the post-intervention slope). For a better understanding of the model, take a look at the illustrative chart taken from [Turner et al. (2021)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01306-w) below.
 
-<img src="./interruptedTimeSeriesAnalysis.png">
+![](./people-analytics-popularity-after-covid/interruptedTimeSeriesAnalysis.png)
 
 Since we are dealing with correlated and truncated data, we should also include two additional terms in our model, an autocorrelation term and a truncation term, to handle these specific properties of our data.
 

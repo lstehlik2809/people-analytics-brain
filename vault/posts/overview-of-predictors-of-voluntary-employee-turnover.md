@@ -36,7 +36,7 @@ And here is the original research paper on which the shiny app is based.
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
 - [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
 <!-- RELATED:END -->
 
 ---

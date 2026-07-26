@@ -60,7 +60,7 @@ P.S. By coincidence, while working on this post I stumbled upon a much more rigo
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
 - [[chatgpt-emails-and-causalpy|ChatGPT as a new email writing coach?]]
-- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
+- [[openai-personality-interpretation|Ask your personality using GPT]]
 <!-- RELATED:END -->
 
 ---

@@ -246,7 +246,7 @@ dataset %>%
 
 ```
 
-<img src="./screen1.png">
+![](./r-and-power-bi/screen1.png)
 
 We may also want to allow dashboard users to enter custom values for specific personas of interest and let the scoring algorithm predict the corresponding risk of leaving the company. To make the demonstration of this feature somewhat easier, I will use a different prediction model that uses only some of the strongest predictors.
 
@@ -319,7 +319,7 @@ prediction %>%
 
 ```
 
-<img src="./screen2.png">
+![](./r-and-power-bi/screen2.png)
 
 This completed the work on our local computer. You can download the final dashboard [here](attritionPredictionModel.pbix). If you use it, be sure to update the paths to the trained model in both the Query Editor and the R visuals. The next step is to set up the Power BI Service and install and configure the on-premises data gateway so that the R scripts will work in dashboards shared with others. More on this in a future blog post.
 
@@ -329,7 +329,7 @@ This completed the work on our local computer. You can download the final dashbo
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 <!-- RELATED:END -->
 
 ---

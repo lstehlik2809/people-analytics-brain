@@ -141,7 +141,7 @@ The possible takeaway? With full awareness of the obvious limitations of this sm
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[openai-personality-interpretation|Ask your personality using GPT]]
 <!-- RELATED:END -->
 
 ---

@@ -20,7 +20,7 @@ Specific numbers can be attached to some of these best practices to help teams a
 6. **Inactive channels:** Non-archived channels that show no activity are just clutter that makes it difficult to navigate and collaborate on the chat platform.
 7. **Transparency:** Direct and group messages have their place in chat, especially when discussing sensitive issues or when trying to avoid spamming other employees. However, when majority of chat communication occurs in direct and group messages, there is a higher risk that information important for task alignment, problem-solving, or decision will be hidden in them and out of view from relevant people.
 
-<img src="./metrics.png"> 
+![](./slack-best-practices/metrics.png) 
 
 Would you add some other best practices for IM that have worked well for you and that would make sense to measure?
 
@@ -28,8 +28,8 @@ Would you add some other best practices for IM that have worked well for you and
 ## Related notes
 - [[slack-batching|Always messaging]]
 - [[good-manager|Signals of a good manager]]
-- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 - [[overloaded-employees|Warning system for overloaded employees]]
+- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 - [[meetings-improvement|How to improve effectiveness of meetings?]]
 <!-- RELATED:END -->
 

@@ -17,7 +17,7 @@ I was curious to see how GPT-4 would perform in this test, as it had been evalua
 
 So, what were the results? GPT-4 answered 29 out of 35 items right, i.e., it achieved an 83% success rate, which corresponds to the 99th and 97th percentiles in the original and "replicated" studies, respectively. GPT-4's results were thus superior to majority of people who took the test.
 
-<img src="./plot.png">
+![](./gpt4-and-e-b-hrm-practices/plot.png)
 
 However, even when it gave a correct answer, it did not always rely on correct facts and/or valid reasoning, which could be a problem if management decided to act on the answers provided. See the table below to check the details of its responses.
 
@@ -61,8 +61,8 @@ P.S. I didn't test the reliability of GPT-4's responses, nor did I set its tempe
 ## Related notes
 - [[evidence-based-hrm-knowledge-test-results|Evaluation of the results of the evidence-based HRM knowledge test]]
 - [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
-- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 - [[ebm-gpt-bot|How to support the adoption of Evidence-Based Management with a specialized GPT bot]]
+- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 <!-- RELATED:END -->
 

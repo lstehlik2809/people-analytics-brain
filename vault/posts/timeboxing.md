@@ -17,14 +17,14 @@ However, based on these results, one colleague wondered whether this result actu
 
 Using this approach and our clients' collaborative data, I looked at the relationship between the proportion of work time blocked on the calendar and the time available for focused work (i.e. no meetings, no ad-hoc calls, no email or instant messaging), and found that the marginal effect of timeboxing is in line with the positive effect of the timeboxing technique on the time available for focused work. The effect is not huge (each percentage point of working time blocked in the calendar yields on average .19% of focus rate), however, timeboxing seems to be saved, phew 😉
 
-<img src="./timeblockingFocusTime.png">
+![](./timeboxing/timeblockingFocusTime.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[distracted-time|Not-so-hidden cost of working in an office]]
 - [[time-management|Consequences of time management in the workplace]]
-- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
+- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 

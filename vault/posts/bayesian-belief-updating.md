@@ -169,7 +169,7 @@ gganimate::anim_save(filename = "./bayesianBelifUpdating.gif", animation = last_
 
 And here is the resulting animation of the Bayesian belief updating process across 500 trials.
 
-<img src="./bayesianBelifUpdating.gif">
+![](./bayesian-belief-updating/bayesianBelifUpdating.gif)
 
 
 For those who would like to incorporate Bayesian reasoning into their managerial decision-making under uncertainty, I can recommend [this article](https://journals.sagepub.com/doi/full/10.1177/0008125620948264) by [Brian T. McCann](https://www.linkedin.com/in/brian-t-mccann-7a322617/).
@@ -178,9 +178,9 @@ For those who would like to incorporate Bayesian reasoning into their managerial
 ## Related notes
 - [[visual-inference-statistics|Visual statistical inference]]
 - [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
 - [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
 <!-- RELATED:END -->
 
 ---

@@ -23,7 +23,7 @@ Výsledky [výzkumu provedeného společnostmi MIT Sloan Management Review a SAS
 
 Druhou hlavní příčinou je potom to, že HR analytické projekty nebývají ukotveny v rámci nějaké širší strategie, jak data systematicky využívat při řízení lidských zdrojů, navíc  způsobem, který by byl sladěný se strategickými cíli společnosti. Zde platí praxí osvědčená pravda projektového managementu, že při implementaci projektů je potřeba vždy začínat od konce. V kontextu HR analytických projektů to tedy znamená začínat nikoli od dat, ale od toho, k čemu mají být HR analytické výstupy použity. A očekávání managementu je, že HR analytika bude v posledku hlavně pomáhat zlepšovat obchodní výsledky společnosti. Názorně to ilustruje níže uvedené schéma (převzaté z [článku](https://www.hrzone.com/lead/strategy/why-hr-needs-to-up-its-game-in-strategic-people-analytics) [Maxe Blumberga](https://www.linkedin.com/in/maxblumberg/)), které zachycuje předpokládaný kauzální řetězec spojující HR procesy s obchodními výsledky. Úkolem HR analytiky je potom s pomocí dat a analytických nástrojů tyto dvě oblasti propojit a zjistit, jak optimalizací prvního zajistit zlepšení toho druhého.   
 
-<img src="./HRValueChain.png">
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/HRValueChain.png)
 
 Řadě organizací by v tomto ohledu mohl být inspirací známý příběh [oaklandského baseballového týmu „Áček“](https://en.wikipedia.org/wiki/Oakland_Athletics), který se stal předlohou pro [knihu Moneyball](https://en.wikipedia.org/wiki/Moneyball) a z ní vycházející stejnojmenný [film](https://www.csfd.cz/film/255150-moneyball/prehled/). Právě tento příběh jako jeden z prvních ukázal a mezi širokou veřejností zpopularizoval možnosti využití statistické analýzy ve světě sportu a potažmo také v rámci řízení lidských zdrojů. Díky radikální změně dosavadního přístupu k výběru nových hráčů, který se začal více opírat o výstupy statistické analýzy [sabermetrických](https://en.wikipedia.org/wiki/Sabermetrics) dat o herním chování hráčů, dokázal management oaklandského baseballového týmu „Áček“ přijímat rozhodnutí, která z jednoho z nejchudších týmů americké baseballové ligy učinila jeden z nejúspěšnějších týmů soutěže (měřeno počtem vítězství v základní části soutěže a počtem postupů do play-off). Abychom mohli tento příběh plně vytěžit coby inspiraci, jak analyzovat svá vlastní zaměstnanecká data, bude užitečné, když se na jednotlivé analytické kroky, které stály v pozadí úspěchu oklandských "Áček", podíváme trochu podrobněji. A učiníme tak za využití volně dostupného [statistického softwaru R](https://www.r-project.org/) a veřejně dostupné [databáze historických údajů o výsledcích v americké baseballové lize](https://drive.google.com/file/d/0B5YUO0Asd9KfMG1UaXpEVjJqQWc/view).
 
@@ -196,7 +196,7 @@ Porovnání našich předpovědí s reálnými výsledky za sezónu 2002 ukazuje
 ## 5. krok: Propojení dílčích vhledů aneb organizace jako stroj
 [Matt Dancho](https://www.linkedin.com/in/mattdancho/) ve své metodice k datově-analytickým projektům doporučuje, abychom se při snaze o pochopení obchodního problému organizace na danou organizaci dívali jako na druh stroje, který má určité vstupy, procesy a výstupy. Tuto metaforu stroje můžeme nyní využít k tomu, abychom všechny výše uvedené dílčí vhledy spojili do jednotného rámce. V něm budou mít oaklandská "Áčka" podobu jednoduchého stroje na výrobu postupů do play-off - viz obrázek níže. 
 
-<img src="./machine_producing_playoffs.png">
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/machine_producing_playoffs.png)
 
 Ze schématu je dobře patrné, jak tento stroj funguje: Jeho výstupy jsou postupy do play-off, kterých dosahuje tak, že se snaží vyhrát více zápasů, resp. získat více bodů než soupeřící týmy; k tomu využívá vstupy v podobě schopnosti hráčů hrát dobře na pálce a v poli; vstupem ovlivňujícím chod stroje jsou rovněž obdobné schopnosti hráčů soupeřících týmů. Jedná se samozřejmě o velmi zjednodušený kauzální model fungování týmu oakladnských "Áček", ale jak konstatuje slavný statistický aforismus, [modely jsou vždy nepřesné, ale některé z nich jsou užitečné](https://en.wikipedia.org/wiki/All_models_are_wrong).
 
@@ -347,10 +347,10 @@ Na příkladu oaklandského baseballového mužstva jsme takto mohli sledovat ob
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
-- [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
 - [[hr-analytika-a-odchodovost-zamstnanc|HR analytika a odchodovost zaměstnanců]]
+- [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
 - [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 <!-- RELATED:END -->
 
 ---

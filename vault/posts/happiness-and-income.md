@@ -38,8 +38,8 @@ These results thus suggest that happiness isn’t merely a byproduct of financia
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
-- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 - [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[expressive-differences-around-the-world|Adjusting priors on your “emotional radar” for smoother cross-cultural encounters]]
 <!-- RELATED:END -->

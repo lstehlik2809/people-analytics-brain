@@ -15,7 +15,7 @@ original: https://blog-about-people-analytics.netlify.app/posts/2020-12-31-segme
 
 The turn of the year, which is full of all sorts of resolutions to change for the better in our private lives and in our organizations, is a good time to remind ourselves that analytic tools can be very helpful in our efforts to make these resolutions come true. One way they can help us is by verifying that we have really achieved our stated goals and that we are not just fooling ourselves into believing so. We need to keep in mind [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)'s famous principle of critical thinking...
 
-<img src="./feynman.jpg">  
+![](./segmentedregression/feynman.jpg)  
 
 
 <br>  
@@ -26,13 +26,13 @@ One of the tools that can help us with that is [segmented regression analysis of
 
 For illustration, let's use this tool for testing hypothesis about people’s increased interest in topics related to work-life balance and well-being due to the COVID-19 pandemic and subsequent changes in the way people work. As a proxy measure of this interest we will use worldwide search interest data over the last 10 years from [Google Trends](https://trends.google.com/trends/?geo=US) using search terms *work-life balance* and *well-being* (see Fig. 1 and 2 below).
 
-<img src="./workLifeBalanceGoogleTrends.png">
+![](./segmentedregression/workLifeBalanceGoogleTrends.png)
 *Fig. 1: Interest in “work-life balance” topic over the last 10 years measured as a search interest by Google Trends. The numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means that there was not enough data for this term.*  
 
 
 <br>  
 
-<img src="./wellBeingGoogleTrends.png">
+![](./segmentedregression/wellBeingGoogleTrends.png)
 *Fig. 2: Interest in “well-being” topic over the last 10 years measured as a search interest by Google Trends. The numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means that there was not enough data for this term.*  
 
 
@@ -144,7 +144,7 @@ $$Y_{t} = β_{0} + β_{1}*time_{t} + β_{2}*intervention_{t} + β_{3}*time after
 
 The *β<sub>0</sub>* coefficient estimates the baseline level of the outcome variable at time zero; *β<sub>1</sub>* coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); *β<sub>2</sub>* coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and *β<sub>3</sub>* estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of *β<sub>1</sub>* and *β<sub>3</sub>* equals to the post-intervention slope). For a better understanding of the model, take a look at the illustrative chart below.
 
-<img src="./interruptedTimeSeriesAnalysis.png">
+![](./segmentedregression/interruptedTimeSeriesAnalysis.png)
 
 Since we are dealing with correlated and truncated data, we should also include two additional terms in our model, an autocorrelation term and a truncation term, to handle these specific properties of our data.
 

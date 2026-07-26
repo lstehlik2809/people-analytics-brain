@@ -19,7 +19,7 @@ Based on this experience, I created a simple POC app where users can input their
 
 Link to the app: https://aanalytics.shinyapps.io/ask_your_personality/
 
-<img src="./appScreenshot.png">
+![](./openai-personality-interpretation/appScreenshot.png)
 
 I've only tested it on a few profiles, so if you know your HPI profile (or your Big Five traits that are behind HPI), I would be happy to hear how you perceive the face validity and potential usefulness of the generated interpretations. Perhaps I have just become a victim of the well-known Barnum effect 😉
 
@@ -31,7 +31,7 @@ I am well aware that there are clear risks associated with using a generic GPT f
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
-- [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
+- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 <!-- RELATED:END -->
 
 ---

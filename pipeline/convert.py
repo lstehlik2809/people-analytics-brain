@@ -27,6 +27,8 @@ MANIFEST = CACHE / "manifest.json"
 # target is parsed in img_sub, so filenames containing spaces still match
 IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]*)\)")
 TITLE_RE = re.compile(r"\s+\"[^\"]*\"\s*$")
+HTML_IMG_RE = re.compile(r"<img\b([^>]*?)/?>", re.I)
+ATTR_KV_RE = re.compile(r"""([\w-]+)\s*=\s*(["'])(.*?)\2""")
 ATTR_RE = re.compile(r"(\)|\`)\{[^{}\n]*\}")  # pandoc attribute blocks after ) or `
 CHUNK_RE = re.compile(r"^```\{(r|R)\b[^}]*\}\s*$", re.M)
 PY_CHUNK_RE = re.compile(r"^```\{python[^}]*\}\s*$", re.M)
@@ -61,24 +63,37 @@ def convert_body(body: str, post_dir: Path, asset_dir: Path, slug: str, warnings
     body = PY_CHUNK_RE.sub("```python", body)
     body = OTHER_CHUNK_RE.sub("```", body)
 
-    # copy local images and rewrite refs
-    def img_sub(m):
-        alt, target = m.group(1), m.group(2).strip()
-        path = TITLE_RE.sub("", target).strip().strip("<>")
+    def copy_asset(path: str):
+        """Copy a local image into the note's asset dir; return its new ref,
+        or None if it is remote or missing."""
         if path.startswith(("http://", "https://", "data:")):
-            return f"![{alt}]({path})"
+            return None
         src = post_dir / unquote(path)
         if not src.exists():
             warnings.append(f"{slug}: missing image {path}")
-            return f"![{alt}]({path})"
+            return None
         # spaces in a filename break markdown links, so normalize on copy
         dest_name = src.name.replace(" ", "-")
         asset_dir.mkdir(parents=True, exist_ok=True)
         if not (asset_dir / dest_name).exists():
             shutil.copy2(src, asset_dir / dest_name)
-        return f"![{alt}](./{slug}/{dest_name})"
+        return f"./{slug}/{dest_name}"
+
+    def img_sub(m):
+        alt, target = m.group(1), m.group(2).strip()
+        path = TITLE_RE.sub("", target).strip().strip("<>")
+        return f"![{alt}]({copy_asset(path) or path})"
 
     body = IMG_RE.sub(img_sub, body)
+
+    # posts also embed figures with raw <img src="..."> tags; rewrite them as
+    # markdown so Quartz resolves their paths the same way it does elsewhere
+    def html_img_sub(m):
+        attrs = dict((k.lower(), v) for k, _, v in ATTR_KV_RE.findall(m.group(1)))
+        new = copy_asset(attrs.get("src", "").strip())
+        return f"![{attrs.get('alt', '')}]({new})" if new else m.group(0)
+
+    body = HTML_IMG_RE.sub(html_img_sub, body)
     # strip pandoc attribute blocks like ){width=100%}
     body = ATTR_RE.sub(r"\1", body)
     body = blank_pad_html_wrappers(body)

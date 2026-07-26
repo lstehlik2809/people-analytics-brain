@@ -82,7 +82,7 @@ htmltools::div(
 - [[siop-2025-conference-events|What topics might you encounter at the SIOP 2025 conference?]]
 - [[siop-2026-causal-inference-workshop|No Experiment, No Problem? Causal Inference in Applied Quasi-Experimental Settings (Session ID 830)]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[searching-and-querying-aihr-blog-posts|Searching & querying AIHR blog posts on People Analytics topics]]
+- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 <!-- RELATED:END -->
 
 ---

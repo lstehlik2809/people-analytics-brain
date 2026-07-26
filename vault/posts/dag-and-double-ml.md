@@ -145,7 +145,7 @@ print("The estimated Average Treatment Effect is:", sum(estimates)/len(estimates
 
 We see that the estimated causal effect of training is approximately 2.9, quite far from the known value of 3.5. How so? Well, if you look at the DAG above, you can see that by using all the variables as covariates, not only have we correctly blocked the backdoor by controlling for employee cognitive ability, but we have also introduced bias into our estimation by controlling for satisfaction, which is a collider - a variable that is affected by both the outcome (productivity) and the treatment (training). And controlling for colliders leads to spurious correlations between variables or, as in our case, deflates the size of the estimated effect. We can easily check this using [DAGitty](https://www.dagitty.net/), which is a wonderful browser-based environment for creating and analysing causal diagrams.
 
-<img src="./dag.png">
+![](./dag-and-double-ml/dag.png)
 
 So let's repeat the estimation, but now without satisfaction variable as covariate. As you can see below, we are now much closer to the actual causal effect.
 
@@ -233,8 +233,8 @@ dml_plr_xgb.confint()
 - [[mixed-level-ml|Beyond the “flat Earth”]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
-- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 <!-- RELATED:END -->
 
 ---

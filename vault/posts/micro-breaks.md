@@ -17,15 +17,15 @@ As the authors of the study, [Albulescu et al. (2022)](https://www.ncbi.nlm.nih.
 
 There is nothing like having a meta-analysis to back up your habits, or better yet, initially bad habits 😉
 
-<img src="./plots.png">
+![](./micro-breaks/plots.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[time-management|Consequences of time management in the workplace]]
 - [[job-demands-job-control-wellbeing|Surprising finding on the impact of job demands and control on workers’ well-being]]
-- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[timeboxing|Timeboxing. Does it really work?]]
+- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 <!-- RELATED:END -->
 
 ---

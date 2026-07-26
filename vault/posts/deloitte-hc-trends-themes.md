@@ -28,20 +28,20 @@ The result? The analysis revealed 13 distinct themes among the 118 specific tren
 12. Diversity in Business Strategy (3)
 13. Workplace Flexibility Strategies (3)
 
-<img src="./plot.png">
+![](./deloitte-hc-trends-themes/plot.png)
 
 It's no wonder I've had dejavu feelings about some trends over the years, but that's why they are called trends, because they persist over time, right? 😉
 
 If you would like to check the analysis output interactively and in greater detail, you can use [this simple dashboard](https://lsanalytics.shinyapps.io/trendsApp/).
 
-<img src="./dashboard.png">
+![](./deloitte-hc-trends-themes/dashboard.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[siop-2026-reflection|SIOP through the wisdom of crowds: What I may have missed]]
-- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
 - [[searching-and-querying-aihr-blog-posts|Searching & querying AIHR blog posts on People Analytics topics]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[big-consultancies-in-the-skills-semantic-space|Big consultancies in the skills semantic space]]
 <!-- RELATED:END -->
 

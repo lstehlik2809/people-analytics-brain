@@ -17,7 +17,7 @@ We are currently trying to connect these two "worlds" because in situations of o
 
 One option we're considering is using a kind of heatmap, which you may be familiar with from eye-tracking studies used in marketing, to see where people focus their attention when interacting with products and making purchasing decisions. Now imagine if we overlayed a similar heatmap showing the intensity of collaboration between a selected unit and the rest of the organization over an org chart - see the figure below for illustration.
 
-<img src="./collaborationOrgChartOverlay.png"> 
+![](./org-chart-and-collaboration/collaborationOrgChartOverlay.png) 
 
 Would you consider such a visualization useful if you were engaged in organizational transformation? Would you suggest any other kind of visualization or specific metric related to collaboration? Thank you in advance for any input you may have - it will help us broaden the range of perspectives we are currently considering.
 

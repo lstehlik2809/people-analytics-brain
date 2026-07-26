@@ -150,8 +150,8 @@ P.S. If interested, feel free to check out [one of my earlier apps](https://blog
 - [[linkedin-connections-analysis|R Shiny app for LinkedIn connections analysis]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 - [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
+- [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 <!-- RELATED:END -->
 
 ---

@@ -15,7 +15,7 @@ To use one specific example, one of the problems addressed by our Sales Analytic
 
 By piloting the app in just one team and finding another team with a similar, parallel trend in the selected criterion, we can try to estimate its effectiveness. As shown in the attached chart, the fitted DiD model in this particular case slightly supports the effectiveness of the app, at least in terms of the amount of time spent with prospects, but can easily be switched to another criterion that is closer to the company’s bottom line, e.g., the number of closed deals. Moreover, if we are aware of certain systematic differences between the teams, such as the experience level of the sales reps, we can include relevant control variables in the model to achieve a more accurate estimation of the app's effectiveness.
 
-<img src="./plots.png">
+![](./app-piloting-and-dif/plots.png)
 
 So, next time you consider introducing a new business app, consider piloting it in combination with the DiD method to better understand its impact on your organization's goals. Happy piloting! ✌️
 

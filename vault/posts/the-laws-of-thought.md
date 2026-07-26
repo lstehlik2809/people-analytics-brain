@@ -29,11 +29,7 @@ P.S. The chart bellow represents a kind of knowledge graph generated from the bo
 <div style="text-align:center;">
 
   <a href="./network_the_laws_of_thought.png" target="_blank">
-    <img 
-      src="./network_the_laws_of_thought.png" 
-      style="width:100%; cursor: zoom-in;"
-      alt="Network: The Laws of Thought"
-    />
+    ![Network: The Laws of Thought](./the-laws-of-thought/network_the_laws_of_thought.png)
   </a>
 
 </div>

@@ -18,7 +18,7 @@ In considering various options, we also came across [Bayesian networks](https://
 * It is possible to use the data itself to estimate the possible network topology and thus gain preliminary insight into the structure of the problem domain defined by the available variables. 
 * After fitting the model, it can be used for reasoning, i.e., calculating probabilities of interest conditional on the available evidence. This reasoning can be done even with incomplete data, based only on the known values of any combination of the available variables. 
 
-<img src="./plot.png">
+![](./bayesian-networks-in-people-analytics/plot.png)
 *The attached graph is for illustrative purposes only - the output from early experiments with BNs on [artificial IBM employee attrition data](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).*
 
 However, when searching for information about this method, we found that it is not particularly popular among people analytics and I/O psychology practitioners. Would anyone of the readers happen to have a good or bad experience using this tool and would also be willing to share it? 🙏

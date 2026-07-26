@@ -16,7 +16,7 @@ Based on a systematic review and meta-analysis of studies with controlled workpl
 
 When it comes to the types of intervention (personal resource building, job resource building, leadership training, and health promotion), a moderator analysis did not find evidence for their differing effectiveness. However, there was evidence for a medium to strong effect of intervention style in favor of group interventions (vs. individual), with the possible explanation being that group interventions effectively influence certain work engagement antecedents, such as social support and influence in decision-making.
 
-<img src="./metaanalysis_results.png">
+![](./engagement-interventions/metaanalysis_results.png)
 
 Regarding the sustainability of effects, there was no significant effect of time in the case of overall work engagement. However, for the vigor sub-component, there were stronger effects immediately post-intervention than at follow-up, with the opposite being true for dedication and absorption sub-components.
 

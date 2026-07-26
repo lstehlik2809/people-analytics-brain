@@ -26,7 +26,7 @@ To address these limitations, I experimented with another approach that includes
 
 I had to experiment a bit with the prompts and include some data-munging inter-steps to get useful outputs, however, it now works relatively smoothly and provides pretty good results. To test the plausibility of this approach, I tried it on publicly available feedback from more than 300 current and former employees of an unnamed company published on Glassdoor and shared on [Kaggle](https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews/code). You can check the results of the analysis yourself in [this simple dashboard](https://aanalytics.shinyapps.io/employeeFeedback/). 
 
-<img src="./Screenshot.png">
+![](./employee-feedback-analysis-using-openai/Screenshot.png)
 
 In my opinion, it works quite well and could represent a very time- and cost-effective way to gain useful insights from employee open-ended feedback at scale, with the caveat that one has to ensure the security of the processed data, for example, by using a local LLM. Let me know what you think about this approach. And if you are interested in the Python code behind the analysis so you can play with it on your own data, here's the [link to the GitHub page](https://github.com/lstehlik2809/Employee-Feedback-Analysis-Using-OpenAI) with the Python code.
 

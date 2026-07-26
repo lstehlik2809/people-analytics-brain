@@ -14,7 +14,7 @@ To test this hypothesis, they looked at the monthly number of meetings people at
 * Those who went to a bunch of meetings were more likely to say they're not sure if they can make it or not.
 * People who were busy with meetings declined more meeting invites than those who had fewer meetings.
 
-<img src="./plots.png">
+![](./meeting-yes-men/plots.png)
 
 Thus, contrary to initial expectations, the data showed that people who attended more meetings, on average, tended to accept fewer invites, were more likely to be unsure about their availability, and actually declined more invites than those with fewer meetings.
 
@@ -23,8 +23,8 @@ While the client couldn’t rule out that there might be some individuals fittin
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
-- [[meeting-planning|Fighting meeting overload]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
+- [[meeting-planning|Fighting meeting overload]]
 - [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
 <!-- RELATED:END -->

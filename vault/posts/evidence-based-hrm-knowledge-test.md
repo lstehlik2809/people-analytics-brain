@@ -32,7 +32,7 @@ Here is [the link to the app](https://peopleanalyticsblog.shinyapps.io/evidence_
 
 Feel free to share your results in the comments. Think of it as a form of public commitment to making some progress in evidence-based HRM in the coming year `r emoji::emoji("wink")` To walk the talk, I attached my own results. As you can see, it's not bad, but there is still room for improvement, especially in the general employment practices area `r emoji::emoji("smiley")`
 
-<img src="./results.png"> 
+![](./evidence-based-hrm-knowledge-test/results.png) 
 
 P.S. Keep in mind that the test is based on evidence available up to 2002, so it is possible that some correct answers or their contingencies may have changed in that time. For all of them, consider, for example, the adjustment of the estimate of the magnitude of the predictive validity of personnel selection procedures in their most recent [meta-analysis by Sackett et al. (2022)](https://psycnet.apa.org/record/2022-17327-001). If you come across any such discrepancy, it would be great if you share it with others in the comments. 
 

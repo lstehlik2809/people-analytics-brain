@@ -18,7 +18,7 @@ However, even after several rounds of these improvements, there was still a need
 
 For this purpose, we chose a method that is related to the [Bollinger Bands](https://en.wikipedia.org/wiki/Bollinger_Bands) method used in time series analysis or "Heartbeat Analysis" used in survey response analysis. Specifically, we look at the standard deviation and average of the month-to-month changes for each metric, scale the changes to z-scores, and then identify the metrics with the highest absolute value of average change over the last 3 months. To illustrate, see the attached chart where the metrics are sorted by magnitude of their change in descending order from left to right and top to bottom.
 
-<img src="./highlights.png">  
+![](./change-detection/highlights.png)  
 
 If you want to try this method on your own data, you can use its Python implementation, which is on [my GitHub page](https://github.com/lstehlik2809/Change-detection-in-time-series-data/blob/main/standardizedChangeSizeComputation.py).
 

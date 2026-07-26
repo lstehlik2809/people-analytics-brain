@@ -21,7 +21,7 @@ But how to measure this behavior so that a number can be put on it to enable peo
 1. Clustering of sent emails/messages using [K-Means](https://cs.wikipedia.org/wiki/K-means) or [PAM](https://en.wikipedia.org/wiki/K-medoids) and calculation of time gaps between start/end points of identified clusters, including the start and end of the working day. The larger the gaps, the stronger the signal of batch behavior.
 2. Percentage of emails/messages sent during the 3 busiest working hours (defined by the number of emails/messages sent) during a given day. The higher the proportion, the stronger the signal of batch behavior. This approach is inspired by the [2016 study by Mark et al.](https://www.researchgate.net/publication/301935517_Email_Duration_Batching_and_Self-interruption_Patterns_of_Email_Use_on_Productivity_and_Stress) "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress", where the authors used similar approach in the domain of email communication.
 
-<img src="./methodsComparison.png"> 
+![](./slack-batching/methodsComparison.png) 
 
 There are advantages and disadvantages to both methods (face validity, accuracy, sensitivity to edge cases, computational complexity, etc.), but irrespective of these, which one would you prefer to see in your collaboration report? To get a better idea of what outputs both of the above approaches generate, you can take a look at the attached graphs showing the prevalence of batch behavior during one of my work weeks on Slack according to these two approaches.
 

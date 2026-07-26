@@ -23,7 +23,7 @@ It's clear that a process like this would make life easier not only for job cand
 
 I tested the feasibility of this idea by creating a functional POC career site, with OpenAI tools working behind the scenes, that supports this exact flow for 20 people-analytics-related job ads taken from [One Model's website with open roles in the people analytics space](https://www.onemodel.co/roles-in-people-analytics-hr-technology) (by the way, kudos for that, One Model team 👏). You can try it for yourself with your own or sample CV on [this webpage](https://aanalytics.shinyapps.io/cv-job-fit-analysis/).
 
-<img src="./screenshot.png">
+![](./cv-job-match-career-site/screenshot.png)
 
 Let me know in the comments what you think about the flow and/or how you would improve it to make it even more useful for job candidates and companies.
 
@@ -32,8 +32,8 @@ P.S. It was also a good opportunity to try out [Shiny for Python by Posit](https
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[job-comparator|A bet on a new job]]
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[job-comparator|A bet on a new job]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ Within two or three iterations, in about 5 minutes total, the simulator was good
 <div style="text-align:center;">
 
   <a href="https://lstehlik2809.github.io/Dunning-Kruger-Effect-Statistical-Artifact/index.html" target="_blank">
-    <img src="app_pic.png" style="width:80%;" alt="Claude artifact preview">
+    ![Claude artifact preview](./dunning-kruger-effect-simulation/app_pic.png)
   </a>
 
 </div>

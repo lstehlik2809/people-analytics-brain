@@ -11,7 +11,7 @@ original: https://blog-about-people-analytics.netlify.app/posts/2022-11-26-meeti
 
 I assume many, if not all, of you are familiar with [the Eisenhower matrix](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method), a simple tool for prioritizing tasks based on a combination of their importance and urgency. It assumes 4 types of tasks - important & urgent, important & not urgent, not important & urgent, not important & not urgent - and for each of them offers a simple recommendation on what to do with them - do it, schedule it, delegate it, and delete it. By following these rules, people should be able to more successfully combat the “mere-urgency” effect, eliminate time-wasters in their lives, and create more space to make progress toward their goals.
 
-<img src="./eisenhowerMatrix.png"> 
+![](./meeting-matrix/eisenhowerMatrix.png) 
 
 Something similar can be created also for meetings, which are big time and money guzzlers and deserve to be treated accordingly. Only instead of the dimensions of importance and urgency, we will use the size and length of meetings. The resulting matrix assumes 4 types of meetings with corresponding recommendations on what to do with them:
 
@@ -24,7 +24,7 @@ The meeting matrix is by no means a panacea for meeting overload, but by followi
 
 Btw, what is your guess as to how much time you spend in each cell of the meeting matrix? For comparison I attach my monthly numbers from October.
 
-<img src="./meetingMatrix.png">
+![](./meeting-matrix/meetingMatrix.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes

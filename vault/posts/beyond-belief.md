@@ -41,7 +41,7 @@ There are plenty more gems and learnings in the book itself - so if you still ha
 - [[evidence-based-hrm-knowledge-test-results|Evaluation of the results of the evidence-based HRM knowledge test]]
 - [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
-- [[ebm-gpt-bot|How to support the adoption of Evidence-Based Management with a specialized GPT bot]]
+- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 <!-- RELATED:END -->
 
 ---

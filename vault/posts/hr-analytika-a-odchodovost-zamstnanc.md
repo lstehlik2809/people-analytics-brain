@@ -20,7 +20,7 @@ Sys.setlocale("LC_CTYPE", "czech")
 
 HR analytika ve své podstatě vychází ze známé zásady managementu, že **co nelze měřit, nelze ani (efektivně) řídit a zlepšovat**, a aplikuje tuto zásadu na lidské zdroje. V několika posledních letech potom k tomu navíc přidává nadstavbu v podobě pokročilejších analytických postupů, které mají větší potenciál přijít s hlubšími vhledy a s doporučeními s větším efektem. Ale ať už využíváte pouze základní reporting nebo nějakou pokročilejší analytiku, cíl je vždy stejný – snažit se s pomocí dat a jejich analýzy žádoucím způsobem ovlivnit jednotlivé HR procesy, které organizacím pomáhají dosahovat jejich strategických cílů. Názorně to ilustruje níže uvedené schéma zachycující mechanismus propojující HR procesy s (nejen) finančními výsledky organizace ([Paauwe & Richardson, 1997](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20)). 
 
-<img src="./HR_Value_Chain.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/HR_Value_Chain.png)
 
 HR analytika pomáhá optimalizovat nastavení tohoto mechanismu tím, že umožňuje nalézat odpovědi na některé klíčové otázky, jako např.:
 
@@ -139,13 +139,13 @@ S pomocí [tohoto dashboardu](https://aanalytics.shinyapps.io/turnover_analytics
 Jak je z výše uvedeného výčtu otázek patrné, dashboard obsahuje informace, které při svém rozhodování mohou využít **nejen HR manažeři, ale také HR business partneři nebo přímo team-leadeři a linioví manažeři** jednotlivých týmů či oddělení. Kromě toho dashboard obsahuje také řadu technických detailů o použitém predikčním modelu a samotná data, které stojí v pozadí všech prezentovaných vizualizací a analýz. S jejich pomocí tak **HR/Business analytik** může např. hledat optimální způsob, jak nastavit skórovací algoritmus, aby se maximalizoval pozitivní efekt pro-retenčních opatření, nebo může v dostupných datech sám hledat nějaké další užitečné informace. Více viz již [samotný dashboard](https://aanalytics.shinyapps.io/Turnover_Analytics_Dashboard_Demo/), z něhož můžete níže vidět několik screenshotů. 
 
 *Screenshot části dashboardu, která obsahuje různé řezy odchodovostí zaměstnanců, a dává tak dobrý přehled o tom, které skupiny zaměstnanců jsou odchodovostí nejvíce ohrožené.*  
-<img src="./DSHB1.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/DSHB1.png)
 
 *Screenshot části dashboardu, která obsahuje informace o pravděpodobnosti odchodu jednotlivých zaměstnanců společně s dalšími informacemi, které mohou posloužit jako podklad pro individuální intervence s cílem předejít nežádoucím odchodům zaměstnanců.* 
-<img src="./DSHB2.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/DSHB2.png)
 
 *Screenshot části dashboardu, která obsahuje informace o výkonu/kvalitě statistického modelu použitého k identifikaci významných prediktorů odchodovosti zaměstnanců a k odhadu pravděpodobnosti odchodu jednotlivých zaměstnanců.* 
-<img src="./DSHB3.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/DSHB3.png)
 
 ## Figures
 
@@ -156,8 +156,8 @@ Jak je z výše uvedeného výčtu otázek patrné, dashboard obsahuje informace
 - [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
 - [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 - [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
-- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
+- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
 <!-- RELATED:END -->
 
 ---

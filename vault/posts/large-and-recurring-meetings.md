@@ -17,7 +17,7 @@ I am thinking of **large recurring meetings** that combine two big time wasters,
 
 As illustrated in the attached chart, large and recurring meetings can represent a relatively large chunk of time in an employee's work month. Large meetings here account for approximately 37% of all meeting time and more than 80% of large meetings are recurring. This represents a relatively large room for optimizing the time spent in meetings.
 
-<img src="./meetingSizeRecurrenceFrequency.png">
+![](./large-and-recurring-meetings/meetingSizeRecurrenceFrequency.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes

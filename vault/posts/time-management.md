@@ -17,7 +17,7 @@ original: https://blog-about-people-analytics.netlify.app/posts/2023-04-17-time-
 
 * **The relationship between time management and employee outcomes is not only direct but also partially mediated by work-family conflict**. This finding underscores the importance of work-life balance and highlights the need for organizations to help employees better address this specific issue, as it may positively affect a variety of employee outcomes.
 
-<img src="./semChart.png">
+![](./time-management/semChart.png)
 
 * **Perceived control over time**, achieved through the use of time management, **shows incremental validity in predicting job satisfaction, job performance, and stress with respect to the personality trait of conscientiousness**. This suggests that regardless of an individual's innate level of prudence, they may benefit from adopting time management in their professional lives.
 

@@ -51,8 +51,8 @@ P.S. In the next post let’s check what suggestions people have for improving t
 ## Related notes
 - [[meetings-improvement|How to improve effectiveness of meetings?]]
 - [[meeting-planning|Fighting meeting overload]]
-- [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
+- [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 <!-- RELATED:END -->
 

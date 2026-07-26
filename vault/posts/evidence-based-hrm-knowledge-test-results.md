@@ -15,7 +15,7 @@ In one of my [previous posts](https://blog-about-people-analytics.netlify.app/po
 
 On average, we had 19.4 items out of 35 correct, i.e., we had a 55% success rate, which is very close to the results of the original study where respondents had an average 57% success rate (and also pretty close to the 50% success rate corresponding to random choice). So these results suggest that we have not progressed much as a group over the last 20 years, however, see the disclaimer at the very end of the post.
 
-<img src="./overallResultsComparison.png"> 
+![](./evidence-based-hrm-knowledge-test-results/overallResultsComparison.png) 
 
 **In which HRM area did we have the largest & smallest knowledge gaps?**
 
@@ -47,7 +47,7 @@ Please keep in mind that the comparison presented here is not entirely an apples
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
 - [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
 - [[managers-and-performance-evaluations|A new broom sweeps clean]]
-- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
+- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 <!-- RELATED:END -->
 
 ---

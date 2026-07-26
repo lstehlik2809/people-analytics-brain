@@ -15,12 +15,12 @@ As the economy cooled, more posts started appearing in my social bubble about ho
 
 One of the often-mentioned conceptual tools in this context is the **HRM value chain** which shows how people processes lead to achieving companies’ desired business outcomes. There are more versions of this tool, e.g. one from [Jaap Paauwe and Ray Richardson](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20) or another one from [Max Blumberg](https://www.hrzone.com/lead/strategy/why-hr-needs-to-up-its-game-in-strategic-people-analytics), but what they have in common is a kind of causal flow from HRM activities to HRM outcomes to business outcomes.
 
-<img src="./hrmValueChain1.png"> 
+![](./hrm-value-chain-and-sem/hrmValueChain1.png) 
 *Example of the HRM value chain model from [Paauwe & Richardson (1997)](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20).* 
 
 <br />
 
-<img src="./hrmValueChain2.png"> 
+![](./hrm-value-chain-and-sem/hrmValueChain2.png) 
 *Example of the HRM value chain model from [Blumberg (2018)](https://www.hrzone.com/lead/strategy/why-hr-needs-to-up-its-game-in-strategic-people-analytics).* 
 
 However, as potentially useful as this metaphor of the organization as a kind of "machine" with certain inputs, processes, and outputs is, it is still only a conceptual tool that may or may not correspond to the reality of a particular organization.  
@@ -31,7 +31,7 @@ To illustrate this with a more tangible example, let’s use [sabermetric](https
 
 Based on our expert knowledge of the game of baseball, our working hypotheses, and the results of some previous analyses, we can construct a conceptual model of how a baseball team functions, as outlined below.
 
-<img src="./conceptualModel.png"> 
+![](./hrm-value-chain-and-sem/conceptualModel.png) 
 *Conceptual model of how a baseball team works.*
 
 The diagram shows clearly how this “machine” works: Its outputs are qualifications for the playoffs, which it achieves by trying to win more games or score more points than the opposing teams; to do this, it uses inputs in the form of the players' ability to play well at bat and in the field; the inputs affecting the “machine's” operation are also the similar abilities of the opposing teams' players. This is, of course, a very simplistic causal model of how the OAK team operates, but as the famous statistical aphorism states, [all models are wrong, but some are useful](https://en.wikipedia.org/wiki/All_models_are_wrong). 

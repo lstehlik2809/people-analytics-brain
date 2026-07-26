@@ -391,11 +391,7 @@ P.S. The chart bellow represents a kind of knowledge graph generated from the bo
 <div style="text-align:center;">
 
   <a href="./network_the_laws_of_thought.png" target="_blank">
-    <img 
-      src="./network_the_laws_of_thought.png" 
-      style="width:100%; cursor: zoom-in;"
-      alt="Network: The Laws of Thought"
-    />
+    ![Network: The Laws of Thought](./the-laws-of-thought/network_the_laws_of_thought.png)
   </a>
 
 </div>
@@ -1683,7 +1679,7 @@ Within two or three iterations, in about 5 minutes total, the simulator was good
 <div style="text-align:center;">
 
   <a href="https://lstehlik2809.github.io/Dunning-Kruger-Effect-Statistical-Artifact/index.html" target="_blank">
-    <img src="app_pic.png" style="width:80%;" alt="Claude artifact preview">
+    ![Claude artifact preview](./dunning-kruger-effect-simulation/app_pic.png)
   </a>
 
 </div>
@@ -10165,7 +10161,7 @@ To make better use of my notes from my current onboarding, I created a quick and
 
 So, for example, if I need to find out who owns a certain business process, I can just type my question into the app and quickly get an answer, including tips on what files to look at to verify the answer or find other related information.
 
-<img src="./Capture.png">
+![](./nlp-llm-and-onboarding/Capture.png)
 
 If you want to check out the code behind the app, you can find it in [this GitHub repo](https://github.com/lstehlik2809/searching-onboarding-notes).
 
@@ -10512,7 +10508,7 @@ print("The estimated Average Treatment Effect is:", sum(estimates)/len(estimates
 
 We see that the estimated causal effect of training is approximately 2.9, quite far from the known value of 3.5. How so? Well, if you look at the DAG above, you can see that by using all the variables as covariates, not only have we correctly blocked the backdoor by controlling for employee cognitive ability, but we have also introduced bias into our estimation by controlling for satisfaction, which is a collider - a variable that is affected by both the outcome (productivity) and the treatment (training). And controlling for colliders leads to spurious correlations between variables or, as in our case, deflates the size of the estimated effect. We can easily check this using [DAGitty](https://www.dagitty.net/), which is a wonderful browser-based environment for creating and analysing causal diagrams.
 
-<img src="./dag.png">
+![](./dag-and-double-ml/dag.png)
 
 So let's repeat the estimation, but now without satisfaction variable as covariate. As you can see below, we are now much closer to the actual causal effect.
 
@@ -10843,7 +10839,7 @@ dataset %>%
 
 ```
 
-<img src="./screen1.png">
+![](./r-and-power-bi/screen1.png)
 
 We may also want to allow dashboard users to enter custom values for specific personas of interest and let the scoring algorithm predict the corresponding risk of leaving the company. To make the demonstration of this feature somewhat easier, I will use a different prediction model that uses only some of the strongest predictors.
 
@@ -10916,7 +10912,7 @@ prediction %>%
 
 ```
 
-<img src="./screen2.png">
+![](./r-and-power-bi/screen2.png)
 
 This completed the work on our local computer. You can download the final dashboard [here](attritionPredictionModel.pbix). If you use it, be sure to update the paths to the trained model in both the Query Editor and the R visuals. The next step is to set up the Power BI Service and install and configure the on-premises data gateway so that the R scripts will work in dashboards shared with others. More on this in a future blog post.
 
@@ -10939,9 +10935,9 @@ However, I adjusted my view after coming across the updated validity estimate in
 The latter study reported the following interesting findings:
 
 * Correlation between interest scores and job performance (corrected for both indirect range restriction and unreliability in the criterion) is 0.16 (SE=0.03).
-<img src="./scheme2.png">
+![](./vocational-interests/scheme2.png)
 * Interest congruence/match between an individual's interests and his or her work is a much stronger predictor of performance outcomes than interest scores alone, with baseline correlations of 0.32 and 0.16, respectively.
-<img src="./scheme1.png">
+![](./vocational-interests/scheme1.png)
 * Interests are significantly better predictors of organizational citizenship behavior than other criteria (job performance, task performance, OCB, persistence, CWB, and training performance) but are less valid for predicting CWB and task performance.
 
 If you tend to think about vocational interests as I have until recently, perhaps these two studies will help you update your priors a little bit 😉
@@ -11142,7 +11138,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-07-11-
 
 It’s an app that allows you to quickly search for People Analytics topics in a database of almost 260 [AIHR blog posts](https://www.aihr.com/blog/) and get key ideas and insights from the posts that best match your search topic, with the possibility to go to the original post via a provided link. 
 
-<img src="./plot.png">
+![](./searching-and-querying-aihr-blog-posts/plot.png)
 
 The cluster analysis revealed that the posts cover more than 30 topics, so there's a lot to choose from. Feel free to give it a try and let me know how it works for you. Here's a [link to the app](https://lsanalytics.shinyapps.io/aihrPostsSearchInsights/#section-search-insights).
 
@@ -11303,7 +11299,7 @@ Being in the final phase of my new job search, I wanted to be able to aggregate 
 
 To do this, I put together a “back-of-the-envelope” calculation that combines, in a Bayesian way, the impressions one has of various aspects of the jobs one is applying for.  
 
-<img src="./dashboard.png">
+![](./job-comparator/dashboard.png)
 
 It works with several factors that research suggests are related to job satisfaction and that a person has the chance to estimate subjectively to some degree during the hiring process from job ads, interviews, sample tasks, company reviews from current or former employees on Glassdoor, etc. Specifically, it takes into account the following factors:
 
@@ -11351,13 +11347,13 @@ The result? The analysis revealed 13 distinct themes among the 118 specific tren
 12. Diversity in Business Strategy (3)
 13. Workplace Flexibility Strategies (3)
 
-<img src="./plot.png">
+![](./deloitte-hc-trends-themes/plot.png)
 
 It's no wonder I've had dejavu feelings about some trends over the years, but that's why they are called trends, because they persist over time, right? 😉
 
 If you would like to check the analysis output interactively and in greater detail, you can use [this simple dashboard](https://lsanalytics.shinyapps.io/trendsApp/).
 
-<img src="./dashboard.png">
+![](./deloitte-hc-trends-themes/dashboard.png)
 
 
 ---
@@ -11690,7 +11686,7 @@ In considering various options, we also came across [Bayesian networks](https://
 * It is possible to use the data itself to estimate the possible network topology and thus gain preliminary insight into the structure of the problem domain defined by the available variables. 
 * After fitting the model, it can be used for reasoning, i.e., calculating probabilities of interest conditional on the available evidence. This reasoning can be done even with incomplete data, based only on the known values of any combination of the available variables. 
 
-<img src="./plot.png">
+![](./bayesian-networks-in-people-analytics/plot.png)
 *The attached graph is for illustrative purposes only - the output from early experiments with BNs on [artificial IBM employee attrition data](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).*
 
 However, when searching for information about this method, we found that it is not particularly popular among people analytics and I/O psychology practitioners. Would anyone of the readers happen to have a good or bad experience using this tool and would also be willing to share it? 🙏
@@ -12363,7 +12359,7 @@ It's clear that a process like this would make life easier not only for job cand
 
 I tested the feasibility of this idea by creating a functional POC career site, with OpenAI tools working behind the scenes, that supports this exact flow for 20 people-analytics-related job ads taken from [One Model's website with open roles in the people analytics space](https://www.onemodel.co/roles-in-people-analytics-hr-technology) (by the way, kudos for that, One Model team 👏). You can try it for yourself with your own or sample CV on [this webpage](https://aanalytics.shinyapps.io/cv-job-fit-analysis/).
 
-<img src="./screenshot.png">
+![](./cv-job-match-career-site/screenshot.png)
 
 Let me know in the comments what you think about the flow and/or how you would improve it to make it even more useful for job candidates and companies.
 
@@ -12387,7 +12383,7 @@ I was curious to see how GPT-4 would perform in this test, as it had been evalua
 
 So, what were the results? GPT-4 answered 29 out of 35 items right, i.e., it achieved an 83% success rate, which corresponds to the 99th and 97th percentiles in the original and "replicated" studies, respectively. GPT-4's results were thus superior to majority of people who took the test.
 
-<img src="./plot.png">
+![](./gpt4-and-e-b-hrm-practices/plot.png)
 
 However, even when it gave a correct answer, it did not always rely on correct facts and/or valid reasoning, which could be a problem if management decided to act on the answers provided. See the table below to check the details of its responses.
 
@@ -12452,7 +12448,7 @@ To address these limitations, I experimented with another approach that includes
 
 I had to experiment a bit with the prompts and include some data-munging inter-steps to get useful outputs, however, it now works relatively smoothly and provides pretty good results. To test the plausibility of this approach, I tried it on publicly available feedback from more than 300 current and former employees of an unnamed company published on Glassdoor and shared on [Kaggle](https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews/code). You can check the results of the analysis yourself in [this simple dashboard](https://aanalytics.shinyapps.io/employeeFeedback/). 
 
-<img src="./Screenshot.png">
+![](./employee-feedback-analysis-using-openai/Screenshot.png)
 
 In my opinion, it works quite well and could represent a very time- and cost-effective way to gain useful insights from employee open-ended feedback at scale, with the caveat that one has to ensure the security of the processed data, for example, by using a local LLM. Let me know what you think about this approach. And if you are interested in the Python code behind the analysis so you can play with it on your own data, here's the [link to the GitHub page](https://github.com/lstehlik2809/Employee-Feedback-Analysis-Using-OpenAI) with the Python code.
 
@@ -12771,7 +12767,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-17-
 
 * **The relationship between time management and employee outcomes is not only direct but also partially mediated by work-family conflict**. This finding underscores the importance of work-life balance and highlights the need for organizations to help employees better address this specific issue, as it may positively affect a variety of employee outcomes.
 
-<img src="./semChart.png">
+![](./time-management/semChart.png)
 
 * **Perceived control over time**, achieved through the use of time management, **shows incremental validity in predicting job satisfaction, job performance, and stress with respect to the personality trait of conscientiousness**. This suggests that regardless of an individual's innate level of prudence, they may benefit from adopting time management in their professional lives.
 
@@ -13005,7 +13001,7 @@ To use one specific example, one of the problems addressed by our Sales Analytic
 
 By piloting the app in just one team and finding another team with a similar, parallel trend in the selected criterion, we can try to estimate its effectiveness. As shown in the attached chart, the fitted DiD model in this particular case slightly supports the effectiveness of the app, at least in terms of the amount of time spent with prospects, but can easily be switched to another criterion that is closer to the company’s bottom line, e.g., the number of closed deals. Moreover, if we are aware of certain systematic differences between the teams, such as the experience level of the sales reps, we can include relevant control variables in the model to achieve a more accurate estimation of the app's effectiveness.
 
-<img src="./plots.png">
+![](./app-piloting-and-dif/plots.png)
 
 So, next time you consider introducing a new business app, consider piloting it in combination with the DiD method to better understand its impact on your organization's goals. Happy piloting! ✌️
 
@@ -13031,7 +13027,7 @@ Fortunately, there are research designs that can help us untangle this conundrum
 
 The attached figure with the two alternative path models clearly shows that the causal path from employee perceptions to outcomes is stronger than the other way around, especially when it comes to theoretically more proximal outcomes such as employee retention and customer loyalty.
 
-<img src="./path_charts.png">
+![](./employee-satisfaction-and-company-bottom-line/path_charts.png)
 
 Despite not being free of potential biases, these results add more weight to the argument that investing in improving employee job satisfaction also makes sense for improving a company's bottom line, rather than "only" improving employee well-being. The question now is what interventions to improve employee satisfaction might work. Let’s review the available evidence on this issue in one of the next posts.
 
@@ -13053,7 +13049,7 @@ Based on a systematic review and meta-analysis of studies with controlled workpl
 
 When it comes to the types of intervention (personal resource building, job resource building, leadership training, and health promotion), a moderator analysis did not find evidence for their differing effectiveness. However, there was evidence for a medium to strong effect of intervention style in favor of group interventions (vs. individual), with the possible explanation being that group interventions effectively influence certain work engagement antecedents, such as social support and influence in decision-making.
 
-<img src="./metaanalysis_results.png">
+![](./engagement-interventions/metaanalysis_results.png)
 
 Regarding the sustainability of effects, there was no significant effect of time in the case of overall work engagement. However, for the vigor sub-component, there were stronger effects immediately post-intervention than at follow-up, with the opposite being true for dedication and absorption sub-components.
 
@@ -13105,7 +13101,7 @@ Despite this, relative weights and incremental validity analyses revealed that s
 * turnover intentions is most strongly predicted by job satisfaction, perceived organizational support (a general evaluation regarding the extent to which employees feel their organization values their contribution and cares about their well-being), and distributive justice, and 
 * organizational citizenship behaviors is most strongly predicted by job engagement, procedural justice (perceived fairness of the means, or procedures, used to determine outcomes), and job involvement (the degree to which a person identifies psychologically with his or her work, or the importance of work in his or her total self-image).  
 
-<img src="./table.png"> 
+![](./job-attitudes-and-employee-outcomes/table.png) 
 
 IMO, knowing this can be quite useful in planning what candidate constructs to measure in your company in an effort to support specific employee outcomes. 
 
@@ -13133,7 +13129,7 @@ To pinpoint particular areas where managers and leaders are prone to overconfide
 4. **Mission:** What is the team’s purpose? What are its goals? How does the team define winning? What are its strategies and plans for accomplishing its goals?
 5. **Courage:** Do team members trust each other? Is there an optimal level of tension and collaboration on this team? Do team members challenge each other in a constructive manner?
 
-<img src="./plot.png">
+![](./managers-overconfidence/plot.png)
 
 When managers get overconfident in these areas, it can lead to all sorts of issues like underinvestment in critical resources, inefficient resource allocation, ignoring skill gaps, insufficient role clarity, making bad decisions, disjointed strategic planning, confusion, misaligned priorities, uncoordinated efforts, blocking innovation, etc.
 
@@ -13160,7 +13156,7 @@ To test this hypothesis, they looked at the monthly number of meetings people at
 * Those who went to a bunch of meetings were more likely to say they're not sure if they can make it or not.
 * People who were busy with meetings declined more meeting invites than those who had fewer meetings.
 
-<img src="./plots.png">
+![](./meeting-yes-men/plots.png)
 
 Thus, contrary to initial expectations, the data showed that people who attended more meetings, on average, tended to accept fewer invites, were more likely to be unsure about their availability, and actually declined more invites than those with fewer meetings.
 
@@ -13186,7 +13182,7 @@ Based on this experience, I created a simple POC app where users can input their
 
 Link to the app: https://aanalytics.shinyapps.io/ask_your_personality/
 
-<img src="./appScreenshot.png">
+![](./openai-personality-interpretation/appScreenshot.png)
 
 I've only tested it on a few profiles, so if you know your HPI profile (or your Big Five traits that are behind HPI), I would be happy to hear how you perceive the face validity and potential usefulness of the generated interpretations. Perhaps I have just become a victim of the well-known Barnum effect 😉
 
@@ -13212,7 +13208,7 @@ As the authors of the study, [Albulescu et al. (2022)](https://www.ncbi.nlm.nih.
 
 There is nothing like having a meta-analysis to back up your habits, or better yet, initially bad habits 😉
 
-<img src="./plots.png">
+![](./micro-breaks/plots.png)
 
 
 ---
@@ -13228,7 +13224,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-03-01-
 
 We have only recently started to measure the **allocation of work time to collaborative and non-collaborative activities** at [Time is Ltd.](https://www.timeisltd.com/).
 
-<img src="./distracted_time_WFH.png"> 
+![](./distracted-time/distracted_time_WFH.png) 
 
 When checking the resulting numbers in the context of **where people work from**, it wasn't that much of a surprise that people spend less time (on average ~37 minutes less per person per day) on collaborative activities when working remotely vs. in the office. Such a pattern is probably a good thing in many cases as it means that people have more time for focused work when working remotely, and use their time for intensive collaboration when in the office.
 
@@ -13254,7 +13250,7 @@ IMHO, ChatGPT and similar tools may be quite useful in the near future (and prob
 
 I just experimented with a small sample of anonymized employee feedback (just dozens of lines of text from a question about what employees would change in the company) and asked ChatGPT to summarize the feedback, identify the main topics covered in the feedback, and provide me with details about the selected topics - see the attached image of the conversation for illustration.
 
-<img src="./chatgpt_employee_feedback.png"> 
+![](./chatgpt-and-employee-feedback/chatgpt_employee_feedback.png) 
 
 Just based on my very limited sample, I found that there was a pretty good balance between information compression and accuracy, while the interaction was very natural, similar to asking HRBP what the results of the last ESS were for my department/team. Certainly, there are still too many known and unknown risks associated with these tools to rely blindly on them alone, but I can imagine that in the foreseeable future, when many of these risks are successfully mitigated, this will be one of the ways managers will listen to the voice of their people.
 
@@ -13282,7 +13278,7 @@ I am thinking of **large recurring meetings** that combine two big time wasters,
 
 As illustrated in the attached chart, large and recurring meetings can represent a relatively large chunk of time in an employee's work month. Large meetings here account for approximately 37% of all meeting time and more than 80% of large meetings are recurring. This represents a relatively large room for optimizing the time spent in meetings.
 
-<img src="./meetingSizeRecurrenceFrequency.png">
+![](./large-and-recurring-meetings/meetingSizeRecurrenceFrequency.png)
 
 
 ---
@@ -13308,7 +13304,7 @@ Specific numbers can be attached to some of these best practices to help teams a
 6. **Inactive channels:** Non-archived channels that show no activity are just clutter that makes it difficult to navigate and collaborate on the chat platform.
 7. **Transparency:** Direct and group messages have their place in chat, especially when discussing sensitive issues or when trying to avoid spamming other employees. However, when majority of chat communication occurs in direct and group messages, there is a higher risk that information important for task alignment, problem-solving, or decision will be hidden in them and out of view from relevant people.
 
-<img src="./metrics.png"> 
+![](./slack-best-practices/metrics.png) 
 
 Would you add some other best practices for IM that have worked well for you and that would make sense to measure?
 
@@ -13328,12 +13324,12 @@ As the economy cooled, more posts started appearing in my social bubble about ho
 
 One of the often-mentioned conceptual tools in this context is the **HRM value chain** which shows how people processes lead to achieving companies’ desired business outcomes. There are more versions of this tool, e.g. one from [Jaap Paauwe and Ray Richardson](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20) or another one from [Max Blumberg](https://www.hrzone.com/lead/strategy/why-hr-needs-to-up-its-game-in-strategic-people-analytics), but what they have in common is a kind of causal flow from HRM activities to HRM outcomes to business outcomes.
 
-<img src="./hrmValueChain1.png"> 
+![](./hrm-value-chain-and-sem/hrmValueChain1.png) 
 *Example of the HRM value chain model from [Paauwe & Richardson (1997)](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20).* 
 
 <br />
 
-<img src="./hrmValueChain2.png"> 
+![](./hrm-value-chain-and-sem/hrmValueChain2.png) 
 *Example of the HRM value chain model from [Blumberg (2018)](https://www.hrzone.com/lead/strategy/why-hr-needs-to-up-its-game-in-strategic-people-analytics).* 
 
 However, as potentially useful as this metaphor of the organization as a kind of "machine" with certain inputs, processes, and outputs is, it is still only a conceptual tool that may or may not correspond to the reality of a particular organization.  
@@ -13344,7 +13340,7 @@ To illustrate this with a more tangible example, let’s use [sabermetric](https
 
 Based on our expert knowledge of the game of baseball, our working hypotheses, and the results of some previous analyses, we can construct a conceptual model of how a baseball team functions, as outlined below.
 
-<img src="./conceptualModel.png"> 
+![](./hrm-value-chain-and-sem/conceptualModel.png) 
 *Conceptual model of how a baseball team works.*
 
 The diagram shows clearly how this “machine” works: Its outputs are qualifications for the playoffs, which it achieves by trying to win more games or score more points than the opposing teams; to do this, it uses inputs in the form of the players' ability to play well at bat and in the field; the inputs affecting the “machine's” operation are also the similar abilities of the opposing teams' players. This is, of course, a very simplistic causal model of how the OAK team operates, but as the famous statistical aphorism states, [all models are wrong, but some are useful](https://en.wikipedia.org/wiki/All_models_are_wrong). 
@@ -14074,7 +14070,7 @@ We are currently trying to connect these two "worlds" because in situations of o
 
 One option we're considering is using a kind of heatmap, which you may be familiar with from eye-tracking studies used in marketing, to see where people focus their attention when interacting with products and making purchasing decisions. Now imagine if we overlayed a similar heatmap showing the intensity of collaboration between a selected unit and the rest of the organization over an org chart - see the figure below for illustration.
 
-<img src="./collaborationOrgChartOverlay.png"> 
+![](./org-chart-and-collaboration/collaborationOrgChartOverlay.png) 
 
 Would you consider such a visualization useful if you were engaged in organizational transformation? Would you suggest any other kind of visualization or specific metric related to collaboration? Thank you in advance for any input you may have - it will help us broaden the range of perspectives we are currently considering.
 
@@ -14133,7 +14129,7 @@ But how to measure this behavior so that a number can be put on it to enable peo
 1. Clustering of sent emails/messages using [K-Means](https://cs.wikipedia.org/wiki/K-means) or [PAM](https://en.wikipedia.org/wiki/K-medoids) and calculation of time gaps between start/end points of identified clusters, including the start and end of the working day. The larger the gaps, the stronger the signal of batch behavior.
 2. Percentage of emails/messages sent during the 3 busiest working hours (defined by the number of emails/messages sent) during a given day. The higher the proportion, the stronger the signal of batch behavior. This approach is inspired by the [2016 study by Mark et al.](https://www.researchgate.net/publication/301935517_Email_Duration_Batching_and_Self-interruption_Patterns_of_Email_Use_on_Productivity_and_Stress) "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress", where the authors used similar approach in the domain of email communication.
 
-<img src="./methodsComparison.png"> 
+![](./slack-batching/methodsComparison.png) 
 
 There are advantages and disadvantages to both methods (face validity, accuracy, sensitivity to edge cases, computational complexity, etc.), but irrespective of these, which one would you prefer to see in your collaboration report? To get a better idea of what outputs both of the above approaches generate, you can take a look at the attached graphs showing the prevalence of batch behavior during one of my work weeks on Slack according to these two approaches.
 
@@ -14162,7 +14158,7 @@ The more of the above, the smaller the SOC should be.
 
 In addition to these factors, we can use as other useful inputs some measures of collaboration that can reasonably be expected to be related both to SOC and to the obligations that managers have to their direct reports. A good example is the metric of the number of 1-on-1 meetings that managers have with their direct reports. As the attached chart illustrates, when pitted against each other, we can look for points on the SOC scale where managers start to fall short of the goal of a certain minimum number of 1:1s they have with their people, e.g. 2 meetings per month.
 
-<img src="./oneOnOnesSpanOfControl.png"> 
+![](./span-of-control/oneOnOnesSpanOfControl.png) 
 
 What factors do you typically consider when determining the optimal span of control in your company? And do you regularly reassess the adequacy of the current SOC in the context of your current situation?
 
@@ -14184,7 +14180,7 @@ In one of my [previous posts](https://blog-about-people-analytics.netlify.app/po
 
 On average, we had 19.4 items out of 35 correct, i.e., we had a 55% success rate, which is very close to the results of the original study where respondents had an average 57% success rate (and also pretty close to the 50% success rate corresponding to random choice). So these results suggest that we have not progressed much as a group over the last 20 years, however, see the disclaimer at the very end of the post.
 
-<img src="./overallResultsComparison.png"> 
+![](./evidence-based-hrm-knowledge-test-results/overallResultsComparison.png) 
 
 **In which HRM area did we have the largest & smallest knowledge gaps?**
 
@@ -14226,11 +14222,11 @@ Although most people know they need time off to stay mentally sharp, productive,
 
 The data we collect and analyze at [Time is Ltd.](https://www.timeisltd.com/) confirms this sad truth. As the first chart illustrates, on more than 75% of vacation days people show some collaborative activity, here measured by attending non-recurring meetings, sending emails, and editing shared files. 
 
-<img src="./collaborationVacationProportion.png"> 
+![](./collaboration-during-vacations/collaborationVacationProportion.png) 
 
 However, the same data also suggests what could be part of the remedy for this unsatisfactory state of affairs. The second chart shows that there is a small but not insignificant positive relationship between the time that managers and their direct reports spend collaborating during vacation. The chart also shows that managers tend to collaborate more intensely during vacation than their direct reports, which is probably not too much of a surprise.
 
-<img src="./collaborationVacationMngReports.png"> 
+![](./collaboration-during-vacations/collaborationVacationMngReports.png) 
 
 The data is thus in line with the quite often mentioned suggestion that managers should be better role models for their direct reports on how to behave during vacation. As in other areas of people management, it is not enough to lay down the rules - the "playing captain" must play by those rules as well.
 
@@ -14270,7 +14266,7 @@ Here is [the link to the app](https://peopleanalyticsblog.shinyapps.io/evidence_
 
 Feel free to share your results in the comments. Think of it as a form of public commitment to making some progress in evidence-based HRM in the coming year `r emoji::emoji("wink")` To walk the talk, I attached my own results. As you can see, it's not bad, but there is still room for improvement, especially in the general employment practices area `r emoji::emoji("smiley")`
 
-<img src="./results.png"> 
+![](./evidence-based-hrm-knowledge-test/results.png) 
 
 P.S. Keep in mind that the test is based on evidence available up to 2002, so it is possible that some correct answers or their contingencies may have changed in that time. For all of them, consider, for example, the adjustment of the estimate of the magnitude of the predictive validity of personnel selection procedures in their most recent [meta-analysis by Sackett et al. (2022)](https://psycnet.apa.org/record/2022-17327-001). If you come across any such discrepancy, it would be great if you share it with others in the comments. 
 
@@ -14335,7 +14331,7 @@ library(emoji)
 
 As I was scrolling through one of my feeds over the weekend, I came across a funny meme that resonated with my recent experience on a family trip that expressed the deep truth that “One does not simply do a road trip without getting lost.” `r emoji::emoji("smile")`
 
-<img src="./road_trip_meme_joke.jpg"> 
+![](./mission-scale-from-tas/road_trip_meme_joke.jpg) 
 
 Besides that, and that's why I'm writing about it here on my blog, it also reminded me of the results of a study I did together with [Rastislav Duris](https://www.linkedin.com/in/rastislavduris/) and Slavka Silberg, on the characteristics of more than 80 teams from different industries and composed of more than 800 people using the [Team Assessment Survey](http://www.therocketmodel.com/team-assessment-survey), [Dr. Gordon Curphy's](https://www.linkedin.com/in/gordoncurphy/) survey that measures some of the basic factors that determine team performance. 
 
@@ -14348,7 +14344,7 @@ Specifically, I was reminded of the results on the Mission scale, which consists
 
 As you can see in the attached chart, the results of the “Heartbeat analysis” can be briefly summarized as "We know where we're going, at least some of us know the points to get there, but we're not sure if we're on the right track and if we should change our original plans."
 
-<img src="./mission_scale_results.png">  
+![](./mission-scale-from-tas/mission_scale_results.png)  
 
 That sounds a lot like the description of our last family trip. `r emoji::emoji("sweat_smile")` Do you think you're better off in this regard in your team or company? And if so, what tips would you give others on how to improve in this respect?
 
@@ -14372,7 +14368,7 @@ However, even after several rounds of these improvements, there was still a need
 
 For this purpose, we chose a method that is related to the [Bollinger Bands](https://en.wikipedia.org/wiki/Bollinger_Bands) method used in time series analysis or "Heartbeat Analysis" used in survey response analysis. Specifically, we look at the standard deviation and average of the month-to-month changes for each metric, scale the changes to z-scores, and then identify the metrics with the highest absolute value of average change over the last 3 months. To illustrate, see the attached chart where the metrics are sorted by magnitude of their change in descending order from left to right and top to bottom.
 
-<img src="./highlights.png">  
+![](./change-detection/highlights.png)  
 
 If you want to try this method on your own data, you can use its Python implementation, which is on [my GitHub page](https://github.com/lstehlik2809/Change-detection-in-time-series-data/blob/main/standardizedChangeSizeComputation.py).
 
@@ -14392,7 +14388,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2022-11-26-
 
 I assume many, if not all, of you are familiar with [the Eisenhower matrix](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method), a simple tool for prioritizing tasks based on a combination of their importance and urgency. It assumes 4 types of tasks - important & urgent, important & not urgent, not important & urgent, not important & not urgent - and for each of them offers a simple recommendation on what to do with them - do it, schedule it, delegate it, and delete it. By following these rules, people should be able to more successfully combat the “mere-urgency” effect, eliminate time-wasters in their lives, and create more space to make progress toward their goals.
 
-<img src="./eisenhowerMatrix.png"> 
+![](./meeting-matrix/eisenhowerMatrix.png) 
 
 Something similar can be created also for meetings, which are big time and money guzzlers and deserve to be treated accordingly. Only instead of the dimensions of importance and urgency, we will use the size and length of meetings. The resulting matrix assumes 4 types of meetings with corresponding recommendations on what to do with them:
 
@@ -14405,7 +14401,7 @@ The meeting matrix is by no means a panacea for meeting overload, but by followi
 
 Btw, what is your guess as to how much time you spend in each cell of the meeting matrix? For comparison I attach my monthly numbers from October.
 
-<img src="./meetingMatrix.png">
+![](./meeting-matrix/meetingMatrix.png)
 
 
 ---
@@ -15049,7 +15045,7 @@ gganimate::anim_save(filename = "./bayesianBelifUpdating.gif", animation = last_
 
 And here is the resulting animation of the Bayesian belief updating process across 500 trials.
 
-<img src="./bayesianBelifUpdating.gif">
+![](./bayesian-belief-updating/bayesianBelifUpdating.gif)
 
 
 For those who would like to incorporate Bayesian reasoning into their managerial decision-making under uncertainty, I can recommend [this article](https://journals.sagepub.com/doi/full/10.1177/0008125620948264) by [Brian T. McCann](https://www.linkedin.com/in/brian-t-mccann-7a322617/).
@@ -15373,7 +15369,7 @@ However, based on these results, one colleague wondered whether this result actu
 
 Using this approach and our clients' collaborative data, I looked at the relationship between the proportion of work time blocked on the calendar and the time available for focused work (i.e. no meetings, no ad-hoc calls, no email or instant messaging), and found that the marginal effect of timeboxing is in line with the positive effect of the timeboxing technique on the time available for focused work. The effect is not huge (each percentage point of working time blocked in the calendar yields on average .19% of focus rate), however, timeboxing seems to be saved, phew 😉
 
-<img src="./timeblockingFocusTime.png">
+![](./timeboxing/timeblockingFocusTime.png)
 
 
 ---
@@ -16302,7 +16298,7 @@ gtrendsResultDf <- gtrendsResult %>%
 ```
 
 
-<img src="./peopleAnalyticsGoogleTrends.png">
+![](./people-analytics-popularity-after-covid/peopleAnalyticsGoogleTrends.png)
 
 Towards the end of the time series, somewhere between September 2019 and March 2020, it seems that the trend stops increasing and starts to stagnate, except for the very last part of the graph, which shows a sharp increase in searches for both terms, but this may just be the result of the improved data collection system from January 2022 onwards (as indicated by the vertical line in the graph with a note). Thus, the data seems to suggest the opposite of what we would expect if a pandemic were to have a positive effect on interest in people analytics.  
 
@@ -16356,7 +16352,7 @@ $$Y_{t} = β_{0} + β_{1}*time_{t} + β_{2}*intervention_{t} + β_{3}*time after
 
 The *β<sub>0</sub>* coefficient estimates the baseline level of the outcome variable at time zero; *β<sub>1</sub>* coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); *β<sub>2</sub>* coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and *β<sub>3</sub>* estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of *β<sub>1</sub>* and *β<sub>3</sub>* equals to the post-intervention slope). For a better understanding of the model, take a look at the illustrative chart taken from [Turner et al. (2021)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01306-w) below.
 
-<img src="./interruptedTimeSeriesAnalysis.png">
+![](./people-analytics-popularity-after-covid/interruptedTimeSeriesAnalysis.png)
 
 Since we are dealing with correlated and truncated data, we should also include two additional terms in our model, an autocorrelation term and a truncation term, to handle these specific properties of our data.
 
@@ -16821,7 +16817,7 @@ To illustrate, the attached chart shows the distribution of the typical daily am
 
 <br> 
 
-<img src="./collaborationActivityChart.png"> 
+![](./standard-and-trend-predictors/collaborationActivityChart.png) 
 
 <br> 
 
@@ -17563,7 +17559,7 @@ Statistické modelování, podobně jako jakékoli jiné modelování ve vědě,
 
 Překvapivě mnoho jevů našeho světa se dá úspěšně modelovat a předpovídat pomocí relativně jednoduchých statistických modelů **zobecněné lineární regrese** (*Generalized Linear Models*, GLM). Ty předpokládají, že závislá proměnná, transformovaná prostřednictvím tzv. **linkovací funkce** (*link function*), je funkcí lineární kombinace nezávislých proměnných. Nejznámější z této rodiny statistických modelů je **klasický lineární model**, který předpokládá normální rozdělení závislé proměnné, resp. reziduí (chyb) okolo predikované/ očekávané střední hodnoty závislé proměnné (viz ilustrativní obrázek níže). 
 
-<img src="./glm.png">  
+![](./paygap/glm.png)  
 
 Vzhledem k tomu, že námi modelovaná proměnná základní mzdy se zdá mít normální, nebo téměř normální rozdělení (viz některé grafy v části věnované explorační analýze), můžeme i my sáhnout po tomto statistickém modelu. Jako nezávislé proměnné v našem modelu použijeme všechny nám dostupné prediktory, spolu s interakcemi mezi proměnnou pohlaví na straně jedné a proměnnými úrovně vzdělání, seniority, věku a hodnocení pracovního výkonu na straně druhé. Protože zaměstnanci tvoří přirozené shluky v rámci oddělení, napříč kterými se liší výše mzdy a také by se mohla lišit povaha vztahu mezi pohlavím zaměstnance a výší jeho mzdy, použijeme **hierarchickou/víceúrovňovou variantu modelu lineární regrese**, která umožňuje, aby hodnoty vybraných parametrů modelu variovaly v závilosti na příslušnosti zaměstnanců do konkrétního oddělení. 
 
@@ -17785,7 +17781,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2020-12-31-
 
 The turn of the year, which is full of all sorts of resolutions to change for the better in our private lives and in our organizations, is a good time to remind ourselves that analytic tools can be very helpful in our efforts to make these resolutions come true. One way they can help us is by verifying that we have really achieved our stated goals and that we are not just fooling ourselves into believing so. We need to keep in mind [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)'s famous principle of critical thinking...
 
-<img src="./feynman.jpg">  
+![](./segmentedregression/feynman.jpg)  
 
 
 <br>  
@@ -17796,13 +17792,13 @@ One of the tools that can help us with that is [segmented regression analysis of
 
 For illustration, let's use this tool for testing hypothesis about people’s increased interest in topics related to work-life balance and well-being due to the COVID-19 pandemic and subsequent changes in the way people work. As a proxy measure of this interest we will use worldwide search interest data over the last 10 years from [Google Trends](https://trends.google.com/trends/?geo=US) using search terms *work-life balance* and *well-being* (see Fig. 1 and 2 below).
 
-<img src="./workLifeBalanceGoogleTrends.png">
+![](./segmentedregression/workLifeBalanceGoogleTrends.png)
 *Fig. 1: Interest in “work-life balance” topic over the last 10 years measured as a search interest by Google Trends. The numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means that there was not enough data for this term.*  
 
 
 <br>  
 
-<img src="./wellBeingGoogleTrends.png">
+![](./segmentedregression/wellBeingGoogleTrends.png)
 *Fig. 2: Interest in “well-being” topic over the last 10 years measured as a search interest by Google Trends. The numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means that there was not enough data for this term.*  
 
 
@@ -17914,7 +17910,7 @@ $$Y_{t} = β_{0} + β_{1}*time_{t} + β_{2}*intervention_{t} + β_{3}*time after
 
 The *β<sub>0</sub>* coefficient estimates the baseline level of the outcome variable at time zero; *β<sub>1</sub>* coefficient estimates the change in the mean of the outcome variable that occurs with each unit of time before the intervention (i.e. the baseline trend); *β<sub>2</sub>* coefficient estimates the level change in the mean of the outcome variable immediately after the intervention (i.e. from the end of the preceding segment); and *β<sub>3</sub>* estimates the change in the trend in the mean of the outcome variable per unit of time after the intervention, compared with the trend before the intervention (thus, the sum of *β<sub>1</sub>* and *β<sub>3</sub>* equals to the post-intervention slope). For a better understanding of the model, take a look at the illustrative chart below.
 
-<img src="./interruptedTimeSeriesAnalysis.png">
+![](./segmentedregression/interruptedTimeSeriesAnalysis.png)
 
 Since we are dealing with correlated and truncated data, we should also include two additional terms in our model, an autocorrelation term and a truncation term, to handle these specific properties of our data.
 
@@ -18272,7 +18268,7 @@ Sys.setlocale("LC_CTYPE", "czech")
 
 HR analytika ve své podstatě vychází ze známé zásady managementu, že **co nelze měřit, nelze ani (efektivně) řídit a zlepšovat**, a aplikuje tuto zásadu na lidské zdroje. V několika posledních letech potom k tomu navíc přidává nadstavbu v podobě pokročilejších analytických postupů, které mají větší potenciál přijít s hlubšími vhledy a s doporučeními s větším efektem. Ale ať už využíváte pouze základní reporting nebo nějakou pokročilejší analytiku, cíl je vždy stejný – snažit se s pomocí dat a jejich analýzy žádoucím způsobem ovlivnit jednotlivé HR procesy, které organizacím pomáhají dosahovat jejich strategických cílů. Názorně to ilustruje níže uvedené schéma zachycující mechanismus propojující HR procesy s (nejen) finančními výsledky organizace ([Paauwe & Richardson, 1997](https://www.tandfonline.com/doi/abs/10.1080/095851997341621?journalCode=rijh20)). 
 
-<img src="./HR_Value_Chain.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/HR_Value_Chain.png)
 
 HR analytika pomáhá optimalizovat nastavení tohoto mechanismu tím, že umožňuje nalézat odpovědi na některé klíčové otázky, jako např.:
 
@@ -18391,13 +18387,13 @@ S pomocí [tohoto dashboardu](https://aanalytics.shinyapps.io/turnover_analytics
 Jak je z výše uvedeného výčtu otázek patrné, dashboard obsahuje informace, které při svém rozhodování mohou využít **nejen HR manažeři, ale také HR business partneři nebo přímo team-leadeři a linioví manažeři** jednotlivých týmů či oddělení. Kromě toho dashboard obsahuje také řadu technických detailů o použitém predikčním modelu a samotná data, které stojí v pozadí všech prezentovaných vizualizací a analýz. S jejich pomocí tak **HR/Business analytik** může např. hledat optimální způsob, jak nastavit skórovací algoritmus, aby se maximalizoval pozitivní efekt pro-retenčních opatření, nebo může v dostupných datech sám hledat nějaké další užitečné informace. Více viz již [samotný dashboard](https://aanalytics.shinyapps.io/Turnover_Analytics_Dashboard_Demo/), z něhož můžete níže vidět několik screenshotů. 
 
 *Screenshot části dashboardu, která obsahuje různé řezy odchodovostí zaměstnanců, a dává tak dobrý přehled o tom, které skupiny zaměstnanců jsou odchodovostí nejvíce ohrožené.*  
-<img src="./DSHB1.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/DSHB1.png)
 
 *Screenshot části dashboardu, která obsahuje informace o pravděpodobnosti odchodu jednotlivých zaměstnanců společně s dalšími informacemi, které mohou posloužit jako podklad pro individuální intervence s cílem předejít nežádoucím odchodům zaměstnanců.* 
-<img src="./DSHB2.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/DSHB2.png)
 
 *Screenshot části dashboardu, která obsahuje informace o výkonu/kvalitě statistického modelu použitého k identifikaci významných prediktorů odchodovosti zaměstnanců a k odhadu pravděpodobnosti odchodu jednotlivých zaměstnanců.* 
-<img src="./DSHB3.png">
+![](./hr-analytika-a-odchodovost-zamstnanc/DSHB3.png)
 
 ## Figures
 
@@ -18427,7 +18423,7 @@ Výsledky [výzkumu provedeného společnostmi MIT Sloan Management Review a SAS
 
 Druhou hlavní příčinou je potom to, že HR analytické projekty nebývají ukotveny v rámci nějaké širší strategie, jak data systematicky využívat při řízení lidských zdrojů, navíc  způsobem, který by byl sladěný se strategickými cíli společnosti. Zde platí praxí osvědčená pravda projektového managementu, že při implementaci projektů je potřeba vždy začínat od konce. V kontextu HR analytických projektů to tedy znamená začínat nikoli od dat, ale od toho, k čemu mají být HR analytické výstupy použity. A očekávání managementu je, že HR analytika bude v posledku hlavně pomáhat zlepšovat obchodní výsledky společnosti. Názorně to ilustruje níže uvedené schéma (převzaté z [článku](https://www.hrzone.com/lead/strategy/why-hr-needs-to-up-its-game-in-strategic-people-analytics) [Maxe Blumberga](https://www.linkedin.com/in/maxblumberg/)), které zachycuje předpokládaný kauzální řetězec spojující HR procesy s obchodními výsledky. Úkolem HR analytiky je potom s pomocí dat a analytických nástrojů tyto dvě oblasti propojit a zjistit, jak optimalizací prvního zajistit zlepšení toho druhého.   
 
-<img src="./HRValueChain.png">
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/HRValueChain.png)
 
 Řadě organizací by v tomto ohledu mohl být inspirací známý příběh [oaklandského baseballového týmu „Áček“](https://en.wikipedia.org/wiki/Oakland_Athletics), který se stal předlohou pro [knihu Moneyball](https://en.wikipedia.org/wiki/Moneyball) a z ní vycházející stejnojmenný [film](https://www.csfd.cz/film/255150-moneyball/prehled/). Právě tento příběh jako jeden z prvních ukázal a mezi širokou veřejností zpopularizoval možnosti využití statistické analýzy ve světě sportu a potažmo také v rámci řízení lidských zdrojů. Díky radikální změně dosavadního přístupu k výběru nových hráčů, který se začal více opírat o výstupy statistické analýzy [sabermetrických](https://en.wikipedia.org/wiki/Sabermetrics) dat o herním chování hráčů, dokázal management oaklandského baseballového týmu „Áček“ přijímat rozhodnutí, která z jednoho z nejchudších týmů americké baseballové ligy učinila jeden z nejúspěšnějších týmů soutěže (měřeno počtem vítězství v základní části soutěže a počtem postupů do play-off). Abychom mohli tento příběh plně vytěžit coby inspiraci, jak analyzovat svá vlastní zaměstnanecká data, bude užitečné, když se na jednotlivé analytické kroky, které stály v pozadí úspěchu oklandských "Áček", podíváme trochu podrobněji. A učiníme tak za využití volně dostupného [statistického softwaru R](https://www.r-project.org/) a veřejně dostupné [databáze historických údajů o výsledcích v americké baseballové lize](https://drive.google.com/file/d/0B5YUO0Asd9KfMG1UaXpEVjJqQWc/view).
 
@@ -18600,7 +18596,7 @@ Porovnání našich předpovědí s reálnými výsledky za sezónu 2002 ukazuje
 ## 5. krok: Propojení dílčích vhledů aneb organizace jako stroj
 [Matt Dancho](https://www.linkedin.com/in/mattdancho/) ve své metodice k datově-analytickým projektům doporučuje, abychom se při snaze o pochopení obchodního problému organizace na danou organizaci dívali jako na druh stroje, který má určité vstupy, procesy a výstupy. Tuto metaforu stroje můžeme nyní využít k tomu, abychom všechny výše uvedené dílčí vhledy spojili do jednotného rámce. V něm budou mít oaklandská "Áčka" podobu jednoduchého stroje na výrobu postupů do play-off - viz obrázek níže. 
 
-<img src="./machine_producing_playoffs.png">
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/machine_producing_playoffs.png)
 
 Ze schématu je dobře patrné, jak tento stroj funguje: Jeho výstupy jsou postupy do play-off, kterých dosahuje tak, že se snaží vyhrát více zápasů, resp. získat více bodů než soupeřící týmy; k tomu využívá vstupy v podobě schopnosti hráčů hrát dobře na pálce a v poli; vstupem ovlivňujícím chod stroje jsou rovněž obdobné schopnosti hráčů soupeřících týmů. Jedná se samozřejmě o velmi zjednodušený kauzální model fungování týmu oakladnských "Áček", ale jak konstatuje slavný statistický aforismus, [modely jsou vždy nepřesné, ale některé z nich jsou užitečné](https://en.wikipedia.org/wiki/All_models_are_wrong).
 

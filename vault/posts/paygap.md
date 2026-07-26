@@ -335,7 +335,7 @@ Statistické modelování, podobně jako jakékoli jiné modelování ve vědě,
 
 Překvapivě mnoho jevů našeho světa se dá úspěšně modelovat a předpovídat pomocí relativně jednoduchých statistických modelů **zobecněné lineární regrese** (*Generalized Linear Models*, GLM). Ty předpokládají, že závislá proměnná, transformovaná prostřednictvím tzv. **linkovací funkce** (*link function*), je funkcí lineární kombinace nezávislých proměnných. Nejznámější z této rodiny statistických modelů je **klasický lineární model**, který předpokládá normální rozdělení závislé proměnné, resp. reziduí (chyb) okolo predikované/ očekávané střední hodnoty závislé proměnné (viz ilustrativní obrázek níže). 
 
-<img src="./glm.png">  
+![](./paygap/glm.png)  
 
 Vzhledem k tomu, že námi modelovaná proměnná základní mzdy se zdá mít normální, nebo téměř normální rozdělení (viz některé grafy v části věnované explorační analýze), můžeme i my sáhnout po tomto statistickém modelu. Jako nezávislé proměnné v našem modelu použijeme všechny nám dostupné prediktory, spolu s interakcemi mezi proměnnou pohlaví na straně jedné a proměnnými úrovně vzdělání, seniority, věku a hodnocení pracovního výkonu na straně druhé. Protože zaměstnanci tvoří přirozené shluky v rámci oddělení, napříč kterými se liší výše mzdy a také by se mohla lišit povaha vztahu mezi pohlavím zaměstnance a výší jeho mzdy, použijeme **hierarchickou/víceúrovňovou variantu modelu lineární regrese**, která umožňuje, aby hodnoty vybraných parametrů modelu variovaly v závilosti na příslušnosti zaměstnanců do konkrétního oddělení. 
 

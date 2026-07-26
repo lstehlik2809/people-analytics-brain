@@ -19,7 +19,7 @@ library(emoji)
 
 As I was scrolling through one of my feeds over the weekend, I came across a funny meme that resonated with my recent experience on a family trip that expressed the deep truth that “One does not simply do a road trip without getting lost.” `r emoji::emoji("smile")`
 
-<img src="./road_trip_meme_joke.jpg"> 
+![](./mission-scale-from-tas/road_trip_meme_joke.jpg) 
 
 Besides that, and that's why I'm writing about it here on my blog, it also reminded me of the results of a study I did together with [Rastislav Duris](https://www.linkedin.com/in/rastislavduris/) and Slavka Silberg, on the characteristics of more than 80 teams from different industries and composed of more than 800 people using the [Team Assessment Survey](http://www.therocketmodel.com/team-assessment-survey), [Dr. Gordon Curphy's](https://www.linkedin.com/in/gordoncurphy/) survey that measures some of the basic factors that determine team performance. 
 
@@ -32,15 +32,15 @@ Specifically, I was reminded of the results on the Mission scale, which consists
 
 As you can see in the attached chart, the results of the “Heartbeat analysis” can be briefly summarized as "We know where we're going, at least some of us know the points to get there, but we're not sure if we're on the right track and if we should change our original plans."
 
-<img src="./mission_scale_results.png">  
+![](./mission-scale-from-tas/mission_scale_results.png)  
 
 That sounds a lot like the description of our last family trip. `r emoji::emoji("sweat_smile")` Do you think you're better off in this regard in your team or company? And if so, what tips would you give others on how to improve in this respect?
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[team-maps|Experiencing and seeing team similarities and differences]]
-- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
 - [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
+- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
 - [[collaboration-during-vacations|Can you really unplug?]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 <!-- RELATED:END -->

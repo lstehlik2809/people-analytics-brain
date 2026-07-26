@@ -80,8 +80,8 @@ How do you feel about finishing meetings too early or too late? Are both similar
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
-- [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
+- [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
 - [[meetings-improvement|How to improve effectiveness of meetings?]]
 <!-- RELATED:END -->

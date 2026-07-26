@@ -20,7 +20,7 @@ Despite this, relative weights and incremental validity analyses revealed that s
 * turnover intentions is most strongly predicted by job satisfaction, perceived organizational support (a general evaluation regarding the extent to which employees feel their organization values their contribution and cares about their well-being), and distributive justice, and 
 * organizational citizenship behaviors is most strongly predicted by job engagement, procedural justice (perceived fairness of the means, or procedures, used to determine outcomes), and job involvement (the degree to which a person identifies psychologically with his or her work, or the importance of work in his or her total self-image).  
 
-<img src="./table.png"> 
+![](./job-attitudes-and-employee-outcomes/table.png) 
 
 IMO, knowing this can be quite useful in planning what candidate constructs to measure in your company in an effort to support specific employee outcomes. 
 

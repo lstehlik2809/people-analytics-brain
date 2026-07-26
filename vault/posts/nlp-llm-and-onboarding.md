@@ -17,7 +17,7 @@ To make better use of my notes from my current onboarding, I created a quick and
 
 So, for example, if I need to find out who owns a certain business process, I can just type my question into the app and quickly get an answer, including tips on what files to look at to verify the answer or find other related information.
 
-<img src="./Capture.png">
+![](./nlp-llm-and-onboarding/Capture.png)
 
 If you want to check out the code behind the app, you can find it in [this GitHub repo](https://github.com/lstehlik2809/searching-onboarding-notes).
 

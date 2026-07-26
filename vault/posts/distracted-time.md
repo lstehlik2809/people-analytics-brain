@@ -11,7 +11,7 @@ original: https://blog-about-people-analytics.netlify.app/posts/2023-03-01-distr
 
 We have only recently started to measure the **allocation of work time to collaborative and non-collaborative activities** at [Time is Ltd.](https://www.timeisltd.com/).
 
-<img src="./distracted_time_WFH.png"> 
+![](./distracted-time/distracted_time_WFH.png) 
 
 When checking the resulting numbers in the context of **where people work from**, it wasn't that much of a surprise that people spend less time (on average ~37 minutes less per person per day) on collaborative activities when working remotely vs. in the office. Such a pattern is probably a good thing in many cases as it means that people have more time for focused work when working remotely, and use their time for intensive collaboration when in the office.
 
@@ -26,8 +26,8 @@ I suppose it's a **trade-off** that can't be completely solved in principle, but
 - [[timeboxing|Timeboxing. Does it really work?]]
 - [[slack-batching|Always messaging]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
-- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[collaboration-during-vacations|Can you really unplug?]]
+- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 <!-- RELATED:END -->
 
 ---

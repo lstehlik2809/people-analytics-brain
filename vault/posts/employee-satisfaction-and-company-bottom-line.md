@@ -20,7 +20,7 @@ Fortunately, there are research designs that can help us untangle this conundrum
 
 The attached figure with the two alternative path models clearly shows that the causal path from employee perceptions to outcomes is stronger than the other way around, especially when it comes to theoretically more proximal outcomes such as employee retention and customer loyalty.
 
-<img src="./path_charts.png">
+![](./employee-satisfaction-and-company-bottom-line/path_charts.png)
 
 Despite not being free of potential biases, these results add more weight to the argument that investing in improving employee job satisfaction also makes sense for improving a company's bottom line, rather than "only" improving employee well-being. The question now is what interventions to improve employee satisfaction might work. Let’s review the available evidence on this issue in one of the next posts.
 
@@ -29,8 +29,8 @@ Despite not being free of potential biases, these results add more weight to the
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 - [[job-attitudes-and-employee-outcomes|Employee outcomes & employees' job attitudes]]
 - [[performance-vs-motivation|Motivation vs. Performance: What causes what?]]
-- [[happiness-and-income|Happy today, richer tomorrow?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[happiness-and-income|Happy today, richer tomorrow?]]
 <!-- RELATED:END -->
 
 ---
