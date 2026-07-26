@@ -81,6 +81,8 @@ print(plot)
 
 ```
 
+![](./strength-based-development-and-distributions/normal-performance-distribution-1.png)
+
 ```python
 # plotting the power-law performance distribution
 plot = (
@@ -116,6 +118,8 @@ plot = (
 print(plot)
 
 ```
+
+![](./strength-based-development-and-distributions/powerlaw-performance-distribution-3.png)
 
 Given these results, one should feel motivated to identify among the mix of factors affecting one's performance those with multiplicative effect and try to bring them at least to the average level. The question is how one can easily identify which these are. Any tips?
 

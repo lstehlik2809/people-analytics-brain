@@ -129,13 +129,17 @@ p2 <- plot_style(
 
 The possible takeaway? With full awareness of the obvious limitations of this small “experiment” (one model, one benchmark, one run, no special prompt engineering, etc.), it might suggest that current genAI isn’t bad at leadership judgment, but it’s not exceptional either. At the same time, it may be biased toward certain styles (“safe” and socially desirable consultation) and have blind spots (like situations requiring shared ownership and distributed accountability). If that’s true, it could have implications both for how managers should use it and for how the models should be fine-tuned if they’re meant for this specific purpose at scale.
 
+## Figures
+
+![](./genai-and-leadership-judgement/unnamed-chunk-1-1.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
-- [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 <!-- RELATED:END -->
 
 ---

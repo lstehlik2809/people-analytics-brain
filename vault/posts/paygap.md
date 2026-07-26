@@ -206,6 +206,8 @@ GGally::ggpairs(mydata, aes(color = gender, alpha = 0.4)) +
 
 ```
 
+![](./paygap/unnamed-chunk-8-1.png)
+
 Vizuální dojem o rozdílné výši základní mzdy u mužů a žen potvrzuje i detailnější analýza tohoto rozdílu. Ta ukazuje, že v našem vzorku mediánová mzda žen činí `r format(round(median(mydata[mydata['gender'] == 'Female', 'basePay'] %>% pull()),2), scientific=FALSE)` USD a mediánová mzda mužů `r format(round(median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()),2), scientific=FALSE)` USD. To odpovídá rozdílu `r round((median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()) - median(mydata[mydata['gender'] == 'Female', 'basePay'] %>% pull())), 1)` USD, resp. neadjustované GPG (definované jako poměr rozdílu mediánové mzdy mužů a žen a mediánové mzdy mužů) `r round((median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()) - median(mydata[mydata['gender'] == 'Female', 'basePay'] %>% pull())) / median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()) * 100, 1)` %. Míra platové nerovnosti se tak v námi sledované firmě zdá být spíše nižší, srovnatelná s celkovou hodnotou tohoto ukazatele v zemích jako je např. Švédsko nebo Nový Zéland (viz graf z úvodu tohoto článku).
 
 Pokud bychom chtěli zohlednit míru naší nejistoty při odhadu velikosti rozdílu mezi typickým platem mužů a žen, která je daná tím, že pracujeme pouze se vzorkem zaměstnanců a nikoli s celou firmou, měli bychom sáhnout po inferenční statistice. Při použití bayesovského ekvivalentu t-testu pro dva nezávislé výběry získáme takto informaci o posteriorní distribuci velikosti tohoto rozdílu. Na grafu níže můžeme vidět, že 95% interval kredibility se nachází v rozmezí od 5511 do 11615 USD, s mediánovou hodnotou 8392 USD. Z grafu také můžeme vyčíst, že dostupná data mluví silně v neprospěch nulové hypotézy o neexistenci rozdílu mezi průměrným platem mužů a žen - viz velmi nízká hodnota logaritmu [Bayesova faktoru](https://en.wikipedia.org/wiki/Bayes_factor) ve prospěch nulové hypotézu BF~01~.      
@@ -235,6 +237,8 @@ ggstatsplot::ggbetweenstats(
 
 ```
 
+![](./paygap/unnamed-chunk-9-1.png)
+
 **Samotný fakt rozdílné výše základní mzdy u mužů a žen ale ještě nemusí automaticky znamenat, že by se za ním skrývala diskriminace žen**. Pozorovaný rozdíl může být totiž např. způsobený tím, že ženy zaměstnané v námi sledované firmě mají typicky nižší vzdělání než ve stejné firmě zaměstnaní muži. A vzhledem k tomu, že výše vzdělání (z hlediska "meritokratické spravedlnosti" zcela neproblematicky) pozitivně koreluje s výší platu, projeví se tato souvislost v nižší typické mzdě žen (ponechme nyní stranou otázku, v jaké míře mají ženy obecně přístup k vyššímu vzdělání ve společnosti, kde daná firma působí). Tuto hypotézu se zdají podporovat i dva níže uvedené grafy, které vizualizují vztah mezi úrovní vzdělání zaměstnance a výší jeho základní mzdy, resp. souvislost mezi pohlavím zaměstnance a úrovní jeho vzdělání.
 
 
@@ -263,6 +267,8 @@ mydata %>%
 
 ```
 
+![](./paygap/unnamed-chunk-10-1.png)
+
 
 ```r
 mydata %>%
@@ -281,6 +287,8 @@ mydata %>%
 
 
 ```
+
+![](./paygap/unnamed-chunk-11-1.png)
 
 Podobných kombinovaných souvislostí může v našich datech (a v realitě, kterou reprezentují) existovat větší množství. Pokud by čtenář chtěl vztahy mezi různými kombinacemi proměnných prozkoumat sám a detailněji, může za tímto účelem využít [tuto interaktivní aplikaci](https://peopleanalyticsblog.shinyapps.io/gender-pay-gap/?_ga=2.145829618.756830262.1613246735-1591991673.1613246735), kde jsou nahraná naše data a kde lze snadno různým způsobem vizualizovat zadané kombinace proměnných. Viz níže uvedená ukázka využití této aplikace při vizualizaci vztahu mezi výší platu, pohlavím a pracovní pozicí, včetně počtu zaměstnanců v jednotlivých kombinovaných kategoriích. Z tohoto konkrétního grafu je dobře patrné, že ženy jsou ve srovnání s muži disproporčně méně zastoupeny na dvou nadprůměrně odměňovaných pozicích *Manager* a *Software Engineer* a naopak disproporčně více jsou zastoupeny na podprůměrně platově ohodnocené pozici *Marketing Associate*.  
 
@@ -315,6 +323,8 @@ mydata %>%
   ggplot2::theme(legend.position = "top")
 
 ```
+
+![](./paygap/unnamed-chunk-12-1.png)
 
 
 ## Statistický model platové nerovnosti
@@ -386,7 +396,9 @@ brms::pp_check(
     title = stringr::str_glue("Posteriorní prediktivní kontrola modelu za použití vzorku o velikoti n = {nsamples}")
     )
 
-```  
+```
+
+![](./paygap/unnamed-chunk-14-1.png)  
 
 
 Níže je uveden souhrn informací o našem odhadnutém modelu. Primárně nás zajímá hodnota parametru pohlaví (*genderMale*) v sekci věnované efektům na úrovni celé populace (*Population-Level Effects*). 95% interval kredibility (*Credible Interval*), který udává kam v posteriorním rozdělení spadá hodnota nepozorovaného parametru s 95% pravděpodobností, se nachází v rozmezí od -3750.04 USD do 9081.92 USD, se střední hodnotou 2717.57. Tzn., že podle našeho modelu má muž - při zohlednění ostatních faktorů a jejich vybraných interakcí - typicky o cca 2700 USD vyšší základní mzdu než její ženský protějšek. Analýza našich dat tak do určité míry podporuje hypotézu o existenci platové diskriminace na základě pohlaví zaměstnance v námi studované firmě. Síla důkazu ve prospěch této hypotézy však není nijak výrazná, což vyplývá z toho, že 95% interval kredibility zahrnuje vedle kladných hodnot i nulovou hodnotu a záporné hodnoty parametru pohlaví jako jeho plauzibilní hodnoty.    
@@ -437,6 +449,8 @@ ggplot2::ggplot(
 
 ```
 
+![](./paygap/unnamed-chunk-16-1.png)
+
 
 ```r
 # extracting posterior samples
@@ -481,7 +495,9 @@ ggpubr::ggarrange(
   ncol = 1
 )
      
-```  
+```
+
+![](./paygap/unnamed-chunk-20-1.png)  
   
 ## Možné další kroky
 
@@ -529,10 +545,10 @@ Skript k analýze je k dispozici ke stažení v podobě Jupyter Notebooku na mý
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt|Moneyball v HR]]
 - [[hr-analytika-a-odchodovost-zamstnanc|HR analytika a odchodovost zaměstnanců]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
+- [[moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt|Moneyball v HR]]
+- [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
+- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
 <!-- RELATED:END -->
 

@@ -66,6 +66,8 @@ print(fplot)
 
 ```
 
+![](./visual-inference-statistics/unnamed-chunk-1-1.png)
+
 Here's a check on your guess. The actual data are shown in chart # `r attr(d, "pos")`. As you can see in the chart below, the relationship between time for focused work and the use of timeboxing is slightly negative, which makes pretty good sense, because people who have enough time for focused work usually don't have such a strong need to block out time for focused work in their calendar. 
 
 ```r
@@ -83,6 +85,8 @@ mydata %>%
   )
 
 ```
+
+![](./visual-inference-statistics/unnamed-chunk-2-1.png)
 
 We can also test the relationship between time for focused work and the use of timeboxing more formally by fitting a [Bayesian beta regression model](https://www.andrewheiss.com/blog/2021/11/08/beta-regression-guide/) to the data. As you can see in the summary tables and charts below, the null value is safely outside the 95% credible interval of the mean of the focus rate parameter, and the marginal effect of focus rate clearly shows its negative relationship with the predicted proportion of working time blocked in the calendar. Note also that the relationship is non-linear, i.e. the marginal effect of the focus rate is different depending on its level. 
 
@@ -163,15 +167,21 @@ ggplot(model_pred , aes(x = focusRate, y = .epred)) +
 
 ```
 
+![](./visual-inference-statistics/unnamed-chunk-5-1.png)
+
 If you would like to apply the visual statistical inference approach to your own data, you can easily do so using the *[nullabor](https://github.com/dicook/nullabor)* R package.
+
+## Figures
+
+![](./visual-inference-statistics/unnamed-chunk-4-1.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
 - [[conditional-inference-tree|Divide and... understand]]
+- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

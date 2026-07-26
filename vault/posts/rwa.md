@@ -168,6 +168,8 @@ GGally::ggpairs(
 
 ```
 
+![](./rwa/unnamed-chunk-4-1.png)
+
 In the top row of the pair plot, we can see that *Quitting Intentions* are moderately negatively correlated with the other scales—most strongly with *Perceived Organizational Support* (around *r*=-0.35), followed by *Management* and *Procedural Justice* (around *r*=-0.25), and finally with *Management Motivation* and *Autonomy* (around *r*=-0.20). Correlations between the predictor variables themselves are slightly higher but still fall within the moderate range. The highest correlation is around *r*=0.5 between *Procedural Justice* and *Management*. This suggests that multicollinearity should not be an issue, but still, the intercorrelations are big enough to have an impact on our efforts to estimate relative importance of individual predictors. Let’s see how it plays out. 
 
 After running the RWA, we can see from the table below that the overall regression model explains about 16% of the variability in quitting intentions, and nearly 50% of this predictive power is attributable to *Perceived Organizational Support*, while the remaining predictors each contribute between 10% and 15%. 
@@ -367,13 +369,15 @@ ggplot2::ggplot(final_results, aes(x = Predictor, y = RescaledWeight)) +
 
 ```
 
+![](./rwa/unnamed-chunk-8-1.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 - [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
-- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

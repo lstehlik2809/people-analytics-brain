@@ -124,6 +124,8 @@ vizData %>%
 
 ```
 
+![](./glassdoor/unnamed-chunk-1-1.png)
+
 On a more serious note, it may be quite interesting and potentially useful to examine the order of estimated differences in specific areas between current and former employees as it may provide some insights on which areas to focus on when trying to retain employees within the company. We can use a multilevel ordered regression analysis on a random sample of 300 ratings per company for this purpose.  
 
 ```r
@@ -166,8 +168,8 @@ However, it doesn't mean that there is no signal in Glassdoor ratings. For examp
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
 - [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]

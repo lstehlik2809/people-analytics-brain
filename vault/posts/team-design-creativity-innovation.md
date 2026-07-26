@@ -88,6 +88,8 @@ ggplot(py$data_sorted, aes(x=Variable, y=P, fill = Category, color = Category)) 
 
 ```
 
+![](./team-design-creativity-innovation/dataviz-1.png)
+
 What might be the practical implications for managers?  
 
 * Focus on selecting team members who are diverse in terms of job-related factors such as educational background.

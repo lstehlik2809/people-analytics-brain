@@ -190,6 +190,8 @@ print(g)
 
 ```
 
+![](./collaboration-and-personality/unnamed-chunk-1-1.png)
+
 As can be seen from the graphs above, the relationship between personality and the amount of interaction and networking behavior goes in the expected direction. Agreeable, open, and extraverted employees and to some extent also conscientious and emotionally stable employees tend to engage more in interactions with others and in networking. However, the relationships found are relatively weak. The middle 80% of observed effects range from an absolute value of .02 to .24, so across the studies shown, small effects prevail. And even in the case of the strongest effect (*r* = .38), personality “explains” only 14% of the variability in the networking behavior. There is therefore ample scope for the influence of a range of other factors.
 
 How about you? Are you able to engage in interactions and networking in a way that supports your career, work performance, or other positive outcomes, perhaps despite your natural tendencies due to your personality setup? Feel free to share your experience and thoughts in the comments. Btw, you can find interesting information on this topic in the excellent book [8 Steps to High Performance](https://www.amazon.com/Steps-High-Performance-Change-Ignore/dp/163369397X) by [Marc Effron](https://www.linkedin.com/in/effron/), specifically in chapters 4 and 6.  
@@ -201,8 +203,8 @@ How about you? Are you able to engage in interactions and networking in a way th
 - [[extraversion-vs-neuroticism|Why are introverts often described in terms of negative emotionality, and should they be?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[big-five-vs-hexaco|Big Five vs. HEXACO]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 <!-- RELATED:END -->
 
 ---

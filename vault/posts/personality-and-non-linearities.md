@@ -186,8 +186,8 @@ ggplot()+
 ## Related notes
 - [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[collaboration-and-personality|Collaboration and personality]]
+- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 <!-- RELATED:END -->
 

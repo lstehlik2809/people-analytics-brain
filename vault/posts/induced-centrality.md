@@ -172,13 +172,17 @@ ggraph::ggraph(g, layout = "kk") + # other available layouts: 'star', 'circle', 
 
 ```
 
+## Figures
+
+![](./induced-centrality/unnamed-chunk-4-1.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
-- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
-- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
+- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
+- [[conditional-inference-tree|Divide and... understand]]
+- [[collaboration-and-personality|Collaboration and personality]]
 <!-- RELATED:END -->
 
 ---

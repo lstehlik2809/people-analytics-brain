@@ -109,6 +109,8 @@ df1 %>%
 
 ```
 
+![](./regression-to-the-mean/unnamed-chunk-4-1.png)
+
 In general, in order to make a valid estimate of the effect of layoffs on employee commitment when RTM is at play, we need to control for its effect. [One way to do this](https://academic.oup.com/ije/article/34/1/215/638499) is to include the difference between T1 values and T1 benchmark in the linear regression model as illustrated below.
 
 ```r
@@ -146,7 +148,7 @@ Feel free to share your own experiences and encounters with the phenomena of reg
 - [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
-- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

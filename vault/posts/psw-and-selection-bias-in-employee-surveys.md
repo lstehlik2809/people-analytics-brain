@@ -75,6 +75,8 @@ plt.show()
 
 ```
 
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-3-1.png)
+
 Now, let's introduce a negative correlation between the engagement score and participation probability and verify that employees who didn't participate indeed have lower engagement scores on average.
 
 ```python
@@ -128,6 +130,8 @@ plt.show()
 
 ```
 
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-4-3.png)
+
 We can clearly see in the raincloud plots above that non-participants indeed have significantly lower engagement scores than participants. This discrepancy naturally results in a difference between the average engagement score of the full population and that of our observed, biased sample, as illustrated in the chart below.
 
 ```python
@@ -148,6 +152,8 @@ plt.title("Engagement Score Distribution Before Weighting")
 plt.show()
 
 ```
+
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-5-5.png)
 
 To improve our estimation, let's use PSW, which will enable us to approximate a scenario in which all employees participate, while relying solely on data from participating employees.
 
@@ -190,12 +196,16 @@ As the numbers and chart above clearly show, using PSW has brought our estimatio
 
 Have you tried similar methods in your employee survey analyses? What's your experience been like? Any caveats, lessons learned, or warnings you'd share?
 
+## Figures
+
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-6-7.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 <!-- RELATED:END -->
 

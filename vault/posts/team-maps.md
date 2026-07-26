@@ -29,8 +29,8 @@ To sum it up, if you run team development workshops, give it a try—your client
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
+- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[how-personality-risks-co-occur|How personality risks co-occur?]]
 <!-- RELATED:END -->

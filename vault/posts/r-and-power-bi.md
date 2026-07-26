@@ -329,7 +329,7 @@ This completed the work on our local computer. You can download the final dashbo
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

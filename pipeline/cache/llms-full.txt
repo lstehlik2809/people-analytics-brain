@@ -2883,6 +2883,10 @@ p2 <- plot_style(
 
 The possible takeaway? With full awareness of the obvious limitations of this small “experiment” (one model, one benchmark, one run, no special prompt engineering, etc.), it might suggest that current genAI isn’t bad at leadership judgment, but it’s not exceptional either. At the same time, it may be biased toward certain styles (“safe” and socially desirable consultation) and have blind spots (like situations requiring shared ownership and distributed accountability). If that’s true, it could have implications both for how managers should use it and for how the models should be fine-tuned if they’re meant for this specific purpose at scale.
 
+## Figures
+
+![](./genai-and-leadership-judgement/unnamed-chunk-1-1.png)
+
 
 ---
 > 📄 Read the [original post with full outputs](https://blog-about-people-analytics.netlify.app/posts/2025-09-22-genai-and-leadership-judgement/) on my blog.
@@ -2978,6 +2982,8 @@ print(ggraph_plot)
 
 
 ```
+
+![](./corporate-culture-trade-offs/unnamed-chunk-1-1.png)
 
 The resulting network chart shows a few interesting patterns:
 
@@ -3188,6 +3194,8 @@ plt.tight_layout(pad=3.0)
 plt.show()
 
 ```
+
+![](./big-five-vs-hexaco/unnamed-chunk-2-1.png)
 
 *Note: The charts aren’t from the paper itself—I made them using the paper’s data, so any discrepancies are on me.*
 
@@ -3517,6 +3525,8 @@ ggplot() +
   )
 
 ```
+
+![](./9-box-grid-dataviz-over-time/unnamed-chunk-1-1.png)
 
 Would be super grateful for any tips or suggestions on dataviz tools or approaches worth exploring 🙏
 
@@ -4298,6 +4308,8 @@ final_plot +
 
 ```
 
+![](./detecting-personality-in-the-face/unnamed-chunk-1-1.png)
+
 That inspired me to put together a simple Python script that compares someone’s facial photo to the “prototypical” high/low trait faces, and then makes a guess about that person’s trait level—all powered by the [FaceNet-512d](https://huggingface.co/py-feat/facenet) deep convolutional neural network (via the [deepface](https://github.com/serengil/deepface) package), which generates 512-dimensional embeddings of facial images, capturing the unique features of a face, and facilitating tasks like face recognition, verification, and clustering. 
 
 <div style="text-align:center">
@@ -4410,6 +4422,8 @@ g <- g +
 print(g)
 
 ```
+
+![](./systematic-review-of-happiness-interventions/unnamed-chunk-1-1.png)
 
 *Note: I put the charts together myself using data from the paper—so any slip-ups in the visuals are on me.*
 
@@ -4609,6 +4623,8 @@ GGally::ggpairs(
 
 ```
 
+![](./rwa/unnamed-chunk-4-1.png)
+
 In the top row of the pair plot, we can see that *Quitting Intentions* are moderately negatively correlated with the other scales—most strongly with *Perceived Organizational Support* (around *r*=-0.35), followed by *Management* and *Procedural Justice* (around *r*=-0.25), and finally with *Management Motivation* and *Autonomy* (around *r*=-0.20). Correlations between the predictor variables themselves are slightly higher but still fall within the moderate range. The highest correlation is around *r*=0.5 between *Procedural Justice* and *Management*. This suggests that multicollinearity should not be an issue, but still, the intercorrelations are big enough to have an impact on our efforts to estimate relative importance of individual predictors. Let’s see how it plays out. 
 
 After running the RWA, we can see from the table below that the overall regression model explains about 16% of the variability in quitting intentions, and nearly 50% of this predictive power is attributable to *Perceived Organizational Support*, while the remaining predictors each contribute between 10% and 15%. 
@@ -4807,6 +4823,8 @@ ggplot2::ggplot(final_results, aes(x = Predictor, y = RescaledWeight)) +
 
 
 ```
+
+![](./rwa/unnamed-chunk-8-1.png)
 
 
 ---
@@ -5073,6 +5091,8 @@ all_df %>%
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-2-1.png)
+
 Since we're working with time series data, it's important to check for the presence of seasonality and autocorrelation to determine whether—and how—these factors should be incorporated into our model. Here, we explicitly examine only the “*causal inference*” search term, as it is our primary outcome variable of interest. However, in the original analysis, this check was also performed for the two remaining search terms. The seasonal-trend decomposition plot and the autocorrelation function (ACF) plot both reveal meaningful patterns: a clear seasonal trend and significant autocorrelation at a lag of 2, respectively. We will account for these in our model by including a month variable and an appropriate autocorrelation term.
 
 
@@ -5193,6 +5213,8 @@ bayesplot::mcmc_trace(
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-5-1.png)
+
 ```r
 # posterior predictive check
 # specifying the number of samples
@@ -5208,6 +5230,8 @@ brms::pp_check(
   )
 
 ```
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-6-1.png)
 
 ```r
 # visualizing original data overlaid with draws from the posterior fit of the model
@@ -5259,6 +5283,8 @@ data_with_fitted_model <- function(model, search_term_name) {
 data_with_fitted_model(model=causal_inference_model, search_term_name = "causal_inference")
 
 ```
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-7-1.png)
 
 Now we can examine the estimated coefficients of interest. The evidence for an immediate increase in interest following the NP announcement is not particularly strong—especially when compared to the spike caused by Google's data collection update. However, a noticeably steeper upward trend is evident in the months following the NP announcement.
 
@@ -5349,6 +5375,8 @@ posterior_plots(model=causal_inference_model, search_term_name = "causal_inferen
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-8-1.png)
+
 To test the robustness of our conclusions regarding the NP hypothesis, let's perform a kind of refutation test by examining whether a similar pattern appears in the closely related term "*causal analysis*", but not in the less closely related term "*data analysis*". For brevity, we won’t run the full analysis pipeline here for these additional search terms; instead, we’ll only fit the model and check the posterior coefficient estimates—but rest assured that all the necessary steps were conducted in the original analysis (and you can always replicate it yourself using the code above to make sure I didn’t make any mistakes 😉). So, what are the results? As you can see in the charts below, "*causal analysis*" indeed behaves similarly to "*causal inference*", while "*data analysis*" shows only the spike related to the method change. This lends additional credibility to the NP effect hypothesis. However, it's still possible that an additional, unknown concurrent event could partially or fully explain the observed pattern. 🤔 
 
 ```r
@@ -5375,6 +5403,8 @@ posterior_plots(model=causal_analysis_model, search_term_name = "causal_analysis
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-9-1.png)
+
 
 ```r
 # defining the statistical model for the 'data analysis' search term
@@ -5399,6 +5429,14 @@ data_analysis_model <- brms::brm(
 posterior_plots(model=data_analysis_model, search_term_name = "data_analysis")
 
 ```
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-10-1.png)
+
+## Figures
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-3-1.png)
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-3-2.png)
 
 
 ---
@@ -5513,6 +5551,8 @@ plt.show()
 
 ```
 
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-3-1.png)
+
 Now, let's introduce a negative correlation between the engagement score and participation probability and verify that employees who didn't participate indeed have lower engagement scores on average.
 
 ```python
@@ -5566,6 +5606,8 @@ plt.show()
 
 ```
 
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-4-3.png)
+
 We can clearly see in the raincloud plots above that non-participants indeed have significantly lower engagement scores than participants. This discrepancy naturally results in a difference between the average engagement score of the full population and that of our observed, biased sample, as illustrated in the chart below.
 
 ```python
@@ -5586,6 +5628,8 @@ plt.title("Engagement Score Distribution Before Weighting")
 plt.show()
 
 ```
+
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-5-5.png)
 
 To improve our estimation, let's use PSW, which will enable us to approximate a scenario in which all employees participate, while relying solely on data from participating employees.
 
@@ -5627,6 +5671,10 @@ plt.show()
 As the numbers and chart above clearly show, using PSW has brought our estimation much closer to the average engagement of the full population, as if all employees had participated in the survey. However, the accuracy of this adjustment depends on how well we can model the probability of participation using available variables and the extent to which participation probability is systematically related to engagement scores in ways that our model can adjust for. In a real-world scenario, the results may not be as precise as in this simulation, where we have full control over the conditions. Nonetheless, PSW typically reduces bias, bringing estimates closer to the true engagement level, provided key assumptions hold.
 
 Have you tried similar methods in your employee survey analyses? What's your experience been like? Any caveats, lessons learned, or warnings you'd share?
+
+## Figures
+
+![](./psw-and-selection-bias-in-employee-surveys/unnamed-chunk-6-7.png)
 
 
 ---
@@ -5811,6 +5859,8 @@ data %>%
   ggplot2::guides(color = guide_legend(reverse = TRUE))
 
 ```
+
+![](./career-hurdles/unnamed-chunk-1-1.png)
 P.S. As is evident from the code snippet above, the attached chart isn't straight from the paper. I made it based on the results presented there, so any mistakes in the chart are on me!
 
 
@@ -7272,6 +7322,8 @@ ggplot2::ggplot(dataviz_data, aes(x = stage, y = rank, group = athlete, color = 
 
 ```
 
+![](./sprint/unnamed-chunk-1-1.png)
+
 We could also ask how those who improved their rankings achieved this. Was it because they ran faster, or was it that their competitors ran slower in the final compared to the semis? A comparison of time differences between the finals and semis for those who improved, worsened, or maintained their ranking suggests that it's a combination of both. Those who improved or maintained their rankings tended to improve their times in the final, though the former group did so more significantly. Conversely, those who dropped in ranking generally ran slower in the final in comparison with the semi.
 
 ```r
@@ -7342,6 +7394,8 @@ ggplot2::ggplot(
   )
 
 ```
+
+![](./sprint/unnamed-chunk-2-1.png)
 
 Not sure if there are any deeper lessons to be drawn from these results, perhaps just that while patterns and predictability exist, there is always room for surprises, the awareness of which can help nurture resilience and flexibility, key qualities for navigating uncertain environments. But maybe I just have a limited imagination, so feel free to share any suggestions for a better lesson 🙂
 
@@ -7500,11 +7554,15 @@ plot(
 
 ```
 
+![](./tas-c-suit-teams/unnamed-chunk-1-1.png)
+
 ```r
 # computing centrality measures for individual variables
 qgraph::centralityPlot(network, include = "all", orderBy = "ExpectedInfluence")
 
 ```
+
+![](./tas-c-suit-teams/unnamed-chunk-2-1.png)
 
 The resulting network, IMHO,  revealed two or three extra insights that are at least interesting, if not useful:
 
@@ -7671,7 +7729,13 @@ ggplot2::theme_minimal()
 
 ```
 
+![](./kohonen-self-organizing-maps/unnamed-chunk-2-1.png)
+
 If you find yourself in a similar situation, definitely give it a try. Happy exploration(s) 🙂
+
+## Figures
+
+![](./kohonen-self-organizing-maps/unnamed-chunk-1-1.png)
 
 
 ---
@@ -8749,6 +8813,16 @@ remaining_time_bootstraping_plotting(data=data_wine)
 
 ```
 
+## Figures
+
+![](./expected-remaining-time/bulb-1.png)
+
+![](./expected-remaining-time/bulb-2.png)
+
+![](./expected-remaining-time/wine-5.png)
+
+![](./expected-remaining-time/wine-6.png)
+
 
 ---
 > 📄 Read the [original post with full outputs](https://blog-about-people-analytics.netlify.app/posts/2024-02-26-expected-remaining-time/) on my blog.
@@ -9022,6 +9096,8 @@ ggplot(py$data_sorted, aes(x=Variable, y=P, fill = Category, color = Category)) 
 
 ```
 
+![](./team-design-creativity-innovation/dataviz-1.png)
+
 What might be the practical implications for managers?  
 
 * Focus on selecting team members who are diverse in terms of job-related factors such as educational background.
@@ -9133,6 +9209,8 @@ print(plot)
 
 ```
 
+![](./strength-based-development-and-distributions/normal-performance-distribution-1.png)
+
 ```python
 # plotting the power-law performance distribution
 plot = (
@@ -9168,6 +9246,8 @@ plot = (
 print(plot)
 
 ```
+
+![](./strength-based-development-and-distributions/powerlaw-performance-distribution-3.png)
 
 Given these results, one should feel motivated to identify among the mix of factors affecting one's performance those with multiplicative effect and try to bring them at least to the average level. The question is how one can easily identify which these are. Any tips?
 
@@ -9534,6 +9614,8 @@ plt.show()
 
 ```
 
+![](./personas-based-on-ml-local-interpretation-algos/unnamed-chunk-6-1.png)
+
 A clustering algorithm, such as HDBSCAN, can help us identify the clusters.
 
 ```python
@@ -9581,6 +9663,8 @@ cbar.set_label('Predicted class probability', rotation=270, labelpad=15)
 plt.show()
 
 ```
+
+![](./personas-based-on-ml-local-interpretation-algos/unnamed-chunk-8-5.png)
 
 Now we can check for the selected clusters which features and in which direction most affect their respective predicted probabilities. For example, we can see from the table below that the clusters with lower predicted probabilities (clusters 0, 2 and 4) are driven either by the respective values in features 6 and 9 (cluster 0), or by the respective values in features 0, 3, 7 and 9 (cluster 2), or by the respective values in feature 0 (cluster 4).
 
@@ -9660,6 +9744,10 @@ DT::datatable(
 ```
 Maybe you'll find the method described here useful in one of your ML projects. Happy data sleuthing 🙂
 
+## Figures
+
+![](./personas-based-on-ml-local-interpretation-algos/unnamed-chunk-7-3.png)
+
 
 ---
 > 📄 Read the [original post with full outputs](https://blog-about-people-analytics.netlify.app/posts/2023-11-09-personas-based-on-ml-local-interpretation-algos/) on my blog.
@@ -9729,6 +9817,8 @@ mydata %>%
   )
 
 ```
+
+![](./sentiment-analysis-validation/unnamed-chunk-1-1.png)
 
 Seems like I can add another useful tool to my toolbox. If you are interested in trying it out, you can use a short code snippet below for it.
 
@@ -9961,7 +10051,15 @@ plt.show()
 
 ```
 
+![](./bayesian-simulation/unnamed-chunk-6-5.png)
+
 And it doesn't have to end there. For example, this estimate can be combined with other inputs, e.g. the cost of a new referral program, the cost of an alternative solution, etc., to make a better informed decision, taking into account the existing uncertainty.
+
+## Figures
+
+![](./bayesian-simulation/unnamed-chunk-3-1.png)
+
+![](./bayesian-simulation/unnamed-chunk-5-3.png)
 
 
 ---
@@ -10013,6 +10111,8 @@ plt.title("DAG")
 plt.show()
 
 ```
+
+![](./dag-and-double-ml/unnamed-chunk-1-1.png)
 
 Now let’s generate synthetic data corresponding to this DAG.
 
@@ -10721,6 +10821,10 @@ ggraph::ggraph(g, layout = "kk") + # other available layouts: 'star', 'circle', 
 
 ```
 
+## Figures
+
+![](./induced-centrality/unnamed-chunk-4-1.png)
+
 
 ---
 > 📄 Read the [original post with full outputs](https://blog-about-people-analytics.netlify.app/posts/2023-07-14-induced-centrality/) on my blog.
@@ -10876,6 +10980,8 @@ ggplot2::ggplot(data = posteriorDraws, aes(x=estimatedTR, group = team)) +
 
 ```
 
+![](./bayesian-shrinkage/unnamed-chunk-2-1.png)
+
 If you are trying to deal with this effect in your reporting practice, can you share the approach you use and serves you well?
 
 
@@ -11009,6 +11115,8 @@ data %>%
   )
 
 ```
+
+![](./team-level-predictors-of-innovation/unnamed-chunk-1-1.png)
 
 If that's true, not sure whether it's good news or bad news for companies' innovation initiatives. Is it easier to change processes or team composition? I expect there will be a lot of "it depends" 😉 What do you think?
 
@@ -11253,6 +11361,8 @@ datavizDf %>%
 
 ```
 
+![](./latent-class-analysis/unnamed-chunk-8-1.png)
+
 It would certainly be possible to delve deeper into the results, but for a basic overview of the process of LCA and its outputs, this might be sufficient. If interested, a more detailed introduction to LCA can be found, for example, in [this practitioner's guide](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7746621/).
 
 
@@ -11385,6 +11495,8 @@ dataLong %>%
 
 ```
 
+![](./selection-procedures-validity-update/unnamed-chunk-1-1.png)
+
 Maybe the visualization will come in handy for you as well when trying to "rewire" your long-held beliefs and assumptions. It should make clearer in what direction and to what extent to do so 😉
 
 
@@ -11505,6 +11617,8 @@ plot(
 
 ```
 
+![](./psychometric-network-analysis/unnamed-chunk-4-1.png)
+
 We can also plot the network in `ggplot` style, which can be useful when we need more control over the chart, e.g. when we want to plot identified communities/clusters instead of theoretical scales. To do this, we just need to get the necessary information from the `network` object and do a few data manipulations. 
 
 ```r
@@ -11568,6 +11682,8 @@ ggraph::ggraph(igraph_graph, layout = "fr", maxiter = 500) +  # fr, kk, drl, mds
 
 ```
 
+![](./psychometric-network-analysis/unnamed-chunk-5-1.png)
+
 From the charts we can quickly gain a basic idea of the internal structure of the data. For example, we can notice that:
 
 * items from the same scales tend to cluster close to each other;
@@ -11585,6 +11701,8 @@ library(qgraph)
 qgraph::centralityPlot(network, include = "all", orderBy = "ExpectedInfluence")
 
 ```
+
+![](./psychometric-network-analysis/unnamed-chunk-6-1.png)
 Based on the expected influence centrality measure, which takes into account the presence of both negative and positive edges, the following items appear to be among the most influential ones:
 
 * Man3: `r legend %>% dplyr::filter(Item == "Man3") %>% dplyr::pull(Text)`
@@ -11628,6 +11746,8 @@ plot(bootnet_nonpar, labels = FALSE, order = "sample")
 
 ```
 
+![](./psychometric-network-analysis/unnamed-chunk-8-1.png)
+
 To find internal structure in the estimated network, we need not rely solely on the visual inspection of the network diagram, but we can use some of the common community detection algorithms that can be used to identify clusters of more densely connected topics. In the example below, we have merely " replicated" an existing clustering by scale, which is an indication that the authors have managed to construct a survey that measures distinct constructs that they originally intended to measure, but in practice you are likely to observe less distinct patterns more often, which can give you clues about how to improve the construction of the employee survey.   
 
 ```r
@@ -11649,6 +11769,8 @@ ggraph::ggraph(igraph_graph, layout = "fr", maxiter = 500) +  # fr, kk, drl, mds
   ggplot2::scale_color_brewer(palette="Set1")
 
 ```
+
+![](./psychometric-network-analysis/unnamed-chunk-9-1.png)
 
 Another use case would be to test for differences in job attitudes' connectivity and centrality across different groups of employees. To do this, we can use the `NetworkComparisonTest` R package that implements permutation based hypothesis testing of differences between two networks. Let's illustrate it with differences between networks estimated on data coming from females and males. We first filter data for both genders and than estimate and visualize their respective attitudinal networks.
 
@@ -11762,6 +11884,14 @@ print(testGenderDiff)
 
 I hope you find this post useful and that it inspires you to try PNA on your own data. If you were looking for more authoritative sources on PNA, [Epskamp & Fried's (2018) tutorial](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fmet0000167) is a good place to start. An excellent introduction to the topic can also be found in [Letouche & Wille (2022)](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.838093/full) and [Dalege et al. (2017)](https://journals.sagepub.com/doi/pdf/10.1177/1948550617709827), respectively.
 
+## Figures
+
+![](./psychometric-network-analysis/unnamed-chunk-7-1.png)
+
+![](./psychometric-network-analysis/unnamed-chunk-10-1.png)
+
+![](./psychometric-network-analysis/unnamed-chunk-10-2.png)
+
 
 ---
 > 📄 Read the [original post with full outputs](https://blog-about-people-analytics.netlify.app/posts/2023-05-16-psychometric-network-analysis/) on my blog.
@@ -11872,6 +12002,8 @@ df1 %>%
   ggplot2::guides(color = guide_legend(nrow = 1))
 
 ```
+
+![](./regression-to-the-mean/unnamed-chunk-4-1.png)
 
 In general, in order to make a valid estimate of the effect of layoffs on employee commitment when RTM is at play, we need to control for its effect. [One way to do this](https://academic.oup.com/ije/article/34/1/215/638499) is to include the difference between T1 values and T1 benchmark in the linear regression model as illustrated below.
 
@@ -12147,6 +12279,8 @@ vizData %>%
 
 ```
 
+![](./glassdoor/unnamed-chunk-1-1.png)
+
 On a more serious note, it may be quite interesting and potentially useful to examine the order of estimated differences in specific areas between current and former employees as it may provide some insights on which areas to focus on when trying to retain employees within the company. We can use a multilevel ordered regression analysis on a random sample of 300 ratings per company for this purpose.  
 
 ```r
@@ -12313,6 +12447,8 @@ ggplot2::ggplot(simulated_data, aes(y = JobSatisfaction, x = AgilityMaturity, co
   ggplot2::guides(color = guide_legend(nrow = 1))
 
 ```
+
+![](./multilevel-correlation/unnamed-chunk-1-1.png)
 
 
 ---
@@ -12543,6 +12679,10 @@ modelStudio::modelStudio(
 ```
 
 <img src="./charts.png">
+
+## Figures
+
+![](./interpretable-ml/unnamed-chunk-4-1.png)
 
 
 ---
@@ -13008,6 +13148,8 @@ print(ppc)
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-3-1.png)
+
 As you can see, the model fits the data pretty well. Now we can look at the coefficients in the individual parts of the model. All of them show non-zero values and are in directions that are consistent with our expectations embodied in our conceptual model, i.e., all are positive except for the coefficient of the *RA* variable (number of points lost) as a predictor of the number of games won (*W*). These results thus give us greater confidence in following our conceptual model of team functioning when making decisions about allocating our limited resources. 
 
 ```r
@@ -13137,6 +13279,8 @@ print(coefCharts)
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-4-1.png)
+
 ```r
 # summary of the fitted model  
 summary(fit)
@@ -13187,6 +13331,8 @@ myData %>%
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-6-1.png)
+
 
 
 ```r
@@ -13235,6 +13381,8 @@ myData %>%
 
 
 ```
+
+![](./hrm-value-chain-and-sem/unnamed-chunk-7-1.png)
 
 
 Considering the last known OAK performance statistics from 2001, what number of games can OAK expect to win and what is the likelihood of making the playoffs next year? Let's plug the 2001 OAK numbers into the model and check the prediction including all uncertainties.
@@ -13305,6 +13453,8 @@ wp %>%
   )
 
 ```
+
+![](./hrm-value-chain-and-sem/unnamed-chunk-8-1.png)
 
 We can see that the 95% probability interval of the predicted number of games won by the OAK in 2002 is safely above the 95-point threshold. And when we compare the prediction to the 2002 reality, we see that they are pretty close. Also, the projected probability of OAK advancing to the playoffs is very high, which is consistent with the fact that OAK successfully qualified for the playoffs in 2002.
 
@@ -13421,6 +13571,8 @@ simDf %>%
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-10-1.png)
+
 As many of you know, thanks to similar analyses, the OAK management began to select players for their team who, although they did not meet the traditional criteria by which scouts judged the quality of baseball players, exhibited exactly those characteristics that, according to conducted analyses, predicted the number of points won and lost, and thus the likelihood of advancing to the playoffs, which was the management's main goal. Because competing teams underestimated the importance of these player statistics and overestimated other, less important variables (e.g., batting average), OAK management was able to purchase players relatively inexpensively who enabled them to achieve their goals. As a result, the OAK won 20 more games per season than similarly "poor" teams and about the same number of games as 2 to 3 times richer competition. The power of data in practice! 
 
 ```r
@@ -13493,6 +13645,8 @@ playersSalariesAvg %>%
   )
 
 ```
+
+![](./hrm-value-chain-and-sem/unnamed-chunk-11-1.png)
 
 Finally, let's breathe some life into the dry numbers by watching a short clip from the [Moneyball film](https://www.imdb.com/title/tt1210166/), which nicely summarizes some of the ideas presented in this blog post.
 
@@ -14410,6 +14564,8 @@ print(g)
 
 ```
 
+![](./people-related-metrics-distribution/unnamed-chunk-1-1.png)
+
 But it also applies to more traditional areas of HR concern such as individual or team performance. For many job roles, especially knowledge-based ones, job performance has a power-law distribution, i.e., only a few percent of individuals or teams have disproportionately high performance and most have performance below the statistical average (many of you have probably heard of Pareto's law, and the 80/20 rule in this context). More detailed information on this particular topic can be found, for example, in the following two articles - [The Best and the Rest: Revisiting the Norm of Normality of Individual Performance](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1744-6570.2011.01239.x) by O'Boyle Jr. & Aguinis (2012) and [Team Performance: Nature and Antecedents of Nonnormal Distributions](https://pubsonline.informs.org/doi/full/10.1287/orsc.2022.1619) by Bradley & Aguinis (2022). 
 
 Why bother with that? Well, because, based on incorrect assumptions about the distribution of specific phenomena, companies may make decisions that ultimately harm them. For example, suppose a company applies the assumption of normal distribution in evaluating employees’ performance that actually has power law distribution. In that case, it will result in underestimating the contribution of the best performers and overestimating the contribution of the worst performers, which may be negatively reflected in various decisions regarding reward & compensation, learning & development, promotions, succession planning, etc. 
@@ -14708,6 +14864,8 @@ GGally::ggpairs(
 
 ```
 
+![](./police-cadet-evaluation-dataset/unnamed-chunk-2-1.png)
+
 If you want to download the dataset, you can do so here via the table above or via [my GitHub page](https://github.com/lstehlik2809/Police-Cadet-Evaluation-Dataset) where you can also find more information about the dataset. Happy analysis 😉
 
 
@@ -14794,6 +14952,8 @@ ggplot2::ggplot(data = data, aes(x = internalNetworkSize, y = salesPerformance))
   )
 
 ```
+
+![](./conditional-inference-tree/unnamed-chunk-1-1.png)
 
 
 
@@ -14882,6 +15042,8 @@ ggstatsplot::ggbetweenstats(
   )
 
 ```
+
+![](./conditional-inference-tree/unnamed-chunk-2-1.png)
 
 
 If you are dealing with similar use cases, give it a try. And if you use any other tools/approaches for this, feel free to share them in return.
@@ -15070,6 +15232,8 @@ g <- g1/g2/g3
 print(g)
 
 ```
+
+![](./back-to-back-meetings/unnamed-chunk-1-1.png)
 
 Based purely on the time between successive meetings, we could conclude that a given team suffers from an unhealthy frequency of back-to-back meetings, as in more than a third of cases, there is no break between meetings. However, if we look at how long the series of back-to-back meetings tend to be (in 75% of cases it's only 2 meetings in a row) and how much time people spend in them (in 42% of cases it’s between 31-60 minutes and in 30% of cases it’s between 61-90 minutes), then the resulting picture is less pessimistic and more indicative of a rather healthy level of effort to protect time for **focused work** by **batching** meetings into short blocks that do not come at the cost of exhausting people and making meetings less effective.
 
@@ -15267,6 +15431,8 @@ print(g)
 
 ```
 
+![](./collaboration-and-personality/unnamed-chunk-1-1.png)
+
 As can be seen from the graphs above, the relationship between personality and the amount of interaction and networking behavior goes in the expected direction. Agreeable, open, and extraverted employees and to some extent also conscientious and emotionally stable employees tend to engage more in interactions with others and in networking. However, the relationships found are relatively weak. The middle 80% of observed effects range from an absolute value of .02 to .24, so across the studies shown, small effects prevail. And even in the case of the strongest effect (*r* = .38), personality “explains” only 14% of the variability in the networking behavior. There is therefore ample scope for the influence of a range of other factors.
 
 How about you? Are you able to engage in interactions and networking in a way that supports your career, work performance, or other positive outcomes, perhaps despite your natural tendencies due to your personality setup? Feel free to share your experience and thoughts in the comments. Btw, you can find interesting information on this topic in the excellent book [8 Steps to High Performance](https://www.amazon.com/Steps-High-Performance-Change-Ignore/dp/163369397X) by [Marc Effron](https://www.linkedin.com/in/effron/), specifically in chapters 4 and 6.  
@@ -15453,6 +15619,8 @@ print(g)
 
 ```
 
+![](./collaboration-overload-and-bottlenecks/unnamed-chunk-1-1.png)
+
 
 We see that the “hottest” hot spots are in teams Dev-Management and Dev-Frontend. While this is not definitive proof that we have real problems in these two specific teams, it should be a strong enough signal to take notice and try to verify our suspicion with additional information, such as checking some relevant business metrics or simply asking a few people we know should be affected, if there is a problem. If the initial suspicion is confirmed, appropriate action should be taken, e.g. consider the relevance of some requests, possibly redirect them to other teams, automate some tasks, expand the team and recruit new people, etc. 
 
@@ -15576,6 +15744,8 @@ g <- g + patchwork::plot_annotation(
 print(g)
 
 ```
+
+![](./multilevel-modeling/unnamed-chunk-1-1.png)
 
 
 ```r
@@ -15737,6 +15907,8 @@ print(gf)
 
 ```
 
+![](./multilevel-modeling/unnamed-chunk-3-1.png)
+
 Without the use of the hierarchical model (and/or a careful post-hoc visual check of alternative explanations), we would reach a completely opposite (and incorrect) conclusion about the relationship between the number of 1:1s and perceived support from the line manager (a phenomenon known as [Simpson’s paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox)). In this particular case, it is relatively easy to recognize that something may be wrong, but the situation is not always so obvious and intuitive. In these other cases, it is advantageous to have some tool at hand to compensate for our imperfect intuition and limited knowledge and imagination. Hierarchical models are one such tool.  
 
 If you don't already have it in your analytics toolbox, be sure to give it a try. If you work with [R](https://www.r-project.org/), you can use the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) or [brms](https://cran.r-project.org/web/packages/brms/index.html) packages to implement it. In a [Python environment](https://www.python.org/), you can use the [statsmodels](https://www.statsmodels.org/stable/index.html) or [PyMC3](https://docs.pymc.io/en/v3/index.html) libraries to do this. And if you're more used to drag-and-drop tools, then [JASP](https://jasp-stats.org/) or [jamovi](https://www.jamovi.org/) (both open-source alternatives to [SPSS](https://www.ibm.com/analytics/spss-statistics-software)) will give you access to various mixed models through an easy-to-use graphical interface.
@@ -15871,6 +16043,8 @@ gtrendsResultDf %>%
   )
 
 ```
+
+![](./people-analytics-popularity-after-covid/unnamed-chunk-2-1.png)
 
 
 To make the picture a little bit clearer, let us take the help of inferential statistics to answer the question we are interested in. The ideal analytical tool for our use case is a segmented regression analysis of interrupted time series that enables estimation of the changes in levels and trends of search interest before and after after a known ‘intervention’ or ‘interruption’ (i.e., a change that could potentially affect the outcome variable). It does so by segmenting the time series data into different periods based on the known interruption points and modeling these segments separately. The model used has the following general structure:  
@@ -16025,7 +16199,9 @@ bayesplot::mcmc_trace(
   )
   
 
-```  
+```
+
+![](./people-analytics-popularity-after-covid/unnamed-chunk-7-1.png)  
 
 It is also important to check how well the model fits the data. To do this, we can use the posterior predictive check, which uses a specified number of selected posterior values of the model parameters to show how well the fitted model predicts the observed data. In the graph below we see that the model fits the observed data reasonably well. 
 
@@ -16048,7 +16224,9 @@ brms::pp_check(
     legend.background = element_blank()
   )
 
-```  
+```
+
+![](./people-analytics-popularity-after-covid/unnamed-chunk-8-1.png)  
 
 ## What do the model and data tell us?  
 
@@ -16088,6 +16266,8 @@ ggplot2::ggplot(paramVizBeforethepandemicoutbreak, aes(x,y)) +
 
 ```
 
+![](./people-analytics-popularity-after-covid/unnamed-chunk-10-1.png)
+
 ```r
 # uploading library for working with output from Bayesian models
 library(posterior)
@@ -16124,6 +16304,8 @@ ggplot2::ggplot(paramVizElapsedTimeAfterPandemic, aes(x,y)) +
   ggthemes::theme_clean()
 
 ```
+
+![](./people-analytics-popularity-after-covid/unnamed-chunk-12-1.png)
 
 ```r
 # extracting posterior samples
@@ -16205,6 +16387,8 @@ print(fplot)
 
 ```
 
+![](./visual-inference-statistics/unnamed-chunk-1-1.png)
+
 Here's a check on your guess. The actual data are shown in chart # `r attr(d, "pos")`. As you can see in the chart below, the relationship between time for focused work and the use of timeboxing is slightly negative, which makes pretty good sense, because people who have enough time for focused work usually don't have such a strong need to block out time for focused work in their calendar. 
 
 ```r
@@ -16222,6 +16406,8 @@ mydata %>%
   )
 
 ```
+
+![](./visual-inference-statistics/unnamed-chunk-2-1.png)
 
 We can also test the relationship between time for focused work and the use of timeboxing more formally by fitting a [Bayesian beta regression model](https://www.andrewheiss.com/blog/2021/11/08/beta-regression-guide/) to the data. As you can see in the summary tables and charts below, the null value is safely outside the 95% credible interval of the mean of the focus rate parameter, and the marginal effect of focus rate clearly shows its negative relationship with the predicted proportion of working time blocked in the calendar. Note also that the relationship is non-linear, i.e. the marginal effect of the focus rate is different depending on its level. 
 
@@ -16302,7 +16488,13 @@ ggplot(model_pred , aes(x = focusRate, y = .epred)) +
 
 ```
 
+![](./visual-inference-statistics/unnamed-chunk-5-1.png)
+
 If you would like to apply the visual statistical inference approach to your own data, you can easily do so using the *[nullabor](https://github.com/dicook/nullabor)* R package.
+
+## Figures
+
+![](./visual-inference-statistics/unnamed-chunk-4-1.png)
 
 
 ---
@@ -16407,6 +16599,8 @@ mydata %>%
   )
 
 ```
+
+![](./meeting-planning/unnamed-chunk-1-1.png)
 
 It is also worth noting the reverse situation where meetings take longer than planned, as a late end to one meeting becomes a late start to the next meeting. 
 
@@ -16586,6 +16780,8 @@ g2 <- data %>%
 ggarrange(g1, g2, ncol = 2, nrow = 1)
 
 ```
+
+![](./probability-words/unnamed-chunk-1-1.png)
 
 The first graph can thus help us to use the right word, which in the mind of the other person is most likely to evoke the same probability we want to express. The second graph can then help us to identify the most noisy probability words, for which we will know to ask for a more precise definition because we will be aware that people may imagine very different probabilities under these words.
 
@@ -16933,6 +17129,8 @@ GGally::ggpairs(mydata, aes(color = gender, alpha = 0.4)) +
 
 ```
 
+![](./paygap/unnamed-chunk-8-1.png)
+
 Vizuální dojem o rozdílné výši základní mzdy u mužů a žen potvrzuje i detailnější analýza tohoto rozdílu. Ta ukazuje, že v našem vzorku mediánová mzda žen činí `r format(round(median(mydata[mydata['gender'] == 'Female', 'basePay'] %>% pull()),2), scientific=FALSE)` USD a mediánová mzda mužů `r format(round(median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()),2), scientific=FALSE)` USD. To odpovídá rozdílu `r round((median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()) - median(mydata[mydata['gender'] == 'Female', 'basePay'] %>% pull())), 1)` USD, resp. neadjustované GPG (definované jako poměr rozdílu mediánové mzdy mužů a žen a mediánové mzdy mužů) `r round((median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()) - median(mydata[mydata['gender'] == 'Female', 'basePay'] %>% pull())) / median(mydata[mydata['gender'] == 'Male', 'basePay'] %>% pull()) * 100, 1)` %. Míra platové nerovnosti se tak v námi sledované firmě zdá být spíše nižší, srovnatelná s celkovou hodnotou tohoto ukazatele v zemích jako je např. Švédsko nebo Nový Zéland (viz graf z úvodu tohoto článku).
 
 Pokud bychom chtěli zohlednit míru naší nejistoty při odhadu velikosti rozdílu mezi typickým platem mužů a žen, která je daná tím, že pracujeme pouze se vzorkem zaměstnanců a nikoli s celou firmou, měli bychom sáhnout po inferenční statistice. Při použití bayesovského ekvivalentu t-testu pro dva nezávislé výběry získáme takto informaci o posteriorní distribuci velikosti tohoto rozdílu. Na grafu níže můžeme vidět, že 95% interval kredibility se nachází v rozmezí od 5511 do 11615 USD, s mediánovou hodnotou 8392 USD. Z grafu také můžeme vyčíst, že dostupná data mluví silně v neprospěch nulové hypotézy o neexistenci rozdílu mezi průměrným platem mužů a žen - viz velmi nízká hodnota logaritmu [Bayesova faktoru](https://en.wikipedia.org/wiki/Bayes_factor) ve prospěch nulové hypotézu BF~01~.      
@@ -16962,6 +17160,8 @@ ggstatsplot::ggbetweenstats(
 
 ```
 
+![](./paygap/unnamed-chunk-9-1.png)
+
 **Samotný fakt rozdílné výše základní mzdy u mužů a žen ale ještě nemusí automaticky znamenat, že by se za ním skrývala diskriminace žen**. Pozorovaný rozdíl může být totiž např. způsobený tím, že ženy zaměstnané v námi sledované firmě mají typicky nižší vzdělání než ve stejné firmě zaměstnaní muži. A vzhledem k tomu, že výše vzdělání (z hlediska "meritokratické spravedlnosti" zcela neproblematicky) pozitivně koreluje s výší platu, projeví se tato souvislost v nižší typické mzdě žen (ponechme nyní stranou otázku, v jaké míře mají ženy obecně přístup k vyššímu vzdělání ve společnosti, kde daná firma působí). Tuto hypotézu se zdají podporovat i dva níže uvedené grafy, které vizualizují vztah mezi úrovní vzdělání zaměstnance a výší jeho základní mzdy, resp. souvislost mezi pohlavím zaměstnance a úrovní jeho vzdělání.
 
 
@@ -16990,6 +17190,8 @@ mydata %>%
 
 ```
 
+![](./paygap/unnamed-chunk-10-1.png)
+
 
 ```r
 mydata %>%
@@ -17008,6 +17210,8 @@ mydata %>%
 
 
 ```
+
+![](./paygap/unnamed-chunk-11-1.png)
 
 Podobných kombinovaných souvislostí může v našich datech (a v realitě, kterou reprezentují) existovat větší množství. Pokud by čtenář chtěl vztahy mezi různými kombinacemi proměnných prozkoumat sám a detailněji, může za tímto účelem využít [tuto interaktivní aplikaci](https://peopleanalyticsblog.shinyapps.io/gender-pay-gap/?_ga=2.145829618.756830262.1613246735-1591991673.1613246735), kde jsou nahraná naše data a kde lze snadno různým způsobem vizualizovat zadané kombinace proměnných. Viz níže uvedená ukázka využití této aplikace při vizualizaci vztahu mezi výší platu, pohlavím a pracovní pozicí, včetně počtu zaměstnanců v jednotlivých kombinovaných kategoriích. Z tohoto konkrétního grafu je dobře patrné, že ženy jsou ve srovnání s muži disproporčně méně zastoupeny na dvou nadprůměrně odměňovaných pozicích *Manager* a *Software Engineer* a naopak disproporčně více jsou zastoupeny na podprůměrně platově ohodnocené pozici *Marketing Associate*.  
 
@@ -17042,6 +17246,8 @@ mydata %>%
   ggplot2::theme(legend.position = "top")
 
 ```
+
+![](./paygap/unnamed-chunk-12-1.png)
 
 
 ## Statistický model platové nerovnosti
@@ -17113,7 +17319,9 @@ brms::pp_check(
     title = stringr::str_glue("Posteriorní prediktivní kontrola modelu za použití vzorku o velikoti n = {nsamples}")
     )
 
-```  
+```
+
+![](./paygap/unnamed-chunk-14-1.png)  
 
 
 Níže je uveden souhrn informací o našem odhadnutém modelu. Primárně nás zajímá hodnota parametru pohlaví (*genderMale*) v sekci věnované efektům na úrovni celé populace (*Population-Level Effects*). 95% interval kredibility (*Credible Interval*), který udává kam v posteriorním rozdělení spadá hodnota nepozorovaného parametru s 95% pravděpodobností, se nachází v rozmezí od -3750.04 USD do 9081.92 USD, se střední hodnotou 2717.57. Tzn., že podle našeho modelu má muž - při zohlednění ostatních faktorů a jejich vybraných interakcí - typicky o cca 2700 USD vyšší základní mzdu než její ženský protějšek. Analýza našich dat tak do určité míry podporuje hypotézu o existenci platové diskriminace na základě pohlaví zaměstnance v námi studované firmě. Síla důkazu ve prospěch této hypotézy však není nijak výrazná, což vyplývá z toho, že 95% interval kredibility zahrnuje vedle kladných hodnot i nulovou hodnotu a záporné hodnoty parametru pohlaví jako jeho plauzibilní hodnoty.    
@@ -17164,6 +17372,8 @@ ggplot2::ggplot(
 
 ```
 
+![](./paygap/unnamed-chunk-16-1.png)
+
 
 ```r
 # extracting posterior samples
@@ -17208,7 +17418,9 @@ ggpubr::ggarrange(
   ncol = 1
 )
      
-```  
+```
+
+![](./paygap/unnamed-chunk-20-1.png)  
   
 ## Možné další kroky
 
@@ -17490,7 +17702,9 @@ bayesplot::mcmc_trace(
     title = "Plots of the MCMC chains used for estimation of the modelWorkLifeBalance's parameters"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-5-1.png)  
 *Graph 1: Trace plots of Markov chains for individual parameters of the modelWorkLifeBalance.*  
 
 <br>
@@ -17506,6 +17720,8 @@ bayesplot::mcmc_trace(
     )
 
 ```
+
+![](./segmentedregression/unnamed-chunk-6-1.png)
 *Graph 2: Trace plots of Markov chains for individual parameters of the modelWellBeing.* 
 
 <br>
@@ -17526,7 +17742,9 @@ brms::pp_check(
     title = stringr::str_glue("Posterior predictive checks for modelWorkLifeBalance (using {nsamples} samples)")
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-7-1.png)  
 *Graph 3: Posterior predictive checks comparing simulated/replicated data under the fitted modelWorkLifeBalance with the observed data.*
 
 <br>
@@ -17546,7 +17764,9 @@ brms::pp_check(
     title = stringr::str_glue("Posterior predictive checks for modelWellBeing (using {nsamples} samples)")
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-8-1.png)  
 *Graph 4: Posterior predictive checks comparing simulated/replicated data under the fitted modelWellBeing with the observed data.*
 
 <br>
@@ -17584,7 +17804,9 @@ modelWorkLifeBalance %>%
     title = "Posterior distribution of the pandemicBeforethepandemicoutbreak parameter\nin the modelWorkLifeBalance"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-9-1.png)  
 *Graph 5: Visualization of the posterior distribution of the `pandemicBeforethepandemicoutbreak` parameter in the modelWorkLifeBalance.*  
 
 
@@ -17614,7 +17836,9 @@ modelWellBeing %>%
     title = "Posterior distribution of the pandemicBeforethepandemicoutbreak parameter\nin the modelWellBeing"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-10-1.png)  
 *Graph 6: Visualization of the posterior distribution of the `pandemicBeforethepandemicoutbreak` parameter in the modelWellBeing.*  
 
 
@@ -17680,7 +17904,9 @@ modelWorkLifeBalance %>%
     title = "Posterior distribution of the elapsedTimeAfterPandemic parameter\nin the modelWorkLifeBalance"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-14-1.png)  
 *Graph 7: Visualization of the posterior distribution of the `elapsedTimeAfterPandemic` parameter in the modelWorkLifeBalance.* 
 
 <br>  
@@ -17709,7 +17935,9 @@ modelWellBeing %>%
     title = "Posterior distribution of the elapsedTimeAfterPandemic parameter\nin the modelWellBeing"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-15-1.png)  
 *Graph 8: Visualization of the posterior distribution of the `elapsedTimeAfterPandemic` parameter in the modelWellBeing.*
 
 <br> 
@@ -17866,6 +18094,10 @@ Jak je z výše uvedeného výčtu otázek patrné, dashboard obsahuje informace
 *Screenshot části dashboardu, která obsahuje informace o výkonu/kvalitě statistického modelu použitého k identifikaci významných prediktorů odchodovosti zaměstnanců a k odhadu pravděpodobnosti odchodu jednotlivých zaměstnanců.* 
 <img src="./DSHB3.png">
 
+## Figures
+
+![](./hr-analytika-a-odchodovost-zamstnanc/unnamed-chunk-2-1.png)
+
 
 ---
 > 📄 Read the [original post with full outputs](https://blog-about-people-analytics.netlify.app/posts/2018-10-14-hr-analytika-a-odchodovost-zamstnanc/) on my blog.
@@ -17940,6 +18172,8 @@ moneyball %>%
         legend.title = element_blank())
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-3-1.png)
+
 S daty, která máme k dispozici, máme tu výhodu, že můžeme vztah mezi počtem vítězství v základní části soutěže a šancí na postup do play-off přesně kvantifikovat. Provedeme-li podrobnější analýzu našich dat, ukáže se, že velkou (přibližně 95%) šanci na postup do play-off má tým tehdy, když v základní části vyhraje minimálně 95 zápasů. Těchto 95 vítězství představuje dobře definovaný a kvantifikovaný cíl, kterého by se oaklandská „Áčka“ měla snažit dosáhnout.
 
 ```r
@@ -17970,6 +18204,8 @@ ggplot(playoff_data, aes(x = pocet_vitezstvi, y = ucast_v_playoff))+
         axis.title = element_text(size=11))
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-4-1.png)
+
 ## 3. krok: Kladení otázek a měření
 S takto definovaným a kvantifikovaným cílem si potom můžeme klást dalších otázky, na které když si dokážeme odpovědět, zvýšíme tím naše šance na to, že tohoto cíle dosáhneme. V případě oaklandských „Áček“ se můžeme ptát, díky čemu tým dosahuje v zápasech vítězství? Celkem zjevná odpověď zní, že díky tomu, že dokáže získat více bodů než jeho soupeři. Otázkou ale je, přesně o kolik bodů navíc musí tým získat, aby v základní části soutěže dosáhl na minimálně 95 vítězství. K zodpovězení této otázky opět potřebujeme historická data (údaje o vyhraných a prohraných bodech) a relativně jednoduchý statistický model zvaný [lineární regrese](https://cs.wikipedia.org/wiki/Lineární_regrese), pomocí kterého můžeme popsat vztah mezi počtem vyhraných zápasů v základní části soutěže a rozdílem mezi vyhranými a prohranými body. Z níže uvedeného grafu je zřejmé, že mezi těmito dvěma proměnnými je velice těsný vztah a že spolu velice silně [korelují](https://cs.wikipedia.org/wiki/Korelace).
 
@@ -17992,6 +18228,8 @@ ggplot(moneyball, aes(x = RD , y = W))+
   scale_y_continuous(limits = c(40, 120), breaks = seq(40,120,10))+
   stat_cor(method = "pearson", label.x = 175, label.y = 45)
 ```
+
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-5-1.png)
 
 Při použití modelu lineární regrese můžeme vztah mezi těmito dvěma proměnnými popsat trochu podrobněji. 
 
@@ -18098,6 +18336,8 @@ semPaths(fit_oak_model,
          rotation =3)
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-10-1.png)
+
 Výstupy provedené tzv. [pěšinkové analýzy](https://en.wikipedia.org/wiki/Path_analysis_(statistics)), která je speciálním typem strukturálního modelování, naznačují, že námi navržený model je v souladu s daty, která máme k dispozici (viz "příznivé" hodnoty indexů shody, resp. neshody jako je TLI a CFI, resp. RMSEA, a také vysoké hodnoty standardizovaných regresních koeficientů). Dávají nám tak dobrý důvod věřit, že naše další kroky a rozhodnutí, která založíme na tomto modelu, budou mít žádoucí efekt na požadované výstupy, tj. na postup oaklandských "Áček" do play-off.  
 
 ## 6. krok: Intervence 
@@ -18140,6 +18380,8 @@ prumerna_suma_MezdHracu %>%
   scale_y_continuous(limits=c(65,100), breaks = seq(65,100,5)) +
   scale_x_continuous(limits=c(2e+07,9e+07), breaks = seq(2e+07,9e+07,1e+07))
 ```
+
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-11-1.png)
 
 ## Omezení HR analytiky
 Přes veškerou přidanou hodnotu, kterou HR analytika pro organizaci může mít, je vhodné si vůči ní zachovat zdravou míru skepse a být si vědom jejích omezení. Níže uvádím přehled několika z nich.
@@ -18195,6 +18437,8 @@ prumerna_suma_MezdHracu2 %>%
   scale_y_continuous(limits=c(65,100), breaks = seq(65,100,5)) +
   scale_x_continuous(limits=c(3e+07,2e+08), breaks = seq(3e+07,2e+08,2e+07))
 ```
+
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-13-1.png)
 
 ## Závěr
 Na příkladu oaklandského baseballového mužstva jsme takto mohli sledovat obvyklý postup aplikace HR analytiky na určitý druh problému, který se snaží v dané organizaci vyřešit. Vzhledem ke specifickému předmětu podnikání oaklandských „Áček“ bylo tímto cílem dosáhnout postupu do play-off a to v situaci, kdy management neměl dostatek finančních prostředků na zaplacení hráčů považovaných dle tradičních měřítek za kvalitní a perspektivní. Od tohoto cíle se potom odvíjela řada kroků, které blíže specifikovaly jeho povahu a identifikovaly faktory (mimo jiné i ty personální), které s jeho dosažením souvisí. Na základě této znalosti potom bylo možné formulovat určité předpovědi a učinit jistá rozhodnutí, která zvýšila pravděpodobnost toho, že se podaří  vytčeného cíle dosáhnout. Přestože tento příběh o využití HR analytiky se odehrál ve světě sportu, jeho logika je platná i v kontextu tradičnějšího typu organizací. Ostatně **ve všech typech organizací jde nakonec především o to mít na správném místě a ve správný čas ty správné lidi** - jedině tak tyto organizace mohou systematicky dosahovat svých strategických cílů.

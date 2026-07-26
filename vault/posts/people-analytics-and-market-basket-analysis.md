@@ -26,7 +26,7 @@ The long wait was probably simply because the PA problems I’d worked on hadn�
 - [[team-maps|Experiencing and seeing team similarities and differences]]
 - [[xmr-charts-in-people-analytics|Do you use XmR charts for People Analytics use cases?]]
 - [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 <!-- RELATED:END -->
 
 ---

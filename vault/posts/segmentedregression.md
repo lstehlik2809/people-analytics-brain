@@ -237,7 +237,9 @@ bayesplot::mcmc_trace(
     title = "Plots of the MCMC chains used for estimation of the modelWorkLifeBalance's parameters"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-5-1.png)  
 *Graph 1: Trace plots of Markov chains for individual parameters of the modelWorkLifeBalance.*  
 
 <br>
@@ -253,6 +255,8 @@ bayesplot::mcmc_trace(
     )
 
 ```
+
+![](./segmentedregression/unnamed-chunk-6-1.png)
 *Graph 2: Trace plots of Markov chains for individual parameters of the modelWellBeing.* 
 
 <br>
@@ -273,7 +277,9 @@ brms::pp_check(
     title = stringr::str_glue("Posterior predictive checks for modelWorkLifeBalance (using {nsamples} samples)")
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-7-1.png)  
 *Graph 3: Posterior predictive checks comparing simulated/replicated data under the fitted modelWorkLifeBalance with the observed data.*
 
 <br>
@@ -293,7 +299,9 @@ brms::pp_check(
     title = stringr::str_glue("Posterior predictive checks for modelWellBeing (using {nsamples} samples)")
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-8-1.png)  
 *Graph 4: Posterior predictive checks comparing simulated/replicated data under the fitted modelWellBeing with the observed data.*
 
 <br>
@@ -331,7 +339,9 @@ modelWorkLifeBalance %>%
     title = "Posterior distribution of the pandemicBeforethepandemicoutbreak parameter\nin the modelWorkLifeBalance"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-9-1.png)  
 *Graph 5: Visualization of the posterior distribution of the `pandemicBeforethepandemicoutbreak` parameter in the modelWorkLifeBalance.*  
 
 
@@ -361,7 +371,9 @@ modelWellBeing %>%
     title = "Posterior distribution of the pandemicBeforethepandemicoutbreak parameter\nin the modelWellBeing"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-10-1.png)  
 *Graph 6: Visualization of the posterior distribution of the `pandemicBeforethepandemicoutbreak` parameter in the modelWellBeing.*  
 
 
@@ -427,7 +439,9 @@ modelWorkLifeBalance %>%
     title = "Posterior distribution of the elapsedTimeAfterPandemic parameter\nin the modelWorkLifeBalance"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-14-1.png)  
 *Graph 7: Visualization of the posterior distribution of the `elapsedTimeAfterPandemic` parameter in the modelWorkLifeBalance.* 
 
 <br>  
@@ -456,7 +470,9 @@ modelWellBeing %>%
     title = "Posterior distribution of the elapsedTimeAfterPandemic parameter\nin the modelWellBeing"
     )
 
-```  
+```
+
+![](./segmentedregression/unnamed-chunk-15-1.png)  
 *Graph 8: Visualization of the posterior distribution of the `elapsedTimeAfterPandemic` parameter in the modelWellBeing.*
 
 <br> 
@@ -469,7 +485,7 @@ In conclusion, we can say that there is some evidence that the COVID-19 pandemic
 - [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[visual-inference-statistics|Visual statistical inference]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 <!-- RELATED:END -->
 
 ---

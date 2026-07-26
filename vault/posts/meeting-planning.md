@@ -71,6 +71,8 @@ mydata %>%
 
 ```
 
+![](./meeting-planning/unnamed-chunk-1-1.png)
+
 It is also worth noting the reverse situation where meetings take longer than planned, as a late end to one meeting becomes a late start to the next meeting. 
 
 How do you feel about finishing meetings too early or too late? Are both similarly unpleasant for you? And isn't actually having a shorter meeting than planned something positive?

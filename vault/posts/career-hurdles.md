@@ -89,6 +89,8 @@ data %>%
   ggplot2::guides(color = guide_legend(reverse = TRUE))
 
 ```
+
+![](./career-hurdles/unnamed-chunk-1-1.png)
 P.S. As is evident from the code snippet above, the attached chart isn't straight from the paper. I made it based on the results presented there, so any mistakes in the chart are on me!
 
 <!-- RELATED:BEGIN -->

@@ -155,15 +155,21 @@ ggplot2::theme_minimal()
 
 ```
 
+![](./kohonen-self-organizing-maps/unnamed-chunk-2-1.png)
+
 If you find yourself in a similar situation, definitely give it a try. Happy exploration(s) 🙂
+
+## Figures
+
+![](./kohonen-self-organizing-maps/unnamed-chunk-1-1.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
-- [[team-maps|Experiencing and seeing team similarities and differences]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[visual-inference-statistics|Visual statistical inference]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[conditional-inference-tree|Divide and... understand]]
 <!-- RELATED:END -->
 
 ---

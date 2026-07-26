@@ -84,6 +84,8 @@ dataLong %>%
 
 ```
 
+![](./selection-procedures-validity-update/unnamed-chunk-1-1.png)
+
 Maybe the visualization will come in handy for you as well when trying to "rewire" your long-held beliefs and assumptions. It should make clearer in what direction and to what extent to do so 😉
 
 <!-- RELATED:BEGIN -->
@@ -91,7 +93,7 @@ Maybe the visualization will come in handy for you as well when trying to "rewir
 - [[career-hurdles|And what are your career hurdles?]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
 - [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[visual-inference-statistics|Visual statistical inference]]
 - [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 <!-- RELATED:END -->
 

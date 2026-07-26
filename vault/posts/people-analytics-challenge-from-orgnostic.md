@@ -31,8 +31,8 @@ P.S. Oh, I almost forgot - there are exciting prizes in the form of tickets to H
 ## Related notes
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[police-cadet-evaluation-dataset|Police cadet evaluation dataset]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[job-comparator|A bet on a new job]]
 <!-- RELATED:END -->
 

@@ -174,6 +174,8 @@ final_plot +
 
 ```
 
+![](./detecting-personality-in-the-face/unnamed-chunk-1-1.png)
+
 That inspired me to put together a simple Python script that compares someone’s facial photo to the “prototypical” high/low trait faces, and then makes a guess about that person’s trait level—all powered by the [FaceNet-512d](https://huggingface.co/py-feat/facenet) deep convolutional neural network (via the [deepface](https://github.com/serengil/deepface) package), which generates 512-dimensional embeddings of facial images, capturing the unique features of a face, and facilitating tasks like face recognition, verification, and clustering. 
 
 <div style="text-align:center">
@@ -186,10 +188,10 @@ It worked surprisingly well given how simple the approach is—at least for me a
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[ona-and-face-similarity|When facial similarity meets Network Science]]
 - [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[ona-and-face-similarity|When facial similarity meets Network Science]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[collaboration-and-personality|Collaboration and personality]]
 <!-- RELATED:END -->
 

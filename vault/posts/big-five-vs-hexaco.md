@@ -120,6 +120,8 @@ plt.show()
 
 ```
 
+![](./big-five-vs-hexaco/unnamed-chunk-2-1.png)
+
 *Note: The charts aren’t from the paper itself—I made them using the paper’s data, so any discrepancies are on me.*
 
 But when you combine inter-correlations from the sample-size–weighted meta-analytic correlation matrix below and estimate overall explained variance, the conclusion flips: HEXACO outperforms the Big Five in predicting both CWB (20.1%* vs. 14.9%) and task performance (6.7% vs. 4.3%).

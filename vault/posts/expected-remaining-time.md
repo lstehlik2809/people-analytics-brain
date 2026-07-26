@@ -186,13 +186,23 @@ remaining_time_bootstraping_plotting(data=data_wine)
 
 ```
 
+## Figures
+
+![](./expected-remaining-time/bulb-1.png)
+
+![](./expected-remaining-time/bulb-2.png)
+
+![](./expected-remaining-time/wine-5.png)
+
+![](./expected-remaining-time/wine-6.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
 - [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
-- [[standard-and-trend-predictors|Standard vs. trend predictors]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
+- [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
+- [[visual-inference-statistics|Visual statistical inference]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

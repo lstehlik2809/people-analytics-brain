@@ -118,8 +118,8 @@ The shift to pulse-based listening can feel like a methodological downgrade beca
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 <!-- RELATED:END -->
 
 ---

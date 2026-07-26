@@ -189,8 +189,8 @@ These patterns could indeed provide an answer to the question posed in the title
 - [[collaboration-and-personality|Collaboration and personality]]
 - [[big-five-vs-hexaco|Big Five vs. HEXACO]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 <!-- RELATED:END -->
 
 ---

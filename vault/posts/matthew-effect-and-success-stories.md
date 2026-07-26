@@ -27,9 +27,9 @@ And of course, school entry dates are just one example. We could start with bein
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
+- [[career-hurdles|And what are your career hurdles?]]
 - [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
 - [[trust-errors-learning-reflection|When to forgive, when to close the book]]
-- [[career-hurdles|And what are your career hurdles?]]
 - [[strength-based-development-and-distributions|Strength-based development and power-law vs. normal distribution of performance]]
 <!-- RELATED:END -->
 

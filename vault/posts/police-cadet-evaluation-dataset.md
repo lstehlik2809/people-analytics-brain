@@ -111,15 +111,17 @@ GGally::ggpairs(
 
 ```
 
+![](./police-cadet-evaluation-dataset/unnamed-chunk-2-1.png)
+
 If you want to download the dataset, you can do so here via the table above or via [my GitHub page](https://github.com/lstehlik2809/Police-Cadet-Evaluation-Dataset) where you can also find more information about the dataset. Happy analysis 😉
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
-- [[conditional-inference-tree|Divide and... understand]]
 - [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
+- [[conditional-inference-tree|Divide and... understand]]
 - [[people-analytics-challenge-from-orgnostic|People Analytics Challenge from Orgnostic: Plan for high growth]]
+- [[career-hurdles|And what are your career hurdles?]]
 <!-- RELATED:END -->
 
 ---

@@ -25,7 +25,7 @@ Using this approach and our clients' collaborative data, I looked at the relatio
 - [[time-management|Consequences of time management in the workplace]]
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
-- [[slack-batching|Always messaging]]
+- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

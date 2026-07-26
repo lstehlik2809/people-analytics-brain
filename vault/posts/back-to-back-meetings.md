@@ -156,6 +156,8 @@ print(g)
 
 ```
 
+![](./back-to-back-meetings/unnamed-chunk-1-1.png)
+
 Based purely on the time between successive meetings, we could conclude that a given team suffers from an unhealthy frequency of back-to-back meetings, as in more than a third of cases, there is no break between meetings. However, if we look at how long the series of back-to-back meetings tend to be (in 75% of cases it's only 2 meetings in a row) and how much time people spend in them (in 42% of cases it’s between 31-60 minutes and in 30% of cases it’s between 61-90 minutes), then the resulting picture is less pessimistic and more indicative of a rather healthy level of effort to protect time for **focused work** by **batching** meetings into short blocks that do not come at the cost of exhausting people and making meetings less effective.
 
 What is your approach to back-to-back meetings? Do you try to always have at least a 5-minute buffer between two consecutive meetings? And how successful are you at this? Are you aware of situations where it is appropriate to batch meetings into tight blocks without breaks? And do you have a limit on how many meetings to put in a row? Feel free to share your thoughts and experiences in the comments.
@@ -166,7 +168,7 @@ What is your approach to back-to-back meetings? Do you try to always have at lea
 - [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
-- [[timeboxing|Timeboxing. Does it really work?]]
+- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 <!-- RELATED:END -->
 
 ---

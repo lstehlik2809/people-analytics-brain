@@ -27,8 +27,8 @@ These results thus suggest that good old "moderation" might be a sound guiding p
 - [[scientific-divides-and-cognitive-traits|Why do psychologists disagree—even when they use the same data and methods?]]
 - [[team-design-creativity-innovation|How should teams be designed to be creative and innovative?]]
 - [[team-level-predictors-of-innovation|Team-level predictors of innovation at work]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 <!-- RELATED:END -->
 
 ---

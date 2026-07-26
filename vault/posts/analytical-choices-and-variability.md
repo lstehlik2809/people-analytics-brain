@@ -27,8 +27,8 @@ P.S. If you want to see how your own approach would shape the results, you can d
 - [[scientific-divides-and-cognitive-traits|Why do psychologists disagree—even when they use the same data and methods?]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
+- [[visual-inference-statistics|Visual statistical inference]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

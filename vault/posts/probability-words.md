@@ -171,6 +171,8 @@ ggarrange(g1, g2, ncol = 2, nrow = 1)
 
 ```
 
+![](./probability-words/unnamed-chunk-1-1.png)
+
 The first graph can thus help us to use the right word, which in the mind of the other person is most likely to evoke the same probability we want to express. The second graph can then help us to identify the most noisy probability words, for which we will know to ask for a more precise definition because we will be aware that people may imagine very different probabilities under these words.
 
 How about your perception of probability words? Is there anything in the graphs that surprised you? Would you expect differences between cultures? And what about other demographics? Btw, the original dataset also includes some demographic variables such as age, gender, and education level, so I'll probably come back to this question in a future post.

@@ -386,6 +386,8 @@ print(g)
 
 ```
 
+![](./people-related-metrics-distribution/unnamed-chunk-1-1.png)
+
 But it also applies to more traditional areas of HR concern such as individual or team performance. For many job roles, especially knowledge-based ones, job performance has a power-law distribution, i.e., only a few percent of individuals or teams have disproportionately high performance and most have performance below the statistical average (many of you have probably heard of Pareto's law, and the 80/20 rule in this context). More detailed information on this particular topic can be found, for example, in the following two articles - [The Best and the Rest: Revisiting the Norm of Normality of Individual Performance](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1744-6570.2011.01239.x) by O'Boyle Jr. & Aguinis (2012) and [Team Performance: Nature and Antecedents of Nonnormal Distributions](https://pubsonline.informs.org/doi/full/10.1287/orsc.2022.1619) by Bradley & Aguinis (2022). 
 
 Why bother with that? Well, because, based on incorrect assumptions about the distribution of specific phenomena, companies may make decisions that ultimately harm them. For example, suppose a company applies the assumption of normal distribution in evaluating employees’ performance that actually has power law distribution. In that case, it will result in underestimating the contribution of the best performers and overestimating the contribution of the worst performers, which may be negatively reflected in various decisions regarding reward & compensation, learning & development, promotions, succession planning, etc. 
@@ -401,8 +403,8 @@ P.S. If you ever need to check the shape distribution of any of your metrics, yo
 - [[visual-inference-statistics|Visual statistical inference]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[conditional-inference-tree|Divide and... understand]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[strength-based-development-and-distributions|Strength-based development and power-law vs. normal distribution of performance]]
 <!-- RELATED:END -->
 
 ---

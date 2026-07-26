@@ -13,6 +13,8 @@ import sys
 from pathlib import Path
 
 import yaml
+from bs4 import BeautifulSoup
+from urllib.parse import unquote
 
 BLOG_POSTS = Path(r"D:\_WORKFORCE_ANALYTICS\People_Analytics_Blog\_posts")
 BLOG_BASE_URL = "https://blog-about-people-analytics.netlify.app/posts/"
@@ -78,6 +80,75 @@ def convert_body(body: str, post_dir: Path, asset_dir: Path, slug: str, warnings
     return body.strip()
 
 
+def norm_code(text: str) -> str:
+    lines = [ln.rstrip() for ln in text.replace("\xa0", " ").strip().splitlines()]
+    return "\n".join(ln for ln in lines if ln)
+
+
+def extract_generated_figures(post_dir: Path, base_name: str):
+    """Figures knitr rendered into <base>_files/, each anchored to the code
+    block that precedes it in the rendered HTML (None = no code anchor)."""
+    html_path = post_dir / f"{base_name}.html"
+    if not html_path.exists():
+        return []
+    soup = BeautifulSoup(
+        html_path.read_text(encoding="utf-8", errors="replace"), "html.parser")
+    figs, last_pre = [], None
+    for el in soup.find_all(["pre", "img"]):
+        if el.name == "pre":
+            last_pre = norm_code(el.get_text())
+        else:
+            src = el.get("src") or ""
+            if f"{base_name}_files/" in src and src.lower().endswith(
+                    (".png", ".jpg", ".jpeg", ".svg", ".gif")):
+                figs.append((last_pre, src, el.get("alt") or ""))
+    return figs
+
+
+FENCE_RE = re.compile(r"```[a-z]*\n(.*?)\n```", re.S)
+
+
+def inject_figures(body: str, figs, post_dir: Path, asset_dir: Path,
+                   slug: str, warnings: list) -> str:
+    if not figs:
+        return body
+    fences = [(norm_code(m.group(1)), m.end()) for m in FENCE_RE.finditer(body)]
+    used = set()
+    insertions, appendix = [], []
+    for anchor, src, alt in figs:
+        img = post_dir / unquote(src)
+        if not img.exists():
+            warnings.append(f"{slug}: missing generated figure {src}")
+            continue
+        dest_name = img.name.replace(" ", "-")
+        asset_dir.mkdir(parents=True, exist_ok=True)
+        if not (asset_dir / dest_name).exists():
+            shutil.copy2(img, asset_dir / dest_name)
+        md_img = f"![{alt}](./{slug}/{dest_name})"
+        pos = None
+        if anchor:
+            for i, (code, end) in enumerate(fences):
+                if code == anchor and i not in used:
+                    used.add(i)
+                    pos = end
+                    break
+            if pos is None:  # same chunk emitted several figures
+                for code, end in fences:
+                    if code == anchor:
+                        pos = end
+                        break
+        if pos is None:
+            appendix.append(md_img)
+        else:
+            insertions.append((pos, len(insertions), md_img))
+    # insert back-to-front; reverse tiebreak keeps same-anchor figures in order
+    for pos, _, md_img in sorted(insertions, key=lambda x: (-x[0], -x[1])):
+        body = body[:pos] + f"\n\n{md_img}" + body[pos:]
+    if appendix:
+        body += "\n\n## Figures\n\n" + "\n\n".join(appendix)
+    return body
+
+
 def build_note(post_dir: Path) -> tuple[str, str] | None:
     rmds = sorted(post_dir.glob("*.Rmd"))
     if not rmds:
@@ -95,6 +166,9 @@ def build_note(post_dir: Path) -> tuple[str, str] | None:
     original_url = f"{BLOG_BASE_URL}{post_dir.name}/"
     warnings = []
     converted = convert_body(body, post_dir, NOTES_DIR / slug, slug, warnings)
+    figs = extract_generated_figures(post_dir, rmds[0].stem)
+    converted = inject_figures(converted, figs, post_dir, NOTES_DIR / slug,
+                               slug, warnings)
     for w in warnings:
         print(f"  warn: {w}")
 
@@ -132,7 +206,12 @@ def main():
         if not rmds:
             print(f"  warn: no .Rmd in {post_dir.name}")
             continue
-        src_hash = hashlib.sha256(rmds[0].read_bytes()).hexdigest()
+        # hash .Rmd + rendered .html so re-rendered figures also trigger updates
+        h = hashlib.sha256(b"v2:" + rmds[0].read_bytes())
+        html = post_dir / f"{rmds[0].stem}.html"
+        if html.exists():
+            h.update(html.read_bytes())
+        src_hash = h.hexdigest()
         slug = note_slug(post_dir.name)
         if slug in seen_slugs:
             slug = post_dir.name  # de-collide by keeping the date prefix

@@ -35,8 +35,8 @@ IMO, pretty cool stuff. It seems we indeed live not only in an AI revolution but
 ## Related notes
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
 - [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
+- [[interpretable-ml|Interpretable machine learning with modelStudio]]
 - [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 <!-- RELATED:END -->
 

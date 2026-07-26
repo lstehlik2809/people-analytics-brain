@@ -138,6 +138,8 @@ print(ppc)
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-3-1.png)
+
 As you can see, the model fits the data pretty well. Now we can look at the coefficients in the individual parts of the model. All of them show non-zero values and are in directions that are consistent with our expectations embodied in our conceptual model, i.e., all are positive except for the coefficient of the *RA* variable (number of points lost) as a predictor of the number of games won (*W*). These results thus give us greater confidence in following our conceptual model of team functioning when making decisions about allocating our limited resources. 
 
 ```r
@@ -267,6 +269,8 @@ print(coefCharts)
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-4-1.png)
+
 ```r
 # summary of the fitted model  
 summary(fit)
@@ -317,6 +321,8 @@ myData %>%
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-6-1.png)
+
 
 
 ```r
@@ -365,6 +371,8 @@ myData %>%
 
 
 ```
+
+![](./hrm-value-chain-and-sem/unnamed-chunk-7-1.png)
 
 
 Considering the last known OAK performance statistics from 2001, what number of games can OAK expect to win and what is the likelihood of making the playoffs next year? Let's plug the 2001 OAK numbers into the model and check the prediction including all uncertainties.
@@ -435,6 +443,8 @@ wp %>%
   )
 
 ```
+
+![](./hrm-value-chain-and-sem/unnamed-chunk-8-1.png)
 
 We can see that the 95% probability interval of the predicted number of games won by the OAK in 2002 is safely above the 95-point threshold. And when we compare the prediction to the 2002 reality, we see that they are pretty close. Also, the projected probability of OAK advancing to the playoffs is very high, which is consistent with the fact that OAK successfully qualified for the playoffs in 2002.
 
@@ -551,6 +561,8 @@ simDf %>%
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-10-1.png)
+
 As many of you know, thanks to similar analyses, the OAK management began to select players for their team who, although they did not meet the traditional criteria by which scouts judged the quality of baseball players, exhibited exactly those characteristics that, according to conducted analyses, predicted the number of points won and lost, and thus the likelihood of advancing to the playoffs, which was the management's main goal. Because competing teams underestimated the importance of these player statistics and overestimated other, less important variables (e.g., batting average), OAK management was able to purchase players relatively inexpensively who enabled them to achieve their goals. As a result, the OAK won 20 more games per season than similarly "poor" teams and about the same number of games as 2 to 3 times richer competition. The power of data in practice! 
 
 ```r
@@ -624,6 +636,8 @@ playersSalariesAvg %>%
 
 ```
 
+![](./hrm-value-chain-and-sem/unnamed-chunk-11-1.png)
+
 Finally, let's breathe some life into the dry numbers by watching a short clip from the [Moneyball film](https://www.imdb.com/title/tt1210166/), which nicely summarizes some of the ideas presented in this blog post.
 
 <video src="MoneyballClip1.mp4" controls preload></video>
@@ -631,10 +645,10 @@ Finally, let's breathe some life into the dry numbers by watching a short clip f
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[visual-inference-statistics|Visual statistical inference]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[conditional-inference-tree|Divide and... understand]]
 <!-- RELATED:END -->
 
 ---

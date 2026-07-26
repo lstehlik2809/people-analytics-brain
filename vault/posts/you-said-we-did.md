@@ -64,7 +64,7 @@ Curious if anyone has done a similar exercise, and with what results.
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
+- [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
 <!-- RELATED:END -->
 
 ---

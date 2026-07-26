@@ -32,8 +32,8 @@ There are obvious limitations - the study focuses on one platform and one type o
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 <!-- RELATED:END -->
 
 ---

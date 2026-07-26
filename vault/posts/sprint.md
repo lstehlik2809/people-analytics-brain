@@ -129,6 +129,8 @@ ggplot2::ggplot(dataviz_data, aes(x = stage, y = rank, group = athlete, color = 
 
 ```
 
+![](./sprint/unnamed-chunk-1-1.png)
+
 We could also ask how those who improved their rankings achieved this. Was it because they ran faster, or was it that their competitors ran slower in the final compared to the semis? A comparison of time differences between the finals and semis for those who improved, worsened, or maintained their ranking suggests that it's a combination of both. Those who improved or maintained their rankings tended to improve their times in the final, though the former group did so more significantly. Conversely, those who dropped in ranking generally ran slower in the final in comparison with the semi.
 
 ```r
@@ -200,6 +202,8 @@ ggplot2::ggplot(
 
 ```
 
+![](./sprint/unnamed-chunk-2-1.png)
+
 Not sure if there are any deeper lessons to be drawn from these results, perhaps just that while patterns and predictability exist, there is always room for surprises, the awareness of which can help nurture resilience and flexibility, key qualities for navigating uncertain environments. But maybe I just have a limited imagination, so feel free to share any suggestions for a better lesson 🙂
 
 What I am 100% sure of, though, is that I enjoyed playing with the data a lot. If you'd like to play with them yourself, you can download them for both women and men from the two tables below.
@@ -257,11 +261,11 @@ DT::datatable(
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[visual-inference-statistics|Visual statistical inference]]
+- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 <!-- RELATED:END -->
 
 ---

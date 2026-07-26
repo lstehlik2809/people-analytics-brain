@@ -177,10 +177,10 @@ For those who would like to incorporate Bayesian reasoning into their managerial
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[visual-inference-statistics|Visual statistical inference]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

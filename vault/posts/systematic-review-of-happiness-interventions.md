@@ -100,6 +100,8 @@ print(g)
 
 ```
 
+![](./systematic-review-of-happiness-interventions/unnamed-chunk-1-1.png)
+
 *Note: I put the charts together myself using data from the paper—so any slip-ups in the visuals are on me.*
 
 ⚠️ A few limitations are worth noting: the review included only 65 preregistered studies, many of which relied on WEIRD (Western, Educated, Industrialized, Rich, Democratic) populations and measured only short-term effects, limiting the ability to draw conclusions about long-term happiness. Additionally, some outcomes may have been influenced by participants’ expectations rather than the interventions themselves.

@@ -118,6 +118,8 @@ print(g)
 
 ```
 
+![](./multilevel-modeling/unnamed-chunk-1-1.png)
+
 
 ```r
 # uploading libraries
@@ -278,6 +280,8 @@ print(gf)
 
 ```
 
+![](./multilevel-modeling/unnamed-chunk-3-1.png)
+
 Without the use of the hierarchical model (and/or a careful post-hoc visual check of alternative explanations), we would reach a completely opposite (and incorrect) conclusion about the relationship between the number of 1:1s and perceived support from the line manager (a phenomenon known as [Simpson’s paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox)). In this particular case, it is relatively easy to recognize that something may be wrong, but the situation is not always so obvious and intuitive. In these other cases, it is advantageous to have some tool at hand to compensate for our imperfect intuition and limited knowledge and imagination. Hierarchical models are one such tool.  
 
 If you don't already have it in your analytics toolbox, be sure to give it a try. If you work with [R](https://www.r-project.org/), you can use the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) or [brms](https://cran.r-project.org/web/packages/brms/index.html) packages to implement it. In a [Python environment](https://www.python.org/), you can use the [statsmodels](https://www.statsmodels.org/stable/index.html) or [PyMC3](https://docs.pymc.io/en/v3/index.html) libraries to do this. And if you're more used to drag-and-drop tools, then [JASP](https://jasp-stats.org/) or [jamovi](https://www.jamovi.org/) (both open-source alternatives to [SPSS](https://www.ibm.com/analytics/spss-statistics-software)) will give you access to various mixed models through an easy-to-use graphical interface.
@@ -292,10 +296,10 @@ For an accessible discussion of this topic in the context of people analytics, i
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 <!-- RELATED:END -->
 
 ---

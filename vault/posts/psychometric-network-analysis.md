@@ -118,6 +118,8 @@ plot(
 
 ```
 
+![](./psychometric-network-analysis/unnamed-chunk-4-1.png)
+
 We can also plot the network in `ggplot` style, which can be useful when we need more control over the chart, e.g. when we want to plot identified communities/clusters instead of theoretical scales. To do this, we just need to get the necessary information from the `network` object and do a few data manipulations. 
 
 ```r
@@ -181,6 +183,8 @@ ggraph::ggraph(igraph_graph, layout = "fr", maxiter = 500) +  # fr, kk, drl, mds
 
 ```
 
+![](./psychometric-network-analysis/unnamed-chunk-5-1.png)
+
 From the charts we can quickly gain a basic idea of the internal structure of the data. For example, we can notice that:
 
 * items from the same scales tend to cluster close to each other;
@@ -198,6 +202,8 @@ library(qgraph)
 qgraph::centralityPlot(network, include = "all", orderBy = "ExpectedInfluence")
 
 ```
+
+![](./psychometric-network-analysis/unnamed-chunk-6-1.png)
 Based on the expected influence centrality measure, which takes into account the presence of both negative and positive edges, the following items appear to be among the most influential ones:
 
 * Man3: `r legend %>% dplyr::filter(Item == "Man3") %>% dplyr::pull(Text)`
@@ -241,6 +247,8 @@ plot(bootnet_nonpar, labels = FALSE, order = "sample")
 
 ```
 
+![](./psychometric-network-analysis/unnamed-chunk-8-1.png)
+
 To find internal structure in the estimated network, we need not rely solely on the visual inspection of the network diagram, but we can use some of the common community detection algorithms that can be used to identify clusters of more densely connected topics. In the example below, we have merely " replicated" an existing clustering by scale, which is an indication that the authors have managed to construct a survey that measures distinct constructs that they originally intended to measure, but in practice you are likely to observe less distinct patterns more often, which can give you clues about how to improve the construction of the employee survey.   
 
 ```r
@@ -262,6 +270,8 @@ ggraph::ggraph(igraph_graph, layout = "fr", maxiter = 500) +  # fr, kk, drl, mds
   ggplot2::scale_color_brewer(palette="Set1")
 
 ```
+
+![](./psychometric-network-analysis/unnamed-chunk-9-1.png)
 
 Another use case would be to test for differences in job attitudes' connectivity and centrality across different groups of employees. To do this, we can use the `NetworkComparisonTest` R package that implements permutation based hypothesis testing of differences between two networks. Let's illustrate it with differences between networks estimated on data coming from females and males. We first filter data for both genders and than estimate and visualize their respective attitudinal networks.
 
@@ -375,13 +385,21 @@ print(testGenderDiff)
 
 I hope you find this post useful and that it inspires you to try PNA on your own data. If you were looking for more authoritative sources on PNA, [Epskamp & Fried's (2018) tutorial](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fmet0000167) is a good place to start. An excellent introduction to the topic can also be found in [Letouche & Wille (2022)](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.838093/full) and [Dalege et al. (2017)](https://journals.sagepub.com/doi/pdf/10.1177/1948550617709827), respectively.
 
+## Figures
+
+![](./psychometric-network-analysis/unnamed-chunk-7-1.png)
+
+![](./psychometric-network-analysis/unnamed-chunk-10-1.png)
+
+![](./psychometric-network-analysis/unnamed-chunk-10-2.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[induced-centrality|Induced centralities]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[collaboration-and-personality|Collaboration and personality]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

@@ -206,13 +206,17 @@ modelStudio::modelStudio(
 
 <img src="./charts.png">
 
+## Figures
+
+![](./interpretable-ml/unnamed-chunk-4-1.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 <!-- RELATED:END -->
 
 ---

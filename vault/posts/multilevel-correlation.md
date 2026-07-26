@@ -124,13 +124,15 @@ ggplot2::ggplot(simulated_data, aes(y = JobSatisfaction, x = AgilityMaturity, co
 
 ```
 
+![](./multilevel-correlation/unnamed-chunk-1-1.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 <!-- RELATED:END -->
 
 ---

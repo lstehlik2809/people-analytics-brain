@@ -239,13 +239,15 @@ datavizDf %>%
 
 ```
 
+![](./latent-class-analysis/unnamed-chunk-8-1.png)
+
 It would certainly be possible to delve deeper into the results, but for a basic overview of the process of LCA and its outputs, this might be sufficient. If interested, a more detailed introduction to LCA can be found, for example, in [this practitioner's guide](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7746621/).
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->

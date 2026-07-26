@@ -48,6 +48,8 @@ plt.show()
 
 ```
 
+![](./dag-and-double-ml/unnamed-chunk-1-1.png)
+
 Now let’s generate synthetic data corresponding to this DAG.
 
 ```python
@@ -229,9 +231,9 @@ dml_plr_xgb.confint()
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[interpretable-ml|Interpretable machine learning with modelStudio]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 <!-- RELATED:END -->
 

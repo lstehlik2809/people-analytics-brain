@@ -34,9 +34,9 @@ Btw, I can't wait for my son to stumble upon the topic of how order can arise wi
 ## Related notes
 - [[dunning-kruger-effect-simulation|Making abstract ideas digestible with knobs and sliders]]
 - [[exploration-vs-exploitation-tradeoff|Exploration vs. Exploitation trade-off in our calendars]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 <!-- RELATED:END -->
 
 ---

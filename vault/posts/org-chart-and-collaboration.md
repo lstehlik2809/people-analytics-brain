@@ -25,8 +25,8 @@ Would you consider such a visualization useful if you were engaged in organizati
 ## Related notes
 - [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 - [[span-of-control|Span of control and collaboration data]]
-- [[9-box-grid-dataviz-over-time|Tracking talent moves in the (in)famous 9-box grid over time]]
 - [[team-maps|Experiencing and seeing team similarities and differences]]
+- [[9-box-grid-dataviz-over-time|Tracking talent moves in the (in)famous 9-box grid over time]]
 - [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
 <!-- RELATED:END -->
 

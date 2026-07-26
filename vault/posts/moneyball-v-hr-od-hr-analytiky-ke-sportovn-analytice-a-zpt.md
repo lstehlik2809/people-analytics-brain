@@ -73,6 +73,8 @@ moneyball %>%
         legend.title = element_blank())
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-3-1.png)
+
 S daty, která máme k dispozici, máme tu výhodu, že můžeme vztah mezi počtem vítězství v základní části soutěže a šancí na postup do play-off přesně kvantifikovat. Provedeme-li podrobnější analýzu našich dat, ukáže se, že velkou (přibližně 95%) šanci na postup do play-off má tým tehdy, když v základní části vyhraje minimálně 95 zápasů. Těchto 95 vítězství představuje dobře definovaný a kvantifikovaný cíl, kterého by se oaklandská „Áčka“ měla snažit dosáhnout.
 
 ```r
@@ -103,6 +105,8 @@ ggplot(playoff_data, aes(x = pocet_vitezstvi, y = ucast_v_playoff))+
         axis.title = element_text(size=11))
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-4-1.png)
+
 ## 3. krok: Kladení otázek a měření
 S takto definovaným a kvantifikovaným cílem si potom můžeme klást dalších otázky, na které když si dokážeme odpovědět, zvýšíme tím naše šance na to, že tohoto cíle dosáhneme. V případě oaklandských „Áček“ se můžeme ptát, díky čemu tým dosahuje v zápasech vítězství? Celkem zjevná odpověď zní, že díky tomu, že dokáže získat více bodů než jeho soupeři. Otázkou ale je, přesně o kolik bodů navíc musí tým získat, aby v základní části soutěže dosáhl na minimálně 95 vítězství. K zodpovězení této otázky opět potřebujeme historická data (údaje o vyhraných a prohraných bodech) a relativně jednoduchý statistický model zvaný [lineární regrese](https://cs.wikipedia.org/wiki/Lineární_regrese), pomocí kterého můžeme popsat vztah mezi počtem vyhraných zápasů v základní části soutěže a rozdílem mezi vyhranými a prohranými body. Z níže uvedeného grafu je zřejmé, že mezi těmito dvěma proměnnými je velice těsný vztah a že spolu velice silně [korelují](https://cs.wikipedia.org/wiki/Korelace).
 
@@ -125,6 +129,8 @@ ggplot(moneyball, aes(x = RD , y = W))+
   scale_y_continuous(limits = c(40, 120), breaks = seq(40,120,10))+
   stat_cor(method = "pearson", label.x = 175, label.y = 45)
 ```
+
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-5-1.png)
 
 Při použití modelu lineární regrese můžeme vztah mezi těmito dvěma proměnnými popsat trochu podrobněji. 
 
@@ -231,6 +237,8 @@ semPaths(fit_oak_model,
          rotation =3)
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-10-1.png)
+
 Výstupy provedené tzv. [pěšinkové analýzy](https://en.wikipedia.org/wiki/Path_analysis_(statistics)), která je speciálním typem strukturálního modelování, naznačují, že námi navržený model je v souladu s daty, která máme k dispozici (viz "příznivé" hodnoty indexů shody, resp. neshody jako je TLI a CFI, resp. RMSEA, a také vysoké hodnoty standardizovaných regresních koeficientů). Dávají nám tak dobrý důvod věřit, že naše další kroky a rozhodnutí, která založíme na tomto modelu, budou mít žádoucí efekt na požadované výstupy, tj. na postup oaklandských "Áček" do play-off.  
 
 ## 6. krok: Intervence 
@@ -273,6 +281,8 @@ prumerna_suma_MezdHracu %>%
   scale_y_continuous(limits=c(65,100), breaks = seq(65,100,5)) +
   scale_x_continuous(limits=c(2e+07,9e+07), breaks = seq(2e+07,9e+07,1e+07))
 ```
+
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-11-1.png)
 
 ## Omezení HR analytiky
 Přes veškerou přidanou hodnotu, kterou HR analytika pro organizaci může mít, je vhodné si vůči ní zachovat zdravou míru skepse a být si vědom jejích omezení. Níže uvádím přehled několika z nich.
@@ -329,16 +339,18 @@ prumerna_suma_MezdHracu2 %>%
   scale_x_continuous(limits=c(3e+07,2e+08), breaks = seq(3e+07,2e+08,2e+07))
 ```
 
+![](./moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/unnamed-chunk-13-1.png)
+
 ## Závěr
 Na příkladu oaklandského baseballového mužstva jsme takto mohli sledovat obvyklý postup aplikace HR analytiky na určitý druh problému, který se snaží v dané organizaci vyřešit. Vzhledem ke specifickému předmětu podnikání oaklandských „Áček“ bylo tímto cílem dosáhnout postupu do play-off a to v situaci, kdy management neměl dostatek finančních prostředků na zaplacení hráčů považovaných dle tradičních měřítek za kvalitní a perspektivní. Od tohoto cíle se potom odvíjela řada kroků, které blíže specifikovaly jeho povahu a identifikovaly faktory (mimo jiné i ty personální), které s jeho dosažením souvisí. Na základě této znalosti potom bylo možné formulovat určité předpovědi a učinit jistá rozhodnutí, která zvýšila pravděpodobnost toho, že se podaří  vytčeného cíle dosáhnout. Přestože tento příběh o využití HR analytiky se odehrál ve světě sportu, jeho logika je platná i v kontextu tradičnějšího typu organizací. Ostatně **ve všech typech organizací jde nakonec především o to mít na správném místě a ve správný čas ty správné lidi** - jedině tak tyto organizace mohou systematicky dosahovat svých strategických cílů.
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
 - [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
 - [[hr-analytika-a-odchodovost-zamstnanc|HR analytika a odchodovost zaměstnanců]]
-- [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
 - [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
-- [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

@@ -133,15 +133,17 @@ ggplot2::ggplot(data = posteriorDraws, aes(x=estimatedTR, group = team)) +
 
 ```
 
+![](./bayesian-shrinkage/unnamed-chunk-2-1.png)
+
 If you are trying to deal with this effect in your reporting practice, can you share the approach you use and serves you well?
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
-- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
+- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
+- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

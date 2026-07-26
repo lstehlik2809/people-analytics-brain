@@ -292,7 +292,7 @@ if __name__ == "__main__":
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 - [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 <!-- RELATED:END -->
 
 ---

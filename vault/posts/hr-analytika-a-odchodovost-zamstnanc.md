@@ -147,13 +147,17 @@ Jak je z výše uvedeného výčtu otázek patrné, dashboard obsahuje informace
 *Screenshot části dashboardu, která obsahuje informace o výkonu/kvalitě statistického modelu použitého k identifikaci významných prediktorů odchodovosti zaměstnanců a k odhadu pravděpodobnosti odchodu jednotlivých zaměstnanců.* 
 <img src="./DSHB3.png">
 
+## Figures
+
+![](./hr-analytika-a-odchodovost-zamstnanc/unnamed-chunk-2-1.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
-- [[moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt|Moneyball v HR]]
-- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
 - [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
+- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
+- [[interpretable-ml|Interpretable machine learning with modelStudio]]
 <!-- RELATED:END -->
 
 ---

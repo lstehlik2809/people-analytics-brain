@@ -122,7 +122,7 @@ az.summary(last_cumulative_estimate)
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 <!-- RELATED:END -->
 
 ---

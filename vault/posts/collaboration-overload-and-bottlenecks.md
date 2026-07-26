@@ -177,6 +177,8 @@ print(g)
 
 ```
 
+![](./collaboration-overload-and-bottlenecks/unnamed-chunk-1-1.png)
+
 
 We see that the “hottest” hot spots are in teams Dev-Management and Dev-Frontend. While this is not definitive proof that we have real problems in these two specific teams, it should be a strong enough signal to take notice and try to verify our suspicion with additional information, such as checking some relevant business metrics or simply asking a few people we know should be affected, if there is a problem. If the initial suspicion is confirmed, appropriate action should be taken, e.g. consider the relevance of some requests, possibly redirect them to other teams, automate some tasks, expand the team and recruit new people, etc. 
 
@@ -184,11 +186,11 @@ For more tips on how to leverage collaboration data in the current uncertain eco
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[induced-centrality|Induced centralities]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 - [[collaboration-and-personality|Collaboration and personality]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 - [[org-chart-and-collaboration|Org chart and collaboration]]
-- [[conditional-inference-tree|Divide and... understand]]
 <!-- RELATED:END -->
 
 ---

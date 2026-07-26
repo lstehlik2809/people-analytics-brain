@@ -94,6 +94,8 @@ print(ggraph_plot)
 
 ```
 
+![](./corporate-culture-trade-offs/unnamed-chunk-1-1.png)
+
 The resulting network chart shows a few interesting patterns:
 
 * Leadership sits at the center, with strong positive connections to most other cultural dimensions.

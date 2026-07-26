@@ -315,9 +315,9 @@ networkD3::forceNetwork(
 ## Related notes
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[induced-centrality|Induced centralities]]
 - [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

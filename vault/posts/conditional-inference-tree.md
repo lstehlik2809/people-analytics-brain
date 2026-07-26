@@ -84,6 +84,8 @@ ggplot2::ggplot(data = data, aes(x = internalNetworkSize, y = salesPerformance))
 
 ```
 
+![](./conditional-inference-tree/unnamed-chunk-1-1.png)
+
 
 
 ```r
@@ -172,6 +174,8 @@ ggstatsplot::ggbetweenstats(
 
 ```
 
+![](./conditional-inference-tree/unnamed-chunk-2-1.png)
+
 
 If you are dealing with similar use cases, give it a try. And if you use any other tools/approaches for this, feel free to share them in return.
 
@@ -181,9 +185,9 @@ P.S. Thanks to [Filip Trojan](https://www.linkedin.com/in/filip-trojan-2543a36/)
 ## Related notes
 - [[visual-inference-statistics|Visual statistical inference]]
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

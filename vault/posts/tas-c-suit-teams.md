@@ -68,11 +68,15 @@ plot(
 
 ```
 
+![](./tas-c-suit-teams/unnamed-chunk-1-1.png)
+
 ```r
 # computing centrality measures for individual variables
 qgraph::centralityPlot(network, include = "all", orderBy = "ExpectedInfluence")
 
 ```
+
+![](./tas-c-suit-teams/unnamed-chunk-2-1.png)
 
 The resulting network, IMHO,  revealed two or three extra insights that are at least interesting, if not useful:
 
@@ -89,8 +93,8 @@ P.S. Kudos to ChatGPT for extracting the data from the screenshot of the data ta
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
 - [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
 - [[how-personality-risks-co-occur|How personality risks co-occur?]]
-- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 <!-- RELATED:END -->
 
 ---

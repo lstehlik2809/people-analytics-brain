@@ -82,8 +82,8 @@ To strengthen the conclusions in future iterations, the gold standard would be a
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 <!-- RELATED:END -->
 
 ---

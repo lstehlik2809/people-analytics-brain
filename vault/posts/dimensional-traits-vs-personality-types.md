@@ -24,9 +24,9 @@ If you find it useful for your teaching or training, check out the dataviz [here
 ## Related notes
 - [[team-maps|Experiencing and seeing team similarities and differences]]
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 - [[job-personality-fit|Do people’s personalities vary across different jobs?]]
+- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 <!-- RELATED:END -->
 
 ---

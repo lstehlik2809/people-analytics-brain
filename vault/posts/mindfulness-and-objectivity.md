@@ -19,9 +19,9 @@ It's true that the observed effect was rather small and barely distinguishable f
 ## Related notes
 - [[coin-flip-as-a-decision-aid|Can a simple coin flip help you decide and avoid overanalyzing?]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[scientific-divides-and-cognitive-traits|Why do psychologists disagree—even when they use the same data and methods?]]
+- [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
 <!-- RELATED:END -->
 
 ---

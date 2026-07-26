@@ -138,6 +138,8 @@ all_df %>%
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-2-1.png)
+
 Since we're working with time series data, it's important to check for the presence of seasonality and autocorrelation to determine whether—and how—these factors should be incorporated into our model. Here, we explicitly examine only the “*causal inference*” search term, as it is our primary outcome variable of interest. However, in the original analysis, this check was also performed for the two remaining search terms. The seasonal-trend decomposition plot and the autocorrelation function (ACF) plot both reveal meaningful patterns: a clear seasonal trend and significant autocorrelation at a lag of 2, respectively. We will account for these in our model by including a month variable and an appropriate autocorrelation term.
 
 
@@ -258,6 +260,8 @@ bayesplot::mcmc_trace(
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-5-1.png)
+
 ```r
 # posterior predictive check
 # specifying the number of samples
@@ -273,6 +277,8 @@ brms::pp_check(
   )
 
 ```
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-6-1.png)
 
 ```r
 # visualizing original data overlaid with draws from the posterior fit of the model
@@ -324,6 +330,8 @@ data_with_fitted_model <- function(model, search_term_name) {
 data_with_fitted_model(model=causal_inference_model, search_term_name = "causal_inference")
 
 ```
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-7-1.png)
 
 Now we can examine the estimated coefficients of interest. The evidence for an immediate increase in interest following the NP announcement is not particularly strong—especially when compared to the spike caused by Google's data collection update. However, a noticeably steeper upward trend is evident in the months following the NP announcement.
 
@@ -414,6 +422,8 @@ posterior_plots(model=causal_inference_model, search_term_name = "causal_inferen
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-8-1.png)
+
 To test the robustness of our conclusions regarding the NP hypothesis, let's perform a kind of refutation test by examining whether a similar pattern appears in the closely related term "*causal analysis*", but not in the less closely related term "*data analysis*". For brevity, we won’t run the full analysis pipeline here for these additional search terms; instead, we’ll only fit the model and check the posterior coefficient estimates—but rest assured that all the necessary steps were conducted in the original analysis (and you can always replicate it yourself using the code above to make sure I didn’t make any mistakes 😉). So, what are the results? As you can see in the charts below, "*causal analysis*" indeed behaves similarly to "*causal inference*", while "*data analysis*" shows only the spike related to the method change. This lends additional credibility to the NP effect hypothesis. However, it's still possible that an additional, unknown concurrent event could partially or fully explain the observed pattern. 🤔 
 
 ```r
@@ -440,6 +450,8 @@ posterior_plots(model=causal_analysis_model, search_term_name = "causal_analysis
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-9-1.png)
+
 
 ```r
 # defining the statistical model for the 'data analysis' search term
@@ -465,13 +477,21 @@ posterior_plots(model=data_analysis_model, search_term_name = "data_analysis")
 
 ```
 
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-10-1.png)
+
+## Figures
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-3-1.png)
+
+![](./nobel-prize-and-causal-inference-popularity/unnamed-chunk-3-2.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[visual-inference-statistics|Visual statistical inference]]
-- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 <!-- RELATED:END -->
 
 ---

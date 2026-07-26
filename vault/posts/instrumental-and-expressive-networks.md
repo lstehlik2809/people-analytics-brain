@@ -30,7 +30,7 @@ While there are some limitations to consider - such as the relatively small numb
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[collaboration-and-personality|Collaboration and personality]]
 <!-- RELATED:END -->
 
 ---

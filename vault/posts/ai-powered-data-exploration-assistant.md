@@ -47,8 +47,8 @@ P.S. If you’re interested, you can grab the code behind the app from my [GitHu
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[openai-personality-interpretation|Ask your personality using GPT]]
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[openai-personality-interpretation|Ask your personality using GPT]]
 <!-- RELATED:END -->
 
 ---

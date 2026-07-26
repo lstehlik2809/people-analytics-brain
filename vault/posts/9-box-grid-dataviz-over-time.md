@@ -170,15 +170,17 @@ ggplot() +
 
 ```
 
+![](./9-box-grid-dataviz-over-time/unnamed-chunk-1-1.png)
+
 Would be super grateful for any tips or suggestions on dataviz tools or approaches worth exploring 🙏
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[xmr-charts-in-people-analytics|Do you use XmR charts for People Analytics use cases?]]
-- [[org-chart-and-collaboration|Org chart and collaboration]]
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
-- [[career-hurdles|And what are your career hurdles?]]
-- [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
+- [[conditional-inference-tree|Divide and... understand]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
+- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

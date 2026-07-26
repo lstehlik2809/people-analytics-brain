@@ -197,6 +197,8 @@ plt.show()
 
 ```
 
+![](./personas-based-on-ml-local-interpretation-algos/unnamed-chunk-6-1.png)
+
 A clustering algorithm, such as HDBSCAN, can help us identify the clusters.
 
 ```python
@@ -244,6 +246,8 @@ cbar.set_label('Predicted class probability', rotation=270, labelpad=15)
 plt.show()
 
 ```
+
+![](./personas-based-on-ml-local-interpretation-algos/unnamed-chunk-8-5.png)
 
 Now we can check for the selected clusters which features and in which direction most affect their respective predicted probabilities. For example, we can see from the table below that the clusters with lower predicted probabilities (clusters 0, 2 and 4) are driven either by the respective values in features 6 and 9 (cluster 0), or by the respective values in features 0, 3, 7 and 9 (cluster 2), or by the respective values in feature 0 (cluster 4).
 
@@ -323,13 +327,17 @@ DT::datatable(
 ```
 Maybe you'll find the method described here useful in one of your ML projects. Happy data sleuthing 🙂
 
+## Figures
+
+![](./personas-based-on-ml-local-interpretation-algos/unnamed-chunk-7-3.png)
+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
+- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
+- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 <!-- RELATED:END -->
 
 ---

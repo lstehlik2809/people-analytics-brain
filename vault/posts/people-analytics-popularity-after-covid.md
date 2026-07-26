@@ -95,6 +95,8 @@ gtrendsResultDf %>%
 
 ```
 
+![](./people-analytics-popularity-after-covid/unnamed-chunk-2-1.png)
+
 
 To make the picture a little bit clearer, let us take the help of inferential statistics to answer the question we are interested in. The ideal analytical tool for our use case is a segmented regression analysis of interrupted time series that enables estimation of the changes in levels and trends of search interest before and after after a known ‘intervention’ or ‘interruption’ (i.e., a change that could potentially affect the outcome variable). It does so by segmenting the time series data into different periods based on the known interruption points and modeling these segments separately. The model used has the following general structure:  
 
@@ -248,7 +250,9 @@ bayesplot::mcmc_trace(
   )
   
 
-```  
+```
+
+![](./people-analytics-popularity-after-covid/unnamed-chunk-7-1.png)  
 
 It is also important to check how well the model fits the data. To do this, we can use the posterior predictive check, which uses a specified number of selected posterior values of the model parameters to show how well the fitted model predicts the observed data. In the graph below we see that the model fits the observed data reasonably well. 
 
@@ -271,7 +275,9 @@ brms::pp_check(
     legend.background = element_blank()
   )
 
-```  
+```
+
+![](./people-analytics-popularity-after-covid/unnamed-chunk-8-1.png)  
 
 ## What do the model and data tell us?  
 
@@ -311,6 +317,8 @@ ggplot2::ggplot(paramVizBeforethepandemicoutbreak, aes(x,y)) +
 
 ```
 
+![](./people-analytics-popularity-after-covid/unnamed-chunk-10-1.png)
+
 ```r
 # uploading library for working with output from Bayesian models
 library(posterior)
@@ -348,6 +356,8 @@ ggplot2::ggplot(paramVizElapsedTimeAfterPandemic, aes(x,y)) +
 
 ```
 
+![](./people-analytics-popularity-after-covid/unnamed-chunk-12-1.png)
+
 ```r
 # extracting posterior samples
 samplesElapsedTimeAfterPandemic <- posterior::as_draws_df(model, seed = 1234)
@@ -363,9 +373,9 @@ The overall resulting picture thus partially supports the impression of many of 
 ## Related notes
 - [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
 - [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

@@ -146,13 +146,21 @@ plt.show()
 
 ```
 
+![](./bayesian-simulation/unnamed-chunk-6-5.png)
+
 And it doesn't have to end there. For example, this estimate can be combined with other inputs, e.g. the cost of a new referral program, the cost of an alternative solution, etc., to make a better informed decision, taking into account the existing uncertainty.
+
+## Figures
+
+![](./bayesian-simulation/unnamed-chunk-3-1.png)
+
+![](./bayesian-simulation/unnamed-chunk-5-3.png)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[bayesian-networks-in-people-analytics|Use of Bayesian networks in people analytics?]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->

@@ -69,6 +69,8 @@ mydata %>%
 
 ```
 
+![](./sentiment-analysis-validation/unnamed-chunk-1-1.png)
+
 Seems like I can add another useful tool to my toolbox. If you are interested in trying it out, you can use a short code snippet below for it.
 
 
