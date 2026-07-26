@@ -17,7 +17,10 @@ Each note links back to the original blog post, where you'll find the full rende
 
 ## For AI agents
 
-The whole brain is machine-readable: [llms.txt](./llms.txt) provides a structured index, and [llms-full.txt](./llms-full.txt) contains the complete corpus for retrieval or context loading.
+The whole brain is machine-readable:
+
+- **MCP server** — add `https://people-analytics-brain-mcp.ludek-stehlik.workers.dev/mcp` as a remote MCP server (Streamable HTTP, no auth) and your agent can query the brain with `search_notes`, `get_note`, `list_notes`, and `list_tags`.
+- **Plain text** — [llms.txt](./llms.txt) provides a structured index, and [llms-full.txt](./llms-full.txt) contains the complete corpus for retrieval or context loading.
 
 ## About me
 

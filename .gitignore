@@ -6,4 +6,6 @@ site/.quartz-cache/
 pipeline/cache/embeddings.json
 pipeline/cache/search_index.json
 pipeline/node_modules/
+mcp-server/node_modules/
+mcp-server/.wrangler/
 __pycache__/

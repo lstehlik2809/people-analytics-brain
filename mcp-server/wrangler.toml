@@ -1,0 +1,6 @@
+name = "people-analytics-brain-mcp"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+[observability]
+enabled = true

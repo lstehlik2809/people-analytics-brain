@@ -26,7 +26,11 @@ GitHub Pages
 - **For people:** graph view, backlinks, tags, `Ctrl+K` full-text search, and
   [in-browser semantic search](https://lstehlik2809.github.io/people-analytics-brain/semantic-search.html)
   (transformers.js + MiniLM, no server).
-- **For AI agents:** [`/llms.txt`](https://lstehlik2809.github.io/people-analytics-brain/llms.txt)
+- **For AI agents:** a public [MCP server](https://people-analytics-brain-mcp.ludek-stehlik.workers.dev)
+  (`https://people-analytics-brain-mcp.ludek-stehlik.workers.dev/mcp`, Streamable HTTP, no auth) with
+  `search_notes` / `get_note` / `list_notes` / `list_tags` tools, plus
+  [`/llms.txt`](https://lstehlik2809.github.io/people-analytics-brain/llms.txt)
   (index) and [`/llms-full.txt`](https://lstehlik2809.github.io/people-analytics-brain/llms-full.txt)
-  (complete corpus, ~1.2 MB).
+  (complete corpus, ~1.2 MB). The worker ([mcp-server/](mcp-server/)) fetches the corpus from the
+  live site, so it needs no redeploys when content changes.
 

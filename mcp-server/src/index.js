@@ -1,0 +1,300 @@
+// Public MCP server for Ludek's People Analytics Brain.
+//
+// Speaks MCP Streamable HTTP (stateless JSON mode) at POST /mcp.
+// Content is never bundled: the worker pulls llms-full.txt from the live
+// GitHub Pages site and indexes it in memory, so publishing a new blog
+// post updates this server automatically — no redeploys.
+
+const SITE = "https://lstehlik2809.github.io/people-analytics-brain";
+const CORPUS_URL = `${SITE}/llms-full.txt`;
+const INDEX_TTL_MS = 15 * 60 * 1000;
+const PROTOCOL_VERSIONS = ["2025-06-18", "2025-03-26"];
+
+const SERVER_INFO = {
+  name: "people-analytics-brain",
+  title: "Ludek's People Analytics Brain",
+  version: "1.0.0",
+};
+
+const TOOLS = [
+  {
+    name: "search_notes",
+    description:
+      "Full-text search (BM25) across 200+ notes on people analytics, statistics, " +
+      "causal inference, psychometrics, machine learning, and AI by Luděk Stehlík. " +
+      "Returns ranked matches with snippets. Use get_note with a result's slug to read the full note.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "Search terms (keywords work best)" },
+        top_k: { type: "number", description: "Max results (default 8, max 25)" },
+        tag: { type: "string", description: "Optional: restrict to one tag (see list_tags)" },
+      },
+      required: ["query"],
+    },
+  },
+  {
+    name: "get_note",
+    description: "Fetch the complete markdown of one note by its slug.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "Note slug, e.g. 'conditional-inference-tree'" },
+      },
+      required: ["slug"],
+    },
+  },
+  {
+    name: "list_notes",
+    description:
+      "List notes (title, slug, date, tags, description), newest first. Optionally filter by tag.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        tag: { type: "string", description: "Optional tag filter" },
+        limit: { type: "number", description: "Max notes (default 30, max 250)" },
+      },
+    },
+  },
+  {
+    name: "list_tags",
+    description: "All topic tags with note counts — the map of what this brain covers.",
+    inputSchema: { type: "object", properties: {} },
+  },
+];
+
+// ---------- corpus loading & indexing ----------
+
+let cached = null; // { at, notes, index }
+
+function tokenize(text) {
+  return (text.toLowerCase().match(/[a-z0-9]+/g) || []).filter((t) => t.length > 1);
+}
+
+function parseCorpus(text) {
+  // format produced by pipeline/build_llms.py: entries separated by "---",
+  // each starting "# {title}" followed by URL / Date / Tags / Original post lines
+  const notes = [];
+  for (const block of text.split(/\n---\n/).slice(1)) {
+    const m = block.match(
+      /^\s*# (.+)\nURL: (.+)\nDate: (.*)\nTags: (.*)\nOriginal post: (.*)\n\n([\s\S]*)$/,
+    );
+    if (!m) continue;
+    const [, title, url, date, tags, original, body] = m;
+    notes.push({
+      slug: url.trim().split("/").pop(),
+      title: title.trim(),
+      url: url.trim(),
+      date: date.trim(),
+      tags: tags.split(",").map((t) => t.trim()).filter(Boolean),
+      original: original.trim(),
+      body: body.trim(),
+    });
+  }
+  return notes;
+}
+
+function buildIndex(notes) {
+  const docs = notes.map((n) => {
+    // weight title/tags/description-ish head of the body by repeating them
+    const head = `${n.title} ${n.tags.join(" ")} `;
+    const tf = new Map();
+    const tokens = tokenize(head.repeat(3) + n.body);
+    for (const t of tokens) tf.set(t, (tf.get(t) || 0) + 1);
+    return { tf, len: tokens.length };
+  });
+  const df = new Map();
+  for (const d of docs) for (const t of d.tf.keys()) df.set(t, (df.get(t) || 0) + 1);
+  const avgLen = docs.reduce((a, d) => a + d.len, 0) / (docs.length || 1);
+  return { docs, df, avgLen, n: docs.length };
+}
+
+async function getCorpus() {
+  if (cached && Date.now() - cached.at < INDEX_TTL_MS) return cached;
+  const resp = await fetch(CORPUS_URL, { cf: { cacheTtl: 600 } });
+  if (!resp.ok) throw new Error(`corpus fetch failed: HTTP ${resp.status}`);
+  const notes = parseCorpus(await resp.text());
+  if (notes.length === 0) throw new Error("corpus parse produced 0 notes");
+  cached = { at: Date.now(), notes, index: buildIndex(notes) };
+  return cached;
+}
+
+function bm25(queryTokens, { docs, df, avgLen, n }) {
+  const k1 = 1.4, b = 0.75;
+  const scores = new Array(n).fill(0);
+  for (const q of new Set(queryTokens)) {
+    const dfq = df.get(q);
+    if (!dfq) continue;
+    const idf = Math.log(1 + (n - dfq + 0.5) / (dfq + 0.5));
+    docs.forEach((d, i) => {
+      const f = d.tf.get(q);
+      if (!f) return;
+      scores[i] += idf * ((f * (k1 + 1)) / (f + k1 * (1 - b + (b * d.len) / avgLen)));
+    });
+  }
+  return scores;
+}
+
+function snippet(body, queryTokens, width = 300) {
+  const lower = body.toLowerCase();
+  let pos = -1;
+  for (const q of queryTokens) {
+    const p = lower.indexOf(q);
+    if (p !== -1 && (pos === -1 || p < pos)) pos = p;
+  }
+  if (pos === -1) pos = 0;
+  const start = Math.max(0, pos - Math.floor(width / 3));
+  const cut = body.slice(start, start + width).replace(/\s+/g, " ").trim();
+  return (start > 0 ? "…" : "") + cut + (start + width < body.length ? "…" : "");
+}
+
+// ---------- tool implementations ----------
+
+async function runTool(name, args) {
+  const { notes, index } = await getCorpus();
+  switch (name) {
+    case "search_notes": {
+      const query = String(args?.query ?? "").trim();
+      if (!query) throw new Error("query is required");
+      const topK = Math.min(Math.max(1, args?.top_k ?? 8), 25);
+      const tag = args?.tag ? String(args.tag).toLowerCase() : null;
+      const qTokens = tokenize(query);
+      const scores = bm25(qTokens, index);
+      const hits = notes
+        .map((note, i) => ({ note, score: scores[i] }))
+        .filter((h) => h.score > 0 && (!tag || h.note.tags.includes(tag)))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, topK)
+        .map(({ note, score }) => ({
+          slug: note.slug,
+          title: note.title,
+          date: note.date,
+          tags: note.tags,
+          url: note.url,
+          score: +score.toFixed(2),
+          snippet: snippet(note.body, qTokens),
+        }));
+      return { query, total_matches: hits.length, results: hits };
+    }
+    case "get_note": {
+      const note = notes.find((n) => n.slug === String(args?.slug ?? "").trim());
+      if (!note) throw new Error(`no note with slug '${args?.slug}' — use search_notes or list_notes to find slugs`);
+      return {
+        slug: note.slug, title: note.title, date: note.date, tags: note.tags,
+        url: note.url, original_post: note.original, markdown: note.body,
+      };
+    }
+    case "list_notes": {
+      const tag = args?.tag ? String(args.tag).toLowerCase() : null;
+      const limit = Math.min(Math.max(1, args?.limit ?? 30), 250);
+      const rows = notes
+        .filter((n) => !tag || n.tags.includes(tag))
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, limit)
+        .map((n) => ({
+          slug: n.slug, title: n.title, date: n.date, tags: n.tags,
+          description: snippet(n.body, [], 180),
+        }));
+      return { count: rows.length, notes: rows };
+    }
+    case "list_tags": {
+      const counts = {};
+      for (const n of notes) for (const t of n.tags) counts[t] = (counts[t] || 0) + 1;
+      const tags = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([tagName, count]) => ({ tag: tagName, count }));
+      return { total_notes: notes.length, tags };
+    }
+    default:
+      return null; // unknown tool
+  }
+}
+
+// ---------- MCP JSON-RPC over Streamable HTTP ----------
+
+function rpcResult(id, result) {
+  return { jsonrpc: "2.0", id, result };
+}
+function rpcError(id, code, message) {
+  return { jsonrpc: "2.0", id, error: { code, message } };
+}
+
+async function handleRpc(msg) {
+  const { id, method, params } = msg;
+  switch (method) {
+    case "initialize": {
+      const requested = params?.protocolVersion;
+      return rpcResult(id, {
+        protocolVersion: PROTOCOL_VERSIONS.includes(requested) ? requested : PROTOCOL_VERSIONS[0],
+        capabilities: { tools: {} },
+        serverInfo: SERVER_INFO,
+        instructions:
+          "Search and read Luděk Stehlík's public second brain on people analytics. " +
+          "Typical flow: search_notes → get_note(slug). Browse topics with list_tags / list_notes. " +
+          `Full corpus is also available as plain text at ${SITE}/llms-full.txt.`,
+      });
+    }
+    case "ping":
+      return rpcResult(id, {});
+    case "tools/list":
+      return rpcResult(id, { tools: TOOLS });
+    case "tools/call": {
+      const name = params?.name;
+      try {
+        const out = await runTool(name, params?.arguments ?? {});
+        if (out === null) return rpcError(id, -32602, `unknown tool: ${name}`);
+        return rpcResult(id, { content: [{ type: "text", text: JSON.stringify(out, null, 2) }] });
+      } catch (e) {
+        return rpcResult(id, { content: [{ type: "text", text: `Error: ${e.message}` }], isError: true });
+      }
+    }
+    default:
+      if (id === undefined) return null; // notification — no response
+      return rpcError(id, -32601, `method not found: ${method}`);
+  }
+}
+
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Accept, Authorization, Mcp-Session-Id, Mcp-Protocol-Version",
+  "Access-Control-Expose-Headers": "Mcp-Session-Id",
+};
+
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+    if (request.method === "OPTIONS") return new Response(null, { headers: CORS });
+
+    if (url.pathname === "/mcp") {
+      if (request.method !== "POST") {
+        return new Response("Method Not Allowed", { status: 405, headers: CORS });
+      }
+      let body;
+      try {
+        body = await request.json();
+      } catch {
+        return new Response(JSON.stringify(rpcError(null, -32700, "parse error")), {
+          status: 400, headers: { "Content-Type": "application/json", ...CORS },
+        });
+      }
+      const messages = Array.isArray(body) ? body : [body];
+      const replies = (await Promise.all(messages.map(handleRpc))).filter(Boolean);
+      if (replies.length === 0) return new Response(null, { status: 202, headers: CORS });
+      const payload = Array.isArray(body) ? replies : replies[0];
+      return new Response(JSON.stringify(payload), {
+        headers: { "Content-Type": "application/json", ...CORS },
+      });
+    }
+
+    // human-facing root
+    return new Response(
+      `Ludek's People Analytics Brain — MCP server\n\n` +
+      `MCP endpoint (Streamable HTTP): POST ${url.origin}/mcp\n` +
+      `Tools: search_notes, get_note, list_notes, list_tags\n\n` +
+      `Browse as a human instead: ${SITE}\n` +
+      `Plain-text corpus for AI: ${SITE}/llms-full.txt\n`,
+      { headers: { "Content-Type": "text/plain; charset=utf-8", ...CORS } },
+    );
+  },
+};
