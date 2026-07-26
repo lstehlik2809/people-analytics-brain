@@ -31,7 +31,12 @@
     outline: none;
   }
   #q:focus { border-color: var(--accent); }
-  #status { color: var(--muted); font-size: .9rem; margin: .75rem 0 1.25rem; min-height: 1.2rem; }
+  #status { color: var(--muted); font-size: .9rem; margin: .75rem 0 .5rem; min-height: 1.2rem; }
+  #bar-wrap {
+    height: 6px; background: var(--border); border-radius: 3px;
+    margin-bottom: 1.25rem; overflow: hidden; display: none;
+  }
+  #bar { height: 100%; width: 0%; background: var(--accent); transition: width .3s; }
   .hit {
     display: block; text-decoration: none; color: inherit; background: var(--card);
     border: 1px solid var(--border); border-radius: .5rem;
@@ -57,26 +62,90 @@
   <h1>🔎 Semantic search</h1>
   <p class="sub">Search 200+ people-analytics notes by meaning, not keywords — try
   “why do people quit” or “measuring personality reliably”. Runs entirely in your
-  browser. <a href="./">← Back to the brain</a></p>
-  <input id="q" type="search" placeholder="Loading model…" disabled autofocus>
-  <div id="status">Preparing search — downloading the embedding model (~20 MB, first visit only)…</div>
+  browser: the first visit downloads the embedding model and its runtime (~47 MB,
+  cached afterwards — later visits are instant). <a href="./">← Back to the brain</a></p>
+  <input id="q" type="search" placeholder="Preparing search…" disabled autofocus>
+  <div id="status">Checking for cached model…</div>
+  <div id="bar-wrap"><div id="bar"></div></div>
   <div id="results"></div>
 </main>
 <script type="module">
+  // Versions are pinned; keep the three URLs below in sync with
+  // pipeline/package.json (@huggingface/transformers) if ever upgraded.
+  const TRANSFORMERS_URL = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.2.0";
+  const MODEL_URL = "https://huggingface.co/Xenova/all-MiniLM-L6-v2/resolve/main/onnx/model_quantized.onnx";
+  const ORT_BASE = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0-dev.20260416-b7804b056c/dist/";
+  const WASM_URL = ORT_BASE + "ort-wasm-simd-threaded.asyncify.wasm";
+  const FALLBACK_SIZES = { [MODEL_URL]: 23.0e6, [WASM_URL]: 23.6e6 };
+
   const status = document.getElementById("status");
   const input = document.getElementById("q");
   const resultsEl = document.getElementById("results");
+  const barWrap = document.getElementById("bar-wrap");
+  const bar = document.getElementById("bar");
+
+  // Download with streaming progress; served from the shared cache when present.
+  const progress = {};
+  function report() {
+    const done = Object.values(progress).reduce((a, p) => a + p.done, 0);
+    const total = Object.values(progress).reduce((a, p) => a + p.total, 0);
+    if (!total) return;
+    bar.style.width = `${Math.min(100, (done / total) * 100)}%`;
+    status.textContent = `Downloading search model — ${(done / 1e6).toFixed(1)} / ${(total / 1e6).toFixed(0)} MB (first visit only)…`;
+  }
+  async function fetchWithProgress(url, cache) {
+    if (cache) {
+      const hit = await cache.match(url);
+      if (hit) return hit.blob();
+    }
+    barWrap.style.display = "block";
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${url.split("/").pop()}`);
+    const total = +resp.headers.get("Content-Length") || FALLBACK_SIZES[url] || 0;
+    progress[url] = { done: 0, total };
+    const reader = resp.body.getReader();
+    const chunks = [];
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      progress[url].done += value.length;
+      report();
+    }
+    progress[url].done = progress[url].total = total || progress[url].done;
+    report();
+    const blob = new Blob(chunks);
+    if (cache) await cache.put(url, new Response(blob)).catch(() => {});
+    return blob;
+  }
+
   try {
-    const [{ pipeline }, index] = await Promise.all([
-      import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.2.0"),
+    let cache = null;
+    try { cache = await caches.open("transformers-cache"); } catch {} // e.g. private browsing
+
+    // The three big downloads run in parallel: library, model, wasm runtime.
+    const [{ pipeline, env }, indexP, modelBlob, wasmBlob] = await Promise.all([
+      import(TRANSFORMERS_URL),
       fetch("./semantic_index.json").then(r => r.json()),
+      fetchWithProgress(MODEL_URL, null).then(async b => {
+        // store under the exact key transformers.js looks up
+        if (cache && !(await cache.match(MODEL_URL)))
+          await cache.put(MODEL_URL, new Response(b)).catch(() => {});
+        return b;
+      }),
+      fetchWithProgress(WASM_URL, cache),
     ]);
-    const extractor = await pipeline("feature-extraction", index.model, {
-      progress_callback: p => {
-        if (p.status === "progress" && p.file?.endsWith(".onnx"))
-          status.textContent = `Downloading model… ${Math.round(p.progress)}%`;
-      },
-    });
+    const index = await indexP;
+
+    // Hand the prefetched runtime straight to ONNX — no second download.
+    env.backends.onnx.wasm.wasmPaths = {
+      wasm: URL.createObjectURL(wasmBlob),
+      mjs: ORT_BASE + "ort-wasm-simd-threaded.asyncify.mjs",
+    };
+    status.textContent = "Initializing model…";
+    const extractor = await pipeline("feature-extraction", index.model);
+
+    barWrap.style.display = "none";
     input.disabled = false;
     input.placeholder = "Search by meaning…";
     status.textContent = `Ready — ${index.posts.length} notes indexed.`;
@@ -119,6 +188,10 @@
       return String(s).replace(/[&<>"']/g, c =>
         ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     }
+
+    // support ?q= handoff (e.g. from the site's Ctrl+K search)
+    const preset = new URLSearchParams(location.search).get("q");
+    if (preset) { input.value = preset; search(); }
   } catch (e) {
     status.textContent = "Could not load semantic search: " + e.message;
   }
