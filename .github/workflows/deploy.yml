@@ -28,10 +28,12 @@ jobs:
       - name: Build site
         working-directory: site
         run: npx quartz build -d ../vault
-      - name: Add llms.txt files
+      - name: Add llms.txt and semantic search
         run: |
           cp pipeline/cache/llms.txt site/public/llms.txt
           cp pipeline/cache/llms-full.txt site/public/llms-full.txt
+          cp pipeline/cache/semantic_index.json site/public/semantic_index.json
+          cp pipeline/static/semantic-search.html site/public/semantic-search.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/public

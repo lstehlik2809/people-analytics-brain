@@ -4,4 +4,5 @@ site/public/
 site/.quartz-cache/
 pipeline/cache/embeddings.json
 pipeline/cache/search_index.json
+pipeline/node_modules/
 __pycache__/

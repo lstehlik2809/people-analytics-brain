@@ -23,7 +23,9 @@ site/ (Quartz 5)                          → static site with graph view, searc
 GitHub Pages
 ```
 
-- **For people:** graph view, backlinks, tags, and `Ctrl+K` search on the site.
+- **For people:** graph view, backlinks, tags, `Ctrl+K` full-text search, and
+  [in-browser semantic search](https://lstehlik2809.github.io/people-analytics-brain/semantic-search.html)
+  (transformers.js + MiniLM, no server).
 - **For AI agents:** [`/llms.txt`](https://lstehlik2809.github.io/people-analytics-brain/llms.txt)
   (index) and [`/llms-full.txt`](https://lstehlik2809.github.io/people-analytics-brain/llms-full.txt)
   (complete corpus, ~1.2 MB).

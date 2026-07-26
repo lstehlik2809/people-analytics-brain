@@ -9,6 +9,7 @@ This is the interconnected, "second brain" version of my [blog about people anal
 
 - 🕸️ **Graph view** — the graph on each page shows how notes connect; click any node to jump. The global graph icon reveals the whole network.
 - 🔍 **Search** — press `Ctrl+K` (or `⌘K`) for full-text search across all notes.
+- 🔎 **[Semantic search](./semantic-search.html)** — search by meaning rather than keywords; runs entirely in your browser (no server involved).
 - 🏷️ **Tags** — every note is tagged by topic (e.g. [[tags/causal-inference]], [[tags/employee-turnover]], [[tags/psychometrics]]); tag pages collect everything on a theme.
 - 🔗 **Related notes** — each note ends with its semantically closest neighbors, computed from embeddings of the full text.
 

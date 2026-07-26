@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic search — Ludek's People Analytics Brain</title>
+<style>
+  :root {
+    --bg: #faf8f8; --fg: #2b2b2b; --muted: #4e4e4e; --border: #e5e5e5;
+    --accent: #284b63; --card: #ffffff; --tag-bg: #ecf1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161618; --fg: #ebebec; --muted: #d4d4d4; --border: #393639;
+      --accent: #7b97aa; --card: #1e1e21; --tag-bg: #26303a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: "Source Sans Pro", -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.5;
+  }
+  main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); font-size: .95rem; margin-bottom: 1.5rem; }
+  .sub a { color: var(--accent); }
+  #q {
+    width: 100%; padding: .75rem 1rem; font-size: 1.05rem; color: var(--fg);
+    background: var(--card); border: 1px solid var(--border); border-radius: .5rem;
+    outline: none;
+  }
+  #q:focus { border-color: var(--accent); }
+  #status { color: var(--muted); font-size: .9rem; margin: .75rem 0 1.25rem; min-height: 1.2rem; }
+  .hit {
+    display: block; text-decoration: none; color: inherit; background: var(--card);
+    border: 1px solid var(--border); border-radius: .5rem;
+    padding: .9rem 1.1rem; margin-bottom: .75rem;
+  }
+  .hit:hover { border-color: var(--accent); }
+  .hit h3 { margin: 0 0 .25rem; font-size: 1.05rem; color: var(--accent); }
+  .hit p { margin: 0 0 .5rem; font-size: .9rem; color: var(--muted); }
+  .meta { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+  .score {
+    font-size: .75rem; color: var(--accent); border: 1px solid var(--accent);
+    border-radius: 1rem; padding: 0 .5rem;
+  }
+  .tag {
+    font-size: .75rem; background: var(--tag-bg); color: var(--accent);
+    border-radius: 1rem; padding: 0 .5rem;
+  }
+  .date { font-size: .75rem; color: var(--muted); margin-left: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🔎 Semantic search</h1>
+  <p class="sub">Search 200+ people-analytics notes by meaning, not keywords — try
+  “why do people quit” or “measuring personality reliably”. Runs entirely in your
+  browser. <a href="./">← Back to the brain</a></p>
+  <input id="q" type="search" placeholder="Loading model…" disabled autofocus>
+  <div id="status">Preparing search — downloading the embedding model (~20 MB, first visit only)…</div>
+  <div id="results"></div>
+</main>
+<script type="module">
+  const status = document.getElementById("status");
+  const input = document.getElementById("q");
+  const resultsEl = document.getElementById("results");
+  try {
+    const [{ pipeline }, index] = await Promise.all([
+      import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.2.0"),
+      fetch("./semantic_index.json").then(r => r.json()),
+    ]);
+    const extractor = await pipeline("feature-extraction", index.model, {
+      progress_callback: p => {
+        if (p.status === "progress" && p.file?.endsWith(".onnx"))
+          status.textContent = `Downloading model… ${Math.round(p.progress)}%`;
+      },
+    });
+    input.disabled = false;
+    input.placeholder = "Search by meaning…";
+    status.textContent = `Ready — ${index.posts.length} notes indexed.`;
+    input.focus();
+
+    let timer;
+    input.addEventListener("input", () => {
+      clearTimeout(timer);
+      timer = setTimeout(search, 350);
+    });
+
+    async function search() {
+      const q = input.value.trim();
+      if (q.length < 3) { resultsEl.innerHTML = ""; return; }
+      status.textContent = "Searching…";
+      const out = await extractor(q, { pooling: "mean", normalize: true });
+      const qv = out.data;
+      const scored = index.posts.map(p => {
+        let best = -1;
+        for (const v of p.vecs) {
+          let dot = 0;
+          for (let i = 0; i < v.length; i++) dot += v[i] * qv[i];
+          if (dot > best) best = dot;
+        }
+        return { p, s: best };
+      }).sort((a, b) => b.s - a.s).slice(0, 15);
+      status.textContent = `Top matches for “${q}”:`;
+      resultsEl.innerHTML = scored.map(({ p, s }) => `
+        <a class="hit" href="./posts/${p.slug}">
+          <h3>${esc(p.title)}</h3>
+          <p>${esc(p.description)}</p>
+          <div class="meta">
+            <span class="score">${(s * 100).toFixed(0)}% match</span>
+            ${p.tags.slice(0, 4).map(t => `<span class="tag">${esc(t)}</span>`).join("")}
+            <span class="date">${esc(p.date)}</span>
+          </div>
+        </a>`).join("");
+    }
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, c =>
+        ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+  } catch (e) {
+    status.textContent = "Could not load semantic search: " + e.message;
+  }
+</script>
+</body>
+</html>

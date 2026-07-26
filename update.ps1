@@ -14,8 +14,12 @@ Write-Host "== 2/4 Embedding + relinking ==" -ForegroundColor Cyan
 python pipeline/embed_link.py
 if ($LASTEXITCODE) { exit 1 }
 
-Write-Host "== 3/3 Building llms.txt ==" -ForegroundColor Cyan
+Write-Host "== 3/4 Building llms.txt ==" -ForegroundColor Cyan
 python pipeline/build_llms.py
+if ($LASTEXITCODE) { exit 1 }
+
+Write-Host "== 4/4 Building semantic search index ==" -ForegroundColor Cyan
+node pipeline/build_semantic_index.mjs
 if ($LASTEXITCODE) { exit 1 }
 
 if (-not $NoPush) {
