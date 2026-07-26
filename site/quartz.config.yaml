@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Ludek's People Analytics Brain
+  pageTitle: Ludek's People Analytics Second Brain
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics: null
   locale: en-US
-  baseUrl: lstehlik2809.github.io/people-analytics-brain
+  baseUrl: lstehlik2809.github.io/people-analytics-second-brain
   ignorePatterns:
     - private
     - templates

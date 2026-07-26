@@ -13,7 +13,10 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 NOTES_DIR = ROOT / "vault" / "posts"
 CACHE = ROOT / "pipeline" / "cache"
-SITE_URL = "https://lstehlik2809.github.io/people-analytics-brain"
+SITE_URL = "https://lstehlik2809.github.io/people-analytics-second-brain"
+
+# files whose "<!--N-->…<!--/N-->" note-count markers get refreshed each run
+COUNT_FILES = [ROOT / "README.md", ROOT / "vault" / "index.md"]
 
 RELATED_RE = re.compile(r"<!-- RELATED:BEGIN -->.*?<!-- RELATED:END -->\n?", re.S)
 
@@ -35,9 +38,9 @@ def main():
     notes.sort(key=lambda n: n[1].get("date", ""), reverse=True)
 
     index = [
-        "# Ludek's People Analytics Brain",
+        "# Ludek's People Analytics Second Brain",
         "",
-        "> A public second brain of 200+ posts on people analytics, statistics, "
+        f"> A public second brain of {len(notes)} posts on people analytics, statistics, "
         "causal inference, psychometrics, machine learning, and AI by Luděk Stehlík. "
         f"Browsable knowledge graph at {SITE_URL}. "
         "The complete corpus is in /llms-full.txt.",
@@ -46,7 +49,7 @@ def main():
         "",
     ]
     full = [
-        "# Ludek's People Analytics Brain — complete corpus",
+        "# Ludek's People Analytics Second Brain — complete corpus",
         "",
         f"Source: {SITE_URL} | Author: Luděk Stehlík "
         "(https://www.linkedin.com/in/ludekstehlik/)",
@@ -73,6 +76,15 @@ def main():
     (CACHE / "llms-full.txt").write_text("\n".join(full), encoding="utf-8", newline="\n")
     size = (CACHE / "llms-full.txt").stat().st_size
     print(f"llms.txt: {len(notes)} entries; llms-full.txt: {size/1e6:.1f} MB")
+
+    # keep visible note counts in README / landing page current
+    marker = re.compile(r"<!--N-->.*?<!--/N-->")
+    for path in COUNT_FILES:
+        text = path.read_text(encoding="utf-8")
+        new = marker.sub(f"<!--N-->{len(notes)}<!--/N-->", text)
+        if new != text:
+            path.write_text(new, encoding="utf-8", newline="\n")
+            print(f"note count updated in {path.name}")
 
 
 if __name__ == "__main__":

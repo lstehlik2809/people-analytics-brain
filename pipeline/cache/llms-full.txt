@@ -1,11 +1,11 @@
-# Ludek's People Analytics Brain — complete corpus
+# Ludek's People Analytics Second Brain — complete corpus
 
-Source: https://lstehlik2809.github.io/people-analytics-brain | Author: Luděk Stehlík (https://www.linkedin.com/in/ludekstehlik/)
+Source: https://lstehlik2809.github.io/people-analytics-second-brain | Author: Luděk Stehlík (https://www.linkedin.com/in/ludekstehlik/)
 
 ---
 
 # Evidence-Based Management: Boring basics and better questions
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/beyond-belief
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/beyond-belief
 Date: 2026-07-24
 Tags: evidence-based-management, hr-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-07-24-beyond-belief/
@@ -42,7 +42,7 @@ There are plenty more gems and learnings in the book itself - so if you still ha
 ---
 
 # ‘You Said, We Did’ matters - maybe just not as distinctly as we assume
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/you-said-we-did
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/you-said-we-did
 Date: 2026-07-07
 Tags: employee-survey, employee-engagement, employee-experience, employee-listening, survey-participation, regression-analysis, psychometrics, statistics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-07-07-you-said-we-did/
@@ -98,7 +98,7 @@ Curious if anyone has done a similar exercise, and with what results.
 ---
 
 # Before you blame the driver, check the denominator
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/car-accidents-near-home
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/car-accidents-near-home
 Date: 2026-06-29
 Tags: fun-with-data, cognitive-biases
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-06-29-car-accidents-near-home/
@@ -136,7 +136,7 @@ P.S. I made [a simple tool](https://lstehlik2809.github.io/Car-Travel-Simulator/
 ---
 
 # Company culture as a forward signal of financial performance?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/company-culture-and-financial-performance
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/company-culture-and-financial-performance
 Date: 2026-06-25
 Tags: organizational-culture, glassdoor, performance, bayesian-statistics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-06-25-company-culture-and-financial-performance/
@@ -205,7 +205,7 @@ P.S. If you would like to replicate or extend the analysis, you can find the dat
 ---
 
 # A nerdy way to choose your next holiday destination
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/cultural-traveler
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/cultural-traveler
 Date: 2026-06-21
 Tags: cross-cultural-differences, organizational-culture, work-life-balance, generative-ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-06-21-cultural-traveler/
@@ -249,7 +249,7 @@ P.S. Hofstede’s country scores are broad national averages. They capture only 
 ---
 
 # What does national culture have to do with working from home?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/hofstede-wfh
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/hofstede-wfh
 Date: 2026-06-18
 Tags: remote-work, cross-cultural-differences, organizational-culture, open-science
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-06-18-hofstede-wfh/
@@ -303,7 +303,7 @@ P.S. If interested in exploring the data visually, visit [this dashboard](https:
 ---
 
 # Before you believe the £70,000 cat
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/impact-of-pets-on-life-satisfaction
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/impact-of-pets-on-life-satisfaction
 Date: 2026-06-14
 Tags: causal-inference, research-methods, critical-thinking
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-06-14-impact-of-pets-on-life-satisfaction/
@@ -343,7 +343,7 @@ P.S. For our household, the causal model is simpler: *Child wants cat → parent
 ---
 
 # The Laws of Thought: The Quest for a Mathematical Theory of the Mind
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/the-laws-of-thought
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/the-laws-of-thought
 Date: 2026-05-31
 Tags: cognitive-science, ai, machine-learning, generative-ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-05-31-the-laws-of-thought/
@@ -381,7 +381,7 @@ Methodological note on the knowledge graph: The relationships were not inferred 
 ---
 
 # Can AI help us fight the bullshit asymmetry?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ai-and-bullshit-asymmetry
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ai-and-bullshit-asymmetry
 Date: 2026-05-22
 Tags: causal-inference, critical-thinking, employee-experience, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-05-22-ai-and-bullshit-asymmetry/
@@ -432,7 +432,7 @@ P.S. If you don’t follow Paul, you should. His LinkedIn posts may challenge so
 ---
 
 # Agentic workflow for causal inference
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/agentic-workflow-for-causal-inference
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/agentic-workflow-for-causal-inference
 Date: 2026-05-16
 Tags: causal-inference, agentic-ai, ai, generative-ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-05-16-agentic-workflow-for-causal-inference/
@@ -567,7 +567,7 @@ I would also be very interested to see related efforts. If you are building agen
 ---
 
 # Goals saved above expected… for managers?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/value-added-modeling
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/value-added-modeling
 Date: 2026-05-12
 Tags: performance-management, people-management, statistics, causal-inference, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-05-12-value-added-modeling/
@@ -601,7 +601,7 @@ Question for the PA folks here: Are you using "above expected" style models in P
 ---
 
 # SIOP through the wisdom of crowds: What I may have missed
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/siop-2026-reflection
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/siop-2026-reflection
 Date: 2026-05-06
 Tags: siop, topic-analysis, decision-making
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-05-06-siop-2026-reflection/
@@ -651,7 +651,7 @@ P.S. If interested, you can check out [this simple interactive dashboard](https:
 ---
 
 # No Experiment, No Problem? Causal Inference in Applied Quasi-Experimental Settings (Session ID 830)
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/siop-2026-causal-inference-workshop
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/siop-2026-causal-inference-workshop
 Date: 2026-04-18
 Tags: causal-inference, siop
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-04-18-siop-2026-causal-inference-workshop/
@@ -679,7 +679,7 @@ If you're at SIOP and interested in making causal thinking more practical in app
 ---
 
 # SIOP 2026 Recommender
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/siop-2026-recommender
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/siop-2026-recommender
 Date: 2026-04-18
 Tags: siop, machine-learning
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-04-18-siop-2026-recommender/
@@ -759,7 +759,7 @@ htmltools::div(
 ---
 
 # What a European cigarette tax study taught me about employee listening
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/did-with-repeated-cross-sectional-data
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/did-with-repeated-cross-sectional-data
 Date: 2026-04-15
 Tags: causal-inference, panel-data, employee-survey, difference-in-differences, double-machine-learning
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-04-15-did-with-repeated-cross-sectional-data/
@@ -873,7 +873,7 @@ The shift to pulse-based listening can feel like a methodological downgrade beca
 ---
 
 # Mapping the People Analytics universe
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/david-green-hr-people-sna-network
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/david-green-hr-people-sna-network
 Date: 2026-03-29
 Tags: network-analysis, people-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-29-david-green-hr-people-sna-network/
@@ -905,7 +905,7 @@ P.S. You can consider this a prequel to the People Analytics Network Census (PAN
 ---
 
 # Do we give more "Try This", "Knock It Off", or "Keep It Up" recommendations in 360-degree feedback?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/start-stop-continue-feedback
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/start-stop-continue-feedback
 Date: 2026-03-26
 Tags: feedback, learning-and-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-26-start-stop-continue-feedback/
@@ -941,7 +941,7 @@ P.S. A recent critical systematic review of the performance feedback literature 
 ---
 
 # Beyond the “flat Earth”
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/mixed-level-ml
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/mixed-level-ml
 Date: 2026-03-23
 Tags: machine-learning, multilevel-modeling, causal-inference, predictive-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-23-mixed-level-ml/
@@ -1269,7 +1269,7 @@ That is not because hierarchy always makes models better. It is because, in many
 ---
 
 # The statistical "sin" as best / common practice?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ols-vs-logistic-regression
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ols-vs-logistic-regression
 Date: 2026-03-19
 Tags: regression-analysis, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-19-ols-vs-logistic-regression/
@@ -1301,7 +1301,7 @@ Seems that sometimes sin is the way 🙃
 ---
 
 # The hidden skill map - where life meets work
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/daily-activities-among-business-skills
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/daily-activities-among-business-skills
 Date: 2026-03-18
 Tags: skills, time-management, embeddings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-18-daily-activities-among-business-skills/
@@ -1326,7 +1326,7 @@ Check out where these two landed in the attached pics. Does it resonate? 🙃 Fo
 ---
 
 # Encouragement Design using instrumental variables
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/encouragement-design-and-ivs
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/encouragement-design-and-ivs
 Date: 2026-03-12
 Tags: causal-inference, experiments
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-12-encouragement-design-and-ivs/
@@ -1377,7 +1377,7 @@ The question was about the pros/cons of the nudging approach versus a difference
 ---
 
 # AI as friction
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ai-as-friction
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ai-as-friction
 Date: 2026-03-10
 Tags: ai, learning-and-development, behavioral-science, time-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-10-ai-as-friction/
@@ -1403,7 +1403,7 @@ Curious whether you’ve come across examples like this - or maybe you’re alre
 ---
 
 # Pay gap estimation for small worker categories
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/euptd-pay-gap-reporting
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/euptd-pay-gap-reporting
 Date: 2026-03-01
 Tags: gender-pay-gap, multilevel-modeling, bayesian-statistics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-03-01-euptd-pay-gap-reporting/
@@ -1442,7 +1442,7 @@ June 2027 is closer than it looks 😉
 ---
 
 # The Triple-Filter Test: How to prioritize HR interventions with panel data
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/the-triple-filter-test
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/the-triple-filter-test
 Date: 2026-02-12
 Tags: evidence-based-management, panel-data, employee-survey, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-02-12-the-triple-filter-test/
@@ -1501,7 +1501,7 @@ In some cases, the fix is Who: “Hire for this trait” or “Staff for this mi
 ---
 
 # Is contagious turnover overrated? Probably only if you ignore the managers.
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/contagious-turnover
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/contagious-turnover
 Date: 2026-02-05
 Tags: employee-turnover, people-management, panel-data, statistics, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-02-05-contagious-turnover/
@@ -1579,7 +1579,7 @@ To strengthen the conclusions in future iterations, the gold standard would be a
 ---
 
 # Luck, cutoffs, and the stories we tell about success
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/matthew-effect-and-success-stories
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/matthew-effect-and-success-stories
 Date: 2026-01-23
 Tags: meritocracy, cumulative-advantage, education, inequality
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-01-23-matthew-effect-and-success-stories/
@@ -1605,7 +1605,7 @@ And of course, school entry dates are just one example. We could start with bein
 ---
 
 # Making abstract ideas digestible with knobs and sliders
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/dunning-kruger-effect-simulation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/dunning-kruger-effect-simulation
 Date: 2026-01-20
 Tags: learning-and-development, generative-ai, ai, cognitive-biases
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-01-20-dunning-kruger-effect-simulation/
@@ -1633,7 +1633,7 @@ If you’ve come across or built simple simulators, demos, or visualizations tha
 ---
 
 # Can flatter orgs undermine people management?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/span-of-control-and-managerial-behavior
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/span-of-control-and-managerial-behavior
 Date: 2026-01-08
 Tags: organizational-design, leadership, people-management, future-of-work
 Original post: https://blog-about-people-analytics.netlify.app/posts/2026-01-08-span-of-control-and-managerial-behavior/
@@ -1921,7 +1921,7 @@ if __name__ == "__main__":
 ---
 
 # Refactoring the "Garden of Forking Paths"
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/garden-of-forking-paths-redo
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/garden-of-forking-paths-redo
 Date: 2025-12-17
 Tags: career-development, time-series
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-17-garden-of-forking-paths-redo/
@@ -1955,7 +1955,7 @@ Not sure if you’ll be interested in using this updated version of the image - 
 ---
 
 # Hidden DAG geometry of version control
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/git-and-dags
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/git-and-dags
 Date: 2025-12-15
 Tags: data-science, causal-inference, network-analysis, critical-thinking
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-15-git-and-dags/
@@ -1980,7 +1980,7 @@ If interested, check out, for example, the [following video](https://www.youtube
 ---
 
 # Signal vs. Noise: Why we can’t yet identify effective nudges
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/nudge-effectiveness
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/nudge-effectiveness
 Date: 2025-12-15
 Tags: behavioral-science, meta-analysis, research-methods
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-15-nudge-effectiveness/
@@ -2014,7 +2014,7 @@ For policy and practice, we must stop assuming "what works" and demand fundament
 ---
 
 # When facial similarity meets Network Science
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ona-and-face-similarity
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ona-and-face-similarity
 Date: 2025-12-11
 Tags: psychology, network-analysis, ai, fun-with-data
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-11-ona-and-face-similarity/
@@ -2050,7 +2050,7 @@ P.S. Out of curiosity, I also ran the analysis with my own photo, and it seems I
 ---
 
 # Loftus & Palmer 2.0: Replicating human bias in AI
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ai-suggestibility
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ai-suggestibility
 Date: 2025-12-07
 Tags: generative-ai, behavioral-science, data-science, cognitive-science
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-07-ai-suggestibility/
@@ -2098,7 +2098,7 @@ P.S. By coincidence, while working on this post I stumbled upon a much more rigo
 ---
 
 # How AI is reshaping HR-tech
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/hr-tech-ai-shift
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/hr-tech-ai-shift
 Date: 2025-12-02
 Tags: ai, generative-ai, agentic-ai, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-12-02-hr-tech-ai-shift/
@@ -2130,7 +2130,7 @@ P.S. This was also a nice test of current agentic tools (Google [Antigravity](ht
 ---
 
 # Do Insights Discovery ‘colors’ relate to self-reported skills?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/insights-discovery-and-skills
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/insights-discovery-and-skills
 Date: 2025-11-12
 Tags: personality, skills, psychometrics, validity
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-11-12-insights-discovery-and-skills/
@@ -2179,7 +2179,7 @@ Besides that, some other interesting patterns emerged. For example:
 ---
 
 # Making talk cheap: How GenAI may disrupt labor-market signalling
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/genai-and-disrupt-of-labor-market-signalling
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/genai-and-disrupt-of-labor-market-signalling
 Date: 2025-11-06
 Tags: ai, generative-ai, labor-economics, future-of-work
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-11-06-genai-and-disrupt-of-labor-market-signalling/
@@ -2208,7 +2208,7 @@ There are obvious limitations - the study focuses on one platform and one type o
 ---
 
 # A graph approach to reporting structures: stop wrestling recursion
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/org-stats-and-graph-analysis
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/org-stats-and-graph-analysis
 Date: 2025-10-31
 Tags: people-analytics, network-analysis, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-10-31-org-stats-and-graph-analysis/
@@ -2266,7 +2266,7 @@ out = (pd.DataFrame(rows, columns=['manager_id','direct','indirect','total'])
 ---
 
 # Can a simple coin flip help you decide and avoid overanalyzing?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/coin-flip-as-a-decision-aid
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/coin-flip-as-a-decision-aid
 Date: 2025-10-29
 Tags: decision-making, behavioral-science, cognitive-science
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-10-29-coin-flip-as-a-decision-aid/
@@ -2294,7 +2294,7 @@ Curious if anyone here has experience with this specific decision aid and how it
 ---
 
 # Getting (more) causal insights from employee survey data (without an RCT)
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/cross-lagged-panel-modeling
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/cross-lagged-panel-modeling
 Date: 2025-10-21
 Tags: employee-experience, employee-survey, causal-inference, panel-data
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-10-21-cross-lagged-panel-modeling/
@@ -2614,7 +2614,7 @@ Bottom line: CLPM can still be useful as a starting point, but directional effec
 ---
 
 # Big consultancies in the skills semantic space
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/big-consultancies-in-the-skills-semantic-space
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/big-consultancies-in-the-skills-semantic-space
 Date: 2025-10-15
 Tags: skills, embeddings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-10-15-big-consultancies-in-the-skills-semantic-space/
@@ -2642,7 +2642,7 @@ P.S. The whole exercise reminded me of a [*semantic differential*](https://en.wi
 ---
 
 # Testing my GenAI skepticism
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ai-powered-data-exploration-assistant
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ai-powered-data-exploration-assistant
 Date: 2025-10-09
 Tags: agentic-ai, data-science, generative-ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-10-09-ai-powered-data-exploration-assistant/
@@ -2687,7 +2687,7 @@ P.S. If you’re interested, you can grab the code behind the app from my [GitHu
 ---
 
 # Conspiracy theories as a specific example of overfitting?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/conspiracy-theories-and-overfitting
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/conspiracy-theories-and-overfitting
 Date: 2025-09-29
 Tags: cognitive-science, data-science, critical-thinking, well-being
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-29-conspiracy-theories-and-overfitting/
@@ -2716,7 +2716,7 @@ P.S. This is also a topic close to me personally. In my Ph.D. dissertation, I lo
 ---
 
 # Agentic AI for visual data exploration
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/agentic-ai-for-visual-data-exploration
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/agentic-ai-for-visual-data-exploration
 Date: 2025-09-24
 Tags: agentic-ai, generative-ai, organizational-culture, employee-experience, glassdoor
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-24-agentic-ai-for-visual-data-exploration/
@@ -2757,7 +2757,7 @@ P.P.S. Click the GitHub icon in the top right corner of the app to get to the co
 ---
 
 # Can genAI help people managers lead better?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/genai-and-leadership-judgement
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/genai-and-leadership-judgement
 Date: 2025-09-22
 Tags: leadership, generative-ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-22-genai-and-leadership-judgement/
@@ -2894,7 +2894,7 @@ The possible takeaway? With full awareness of the obvious limitations of this sm
 ---
 
 # The hidden trade-offs in corporate culture?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/corporate-culture-trade-offs
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/corporate-culture-trade-offs
 Date: 2025-09-17
 Tags: organizational-culture, network-analysis, employee-experience, glassdoor
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-17-corporate-culture-trade-offs/
@@ -3035,7 +3035,7 @@ datatable(
 ---
 
 # Dimensional Traits vs. Personality Types
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/dimensional-traits-vs-personality-types
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/dimensional-traits-vs-personality-types
 Date: 2025-09-09
 Tags: personality, big-five, machine-learning, psychometrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-09-dimensional-traits-vs-personality-types/
@@ -3057,7 +3057,7 @@ If you find it useful for your teaching or training, check out the dataviz [here
 ---
 
 # When to forgive, when to close the book
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/trust-errors-learning-reflection
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/trust-errors-learning-reflection
 Date: 2025-09-09
 Tags: statistics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-09-trust-errors-learning-reflection/
@@ -3081,7 +3081,7 @@ P.S. This rant-ish post was prompted by my recent reading on causal inference, w
 ---
 
 # Big Five vs. HEXACO
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/big-five-vs-hexaco
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/big-five-vs-hexaco
 Date: 2025-09-02
 Tags: personality, big-five, validity, performance, i/o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-09-02-big-five-vs-hexaco/
@@ -3325,7 +3325,7 @@ Curious about others’ experiences with switching from the Big Five to HEXACO. 
 ---
 
 # Want to maximize your impact as a leader?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/impact-of-leaders
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/impact-of-leaders
 Date: 2025-08-21
 Tags: leadership, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-08-21-impact-of-leaders/
@@ -3359,7 +3359,7 @@ I wonder if anyone in the people analytics space has tried applying this method 
 ---
 
 # Tracking talent moves in the (in)famous 9-box grid over time
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/9-box-grid-dataviz-over-time
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/9-box-grid-dataviz-over-time
 Date: 2025-08-20
 Tags: data-visualization, hr-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-08-20-9-box-grid-dataviz-over-time/
@@ -3537,7 +3537,7 @@ Would be super grateful for any tips or suggestions on dataviz tools or approach
 ---
 
 # Adjusting priors on your “emotional radar” for smoother cross-cultural encounters
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/expressive-differences-around-the-world
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/expressive-differences-around-the-world
 Date: 2025-08-20
 Tags: communication, cross-cultural-differences
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-08-20-expressive-differences-around-the-world/
@@ -3561,7 +3561,7 @@ Sure, there’s still a lot of variation within each country, and individual dif
 ---
 
 # Happy today, richer tomorrow?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/happiness-and-income
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/happiness-and-income
 Date: 2025-07-31
 Tags: well-being, psychology, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-07-31-happiness-and-income/
@@ -3597,7 +3597,7 @@ These results thus suggest that happiness isn’t merely a byproduct of financia
 ---
 
 # How personality risks co-occur?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/how-personality-risks-co-occur
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/how-personality-risks-co-occur
 Date: 2025-07-15
 Tags: leadership, personality, psychometrics, network-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-07-15-how-personality-risks-co-occur/
@@ -3635,7 +3635,7 @@ Anything that surprised you or caught your attention?
 ---
 
 # What does a typical people manager value chain look like?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/people-manager-value-chain
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/people-manager-value-chain
 Date: 2025-07-09
 Tags: people-management, hr-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-07-09-people-manager-value-chain/
@@ -3665,7 +3665,7 @@ Would love to hear if you’ve come across any solid sources on this topic—or 
 ---
 
 # When self-selected behavior is a blessing, not a headache
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/self-selection-and-proxy-measures
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/self-selection-and-proxy-measures
 Date: 2025-07-03
 Tags: psychometrics, causal-inference, people-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-07-03-self-selection-and-proxy-measures/
@@ -3694,7 +3694,7 @@ Curious to hear how you have used indirect or behavioral indicators in your work
 ---
 
 # Are you crazy enough and in the right way to fit the craziness required by your job?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/job-fit
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-fit
 Date: 2025-06-27
 Tags: career-development, cognitive-biases
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-06-27-job-fit/
@@ -3726,7 +3726,7 @@ Definitely [worth reading](https://open.substack.com/pub/experimentalhistory/p/f
 ---
 
 # Using Doppelgänger for career pathing?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/doppelganger-for-career-pathing
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/doppelganger-for-career-pathing
 Date: 2025-06-20
 Tags: career-development, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-06-20-doppelganger-for-career-pathing/
@@ -3752,7 +3752,7 @@ P.S. The illustrative pic is from the 1998 movie *[Sliding Doors](https://en.wik
 ---
 
 # ONA as a tool for exploring the skill space in your company?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ona-skills-exploration
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ona-skills-exploration
 Date: 2025-06-20
 Tags: skills, network-analysis, career-development, learning-and-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-06-20-ona-skills-exploration/
@@ -3776,7 +3776,7 @@ Curious if anyone’s already used ONA techniques with skill data like this—es
 ---
 
 # Novel way to measure leadership skills via causal inference (and AI)?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/causal-impact-of-leadership-skills
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/causal-impact-of-leadership-skills
 Date: 2025-06-12
 Tags: leadership, psychometrics, causal-inference, ai, generative-ai, agentic-ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-06-12-causal-impact-of-leadership-skills/
@@ -3814,7 +3814,7 @@ P.S. Thanks to my boss, Nadzeya Laurentsyeva, for pointing me to this interestin
 ---
 
 # An interactive demo of Computerized Adaptive Testing
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/cat-and-irt-demo
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/cat-and-irt-demo
 Date: 2025-06-02
 Tags: psychometrics, bayesian-statistics, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-06-02-cat-and-irt-demo/
@@ -3843,7 +3843,7 @@ Here’s the [link](https://cat-irt-demo.streamlit.app/) to the app (given that 
 ---
 
 # Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/predictors-of-stay-intentions-vs-actual-resignations
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/predictors-of-stay-intentions-vs-actual-resignations
 Date: 2025-05-28
 Tags: employee-turnover, behavioral-science, predictive-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-05-28-predictors-of-stay-intentions-vs-actual-resignations/
@@ -3873,7 +3873,7 @@ Curious if anyone has done a similar analysis on their data and put the findings
 ---
 
 # Beyond prediction: Exploiting organizational events for causal inference in people analytics
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/causal-inference-in-people-analytics
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/causal-inference-in-people-analytics
 Date: 2025-05-21
 Tags: causal-inference, experiments, data-science, people-analytics, python, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-05-21-causal-inference-in-people-analytics/
@@ -4140,7 +4140,7 @@ A [GitHub repository](https://github.com/lstehlik2809/Beyond-Prediction-Exploiti
 ---
 
 # Can a simple algorithm read your personality from your face?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/detecting-personality-in-the-face
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/detecting-personality-in-the-face
 Date: 2025-05-20
 Tags: personality, big-five, machine-learning, python, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-05-20-detecting-personality-in-the-face/
@@ -4327,7 +4327,7 @@ It worked surprisingly well given how simple the approach is—at least for me a
 ---
 
 # What actually makes us happier?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/systematic-review-of-happiness-interventions
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/systematic-review-of-happiness-interventions
 Date: 2025-05-06
 Tags: well-being, psychology, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-05-06-systematic-review-of-happiness-interventions/
@@ -4436,7 +4436,7 @@ print(g)
 ---
 
 # I’ve finally lived to see the day…
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/people-analytics-and-market-basket-analysis
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/people-analytics-and-market-basket-analysis
 Date: 2025-04-30
 Tags: machine-learning, teams, motivation, personality
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-30-people-analytics-and-market-basket-analysis/
@@ -4458,7 +4458,7 @@ The long wait was probably simply because the PA problems I’d worked on hadn�
 ---
 
 # RWA – A go-to tool for key drivers analysis of employee survey data?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/rwa
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/rwa
 Date: 2025-04-22
 Tags: employee-survey, regression-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-22-rwa/
@@ -4833,7 +4833,7 @@ ggplot2::ggplot(final_results, aes(x = Predictor, y = RescaledWeight)) +
 ---
 
 # Why do psychologists disagree—even when they use the same data and methods?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/scientific-divides-and-cognitive-traits
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/scientific-divides-and-cognitive-traits
 Date: 2025-04-18
 Tags: psychology, critical-thinking, cognitive-science, diversity
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-18-scientific-divides-and-cognitive-traits/
@@ -4861,7 +4861,7 @@ The study thus serves as a valuable reminder that scientific disagreements may n
 ---
 
 # Causal insights with no code?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/visual-diff-in-diff
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/visual-diff-in-diff
 Date: 2025-04-15
 Tags: data-science, causal-inference, difference-in-differences, people-analytics, evidence-based-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-15-visual-diff-in-diff/
@@ -4891,7 +4891,7 @@ What do you think? Could this be a useful piece of the puzzle in boosting data l
 ---
 
 # Putting the "ideal" personality for high work engagement in a broader context
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/personality-and-work-engagement
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/personality-and-work-engagement
 Date: 2025-04-08
 Tags: employee-engagement, personality, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-08-personality-and-work-engagement/
@@ -4935,7 +4935,7 @@ In short, personality matters, but it seems to be far from the one-ideal-persona
 ---
 
 # What topics might you encounter at the SIOP 2025 conference?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/siop-2025-conference-events
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/siop-2025-conference-events
 Date: 2025-04-04
 Tags: siop, i/o-psychology, topic-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-04-04-siop-2025-conference-events/
@@ -4959,7 +4959,7 @@ To everyone attending, enjoy the conference—and please share some summaries on
 ---
 
 # Did the Nobel Prize put causal inference on the public radar?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/nobel-prize-and-causal-inference-popularity
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/nobel-prize-and-causal-inference-popularity
 Date: 2025-03-30
 Tags: causal-inference, segmented-regression, time-series, bayesian-statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-03-30-nobel-prize-and-causal-inference-popularity/
@@ -5445,7 +5445,7 @@ posterior_plots(model=data_analysis_model, search_term_name = "data_analysis")
 ---
 
 # How to get causal interpretation for the Employee Attrition dataset?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/econml-and-employee-attriton
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/econml-and-employee-attriton
 Date: 2025-03-18
 Tags: causal-inference, python, employee-turnover
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-03-18-econml-and-employee-attriton/
@@ -5479,7 +5479,7 @@ IMO, pretty cool stuff. It seems we indeed live not only in an AI revolution but
 ---
 
 # How to analyze employee survey results with less (selection) bias?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/psw-and-selection-bias-in-employee-surveys
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/psw-and-selection-bias-in-employee-surveys
 Date: 2025-03-10
 Tags: employee-survey, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-03-10-psw-and-selection-bias-in-employee-surveys/
@@ -5683,7 +5683,7 @@ Have you tried similar methods in your employee survey analyses? What's your exp
 ---
 
 # Are age and gender variables really so non-actionable in the context of People Analytics?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/non-actionable-vars-in-pa
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/non-actionable-vars-in-pa
 Date: 2025-03-05
 Tags: people-analytics, hr-metrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-03-05-non-actionable-vars-in-pa/
@@ -5716,7 +5716,7 @@ What’s your perspective? Have you seen an example of turning demographic data 
 ---
 
 # Experiencing and seeing team similarities and differences
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/team-maps
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/team-maps
 Date: 2025-02-26
 Tags: personality, teams, data-visualization, feedback
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-02-26-team-maps/
@@ -5744,7 +5744,7 @@ To sum it up, if you run team development workshops, give it a try—your client
 ---
 
 # A way to make prediction models more precise and interpretable at the same time?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/causal-identification-and-feature-selection
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/causal-identification-and-feature-selection
 Date: 2025-02-13
 Tags: causal-inference, machine-learning, predictive-analytics, interpretability
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-02-13-causal-identification-and-feature-selection/
@@ -5774,7 +5774,7 @@ Does anyone have experience with this specific approach to feature selection? Fe
 ---
 
 # And what are your career hurdles?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/career-hurdles
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/career-hurdles
 Date: 2025-02-05
 Tags: career-development, i/o-psychology, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-02-05-career-hurdles/
@@ -5870,7 +5870,7 @@ P.S. As is evident from the code snippet above, the attached chart isn't straigh
 ---
 
 # How variations in analytic choices affect results?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/analytical-choices-and-variability
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/analytical-choices-and-variability
 Date: 2025-02-02
 Tags: open-science, data-science
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-02-02-analytical-choices-and-variability/
@@ -5896,7 +5896,7 @@ P.S. If you want to see how your own approach would shape the results, you can d
 ---
 
 # Does your personality interfere with your self-awareness?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/self-awareness-and-personality
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/self-awareness-and-personality
 Date: 2025-01-20
 Tags: personality, feedback
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-01-20-self-awareness-and-personality/
@@ -5952,7 +5952,7 @@ Caveat: The sample used was very small (just 72 people!) and highly specific—m
 ---
 
 # We are probably more similar - and different - than expected
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/personality-and-cultural-values
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/personality-and-cultural-values
 Date: 2025-01-17
 Tags: personality, organizational-culture, multilevel-modeling, cross-cultural-differences
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-01-17-personality-and-cultural-values/
@@ -5981,7 +5981,7 @@ All this suggests that the next time you feel an urge to guess someone’s perso
 ---
 
 # Unexpected protective effect of having a good manager?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/managerial-quality
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/managerial-quality
 Date: 2025-01-15
 Tags: people-management, employee-turnover, causal-inference, statistics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-01-15-managerial-quality/
@@ -6001,7 +6001,7 @@ Now, besides cross-validating the results, I am trying to understand the potenti
 ---
 
 # Self-Leadership: A New Superpower?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/self-leadership
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/self-leadership
 Date: 2025-01-09
 Tags: leadership, performance, remote-work, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2025-01-09-self-leadership/
@@ -6027,7 +6027,7 @@ And here's some food for thought to end on: With companies implementing flexible
 ---
 
 # Stop. Start. Continue.
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/new-years-resolution
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/new-years-resolution
 Date: 2024-12-30
 Tags: goal-setting, learning-and-development, fun-with-data
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-12-30-new-years-resolution/
@@ -6055,7 +6055,7 @@ More importantly, whatever stops, starts, and continues make it onto your New Ye
 ---
 
 # Divorce usually impacts both sides - but does that hold true for Brexit?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/brexit-uk-eurozone
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/brexit-uk-eurozone
 Date: 2024-12-15
 Tags: causal-inference, fun-with-data
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-12-15-brexit-uk-eurozone/
@@ -6302,7 +6302,7 @@ plt.show()
 ---
 
 # "A new broom sweeps clean"
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/managers-and-performance-evaluations
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/managers-and-performance-evaluations
 Date: 2024-12-12
 Tags: performance-management, employee-survey, i/o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-12-12-managers-and-performance-evaluations/
@@ -6330,7 +6330,7 @@ Curious if anyone has practical experiences with systematically studying the mec
 ---
 
 # Not all workplace relationships are created equal when it comes to retaining talent
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/instrumental-and-expressive-networks
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/instrumental-and-expressive-networks
 Date: 2024-11-21
 Tags: network-analysis, employee-turnover, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-11-21-instrumental-and-expressive-networks/
@@ -6357,7 +6357,7 @@ While there are some limitations to consider - such as the relatively small numb
 ---
 
 # ChatGPT as a new email writing coach?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/chatgpt-emails-and-causalpy
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/chatgpt-emails-and-causalpy
 Date: 2024-11-13
 Tags: communication, generative-ai, fun-with-data, causal-inference, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-11-13-chatgpt-emails-and-causalpy/
@@ -6474,7 +6474,7 @@ az.summary(last_cumulative_estimate)
 ---
 
 # How does your company stack up in the Big Nine Cultural Values?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/culture-500
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/culture-500
 Date: 2024-11-11
 Tags: organizational-culture, employee-survey, glassdoor, nlp
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-11-11-culture-500/
@@ -6516,7 +6516,7 @@ To learn more about the methodology behind the tool, check out [this site](https
 ---
 
 # Do you use XmR charts for People Analytics use cases?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/xmr-charts-in-people-analytics
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/xmr-charts-in-people-analytics
 Date: 2024-10-30
 Tags: time-series, statistics, data-visualization
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-10-30-xmr-charts-in-people-analytics/
@@ -6548,7 +6548,7 @@ P.S. The attached charts were created with [Xmrit, a free online tool](https://c
 ---
 
 # Do people’s personalities vary across different jobs?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/job-personality-fit
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-personality-fit
 Date: 2024-10-29
 Tags: personality, career-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-10-29-job-personality-fit/
@@ -6581,7 +6581,7 @@ If you’d like to try the tool yourself, here’s the [link](https://apps.psych
 ---
 
 # Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/personality-and-non-linearities
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/personality-and-non-linearities
 Date: 2024-10-26
 Tags: personality, predictive-analytics, regression-analysis, machine-learning, interpretability
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-10-26-personality-and-non-linearities/
@@ -6764,7 +6764,7 @@ ggplot()+
 ---
 
 # Simulating the "survivorship" effect in employee satisfaction data over time
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/tenure-vs-satisfaction
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/tenure-vs-satisfaction
 Date: 2024-10-02
 Tags: employee-turnover, employee-satisfaction, simulation, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-10-02-tenure-vs-satisfaction/
@@ -6935,7 +6935,7 @@ Although this mechanism seems to provide a plausible answer to the reader's ques
 ---
 
 # Motivation vs. Performance: What causes what?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/performance-vs-motivation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/performance-vs-motivation
 Date: 2024-09-20
 Tags: performance, motivation, meta-analysis, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-09-20-performance-vs-motivation/
@@ -6972,7 +6972,7 @@ For a deeper dive into this research, check out the full article [here](https://
 ---
 
 # Why are introverts often described in terms of negative emotionality, and should they be?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/extraversion-vs-neuroticism
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/extraversion-vs-neuroticism
 Date: 2024-09-18
 Tags: personality, big-five
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-09-18-extraversion-vs-neuroticism/
@@ -7160,7 +7160,7 @@ These patterns could indeed provide an answer to the question posed in the title
 ---
 
 # Are people during exit surveys more honest in their responses than in engagement surveys?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/honesty-in-engagement-vs-exit-surveys
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/honesty-in-engagement-vs-exit-surveys
 Date: 2024-09-12
 Tags: employee-experience, employee-survey, psychometrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-09-12-honesty-in-engagement-vs-exit-surveys/
@@ -7198,7 +7198,7 @@ Despite all the uncertainty, it was a very useful exercise to confront my though
 ---
 
 # Unpacking surprises in the women’s 100m World Championships
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/sprint
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/sprint
 Date: 2024-09-04
 Tags: fun-with-data, project-management, performance, statistics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-09-04-sprint/
@@ -7459,7 +7459,7 @@ DT::datatable(
 ---
 
 # People may signal their exit intentions not only by their actions but also by their inactions
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/survey-participation-and-attrition-prediction
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/survey-participation-and-attrition-prediction
 Date: 2024-08-29
 Tags: employee-turnover, employee-survey
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-08-29-survey-participation-and-attrition-prediction/
@@ -7489,7 +7489,7 @@ Have you noticed any other forms of inaction that might predict an intention to 
 ---
 
 # Insights from the Team Assessment Survey results of C-suite teams
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/tas-c-suit-teams
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/tas-c-suit-teams
 Date: 2024-08-29
 Tags: teams, network-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-08-29-tas-c-suit-teams/
@@ -7581,7 +7581,7 @@ P.S. Kudos to ChatGPT for extracting the data from the screenshot of the data ta
 ---
 
 # Kohonen's Self-Organizing Maps
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/kohonen-self-organizing-maps
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/kohonen-self-organizing-maps
 Date: 2024-08-21
 Tags: data-visualization, data-science, machine-learning, personality, big-five, work-life-balance
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-08-21-kohonen-self-organizing-maps/
@@ -7744,7 +7744,7 @@ If you find yourself in a similar situation, definitely give it a try. Happy exp
 ---
 
 # Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/linkedin-contacts-job-positions
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/linkedin-contacts-job-positions
 Date: 2024-08-15
 Tags: nlp, generative-ai, topic-analysis, linkedin, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-08-15-linkedin-contacts-job-positions/
@@ -7888,7 +7888,7 @@ P.S. If interested, feel free to check out [one of my earlier apps](https://blog
 ---
 
 # Does a stick work?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/job-insecurity-and-behavioral-outcomes
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-insecurity-and-behavioral-outcomes
 Date: 2024-07-01
 Tags: motivation, meta-analysis, performance-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-07-01-job-insecurity-and-behavioral-outcomes/
@@ -7918,7 +7918,7 @@ For more interesting details of the study, check the original paper [here](https
 ---
 
 # Using network graph modeling to capture overarching thematic clusters in employee comments
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/network-graph-employee-comments
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/network-graph-employee-comments
 Date: 2024-06-24
 Tags: employee-survey, topic-analysis, network-analysis, generative-ai, ai, python, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-06-24-network-graph-employee-comments/
@@ -8228,7 +8228,7 @@ networkD3::forceNetwork(
 ---
 
 # Can there be too much cognitive diversity in teams?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/cognitive-diversity
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/cognitive-diversity
 Date: 2024-06-04
 Tags: diversity, cognitive-science, teams
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-06-04-cognitive-diversity/
@@ -8253,7 +8253,7 @@ These results thus suggest that good old "moderation" might be a sound guiding p
 ---
 
 # Estimating body height using an inventory?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/body-height-inventory
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/body-height-inventory
 Date: 2024-05-30
 Tags: psychometrics, learning-and-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-05-30-body-height-inventory/
@@ -8281,7 +8281,7 @@ The inventory is in Czech, but the online translation in Chrome does a pretty go
 ---
 
 # What makes people more likely to comment on a question in an employee survey?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/probability-of-comments-in-a-survey
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/probability-of-comments-in-a-survey
 Date: 2024-05-21
 Tags: employee-survey, employee-experience, machine-learning, interpretability, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-05-21-probability-of-comments-in-a-survey/
@@ -8478,7 +8478,7 @@ for item in items:
 ---
 
 # NetLogo: Don’t tell me, show me
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/netlogo
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/netlogo
 Date: 2024-04-28
 Tags: simulation, learning-and-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-04-28-netlogo/
@@ -8512,7 +8512,7 @@ Btw, I can't wait for my son to stumble upon the topic of how order can arise wi
 ---
 
 # Feedback can be a gift or a curse...
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/feedback-effect-on-performance
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/feedback-effect-on-performance
 Date: 2024-04-21
 Tags: feedback, performance, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-04-21-feedback-effect-on-performance/
@@ -8540,7 +8540,7 @@ The results showed that the effectiveness of FI indeed tends to decrease as the 
 ---
 
 # If you are a leader, don't be afraid to be a nice one
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/nice-leaders
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/nice-leaders
 Date: 2024-03-21
 Tags: personality, big-five, leadership
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-03-21-nice-leaders/
@@ -8567,7 +8567,7 @@ The article also contains other interesting results of various moderation and po
 ---
 
 # Does agile pay off?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/agile-project-management
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/agile-project-management
 Date: 2024-03-06
 Tags: i/o-psychology, project-management, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-03-06-agile-project-management/
@@ -8599,7 +8599,7 @@ So pretty good news for APM proponents, however, it's good to keep in mind that 
 ---
 
 # A showdown between the Big Five, Enneagram, MBTI, and astrology
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/personality-frameworks-contest
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/personality-frameworks-contest
 Date: 2024-02-29
 Tags: personality, validity, big-five, critical-thinking
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-02-29-personality-frameworks-contest/
@@ -8631,7 +8631,7 @@ Note: [Link](https://www.scientificamerican.com/article/personality-tests-arent-
 ---
 
 # Does your team belong among “light bulbs” or “wines”?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/expected-remaining-time
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/expected-remaining-time
 Date: 2024-02-26
 Tags: employee-turnover, statistics, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-02-26-expected-remaining-time/
@@ -8830,7 +8830,7 @@ remaining_time_bootstraping_plotting(data=data_wine)
 ---
 
 # Biases introduced by video backgrounds during video interviews
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/video-interviews-and-biases
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/video-interviews-and-biases
 Date: 2024-02-15
 Tags: employee-selection, cognitive-biases
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-02-15-video-interviews-and-biases/
@@ -8857,7 +8857,7 @@ These results suggest that standardizing video backgrounds during virtual interv
 ---
 
 # Creating new candidate topic labels on the fly during topic analysis with GenAI
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/topic-analysis-with-genai
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/topic-analysis-with-genai
 Date: 2024-02-05
 Tags: topic-analysis, employee-survey, generative-ai, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-02-05-topic-analysis-with-genai/
@@ -8946,7 +8946,7 @@ for topic in topic_labels:
 ---
 
 # Fostering psychological safety in the workplace
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/psychological-safety-and-rct
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/psychological-safety-and-rct
 Date: 2024-01-21
 Tags: teams, experiments, evidence-based-management, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-01-21-psychological-safety-and-rct/
@@ -8986,7 +8986,7 @@ For more details, see the [original paper](https://papers.ssrn.com/sol3/papers.c
 ---
 
 # Fighting with faking in personality assessments
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/personality-assessments-and-faking
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/personality-assessments-and-faking
 Date: 2024-01-11
 Tags: personality, psychometrics, validity
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-01-11-personality-assessments-and-faking/
@@ -9013,7 +9013,7 @@ So, although FC measures are not completely immune to faking, they seem to show 
 ---
 
 # How should teams be designed to be creative and innovative?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/team-design-creativity-innovation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/team-design-creativity-innovation
 Date: 2024-01-08
 Tags: teams, innovation, leadership, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-01-08-team-design-creativity-innovation/
@@ -9112,7 +9112,7 @@ What might be the practical implications for managers?
 ---
 
 # Do high-low range goals aid in maintaining motivation over time?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/goal-setting
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/goal-setting
 Date: 2024-01-02
 Tags: goal-setting, motivation
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-01-02-goal-setting/
@@ -9132,7 +9132,7 @@ However, given the low-stakes circumstances, the minimal investment required, th
 ---
 
 # Strength-based development and power-law vs. normal distribution of performance
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/strength-based-development-and-distributions
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/strength-based-development-and-distributions
 Date: 2024-01-02
 Tags: performance-management, learning-and-development, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2024-01-02-strength-based-development-and-distributions/
@@ -9258,7 +9258,7 @@ Given these results, one should feel motivated to identify among the mix of fact
 ---
 
 # Does GenAI make me a better (more rational) thinker?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/gai-simulation-work-habits
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/gai-simulation-work-habits
 Date: 2023-12-13
 Tags: time-management, generative-ai, critical-thinking, decision-making
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-12-13-gai-simulation-work-habits/
@@ -9280,7 +9280,7 @@ What about you? What work habits has GenAI changed in your case, if any?
 ---
 
 # Reflective and intuitive thinking styles
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/reflective-and-intuitive-thinking-styles
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/reflective-and-intuitive-thinking-styles
 Date: 2023-12-12
 Tags: meta-analysis, performance, employee-selection, learning-and-development, psychometrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-12-12-reflective-and-intuitive-thinking-styles/
@@ -9302,7 +9302,7 @@ It seems that a reflective thinking style may bear some extra clues to workplace
 ---
 
 # Link between the Big Five personality traits and earnings
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/big-five-personality-and-earnings
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/big-five-personality-and-earnings
 Date: 2023-11-29
 Tags: personality, labor-economics, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-29-big-five-personality-and-earnings/
@@ -9327,7 +9327,7 @@ I know of at least two aspects of my personality that are unnecessarily costing 
 ---
 
 # How to support the adoption of Evidence-Based Management with a specialized GPT bot
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ebm-gpt-bot
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ebm-gpt-bot
 Date: 2023-11-29
 Tags: evidence-based-management, i/o-psychology, generative-ai, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-29-ebm-gpt-bot/
@@ -9351,7 +9351,7 @@ Give it a try and let me know what you think about this approach. Or even better
 ---
 
 # Rebuilding an employee survey with the help of NLP tools
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/rebuilding-a-survey-with-the-help-of-nlp-tools
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/rebuilding-a-survey-with-the-help-of-nlp-tools
 Date: 2023-11-27
 Tags: employee-survey, nlp, generative-ai, psychometrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-27-rebuilding-a-survey-with-the-help-of-nlp-tools/
@@ -9373,7 +9373,7 @@ I know this use case is not that common, but IMO still enough to make it worth k
 ---
 
 # Evidence on the presence of gender bias in selection settings
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/gender-gap-in-hiring-decisions
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/gender-gap-in-hiring-decisions
 Date: 2023-11-22
 Tags: diversity, experiments, meta-analysis, open-science, time-series
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-22-gender-gap-in-hiring-decisions/
@@ -9399,7 +9399,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-22-
 ---
 
 # Surprising finding on the impact of job demands and control on workers’ well-being
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/job-demands-job-control-wellbeing
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-demands-job-control-wellbeing
 Date: 2023-11-18
 Tags: well-being, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-18-job-demands-job-control-wellbeing/
@@ -9423,7 +9423,7 @@ At the same time, however, the authors themselves emphasize that “*[these] fin
 ---
 
 # Personas based on ML local interpretation algorithms
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/personas-based-on-ml-local-interpretation-algos
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/personas-based-on-ml-local-interpretation-algos
 Date: 2023-11-09
 Tags: machine-learning, interpretability, data-visualization, r, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-11-09-personas-based-on-ml-local-interpretation-algos/
@@ -9755,7 +9755,7 @@ Maybe you'll find the method described here useful in one of your ML projects. H
 ---
 
 # Sentiment analysis of employee survey comments using zero-shot classification
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/sentiment-analysis-validation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/sentiment-analysis-validation
 Date: 2023-10-24
 Tags: machine-learning, ai, nlp, employee-survey, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-10-24-sentiment-analysis-validation/
@@ -9853,7 +9853,7 @@ df['sentiment_score_mixed'] = prediction.apply(lambda x: x['scores'][x['labels']
 ---
 
 # Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/nlp-llm-and-onboarding
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/nlp-llm-and-onboarding
 Date: 2023-10-23
 Tags: employee-experience, nlp, generative-ai, embeddings, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-10-23-nlp-llm-and-onboarding/
@@ -9875,7 +9875,7 @@ If you want to check out the code behind the app, you can find it in [this GitHu
 ---
 
 # Exploration vs. Exploitation trade-off in our calendars
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/exploration-vs-exploitation-tradeoff
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/exploration-vs-exploitation-tradeoff
 Date: 2023-09-24
 Tags: time-management, decision-making
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-09-24-exploration-vs-exploitation-tradeoff/
@@ -9909,7 +9909,7 @@ vembedr::embed_youtube("OwKj-wgXteo")
 ---
 
 # Harnessing Bayesian analysis for business process simulation
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/bayesian-simulation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/bayesian-simulation
 Date: 2023-09-17
 Tags: bayesian-statistics, simulation, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-09-17-bayesian-simulation/
@@ -10068,7 +10068,7 @@ And it doesn't have to end there. For example, this estimate can be combined wit
 ---
 
 # A plausible model of data-generating process eats ML algorithms for breakfast
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/dag-and-double-ml
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/dag-and-double-ml
 Date: 2023-09-03
 Tags: causal-inference, double-machine-learning, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-09-03-dag-and-double-ml/
@@ -10299,7 +10299,7 @@ dml_plr_xgb.confint()
 ---
 
 # Embedding R (or Python) ML models in Power BI dashboards
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/r-and-power-bi
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/r-and-power-bi
 Date: 2023-08-22
 Tags: data-visualization, r, python, machine-learning
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-08-22-r-and-power-bi/
@@ -10624,7 +10624,7 @@ This completed the work on our local computer. You can download the final dashbo
 ---
 
 # Vocational interests don't seem so uninteresting after all
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/vocational-interests
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/vocational-interests
 Date: 2023-07-20
 Tags: career-development, meta-analysis, validity, performance
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-07-20-vocational-interests/
@@ -10652,7 +10652,7 @@ Note: The attached schemes are taken from another excellent resource on this top
 ---
 
 # Induced centralities
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/induced-centrality
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/induced-centrality
 Date: 2023-07-14
 Tags: network-analysis, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-07-14-induced-centrality/
@@ -10832,7 +10832,7 @@ ggraph::ggraph(g, layout = "kk") + # other available layouts: 'star', 'circle', 
 ---
 
 # Searching & querying AIHR blog posts on People Analytics topics
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/searching-and-querying-aihr-blog-posts
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/searching-and-querying-aihr-blog-posts
 Date: 2023-07-11
 Tags: people-analytics, embeddings, learning-and-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-07-11-searching-and-querying-aihr-blog-posts/
@@ -10852,7 +10852,7 @@ Last but not least, a big "thank you" goes to AIHR and all the contributing auth
 ---
 
 # Using Bayesian shrinkage in reporting employee turnover
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/bayesian-shrinkage
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/bayesian-shrinkage
 Date: 2023-07-03
 Tags: employee-turnover, hr-metrics, bayesian-statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-07-03-bayesian-shrinkage/
@@ -10991,7 +10991,7 @@ If you are trying to deal with this effect in your reporting practice, can you s
 ---
 
 # A bet on a new job
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/job-comparator
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-comparator
 Date: 2023-06-28
 Tags: career-development, bayesian-statistics, r, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-06-28-job-comparator/
@@ -11025,7 +11025,7 @@ If you have at least two job offers to choose from, you may find the app as usef
 ---
 
 # Themes in Deloitte's Global Human Capital Trends between 2011 and 2023
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/deloitte-hc-trends-themes
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/deloitte-hc-trends-themes
 Date: 2023-06-27
 Tags: future-of-work, generative-ai, r, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-06-27-deloitte-hc-trends-themes/
@@ -11063,7 +11063,7 @@ If you would like to check the analysis output interactively and in greater deta
 ---
 
 # Team-level predictors of innovation at work
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/team-level-predictors-of-innovation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/team-level-predictors-of-innovation
 Date: 2023-06-22
 Tags: innovation, teams, meta-analysis, people-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-06-22-team-level-predictors-of-innovation/
@@ -11127,7 +11127,7 @@ If that's true, not sure whether it's good news or bad news for companies' innov
 ---
 
 # Latent Class Analysis of responses from employee surveys
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/latent-class-analysis
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/latent-class-analysis
 Date: 2023-06-19
 Tags: psychometrics, employee-survey, people-analytics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-06-19-latent-class-analysis/
@@ -11372,7 +11372,7 @@ It would certainly be possible to delve deeper into the results, but for a basic
 ---
 
 # Use of Bayesian networks in people analytics?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/bayesian-networks-in-people-analytics
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/bayesian-networks-in-people-analytics
 Date: 2023-06-05
 Tags: bayesian-statistics, people-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-06-05-bayesian-networks-in-people-analytics/
@@ -11399,7 +11399,7 @@ However, when searching for information about this method, we found that it is n
 ---
 
 # Another positive effect of mindfulness meditation on the horizon?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/mindfulness-and-objectivity
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/mindfulness-and-objectivity
 Date: 2023-06-05
 Tags: decision-making, well-being, experiments
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-06-05-mindfulness-and-objectivity/
@@ -11417,7 +11417,7 @@ It's true that the observed effect was rather small and barely distinguishable f
 ---
 
 # Visualizing shifts in validity estimates for selection procedures
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/selection-procedures-validity-update
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/selection-procedures-validity-update
 Date: 2023-05-26
 Tags: i/o-psychology, validity, employee-selection, meta-analysis, data-visualization
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-05-26-selection-procedures-validity-update/
@@ -11506,7 +11506,7 @@ Maybe the visualization will come in handy for you as well when trying to "rewir
 ---
 
 # Psychometric network analysis & employee survey data
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/psychometric-network-analysis
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/psychometric-network-analysis
 Date: 2023-05-16
 Tags: network-analysis, psychometrics, employee-survey, employee-engagement, employee-satisfaction, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-05-16-psychometric-network-analysis/
@@ -11899,7 +11899,7 @@ I hope you find this post useful and that it inspires you to try PNA on your own
 ---
 
 # Employee commitment over time & regression to the mean
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/regression-to-the-mean
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/regression-to-the-mean
 Date: 2023-05-10
 Tags: people-analytics, critical-thinking, statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-05-10-regression-to-the-mean/
@@ -12043,7 +12043,7 @@ Feel free to share your own experiences and encounters with the phenomena of reg
 ---
 
 # Improving a company career site with tools from OpenAI
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/cv-job-match-career-site
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/cv-job-match-career-site
 Date: 2023-05-04
 Tags: recruitment, generative-ai, embeddings, python, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-05-04-cv-job-match-career-site/
@@ -12073,7 +12073,7 @@ P.S. It was also a good opportunity to try out [Shiny for Python by Posit](https
 ---
 
 # GPT-4's performance in the knowledge test of evidence-based HRM practices
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/gpt4-and-e-b-hrm-practices
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/gpt4-and-e-b-hrm-practices
 Date: 2023-05-01
 Tags: generative-ai, ai, evidence-based-management, hr-management, people-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-05-01-gpt4-and-e-b-hrm-practices/
@@ -12131,7 +12131,7 @@ P.S. I didn't test the reliability of GPT-4's responses, nor did I set its tempe
 ---
 
 # Employee feedback analysis using tools from OpenAI
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/employee-feedback-analysis-using-openai
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/employee-feedback-analysis-using-openai
 Date: 2023-04-28
 Tags: generative-ai, embeddings, employee-survey, topic-analysis, python, r, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-28-employee-feedback-analysis-using-openai/
@@ -12160,7 +12160,7 @@ In my opinion, it works quite well and could represent a very time- and cost-eff
 ---
 
 # When flawed statistical & causal reasoning leads to a valid conclusion anyway
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/glassdoor
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/glassdoor
 Date: 2023-04-24
 Tags: glassdoor, employee-experience, employee-satisfaction, employee-turnover
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-24-glassdoor/
@@ -12328,7 +12328,7 @@ However, it doesn't mean that there is no signal in Glassdoor ratings. For examp
 ---
 
 # In need of multilevel correlations?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/multilevel-correlation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/multilevel-correlation
 Date: 2023-04-18
 Tags: statistics, multilevel-modeling, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-18-multilevel-correlation/
@@ -12457,7 +12457,7 @@ ggplot2::ggplot(simulated_data, aes(y = JobSatisfaction, x = AgilityMaturity, co
 ---
 
 # Consequences of time management in the workplace
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/time-management
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/time-management
 Date: 2023-04-17
 Tags: time-management, meta-analysis, employee-satisfaction, performance, well-being
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-17-time-management/
@@ -12479,7 +12479,7 @@ Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-17-
 ---
 
 # Interpretable machine learning with modelStudio
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/interpretable-ml
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/interpretable-ml
 Date: 2023-04-13
 Tags: interpretability, machine-learning, predictive-analytics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-13-interpretable-ml/
@@ -12691,7 +12691,7 @@ modelStudio::modelStudio(
 ---
 
 # Estimating the impact of a new business app by piloting & method of difference-in-differences
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/app-piloting-and-dif
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/app-piloting-and-dif
 Date: 2023-04-11
 Tags: experiments, difference-in-differences, people-analytics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-app-piloting-and-dif/
@@ -12713,7 +12713,7 @@ So, next time you consider introducing a new business app, consider piloting it 
 ---
 
 # Impact of employee satisfaction at work on a company's bottom line
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/employee-satisfaction-and-company-bottom-line
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/employee-satisfaction-and-company-bottom-line
 Date: 2023-04-11
 Tags: performance, employee-satisfaction, meta-analysis, i/o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-employee-satisfaction-and-company-bottom-line/
@@ -12739,7 +12739,7 @@ Despite not being free of potential biases, these results add more weight to the
 ---
 
 # Effectiveness of interventions for encreasing employee engagement
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/engagement-interventions
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/engagement-interventions
 Date: 2023-04-11
 Tags: employee-engagement, causal-inference, meta-analysis, i/o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-engagement-interventions/
@@ -12763,7 +12763,7 @@ Have you implemented any interventions to boost engagement of employees in your 
 ---
 
 # Excel + Python = Word Document
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/excel-and-python
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/excel-and-python
 Date: 2023-04-11
 Tags: data-science, python, ai
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-excel-and-python/
@@ -12787,7 +12787,7 @@ May the Excel be with you 🙂
 ---
 
 # Employee outcomes & employees' job attitudes
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/job-attitudes-and-employee-outcomes
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/job-attitudes-and-employee-outcomes
 Date: 2023-04-11
 Tags: employee-satisfaction, performance, employee-turnover, i/o-psychology
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-job-attitudes-and-employee-outcomes/
@@ -12815,7 +12815,7 @@ What job attitudes do you regularly measure in your company? And does it pay off
 ---
 
 # Where do managers put on their rose-tinted glasses the most?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/managers-overconfidence
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/managers-overconfidence
 Date: 2023-04-11
 Tags: people-management, personality, teams
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-managers-overconfidence/
@@ -12845,7 +12845,7 @@ Obviously, the size and demographics of the sample used are limited and conclusi
 ---
 
 # Are there meeting “yes-men”?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/meeting-yes-men
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/meeting-yes-men
 Date: 2023-04-11
 Tags: meetings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-meeting-yes-men/
@@ -12870,7 +12870,7 @@ While the client couldn’t rule out that there might be some individuals fittin
 ---
 
 # Ask your personality using GPT
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/openai-personality-interpretation
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/openai-personality-interpretation
 Date: 2023-04-11
 Tags: generative-ai, ai, personality, shiny-app, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-04-11-openai-personality-interpretation/
@@ -12896,7 +12896,7 @@ I am well aware that there are clear risks associated with using a generic GPT f
 ---
 
 # Effectiveness of micro-breaks at work
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/micro-breaks
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/micro-breaks
 Date: 2023-03-05
 Tags: well-being, performance, meta-analysis
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-03-05-micro-breaks/
@@ -12918,7 +12918,7 @@ There is nothing like having a meta-analysis to back up your habits, or better y
 ---
 
 # Not-so-hidden cost of working in an office
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/distracted-time
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/distracted-time
 Date: 2023-03-01
 Tags: remote-work, collaboration, time-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-03-01-distracted-time/
@@ -12942,7 +12942,7 @@ I suppose it's a **trade-off** that can't be completely solved in principle, but
 ---
 
 # Using ChatGPT to summarize and explore employee feedback?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/chatgpt-and-employee-feedback
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/chatgpt-and-employee-feedback
 Date: 2023-02-26
 Tags: generative-ai, ai, hr-management, people-analytics, employee-engagement, employee-survey
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-26-chatgpt-and-employee-feedback/
@@ -12964,7 +12964,7 @@ Has anyone experimented with ChatGPT on similar kinds of HR data?
 ---
 
 # Where to look first when considering meeting reset?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/large-and-recurring-meetings
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/large-and-recurring-meetings
 Date: 2023-02-26
 Tags: meetings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-26-large-and-recurring-meetings/
@@ -12988,7 +12988,7 @@ As illustrated in the attached chart, large and recurring meetings can represent
 ---
 
 # Attaching numbers to best practices for instant messaging
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/slack-best-practices
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/slack-best-practices
 Date: 2023-02-09
 Tags: communication, evidence-based-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-09-slack-best-practices/
@@ -13016,7 +13016,7 @@ Would you add some other best practices for IM that have worked well for you and
 ---
 
 # HRM value chain and structural equation modeling - Moneyball case
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/hrm-value-chain-and-sem
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/hrm-value-chain-and-sem
 Date: 2023-02-08
 Tags: hr-management, people-analytics, structural-equation-modeling, bayesian-statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-hrm-value-chain-and-sem/
@@ -13659,7 +13659,7 @@ Finally, let's breathe some life into the dry numbers by watching a short clip f
 ---
 
 # Why are meetings in/effective?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/ineffective-meetings
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/ineffective-meetings
 Date: 2023-02-08
 Tags: meetings, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-ineffective-meetings/
@@ -13710,7 +13710,7 @@ P.S. In the next post let’s check what suggestions people have for improving t
 ---
 
 # How to improve effectiveness of meetings?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/meetings-improvement
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/meetings-improvement
 Date: 2023-02-08
 Tags: meetings, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-meetings-improvement/
@@ -13758,7 +13758,7 @@ Is there anything that you think is missing in the list, especially in the conte
 ---
 
 # Org chart and collaboration
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/org-chart-and-collaboration
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/org-chart-and-collaboration
 Date: 2023-02-08
 Tags: organizational-design, collaboration, data-visualization
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-org-chart-and-collaboration/
@@ -13782,7 +13782,7 @@ Would you consider such a visualization useful if you were engaged in organizati
 ---
 
 # Warning system for overloaded employees
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/overloaded-employees
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/overloaded-employees
 Date: 2023-02-08
 Tags: collaboration, layoffs, employee-turnover, employee-engagement
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-overloaded-employees/
@@ -13814,7 +13814,7 @@ What tools and/or signals do you use in your company to identify employees at in
 ---
 
 # Always messaging
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/slack-batching
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/slack-batching
 Date: 2023-02-08
 Tags: communication, collaboration, time-management, psychometrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-slack-batching/
@@ -13841,7 +13841,7 @@ There are advantages and disadvantages to both methods (face validity, accuracy,
 ---
 
 # Span of control and collaboration data
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/span-of-control
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/span-of-control
 Date: 2023-02-08
 Tags: organizational-design, collaboration, meetings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-02-08-span-of-control/
@@ -13870,7 +13870,7 @@ What factors do you typically consider when determining the optimal span of cont
 ---
 
 # Evaluation of the results of the evidence-based HRM knowledge test
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/evidence-based-hrm-knowledge-test-results
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/evidence-based-hrm-knowledge-test-results
 Date: 2023-01-08
 Tags: evidence-based-management, hr-management, people-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2023-01-08-evidence-based-hrm-knowledge-test-results/
@@ -13914,7 +13914,7 @@ Please keep in mind that the comparison presented here is not entirely an apples
 ---
 
 # Can you really unplug?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/collaboration-during-vacations
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/collaboration-during-vacations
 Date: 2022-12-17
 Tags: work-life-balance, well-being, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-12-17-collaboration-during-vacations/
@@ -13940,7 +13940,7 @@ How are you doing in this respect? And do you have any tricks that help you unpl
 ---
 
 # Evidence-based HRM knowledge test
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/evidence-based-hrm-knowledge-test
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/evidence-based-hrm-knowledge-test
 Date: 2022-12-17
 Tags: evidence-based-management, hr-management, people-management, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-12-17-evidence-based-hrm-knowledge-test/
@@ -13980,7 +13980,7 @@ Update: With more than 140 people completing the test, I was able to compare our
 ---
 
 # Signals of a good manager
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/good-manager
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/good-manager
 Date: 2022-12-17
 Tags: people-management, collaboration, performance-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-12-17-good-manager/
@@ -14019,7 +14019,7 @@ P.S. In a [later update](https://rework.withgoogle.com/blog/the-evolution-of-pro
 ---
 
 # One does not simply do a business without getting lost
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/mission-scale-from-tas
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/mission-scale-from-tas
 Date: 2022-12-07
 Tags: teams, organizational-culture, motivation, goal-setting, hr-metrics
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-12-07-mission-scale-from-tas/
@@ -14056,7 +14056,7 @@ That sounds a lot like the description of our last family trip. `r emoji::emoji(
 ---
 
 # How to quickly navigate dashboard users to what they need to know?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/change-detection
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/change-detection
 Date: 2022-12-02
 Tags: data-visualization, people-analytics, time-series, python
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-12-02-change-detection/
@@ -14082,7 +14082,7 @@ What other methods do you find useful in identifying values or changes that migh
 ---
 
 # Eisenhower matrix for meetings
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/meeting-matrix
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/meeting-matrix
 Date: 2022-11-26
 Tags: meetings, time-management, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-11-26-meeting-matrix/
@@ -14111,7 +14111,7 @@ Btw, what is your guess as to how much time you spend in each cell of the meetin
 ---
 
 # Some resources on staff retention and downsizing
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/resources-on-retention-and-downsizing
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/resources-on-retention-and-downsizing
 Date: 2022-11-26
 Tags: employee-turnover, layoffs, people-analytics, evidence-based-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-11-26-resources-on-retention-and-downsizing/
@@ -14133,7 +14133,7 @@ Feel free to share any other resources on this topic you think might be useful t
 ---
 
 # Evidence-based interventions that help reduce the gender pay gap
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/interventions-reducing-gender-pay-gap
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/interventions-reducing-gender-pay-gap
 Date: 2022-11-18
 Tags: gender-pay-gap, evidence-based-management
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-11-18-interventions-reducing-gender-pay-gap/
@@ -14184,7 +14184,7 @@ A final note. As useful as it is to know which interventions have a decent chanc
 ---
 
 # It's perfectly normal not to be normal
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/people-related-metrics-distribution
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/people-related-metrics-distribution
 Date: 2022-11-15
 Tags: hr-metrics, statistics, collaboration, performance, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-11-15-people-related-metrics-distribution/
@@ -14583,7 +14583,7 @@ P.S. If you ever need to check the shape distribution of any of your metrics, yo
 ---
 
 # A visual introduction to Bayesian belief updating
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/bayesian-belief-updating
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/bayesian-belief-updating
 Date: 2022-10-27
 Tags: bayesian-statistics, decision-making, time-series, critical-thinking, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-10-27-bayesian-belief-updating/
@@ -14758,7 +14758,7 @@ For those who would like to incorporate Bayesian reasoning into their managerial
 ---
 
 # Police cadet evaluation dataset
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/police-cadet-evaluation-dataset
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/police-cadet-evaluation-dataset
 Date: 2022-10-24
 Tags: people-analytics, data-science, recruitment, learning-and-development
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-10-24-police-cadet-evaluation-dataset/
@@ -14875,7 +14875,7 @@ If you want to download the dataset, you can do so here via the table above or v
 ---
 
 # Divide and... understand
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/conditional-inference-tree
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/conditional-inference-tree
 Date: 2022-10-18
 Tags: machine-learning, statistics, interpretability, predictive-analytics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-10-18-conditional-inference-tree/
@@ -15057,7 +15057,7 @@ P.S. Thanks to [Filip Trojan](https://www.linkedin.com/in/filip-trojan-2543a36/)
 ---
 
 # Timeboxing. Does it really work?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/timeboxing
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/timeboxing
 Date: 2022-10-11
 Tags: time-management, regression-analysis, causal-inference
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-10-11-timeboxing/
@@ -15079,7 +15079,7 @@ Using this approach and our clients' collaborative data, I looked at the relatio
 ---
 
 # Are back-to-back meetings for good or bad?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/back-to-back-meetings
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/back-to-back-meetings
 Date: 2022-09-17
 Tags: meetings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-09-17-back-to-back-meetings/
@@ -15246,7 +15246,7 @@ What is your approach to back-to-back meetings? Do you try to always have at lea
 ---
 
 # Collaboration and personality
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/collaboration-and-personality
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/collaboration-and-personality
 Date: 2022-09-17
 Tags: collaboration, communication, personality, big-five
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-09-17-collaboration-and-personality/
@@ -15446,7 +15446,7 @@ How about you? Are you able to engage in interactions and networking in a way th
 ---
 
 # Hot spots of collaboration overload and collaboration bottlenecks and how to find them
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/collaboration-overload-and-bottlenecks
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/collaboration-overload-and-bottlenecks
 Date: 2022-09-17
 Tags: collaboration, network-analysis, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-09-17-collaboration-overload-and-bottlenecks/
@@ -15633,7 +15633,7 @@ For more tips on how to leverage collaboration data in the current uncertain eco
 ---
 
 # Multilevel modeling in people analytics
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/multilevel-modeling
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/multilevel-modeling
 Date: 2022-09-17
 Tags: multilevel-modeling, bayesian-statistics, collaboration, employee-engagement, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-09-17-multilevel-modeling/
@@ -15927,7 +15927,7 @@ For an accessible discussion of this topic in the context of people analytics, i
 ---
 
 # People Analytics Challenge from Orgnostic: Plan for high growth
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/people-analytics-challenge-from-orgnostic
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/people-analytics-challenge-from-orgnostic
 Date: 2022-08-20
 Tags: recruitment, people-analytics, statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-08-20-people-analytics-challenge-from-orgnostic/
@@ -15956,7 +15956,7 @@ P.S. Oh, I almost forgot - there are exciting prizes in the form of tickets to H
 ---
 
 # The impact of the COVID pandemic on the popularity of people analytics
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/people-analytics-popularity-after-covid
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/people-analytics-popularity-after-covid
 Date: 2022-08-20
 Tags: people-analytics, remote-work, segmented-regression, time-series, bayesian-statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-08-20-people-analytics-popularity-after-covid/
@@ -16325,7 +16325,7 @@ The overall resulting picture thus partially supports the impression of many of 
 ---
 
 # Visual statistical inference
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/visual-inference-statistics
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/visual-inference-statistics
 Date: 2022-06-11
 Tags: statistics, bayesian-statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-06-11-visual-inference-statistics/
@@ -16503,7 +16503,7 @@ If you would like to apply the visual statistical inference approach to your own
 ---
 
 # Standard vs. trend predictors
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/standard-and-trend-predictors
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/standard-and-trend-predictors
 Date: 2022-02-06
 Tags: predictive-analytics, machine-learning, employee-experience, employee-engagement, employee-satisfaction, employee-turnover, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-02-06-standard-and-trend-predictors/
@@ -16531,7 +16531,7 @@ Do you have a similar experience with or just a strong hunch about other metrics
 ---
 
 # Fighting meeting overload
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/meeting-planning
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/meeting-planning
 Date: 2022-01-30
 Tags: meetings
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-01-30-meeting-planning/
@@ -16613,7 +16613,7 @@ How do you feel about finishing meetings too early or too late? Are both similar
 ---
 
 # How do we perceive probability words?
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/probability-words
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/probability-words
 Date: 2022-01-18
 Tags: statistics, cognitive-science
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-01-18-probability-words/
@@ -16794,7 +16794,7 @@ How about your perception of probability words? Is there anything in the graphs 
 ---
 
 # Hofstede's theory of cultural dimensions
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/hofstede-theory-of-cultural-dimensions
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/hofstede-theory-of-cultural-dimensions
 Date: 2022-01-03
 Tags: cross-cultural-differences, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2022-01-03-hofstede-theory-of-cultural-dimensions/
@@ -16821,7 +16821,7 @@ Check it out here ➡️ https://peopleanalyticsblog.shinyapps.io/Hofstede_Cultu
 ---
 
 # Makers' schedule and managers' schedule in collaboration data
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/makers-and-managers-schedule
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/makers-and-managers-schedule
 Date: 2021-12-19
 Tags: time-management, collaboration
 Original post: https://blog-about-people-analytics.netlify.app/posts/2021-12-19-makers-and-managers-schedule/
@@ -16856,7 +16856,7 @@ How about you? Where would you fit in? And is there anyone among you who would f
 ---
 
 # R Shiny app for LinkedIn connections analysis
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/linkedin-connections-analysis
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/linkedin-connections-analysis
 Date: 2021-12-16
 Tags: linkedin, collaboration, network-analysis, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2021-12-16-linkedin-connections-analysis/
@@ -16894,7 +16894,7 @@ P.P.S. Big thanks to [Sebastian Vorac](https://www.linkedin.com/in/sebastian-vor
 ---
 
 # Overview of predictors of voluntary employee turnover
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/overview-of-predictors-of-voluntary-employee-turnover
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/overview-of-predictors-of-voluntary-employee-turnover
 Date: 2021-12-12
 Tags: employee-turnover, meta-analysis, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2021-12-12-overview-of-predictors-of-voluntary-employee-turnover/
@@ -16927,7 +16927,7 @@ And here is the original research paper on which the shiny app is based.
 ---
 
 # Firemní audit rozdílu mezi platy mužů a žen
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/paygap
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/paygap
 Date: 2021-01-29
 Tags: gender-pay-gap, regression-analysis, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2021-01-29-paygap/
@@ -17473,7 +17473,7 @@ Skript k analýze je k dispozici ke stažení v podobě Jupyter Notebooku na mý
 ---
 
 # Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/segmentedregression
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/segmentedregression
 Date: 2020-12-31
 Tags: well-being, work-life-balance, remote-work, segmented-regression, time-series, bayesian-statistics, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2020-12-31-segmentedregression/
@@ -17951,7 +17951,7 @@ In conclusion, we can say that there is some evidence that the COVID-19 pandemic
 ---
 
 # HR analytika a odchodovost zaměstnanců
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/hr-analytika-a-odchodovost-zamstnanc
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/hr-analytika-a-odchodovost-zamstnanc
 Date: 2018-10-14
 Tags: employee-turnover, evidence-based-management, shiny-app
 Original post: https://blog-about-people-analytics.netlify.app/posts/2018-10-14-hr-analytika-a-odchodovost-zamstnanc/
@@ -18105,7 +18105,7 @@ Jak je z výše uvedeného výčtu otázek patrné, dashboard obsahuje informace
 ---
 
 # Moneyball v HR
-URL: https://lstehlik2809.github.io/people-analytics-brain/posts/moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt
+URL: https://lstehlik2809.github.io/people-analytics-second-brain/posts/moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt
 Date: 2018-10-11
 Tags: employee-selection, statistics, regression-analysis, structural-equation-modeling, r
 Original post: https://blog-about-people-analytics.netlify.app/posts/2018-10-11-moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt/

@@ -1,9 +1,9 @@
 ---
-title: Welcome to my People Analytics Brain 🧠
-description: A public second brain built from 200+ posts on people analytics, statistics, psychometrics, and AI — browsable as a knowledge graph, searchable, and open to AI agents.
+title: Welcome to my People Analytics Second Brain 🧠
+description: A public second brain built from my people analytics blog — browsable as a knowledge graph, searchable, and open to AI agents.
 ---
 
-This is the interconnected, "second brain" version of my [blog about people analytics](https://blog-about-people-analytics.netlify.app/) — 200+ posts on **people analytics, statistics, causal inference, psychometrics, machine learning, and AI**, rebuilt as a network of linked notes.
+This is the interconnected, "second brain" version of my [blog about people analytics](https://blog-about-people-analytics.netlify.app/) — <!--N-->204<!--/N--> posts on **people analytics, statistics, causal inference, psychometrics, machine learning, and AI**, rebuilt as a network of linked notes.
 
 ## How to explore
 

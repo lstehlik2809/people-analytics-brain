@@ -5,22 +5,22 @@
 // GitHub Pages site and indexes it in memory, so publishing a new blog
 // post updates this server automatically — no redeploys.
 
-const SITE = "https://lstehlik2809.github.io/people-analytics-brain";
+const SITE = "https://lstehlik2809.github.io/people-analytics-second-brain";
 const CORPUS_URL = `${SITE}/llms-full.txt`;
 const INDEX_TTL_MS = 15 * 60 * 1000;
 const PROTOCOL_VERSIONS = ["2025-06-18", "2025-03-26"];
 
 const SERVER_INFO = {
   name: "people-analytics-brain",
-  title: "Ludek's People Analytics Brain",
-  version: "1.0.0",
+  title: "Ludek's People Analytics Second Brain",
+  version: "1.1.0",
 };
 
 const TOOLS = [
   {
     name: "search_notes",
     description:
-      "Full-text search (BM25) across 200+ notes on people analytics, statistics, " +
+      "Full-text search (BM25) across all notes on people analytics, statistics, " +
       "causal inference, psychometrics, machine learning, and AI by Luděk Stehlík. " +
       "Returns ranked matches with snippets. Use get_note with a result's slug to read the full note.",
     inputSchema: {
@@ -289,7 +289,7 @@ export default {
 
     // human-facing root
     return new Response(
-      `Ludek's People Analytics Brain — MCP server\n\n` +
+      `Ludek's People Analytics Second Brain — MCP server\n\n` +
       `MCP endpoint (Streamable HTTP): POST ${url.origin}/mcp\n` +
       `Tools: search_notes, get_note, list_notes, list_tags\n\n` +
       `Browse as a human instead: ${SITE}\n` +
