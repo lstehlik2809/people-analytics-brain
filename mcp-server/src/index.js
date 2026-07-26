@@ -22,7 +22,9 @@ const TOOLS = [
     description:
       "Full-text search (BM25) across all notes on people analytics, statistics, " +
       "causal inference, psychometrics, machine learning, and AI by Ludek Stehlik. " +
-      "Returns ranked matches with snippets. Use get_note with a result's slug to read the full note.",
+      "Each result carries the best-matching snippet, the section (heading) it came from, and " +
+      "`chars` — the note's full length, so you can judge the cost of get_note before calling it. " +
+      "Code blocks are excluded from the index but returned by get_note.",
     inputSchema: {
       type: "object",
       properties: {
@@ -94,9 +96,21 @@ function parseCorpus(text) {
       tags: tags.split(",").map((t) => t.trim()).filter(Boolean),
       original: original.trim(),
       body: body.trim(),
+      // code is kept in `body` (get_note still returns it) but excluded from
+      // the searchable text: identifiers like a variable named `cutoff`
+      // otherwise produce false positives for technical queries
+      text: body.replace(/```[\s\S]*?```/g, " ").trim(),
     });
   }
   return notes;
+}
+
+// adjacent token pairs make multi-word method names ("regression discontinuity",
+// "difference in differences") behave like bound terms, without a curated list
+function withBigrams(tokens) {
+  const out = tokens.slice();
+  for (let i = 0; i + 1 < tokens.length; i++) out.push(`${tokens[i]}~${tokens[i + 1]}`);
+  return out;
 }
 
 function buildIndex(notes) {
@@ -104,7 +118,7 @@ function buildIndex(notes) {
     // weight title/tags/description-ish head of the body by repeating them
     const head = `${n.title} ${n.tags.join(" ")} `;
     const tf = new Map();
-    const tokens = tokenize(head.repeat(3) + n.body);
+    const tokens = withBigrams(tokenize(head.repeat(3) + n.text));
     for (const t of tokens) tf.set(t, (tf.get(t) || 0) + 1);
     return { tf, len: tokens.length };
   });
@@ -140,17 +154,49 @@ function bm25(queryTokens, { docs, df, avgLen, n }) {
   return scores;
 }
 
-function snippet(body, queryTokens, width = 300) {
-  const lower = body.toLowerCase();
-  let pos = -1;
-  for (const q of queryTokens) {
-    const p = lower.indexOf(q);
-    if (p !== -1 && (pos === -1 || p < pos)) pos = p;
+const HEADING_RE = /^(#{1,6})\s+(.+)$/gm;
+
+/** Markdown heading containing `pos`, or null when the note has no sections. */
+function sectionAt(text, pos) {
+  let current = null;
+  HEADING_RE.lastIndex = 0;
+  for (let m; (m = HEADING_RE.exec(text)); ) {
+    if (m.index > pos) break;
+    current = m[2].trim();
   }
-  if (pos === -1) pos = 0;
-  const start = Math.max(0, pos - Math.floor(width / 3));
-  const cut = body.slice(start, start + width).replace(/\s+/g, " ").trim();
-  return (start > 0 ? "…" : "") + cut + (start + width < body.length ? "…" : "");
+  return current;
+}
+
+/**
+ * Window with the most *distinct* query terms rather than the first match:
+ * taking the earliest hit surfaces whichever term happens to appear first,
+ * which on a long note is usually the wrong section.
+ */
+function snippet(text, queryTokens, width = 300) {
+  const lower = text.toLowerCase();
+  const hits = [];
+  for (const q of new Set(queryTokens)) {
+    for (let i = lower.indexOf(q); i !== -1; i = lower.indexOf(q, i + q.length)) {
+      hits.push({ at: i, q });
+      if (hits.length > 400) break; // guard against pathological repetition
+    }
+  }
+  let start = 0;
+  if (hits.length) {
+    let best = -1;
+    for (const h of hits) {
+      const w0 = Math.max(0, h.at - Math.floor(width / 3));
+      const inWindow = hits.filter((x) => x.at >= w0 && x.at < w0 + width);
+      // distinct terms dominate; raw density breaks ties
+      const score = new Set(inWindow.map((x) => x.q)).size * 1000 + inWindow.length;
+      if (score > best) { best = score; start = w0; }
+    }
+  }
+  const cut = text.slice(start, start + width).replace(/\s+/g, " ").trim();
+  return {
+    text: (start > 0 ? "…" : "") + cut + (start + width < text.length ? "…" : ""),
+    section: sectionAt(text, start),
+  };
 }
 
 // ---------- tool implementations ----------
@@ -164,22 +210,28 @@ async function runTool(name, args) {
       const topK = Math.min(Math.max(1, args?.top_k ?? 8), 25);
       const tag = args?.tag ? String(args.tag).toLowerCase() : null;
       const qTokens = tokenize(query);
-      const scores = bm25(qTokens, index);
-      const hits = notes
+      const scores = bm25(withBigrams(qTokens), index);
+      const matched = notes
         .map((note, i) => ({ note, score: scores[i] }))
         .filter((h) => h.score > 0 && (!tag || h.note.tags.includes(tag)))
-        .sort((a, b) => b.score - a.score)
-        .slice(0, topK)
-        .map(({ note, score }) => ({
+        .sort((a, b) => b.score - a.score);
+      const hits = matched.slice(0, topK).map(({ note, score }) => {
+        const s = snippet(note.text, qTokens);
+        return {
           slug: note.slug,
           title: note.title,
           date: note.date,
           tags: note.tags,
           url: note.url,
           score: +score.toFixed(2),
-          snippet: snippet(note.body, qTokens),
-        }));
-      return { query, total_matches: hits.length, results: hits };
+          section: s.section,
+          snippet: s.text,
+          chars: note.body.length,
+        };
+      });
+      // count every match, not just the returned page, so an agent can tell
+      // "nothing here" apart from "more available"
+      return { query, total_matches: matched.length, returned: hits.length, results: hits };
     }
     case "get_note": {
       const note = notes.find((n) => n.slug === String(args?.slug ?? "").trim());
@@ -198,7 +250,8 @@ async function runTool(name, args) {
         .slice(0, limit)
         .map((n) => ({
           slug: n.slug, title: n.title, date: n.date, tags: n.tags,
-          description: snippet(n.body, [], 180),
+          description: snippet(n.text, [], 180).text,
+          chars: n.body.length,
         }));
       return { count: rows.length, notes: rows };
     }
