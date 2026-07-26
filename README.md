@@ -30,15 +30,3 @@ GitHub Pages
   (index) and [`/llms-full.txt`](https://lstehlik2809.github.io/people-analytics-brain/llms-full.txt)
   (complete corpus, ~1.2 MB).
 
-## Updating after publishing a new blog post
-
-```powershell
-.\update.ps1
-```
-
-This incrementally converts new/changed posts (content-hash based), embeds only
-what changed, refreshes related-note links, regenerates llms.txt, and pushes —
-GitHub Actions then rebuilds and deploys the site.
-
-Requires: Python 3.10+ (`pyyaml`, `openai`, `numpy`, `tiktoken`, `python-dotenv`)
-and a `.env` with `OPENAI_API_KEY` and `OPENAI_EMBEDDING_MODEL`.

@@ -1,4 +1,5 @@
 .env
+MAINTAINING.local.md
 site/node_modules/
 site/public/
 site/.quartz-cache/
