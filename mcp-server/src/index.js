@@ -104,6 +104,18 @@ const RECORD_START_RE = /\n(?=---\n\n# [^\n]*\nURL: )/;
 const RECORD_RE =
   /^---\n\n# (.+)\nURL: (.+)\nDate: (.*)\nTags: (.*)\nOriginal post: (.*)\n\n([\s\S]*)$/;
 
+// URLs are dead weight in the search text: their path segments tokenize into
+// junk terms, and a single long query string (ResearchGate's base64 `_tp=…`,
+// for instance) can eat an entire 300-character snippet. Markdown links keep
+// their label, which is the part that actually describes the target.
+function stripUrls(text) {
+  return text
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, "$1")   // images → alt text
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")    // links → label
+    .replace(/<https?:\/\/[^>]*>/g, " ")        // autolinks
+    .replace(/https?:\/\/\S+/g, " ");           // bare URLs
+}
+
 function parseCorpus(text) {
   const notes = [];
   for (const chunk of text.split(RECORD_START_RE)) {
@@ -118,10 +130,10 @@ function parseCorpus(text) {
       tags: tags.split(",").map((t) => t.trim()).filter(Boolean),
       original: original.trim(),
       body: body.trim(),
-      // code is kept in `body` (get_note still returns it) but excluded from
-      // the searchable text: identifiers like a variable named `cutoff`
-      // otherwise produce false positives for technical queries
-      text: body.replace(/```[\s\S]*?```/g, " ").trim(),
+      // code and URLs are kept in `body` (get_note still returns them) but
+      // excluded from the searchable text: identifiers like a variable named
+      // `cutoff` otherwise produce false positives for technical queries
+      text: stripUrls(body.replace(/```[\s\S]*?```/g, " ")).trim(),
     });
   }
   return notes;
@@ -453,7 +465,7 @@ export default {
     return new Response(
       `Ludek's People Analytics Second Brain — MCP server\n\n` +
       `MCP endpoint (Streamable HTTP): POST ${url.origin}/mcp\n` +
-      `Tools: search_notes, get_note, list_notes, list_tags\n\n` +
+      `Tools: ${TOOLS.map((t) => t.name).join(", ")}\n\n` +
       `Browse as a human instead: ${SITE}\n` +
       `Plain-text corpus for AI: ${SITE}/llms-full.txt\n`,
       { headers: { "Content-Type": "text/plain; charset=utf-8", ...CORS } },
