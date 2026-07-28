@@ -19,11 +19,11 @@ Last but not least, a big "thank you" goes to AIHR and all the contributing auth
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[people-analytics-second-brain|My second People Analytics brain - both for people and AI agents]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
 - [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
-- [[nlp-llm-and-onboarding|Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding]]
 <!-- RELATED:END -->
 
 ---

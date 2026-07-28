@@ -81,8 +81,8 @@ htmltools::div(
 - [[siop-2026-reflection|SIOP through the wisdom of crowds: What I may have missed]]
 - [[siop-2025-conference-events|What topics might you encounter at the SIOP 2025 conference?]]
 - [[siop-2026-causal-inference-workshop|No Experiment, No Problem? Causal Inference in Applied Quasi-Experimental Settings (Session ID 830)]]
+- [[people-analytics-second-brain|My second People Analytics brain - both for people and AI agents]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 <!-- RELATED:END -->
 
 ---

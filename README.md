@@ -1,6 +1,6 @@
 # Ludek's People Analytics Second Brain 🧠
 
-A public, Obsidian-style second brain built from the <!--N-->204<!--/N--> posts on
+A public, Obsidian-style second brain built from the <!--N-->205<!--/N--> posts on
 [my people analytics blog](https://blog-about-people-analytics.netlify.app/) —
 browsable as an interactive knowledge graph, full-text searchable, and
 machine-readable for AI agents.
