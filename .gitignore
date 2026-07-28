@@ -1,5 +1,6 @@
 .env
 MAINTAINING.local.md
+.claude/
 site/node_modules/
 site/public/
 site/.quartz-cache/
@@ -9,3 +10,4 @@ pipeline/node_modules/
 mcp-server/node_modules/
 mcp-server/.wrangler/
 __pycache__/
+supp/
