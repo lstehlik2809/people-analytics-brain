@@ -2806,7 +2806,7 @@ As a data scientist and analyst who spends a lot of time knee-deep in data, tryi
 
 But to challenge my assumptions and get a better sense of what today’s GenAIs and agentic frameworks like *LangChain* and *LangGraph* can actually do, I decided to experiment a bit and built a simple AI-driven assistant for data-insight democratization, that lets non-technical users explore data through basic tools for visualization and descriptive and inferential statistics, all using plain language.
 
-For that purpose I built a simple app consisting of several agent-like components (powered by the GPT-5-mini model), each responsible for a different aspect of the insight-generation process:
+For that purpose I built a simple app consisting of several agent-like components (powered by one of Google's Gemini models), each responsible for a different aspect of the insight-generation process:
 
 * one component plans the analysis steps based on the user’s request, data characteristics, and broader context,
 * another evaluates the quality of the proposed plan and suggests adjustments if necessary,
@@ -2831,11 +2831,7 @@ Personally, this experiment made me update my priors, and now I can imagine that
 
 Curious where you currently stand on this - feel free to share in the comments.
 
-P.S. If you’re interested, you can grab the code behind the app from my [GitHub repo](https://github.com/lstehlik2809/AI-Powered-Data-Exploration). Just plug in your OpenAI API key, and you can play around with your own data locally.
-
-----
-
-**Update**: After Google's release of Gemini 3 Flash Preview, which demonstrates a superior performance-to-price ratio, I replaced GPT-5-mini with this model. Its higher "intelligence" is readily apparent in the quality of the app's outputs - specifically through better chart selection and more nuanced data interpretations. It's a perfect example of the ongoing commoditization of "intelligence."
+P.S. If you’re interested, you can grab the code behind the app from my [GitHub repo](https://github.com/lstehlik2809/AI-Powered-Data-Exploration). Just plug in your Gemini API key, and you can play around with your own data locally.
 
 
 ---
@@ -2882,14 +2878,14 @@ It’s a [simple agentic app](https://ai-dataviz-exploration.streamlit.app/) for
 
 It runs on a public dataset from [*CultureX*](https://www.culturex.com/) with corporate culture scores across companies in different industries, measured through anonymous [*Glassdoor*](https://www.glassdoor.com) reviews between Jan 1, 2023, and Apr 4, 2025.
  
-The app uses several AI agents (powered by Google's Gemini 3 Flash Preview), each responsible for a different step:
+The app uses several AI agents, powered by one of Google’s Gemini models, each responsible for a different step:
 
-* **Clarifier** - asks 2–3 sharpening questions to understand exactly what you want (which companies, which metrics, what chart type, etc.)
-* **Planner** - designs the analysis strategy based on your request and the data
-* **Critic** - reviews the plan and pushes back if something can be improved (up to 3 rounds)
-* **Executor** - turns the plan into runnable visualization code
-* **Narrative** - computes statistics and writes a data-driven summary
-* **Explainer** - synthesizes everything into a concise insight for a non-technical audience
+* **Clarifier** — asks up to 3 sharpening questions when your request is ambiguous (which companies, which metrics, what chart type, etc.); clear requests go straight to analysis
+* **Planner** — designs the analysis strategy based on your request and the data
+* **Critic** — reviews the plan and pushes back if something can be improved (review rounds adjustable in the sidebar, default 3)
+* **Executor** — turns the plan into runnable visualization code
+* **Narrative** — computes statistics and writes a data-driven summary
+* **Explainer** — synthesizes everything into a concise insight for a non-technical audience
 
 After the initial analysis, you can ask up to 5 follow-up questions. The AI keeps full context from previous turns - including your answers to sharpening questions - so it builds on what it already knows rather than starting from scratch. Hit `✨ New Analysis ` to  start to  a fresh exploration.
 

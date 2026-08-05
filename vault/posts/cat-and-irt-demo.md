@@ -34,7 +34,7 @@ Here’s the [link](https://cat-irt-demo.streamlit.app/) to the app (given that 
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
 - [[dunning-kruger-effect-simulation|Making abstract ideas digestible with knobs and sliders]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
 <!-- RELATED:END -->
 
 ---

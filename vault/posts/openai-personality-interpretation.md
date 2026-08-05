@@ -28,9 +28,9 @@ I am well aware that there are clear risks associated with using a generic GPT f
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
+- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 <!-- RELATED:END -->
 

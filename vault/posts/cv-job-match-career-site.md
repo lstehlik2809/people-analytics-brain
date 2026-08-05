@@ -32,10 +32,10 @@ P.S. It was also a good opportunity to try out [Shiny for Python by Posit](https
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[job-comparator|A bet on a new job]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 <!-- RELATED:END -->
 
 ---

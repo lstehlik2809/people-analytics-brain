@@ -34,8 +34,8 @@ In my opinion, it works quite well and could represent a very time- and cost-eff
 ## Related notes
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 <!-- RELATED:END -->
 

@@ -13,7 +13,7 @@ As a data scientist and analyst who spends a lot of time knee-deep in data, tryi
 
 But to challenge my assumptions and get a better sense of what today’s GenAIs and agentic frameworks like *LangChain* and *LangGraph* can actually do, I decided to experiment a bit and built a simple AI-driven assistant for data-insight democratization, that lets non-technical users explore data through basic tools for visualization and descriptive and inferential statistics, all using plain language.
 
-For that purpose I built a simple app consisting of several agent-like components (powered by the GPT-5-mini model), each responsible for a different aspect of the insight-generation process:
+For that purpose I built a simple app consisting of several agent-like components (powered by one of Google's Gemini models), each responsible for a different aspect of the insight-generation process:
 
 * one component plans the analysis steps based on the user’s request, data characteristics, and broader context,
 * another evaluates the quality of the proposed plan and suggests adjustments if necessary,
@@ -38,11 +38,7 @@ Personally, this experiment made me update my priors, and now I can imagine that
 
 Curious where you currently stand on this - feel free to share in the comments.
 
-P.S. If you’re interested, you can grab the code behind the app from my [GitHub repo](https://github.com/lstehlik2809/AI-Powered-Data-Exploration). Just plug in your OpenAI API key, and you can play around with your own data locally.
-
-----
-
-**Update**: After Google's release of Gemini 3 Flash Preview, which demonstrates a superior performance-to-price ratio, I replaced GPT-5-mini with this model. Its higher "intelligence" is readily apparent in the quality of the app's outputs - specifically through better chart selection and more nuanced data interpretations. It's a perfect example of the ongoing commoditization of "intelligence."
+P.S. If you’re interested, you can grab the code behind the app from my [GitHub repo](https://github.com/lstehlik2809/AI-Powered-Data-Exploration). Just plug in your Gemini API key, and you can play around with your own data locally.
 
 <!-- RELATED:BEGIN -->
 ## Related notes
@@ -50,7 +46,7 @@ P.S. If you’re interested, you can grab the code behind the app from my [GitHu
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
-- [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[gai-simulation-work-habits|Does GenAI make me a better (more rational) thinker?]]
 <!-- RELATED:END -->
 
 ---

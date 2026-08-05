@@ -25,8 +25,8 @@ May the Excel be with you 🙂
 ## Related notes
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[chatgpt-emails-and-causalpy|ChatGPT as a new email writing coach?]]
+- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[nlp-llm-and-onboarding|Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding]]
 <!-- RELATED:END -->
 
