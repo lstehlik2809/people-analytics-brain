@@ -1,6 +1,7 @@
 """Convert distill .Rmd blog posts into a Quartz-ready markdown vault.
 
-Idempotent: re-run any time; only notes whose source .Rmd changed are rewritten.
+Idempotent: re-run any time; only notes whose source .Rmd or rendered .html
+changed are rewritten.
 Usage: python pipeline/convert.py [--force]
 """
 
@@ -286,6 +287,7 @@ def main():
         (NOTES_DIR / f"{slug}.md").write_text(note, encoding="utf-8", newline="\n")
         manifest[slug] = src_hash
         written += 1
+        print(f"  wrote: {slug}")
 
     MANIFEST.write_text(json.dumps(manifest, indent=1), encoding="utf-8")
     print(f"done: {written} notes written, {skipped} unchanged, {len(seen_slugs)} total")
