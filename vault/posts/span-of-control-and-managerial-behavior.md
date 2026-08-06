@@ -290,11 +290,11 @@ if __name__ == "__main__":
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
-- [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[span-of-control|Span of control and collaboration data]]
+- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[impact-of-leaders|Want to maximize your impact as a leader?]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[good-manager|Signals of a good manager]]
 <!-- RELATED:END -->
 
 ---

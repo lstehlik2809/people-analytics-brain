@@ -176,11 +176,11 @@ Would be super grateful for any tips or suggestions on dataviz tools or approach
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[xmr-charts-in-people-analytics|Do you use XmR charts for People Analytics use cases?]]
+- [[org-chart-and-collaboration|Org chart and collaboration]]
+- [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
+- [[doppelganger-for-career-pathing|Using Doppelgänger for career pathing?]]
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
-- [[conditional-inference-tree|Divide and... understand]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
-- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

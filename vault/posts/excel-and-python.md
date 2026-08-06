@@ -23,11 +23,11 @@ May the Excel be with you 🙂
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[chatgpt-emails-and-causalpy|ChatGPT as a new email writing coach?]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[chatgpt-emails-and-causalpy|ChatGPT as a new email writing coach?]]
+- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
-- [[nlp-llm-and-onboarding|Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding]]
 <!-- RELATED:END -->
 
 ---

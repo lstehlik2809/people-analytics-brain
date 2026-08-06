@@ -27,10 +27,10 @@ Curious whether you’ve come across examples like this - or maybe you’re alre
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
-- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 - [[gai-simulation-work-habits|Does GenAI make me a better (more rational) thinker?]]
 - [[dunning-kruger-effect-simulation|Making abstract ideas digestible with knobs and sliders]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
+- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
 <!-- RELATED:END -->
 
 ---

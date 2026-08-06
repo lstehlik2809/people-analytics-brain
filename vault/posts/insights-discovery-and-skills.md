@@ -53,11 +53,11 @@ Besides that, some other interesting patterns emerged. For example:
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[how-personality-risks-co-occur|How personality risks co-occur?]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
-- [[career-hurdles|And what are your career hurdles?]]
+- [[personality-frameworks-contest|A showdown between the Big Five, Enneagram, MBTI, and astrology]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 <!-- RELATED:END -->
 
 ---

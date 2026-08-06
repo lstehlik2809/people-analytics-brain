@@ -34,10 +34,10 @@ All this suggests that the next time you feel an urge to guess someone’s perso
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[collaboration-and-personality|Collaboration and personality]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[big-five-vs-hexaco|Big Five vs. HEXACO]]
 <!-- RELATED:END -->
 
 ---

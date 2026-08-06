@@ -325,11 +325,11 @@ This completed the work on our local computer. You can download the final dashbo
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[conditional-inference-tree|Divide and... understand]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[interpretable-ml|Interpretable machine learning with modelStudio]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
+- [[people-analytics-second-brain|My second People Analytics brain - both for people and AI agents]]
 <!-- RELATED:END -->
 
 ---

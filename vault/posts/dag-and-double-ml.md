@@ -230,11 +230,11 @@ dml_plr_xgb.confint()
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[mixed-level-ml|Beyond the “flat Earth”]]
+- [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
+- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
 <!-- RELATED:END -->
 
 ---

@@ -23,11 +23,11 @@ I suppose it's a **trade-off** that can't be completely solved in principle, but
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[timeboxing|Timeboxing. Does it really work?]]
 - [[slack-batching|Always messaging]]
+- [[timeboxing|Timeboxing. Does it really work?]]
+- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
-- [[collaboration-during-vacations|Can you really unplug?]]
-- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
+- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
 <!-- RELATED:END -->
 
 ---

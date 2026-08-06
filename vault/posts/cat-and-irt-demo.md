@@ -30,11 +30,11 @@ Here’s the [link](https://cat-irt-demo.streamlit.app/) to the app (given that 
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
+- [[openai-personality-interpretation|Ask your personality using GPT]]
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
-- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
+- [[job-comparator|A bet on a new job]]
+- [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
 - [[dunning-kruger-effect-simulation|Making abstract ideas digestible with knobs and sliders]]
-- [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
 <!-- RELATED:END -->
 
 ---

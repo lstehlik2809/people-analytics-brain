@@ -34,11 +34,11 @@ Does anyone have experience with this specific approach to feature selection? Fe
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
-- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
-- [[self-selection-and-proxy-measures|When self-selected behavior is a blessing, not a headache]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 <!-- RELATED:END -->
 
 ---

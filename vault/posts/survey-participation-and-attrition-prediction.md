@@ -34,9 +34,9 @@ Have you noticed any other forms of inaction that might predict an intention to 
 ## Related notes
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
-- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
 - [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
+- [[managerial-quality|Unexpected protective effect of having a good manager?]]
 <!-- RELATED:END -->
 
 ---

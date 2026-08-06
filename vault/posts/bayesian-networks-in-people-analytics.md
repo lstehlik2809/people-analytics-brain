@@ -26,10 +26,10 @@ However, when searching for information about this method, we found that it is n
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
-- [[xmr-charts-in-people-analytics|Do you use XmR charts for People Analytics use cases?]]
-- [[people-analytics-and-market-basket-analysis|I’ve finally lived to see the day…]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[xmr-charts-in-people-analytics|Do you use XmR charts for People Analytics use cases?]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

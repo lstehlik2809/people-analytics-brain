@@ -117,11 +117,11 @@ If you want to download the dataset, you can do so here via the table above or v
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
-- [[conditional-inference-tree|Divide and... understand]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 - [[people-analytics-challenge-from-orgnostic|People Analytics Challenge from Orgnostic: Plan for high growth]]
-- [[career-hurdles|And what are your career hurdles?]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[searching-and-querying-aihr-blog-posts|Searching & querying AIHR blog posts on People Analytics topics]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 <!-- RELATED:END -->
 
 ---

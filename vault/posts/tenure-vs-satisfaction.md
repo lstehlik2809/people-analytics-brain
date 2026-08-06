@@ -175,11 +175,11 @@ Although this mechanism seems to provide a plausible answer to the reader's ques
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
-- [[expected-remaining-time|Does your team belong among “light bulbs” or “wines”?]]
 - [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
+- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 <!-- RELATED:END -->
 
 ---

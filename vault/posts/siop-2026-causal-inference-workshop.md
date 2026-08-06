@@ -28,10 +28,10 @@ If you're at SIOP and interested in making causal thinking more practical in app
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[siop-2025-conference-events|What topics might you encounter at the SIOP 2025 conference?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[siop-2026-reflection|SIOP through the wisdom of crowds: What I may have missed]]
+- [[siop-2025-conference-events|What topics might you encounter at the SIOP 2025 conference?]]
 - [[siop-2026-recommender|SIOP 2026 Recommender]]
-- [[visual-diff-in-diff|Causal insights with no code?]]
 - [[agentic-workflow-for-causal-inference|Agentic workflow for causal inference]]
 <!-- RELATED:END -->
 

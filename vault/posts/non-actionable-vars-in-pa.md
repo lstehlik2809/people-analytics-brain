@@ -33,11 +33,11 @@ What’s your perspective? Have you seen an example of turning demographic data 
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
-- [[visual-diff-in-diff|Causal insights with no code?]]
-- [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
-- [[analytical-choices-and-variability|How variations in analytic choices affect results?]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[value-added-modeling|Goals saved above expected… for managers?]]
 <!-- RELATED:END -->
 
 ---

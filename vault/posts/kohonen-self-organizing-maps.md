@@ -165,11 +165,11 @@ If you find yourself in a similar situation, definitely give it a try. Happy exp
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[team-maps|Experiencing and seeing team similarities and differences]]
+- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
-- [[visual-inference-statistics|Visual statistical inference]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[conditional-inference-tree|Divide and... understand]]
 <!-- RELATED:END -->
 
 ---

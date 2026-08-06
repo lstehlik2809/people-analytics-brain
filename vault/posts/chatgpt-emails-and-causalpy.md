@@ -124,11 +124,11 @@ az.summary(last_cumulative_estimate)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
-- [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[openai-personality-interpretation|Ask your personality using GPT]]
 <!-- RELATED:END -->
 
 ---

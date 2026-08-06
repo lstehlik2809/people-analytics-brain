@@ -27,11 +27,11 @@ There are advantages and disadvantages to both methods (face validity, accuracy,
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[slack-best-practices|Attaching numbers to best practices for instant messaging]]
 - [[distracted-time|Not-so-hidden cost of working in an office]]
+- [[slack-best-practices|Attaching numbers to best practices for instant messaging]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
-- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[timeboxing|Timeboxing. Does it really work?]]
+- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 <!-- RELATED:END -->
 
 ---

@@ -30,10 +30,10 @@ More importantly, whatever stops, starts, and continues make it onto your New Ye
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[start-stop-continue-feedback|Do we give more "Try This", "Knock It Off", or "Keep It Up" recommendations in 360-degree feedback?]]
-- [[goal-setting|Do high-low range goals aid in maintaining motivation over time?]]
-- [[managers-and-performance-evaluations|A new broom sweeps clean]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

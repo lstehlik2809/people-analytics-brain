@@ -200,10 +200,10 @@ for item in items:
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
-- [[sentiment-analysis-validation|Sentiment analysis of employee survey comments using zero-shot classification]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
+- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 <!-- RELATED:END -->
 
 ---

@@ -26,11 +26,11 @@ Curious if anyone’s already used ONA techniques with skill data like this—es
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[doppelganger-for-career-pathing|Using Doppelgänger for career pathing?]]
-- [[big-consultancies-in-the-skills-semantic-space|Big consultancies in the skills semantic space]]
-- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[org-chart-and-collaboration|Org chart and collaboration]]
-- [[daily-activities-among-business-skills|The hidden skill map - where life meets work]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[induced-centrality|Induced centralities]]
+- [[big-consultancies-in-the-skills-semantic-space|Big consultancies in the skills semantic space]]
+- [[doppelganger-for-career-pathing|Using Doppelgänger for career pathing?]]
 <!-- RELATED:END -->
 
 ---

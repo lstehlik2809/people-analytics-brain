@@ -42,9 +42,9 @@ Update: With more than 140 people completing the test, I was able to compare our
 ## Related notes
 - [[evidence-based-hrm-knowledge-test-results|Evaluation of the results of the evidence-based HRM knowledge test]]
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
-- [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 - [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
-- [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
+- [[ebm-gpt-bot|How to support the adoption of Evidence-Based Management with a specialized GPT bot]]
 <!-- RELATED:END -->
 
 ---

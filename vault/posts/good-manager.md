@@ -38,11 +38,11 @@ P.S. In a [later update](https://rework.withgoogle.com/blog/the-evolution-of-pro
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
+- [[overloaded-employees|Warning system for overloaded employees]]
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[span-of-control|Span of control and collaboration data]]
-- [[managers-and-performance-evaluations|A new broom sweeps clean]]
-- [[people-manager-value-chain|What does a typical people manager value chain look like?]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[managers-and-performance-evaluations|"A new broom sweeps clean"]]
 <!-- RELATED:END -->
 
 ---

@@ -33,11 +33,11 @@ P.S. The attached charts were created with [Xmrit, a free online tool](https://c
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
-- [[visual-diff-in-diff|Causal insights with no code?]]
-- [[bayesian-networks-in-people-analytics|Use of Bayesian networks in people analytics?]]
-- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 - [[9-box-grid-dataviz-over-time|Tracking talent moves in the (in)famous 9-box grid over time]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
+- [[bayesian-networks-in-people-analytics|Use of Bayesian networks in people analytics?]]
+- [[visual-diff-in-diff|Causal insights with no code?]]
 <!-- RELATED:END -->
 
 ---

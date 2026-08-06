@@ -179,11 +179,11 @@ How about your perception of probability words? Is there anything in the graphs 
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 - [[visual-inference-statistics|Visual statistical inference]]
+- [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
+- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
-- [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
 <!-- RELATED:END -->
 
 ---

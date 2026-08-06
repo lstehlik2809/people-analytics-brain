@@ -27,10 +27,10 @@ What other methods do you find useful in identifying values or changes that migh
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[xmr-charts-in-people-analytics|Do you use XmR charts for People Analytics use cases?]]
-- [[standard-and-trend-predictors|Standard vs. trend predictors]]
-- [[visual-diff-in-diff|Causal insights with no code?]]
-- [[org-chart-and-collaboration|Org chart and collaboration]]
 - [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
+- [[org-chart-and-collaboration|Org chart and collaboration]]
+- [[standard-and-trend-predictors|Standard vs. trend predictors]]
+- [[9-box-grid-dataviz-over-time|Tracking talent moves in the (in)famous 9-box grid over time]]
 <!-- RELATED:END -->
 
 ---

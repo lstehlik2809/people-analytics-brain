@@ -183,11 +183,11 @@ P.S. Thanks to [Filip Trojan](https://www.linkedin.com/in/filip-trojan-2543a36/)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[visual-inference-statistics|Visual statistical inference]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[interpretable-ml|Interpretable machine learning with modelStudio]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

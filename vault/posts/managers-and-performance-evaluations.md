@@ -30,10 +30,10 @@ Curious if anyone has practical experiences with systematically studying the mec
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
-- [[start-stop-continue-feedback|Do we give more "Try This", "Knock It Off", or "Keep It Up" recommendations in 360-degree feedback?]]
 - [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[good-manager|Signals of a good manager]]
-- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
+- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
+- [[start-stop-continue-feedback|Do we give more "Try This", "Knock It Off", or "Keep It Up" recommendations in 360-degree feedback?]]
 <!-- RELATED:END -->
 
 ---

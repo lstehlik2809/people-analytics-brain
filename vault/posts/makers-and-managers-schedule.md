@@ -35,9 +35,9 @@ How about you? Where would you fit in? And is there anyone among you who would f
 ## Related notes
 - [[exploration-vs-exploitation-tradeoff|Exploration vs. Exploitation trade-off in our calendars]]
 - [[meeting-matrix|Eisenhower matrix for meetings]]
-- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
+- [[slack-batching|Always messaging]]
 - [[timeboxing|Timeboxing. Does it really work?]]
-- [[meeting-planning|Fighting meeting overload]]
+- [[distracted-time|Not-so-hidden cost of working in an office]]
 <!-- RELATED:END -->
 
 ---

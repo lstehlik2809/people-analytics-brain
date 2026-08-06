@@ -44,9 +44,9 @@ P.S. Thanks to my boss, Nadzeya Laurentsyeva, for pointing me to this interestin
 ## Related notes
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 - [[impact-of-leaders|Want to maximize your impact as a leader?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
-- [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
+- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
 <!-- RELATED:END -->
 
 ---

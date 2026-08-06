@@ -18,11 +18,11 @@ However, given the low-stakes circumstances, the minimal investment required, th
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[new-years-resolution|Stop. Start. Continue.]]
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
+- [[new-years-resolution|Stop. Start. Continue.]]
 - [[start-stop-continue-feedback|Do we give more "Try This", "Knock It Off", or "Keep It Up" recommendations in 360-degree feedback?]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
-- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
+- [[strength-based-development-and-distributions|Strength-based development and power-law vs. normal distribution of performance]]
+- [[timeboxing|Timeboxing. Does it really work?]]
 <!-- RELATED:END -->
 
 ---

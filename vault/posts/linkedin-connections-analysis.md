@@ -42,9 +42,9 @@ P.P.S. Big thanks to [Sebastian Vorac](https://www.linkedin.com/in/sebastian-vor
 ## Related notes
 - [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
 - [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
+- [[job-comparator|A bet on a new job]]
+- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 - [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
-- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
-- [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
 <!-- RELATED:END -->
 
 ---

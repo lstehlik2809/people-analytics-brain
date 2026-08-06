@@ -26,10 +26,10 @@ How are you doing in this respect? And do you have any tricks that help you unpl
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[distracted-time|Not-so-hidden cost of working in an office]]
-- [[timeboxing|Timeboxing. Does it really work?]]
-- [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
-- [[good-manager|Signals of a good manager]]
 - [[slack-batching|Always messaging]]
+- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
+- [[timeboxing|Timeboxing. Does it really work?]]
+- [[overloaded-employees|Warning system for overloaded employees]]
 <!-- RELATED:END -->
 
 ---

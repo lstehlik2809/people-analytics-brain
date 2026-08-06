@@ -22,9 +22,9 @@ Now, besides cross-validating the results, I am trying to understand the potenti
 ## Related notes
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
-- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[managers-and-performance-evaluations|A new broom sweeps clean]]
+- [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
+- [[managers-and-performance-evaluations|"A new broom sweeps clean"]]
 <!-- RELATED:END -->
 
 ---

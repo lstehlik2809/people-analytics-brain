@@ -27,11 +27,11 @@ If interested, check out, for example, the [following video](https://www.youtube
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[visual-diff-in-diff|Causal insights with no code?]]
-- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
-- [[exploration-vs-exploitation-tradeoff|Exploration vs. Exploitation trade-off in our calendars]]
-- [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[org-stats-and-graph-analysis|A graph approach to reporting structures: stop wrestling recursion]]
+- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
 <!-- RELATED:END -->
 
 ---

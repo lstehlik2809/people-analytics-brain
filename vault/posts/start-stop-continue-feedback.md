@@ -40,9 +40,9 @@ P.S. A recent critical systematic review of the performance feedback literature 
 ## Related notes
 - [[new-years-resolution|Stop. Start. Continue.]]
 - [[feedback-effect-on-performance|Feedback can be a gift or a curse...]]
-- [[managers-and-performance-evaluations|A new broom sweeps clean]]
-- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 - [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
+- [[managers-and-performance-evaluations|"A new broom sweeps clean"]]
+- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 <!-- RELATED:END -->
 
 ---

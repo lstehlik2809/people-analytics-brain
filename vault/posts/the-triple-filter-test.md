@@ -63,8 +63,8 @@ In some cases, the fix is Who: “Hire for this trait” or “Staff for this mi
 ## Related notes
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
-- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
 <!-- RELATED:END -->
 

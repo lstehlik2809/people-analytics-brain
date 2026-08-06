@@ -190,11 +190,11 @@ These patterns could indeed provide an answer to the question posed in the title
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[collaboration-and-personality|Collaboration and personality]]
-- [[big-five-vs-hexaco|Big Five vs. HEXACO]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[collaboration-and-personality|Collaboration and personality]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[how-personality-risks-co-occur|How personality risks co-occur?]]
 <!-- RELATED:END -->
 
 ---

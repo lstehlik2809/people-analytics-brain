@@ -38,10 +38,10 @@ For policy and practice, we must stop assuming "what works" and demand fundament
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
-- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
-- [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
 - [[analytical-choices-and-variability|How variations in analytic choices affect results?]]
-- [[agile-project-management|Does agile pay off?]]
+- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
+- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 <!-- RELATED:END -->
 
 ---

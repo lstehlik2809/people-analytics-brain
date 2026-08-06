@@ -115,11 +115,11 @@ The shift to pulse-based listening can feel like a methodological downgrade beca
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
-- [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 <!-- RELATED:END -->
 
 ---

@@ -90,10 +90,10 @@ Maybe the visualization will come in handy for you as well when trying to "rewir
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[career-hurdles|And what are your career hurdles?]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
 - [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[gender-gap-in-hiring-decisions|Evidence on the presence of gender bias in selection settings]]
+- [[career-hurdles|And what are your career hurdles?]]
 - [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 

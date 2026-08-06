@@ -32,11 +32,11 @@ Seems that sometimes sin is the way 🙃
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[visual-diff-in-diff|Causal insights with no code?]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 - [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
+- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 <!-- RELATED:END -->
 
 ---

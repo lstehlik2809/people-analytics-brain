@@ -37,8 +37,8 @@ P.S. This was also a nice test of current agentic tools (Google [Antigravity](ht
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 - [[genai-and-disrupt-of-labor-market-signalling|Making talk cheap: How GenAI may disrupt labor-market signalling]]
-- [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 <!-- RELATED:END -->
 
 ---

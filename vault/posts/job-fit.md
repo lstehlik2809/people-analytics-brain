@@ -30,11 +30,11 @@ Definitely [worth reading](https://open.substack.com/pub/experimentalhistory/p/f
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
-- [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 <!-- RELATED:END -->
 
 ---

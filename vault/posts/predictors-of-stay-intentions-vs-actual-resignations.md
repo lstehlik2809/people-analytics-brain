@@ -32,8 +32,8 @@ Curious if anyone has done a similar analysis on their data and put the findings
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
-- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
 - [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 <!-- RELATED:END -->

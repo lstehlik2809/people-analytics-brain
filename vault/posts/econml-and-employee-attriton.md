@@ -35,11 +35,11 @@ IMO, pretty cool stuff. It seems we indeed live not only in an AI revolution but
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 - [[causal-identification-and-feature-selection|A way to make prediction models more precise and interpretable at the same time?]]
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
-- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 <!-- RELATED:END -->
 
 ---

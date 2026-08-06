@@ -35,8 +35,8 @@ What tools and/or signals do you use in your company to identify employees at in
 - [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
 - [[good-manager|Signals of a good manager]]
 - [[slack-batching|Always messaging]]
-- [[resources-on-retention-and-downsizing|Some resources on staff retention and downsizing]]
 - [[distracted-time|Not-so-hidden cost of working in an office]]
+- [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
 <!-- RELATED:END -->
 
 ---

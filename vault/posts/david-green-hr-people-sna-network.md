@@ -32,11 +32,11 @@ P.S. You can consider this a prequel to the People Analytics Network Census (PAN
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
-- [[ona-and-face-similarity|When facial similarity meets Network Science]]
-- [[linkedin-connections-analysis|R Shiny app for LinkedIn connections analysis]]
-- [[induced-centrality|Induced centralities]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
+- [[induced-centrality|Induced centralities]]
+- [[searching-and-querying-aihr-blog-posts|Searching & querying AIHR blog posts on People Analytics topics]]
 <!-- RELATED:END -->
 
 ---

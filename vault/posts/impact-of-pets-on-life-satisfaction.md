@@ -39,11 +39,11 @@ P.S. For our household, the causal model is simpler: *Child wants cat → parent
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
-- [[happiness-and-income|Happy today, richer tomorrow?]]
-- [[nudge-effectiveness|Signal vs. Noise: Why we can’t yet identify effective nudges]]
-- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
 - [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[car-accidents-near-home|Before you blame the driver, check the denominator]]
+- [[female-survival-in-marital-disasters|Women, men, and sixteen sinking ships]]
+- [[happiness-and-income|Happy today, richer tomorrow?]]
 <!-- RELATED:END -->
 
 ---

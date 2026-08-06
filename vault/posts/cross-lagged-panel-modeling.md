@@ -322,11 +322,11 @@ Bottom line: CLPM can still be useful as a starting point, but directional effec
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
+- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 <!-- RELATED:END -->
 
 ---

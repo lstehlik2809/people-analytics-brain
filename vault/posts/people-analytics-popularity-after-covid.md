@@ -372,10 +372,10 @@ The overall resulting picture thus partially supports the impression of many of 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
+- [[bayesian-networks-in-people-analytics|Use of Bayesian networks in people analytics?]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

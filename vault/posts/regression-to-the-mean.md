@@ -145,10 +145,10 @@ Feel free to share your own experiences and encounters with the phenomena of reg
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 <!-- RELATED:END -->
 
 ---

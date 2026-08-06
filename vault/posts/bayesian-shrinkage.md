@@ -139,11 +139,11 @@ If you are trying to deal with this effect in your reporting practice, can you s
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
+- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
+- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
+- [[resources-on-retention-and-downsizing|Some resources on staff retention and downsizing]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
-- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

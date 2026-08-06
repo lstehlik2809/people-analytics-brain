@@ -333,11 +333,11 @@ Maybe you'll find the method described here useful in one of your ML projects. H
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[conditional-inference-tree|Divide and... understand]]
 - [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[interpretable-ml|Interpretable machine learning with modelStudio]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 <!-- RELATED:END -->
 
 ---

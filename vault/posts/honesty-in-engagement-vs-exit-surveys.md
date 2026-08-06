@@ -43,11 +43,11 @@ Despite all the uncertainty, it was a very useful exercise to confront my though
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
-- [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
-- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
+- [[you-said-we-did|‘You Said, We Did’ matters - maybe just not as distinctly as we assume]]
+- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
+- [[managerial-quality|Unexpected protective effect of having a good manager?]]
 <!-- RELATED:END -->
 
 ---

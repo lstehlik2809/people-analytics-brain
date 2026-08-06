@@ -126,10 +126,10 @@ Given these results, one should feel motivated to identify among the mix of fact
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
-- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
-- [[career-hurdles|And what are your career hurdles?]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
+- [[how-personality-risks-co-occur|How personality risks co-occur?]]
+- [[impact-of-leaders|Want to maximize your impact as a leader?]]
 <!-- RELATED:END -->
 
 ---

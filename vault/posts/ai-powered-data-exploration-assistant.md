@@ -43,10 +43,10 @@ P.S. If you’re interested, you can grab the code behind the app from my [GitHu
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
-- [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[gai-simulation-work-habits|Does GenAI make me a better (more rational) thinker?]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 <!-- RELATED:END -->
 
 ---

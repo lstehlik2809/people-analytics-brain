@@ -45,10 +45,10 @@ For more details, see the [original paper](https://papers.ssrn.com/sol3/papers.c
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
-- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 - [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
-- [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
-- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
 <!-- RELATED:END -->
 
 ---

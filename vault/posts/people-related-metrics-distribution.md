@@ -400,11 +400,11 @@ P.S. If you ever need to check the shape distribution of any of your metrics, yo
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[visual-inference-statistics|Visual statistical inference]]
+- [[strength-based-development-and-distributions|Strength-based development and power-law vs. normal distribution of performance]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[conditional-inference-tree|Divide and... understand]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[expected-remaining-time|Does your team belong among “light bulbs” or “wines”?]]
 <!-- RELATED:END -->
 
 ---

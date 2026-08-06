@@ -22,10 +22,10 @@ There is nothing like having a meta-analysis to back up your habits, or better y
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[time-management|Consequences of time management in the workplace]]
+- [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
 - [[job-demands-job-control-wellbeing|Surprising finding on the impact of job demands and control on workers’ well-being]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[timeboxing|Timeboxing. Does it really work?]]
-- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
+- [[agile-project-management|Does agile pay off?]]
 <!-- RELATED:END -->
 
 ---

@@ -30,11 +30,11 @@ Would love to hear if you’ve come across any solid sources on this topic—or 
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
+- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
 - [[good-manager|Signals of a good manager]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[value-added-modeling|Goals saved above expected… for managers?]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
 <!-- RELATED:END -->
 
 ---

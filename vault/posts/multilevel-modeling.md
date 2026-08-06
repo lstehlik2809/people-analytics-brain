@@ -296,10 +296,10 @@ For an accessible discussion of this topic in the context of people analytics, i
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[mixed-level-ml|Beyond the “flat Earth”]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[value-added-modeling|Goals saved above expected… for managers?]]
 <!-- RELATED:END -->
 
 ---

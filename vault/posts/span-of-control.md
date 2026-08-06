@@ -28,11 +28,11 @@ What factors do you typically consider when determining the optimal span of cont
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[org-chart-and-collaboration|Org chart and collaboration]]
 - [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
-- [[good-manager|Signals of a good manager]]
+- [[org-chart-and-collaboration|Org chart and collaboration]]
 - [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
-- [[meeting-matrix|Eisenhower matrix for meetings]]
+- [[good-manager|Signals of a good manager]]
+- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 <!-- RELATED:END -->
 
 ---

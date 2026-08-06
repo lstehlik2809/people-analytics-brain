@@ -30,10 +30,10 @@ P.S. Oh, I almost forgot - there are exciting prizes in the form of tickets to H
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[people-analytics-second-brain|My second People Analytics brain - both for people and AI agents]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[police-cadet-evaluation-dataset|Police cadet evaluation dataset]]
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

@@ -329,10 +329,10 @@ That is not because hierarchy always makes models better. It is because, in many
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
-- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
 <!-- RELATED:END -->
 
 ---

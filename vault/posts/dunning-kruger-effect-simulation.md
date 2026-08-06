@@ -33,8 +33,8 @@ If you’ve come across or built simple simulators, demos, or visualizations tha
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[gai-simulation-work-habits|Does GenAI make me a better (more rational) thinker?]]
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
+- [[ai-as-friction|AI as friction]]
 - [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
-- [[netlogo|NetLogo: Don’t tell me, show me]]
 <!-- RELATED:END -->
 
 ---

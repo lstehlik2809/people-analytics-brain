@@ -180,9 +180,9 @@ ggraph::ggraph(g, layout = "kk") + # other available layouts: 'star', 'circle', 
 ## Related notes
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 - [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
-- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
-- [[conditional-inference-tree|Divide and... understand]]
-- [[collaboration-and-personality|Collaboration and personality]]
+- [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
+- [[instrumental-and-expressive-networks|Not all workplace relationships are created equal when it comes to retaining talent]]
+- [[ona-skills-exploration|ONA as a tool for exploring the skill space in your company?]]
 <!-- RELATED:END -->
 
 ---

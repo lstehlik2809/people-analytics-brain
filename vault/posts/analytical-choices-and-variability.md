@@ -27,10 +27,10 @@ P.S. If you want to see how your own approach would shape the results, you can d
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[scientific-divides-and-cognitive-traits|Why do psychologists disagree—even when they use the same data and methods?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
-- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
+- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[visual-inference-statistics|Visual statistical inference]]
-- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

@@ -37,11 +37,11 @@ There are plenty more gems and learnings in the book itself - so if you still ha
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 - [[evidence-based-hrm-knowledge-test-results|Evaluation of the results of the evidence-based HRM knowledge test]]
 - [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
-- [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
-- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 <!-- RELATED:END -->
 
 ---

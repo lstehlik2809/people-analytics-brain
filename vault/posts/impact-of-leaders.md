@@ -37,8 +37,8 @@ I wonder if anyone in the people analytics space has tried applying this method 
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[value-added-modeling|Goals saved above expected… for managers?]]
-- [[managerial-quality|Unexpected protective effect of having a good manager?]]
-- [[nice-leaders|If you are a leader, don't be afraid to be a nice one]]
+- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 <!-- RELATED:END -->
 
 ---

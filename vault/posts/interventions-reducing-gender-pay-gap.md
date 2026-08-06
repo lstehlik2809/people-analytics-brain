@@ -49,10 +49,10 @@ A final note. As useful as it is to know which interventions have a decent chanc
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[gender-gap-in-hiring-decisions|Evidence on the presence of gender bias in selection settings]]
+- [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
 - [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
+- [[gender-gap-in-hiring-decisions|Evidence on the presence of gender bias in selection settings]]
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
-- [[non-actionable-vars-in-pa|Are age and gender variables really so non-actionable in the context of People Analytics?]]
 - [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
 <!-- RELATED:END -->
 

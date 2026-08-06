@@ -29,11 +29,11 @@ P.S. This is also a topic close to me personally. In my Ph.D. dissertation, I lo
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[scientific-divides-and-cognitive-traits|Why do psychologists disagree—even when they use the same data and methods?]]
 - [[trust-errors-learning-reflection|When to forgive, when to close the book]]
 - [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
 - [[matthew-effect-and-success-stories|Luck, cutoffs, and the stories we tell about success]]
+- [[job-fit|Are you crazy enough and in the right way to fit the craziness required by your job?]]
 <!-- RELATED:END -->
 
 ---

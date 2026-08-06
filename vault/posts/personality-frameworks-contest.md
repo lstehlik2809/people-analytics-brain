@@ -33,11 +33,11 @@ Note: [Link](https://www.scientificamerican.com/article/personality-tests-arent-
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[big-five-vs-hexaco|Big Five vs. HEXACO]]
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
 <!-- RELATED:END -->
 
 ---

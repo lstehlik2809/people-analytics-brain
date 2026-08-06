@@ -26,9 +26,9 @@ At the same time, however, the authors themselves emphasize that “*[these] fin
 ## Related notes
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
 - [[time-management|Consequences of time management in the workplace]]
-- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
+- [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[micro-breaks|Effectiveness of micro-breaks at work]]
-- [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
 <!-- RELATED:END -->
 
 ---

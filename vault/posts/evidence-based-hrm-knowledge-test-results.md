@@ -46,8 +46,8 @@ Please keep in mind that the comparison presented here is not entirely an apples
 - [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
 - [[gpt4-and-e-b-hrm-practices|GPT-4's performance in the knowledge test of evidence-based HRM practices]]
 - [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
-- [[managers-and-performance-evaluations|A new broom sweeps clean]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
+- [[managers-and-performance-evaluations|"A new broom sweeps clean"]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 <!-- RELATED:END -->
 
 ---

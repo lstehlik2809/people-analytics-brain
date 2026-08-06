@@ -38,11 +38,11 @@ P.S. I made [a simple tool](https://lstehlik2809.github.io/Car-Travel-Simulator/
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[impact-of-pets-on-life-satisfaction|Before you believe the £70,000 cat]]
+- [[female-survival-in-marital-disasters|Women, men, and sixteen sinking ships]]
+- [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
 - [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
-- [[matthew-effect-and-success-stories|Luck, cutoffs, and the stories we tell about success]]
 - [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
-- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
-- [[trust-errors-learning-reflection|When to forgive, when to close the book]]
 <!-- RELATED:END -->
 
 ---

@@ -35,11 +35,11 @@ Question for the PA folks here: Are you using "above expected" style models in P
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[managerial-quality|Unexpected protective effect of having a good manager?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 - [[impact-of-leaders|Want to maximize your impact as a leader?]]
-- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
-- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 <!-- RELATED:END -->
 
 ---

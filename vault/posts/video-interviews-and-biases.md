@@ -29,9 +29,9 @@ These results suggest that standardizing video backgrounds during virtual interv
 ## Related notes
 - [[gender-gap-in-hiring-decisions|Evidence on the presence of gender bias in selection settings]]
 - [[analytical-choices-and-variability|How variations in analytic choices affect results?]]
-- [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
+- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
-- [[self-selection-and-proxy-measures|When self-selected behavior is a blessing, not a headache]]
+- [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
 <!-- RELATED:END -->
 
 ---

@@ -24,11 +24,11 @@ If you find it useful for your teaching or training, check out the dataviz [here
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[team-maps|Experiencing and seeing team similarities and differences]]
-- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
+- [[team-maps|Experiencing and seeing team similarities and differences]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
+- [[personality-frameworks-contest|A showdown between the Big Five, Enneagram, MBTI, and astrology]]
 <!-- RELATED:END -->
 
 ---

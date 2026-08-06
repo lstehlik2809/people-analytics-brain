@@ -33,11 +33,11 @@ What do you think? Could this be a useful piece of the puzzle in boosting data l
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[app-piloting-and-dif|Estimating the impact of a new business app by piloting & method of difference-in-differences]]
-- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 - [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
-- [[doppelganger-for-career-pathing|Using Doppelgänger for career pathing?]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 <!-- RELATED:END -->
 
 ---

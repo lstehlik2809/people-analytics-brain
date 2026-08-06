@@ -27,10 +27,10 @@ Would you add some other best practices for IM that have worked well for you and
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[slack-batching|Always messaging]]
-- [[good-manager|Signals of a good manager]]
 - [[overloaded-employees|Warning system for overloaded employees]]
+- [[good-manager|Signals of a good manager]]
 - [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
-- [[meetings-improvement|How to improve effectiveness of meetings?]]
+- [[distracted-time|Not-so-hidden cost of working in an office]]
 <!-- RELATED:END -->
 
 ---

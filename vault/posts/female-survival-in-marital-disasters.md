@@ -1196,11 +1196,11 @@ sessionInfo()
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
-- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
 - [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
-- [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[impact-of-pets-on-life-satisfaction|Before you believe the £70,000 cat]]
+- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
 <!-- RELATED:END -->
 
 ---

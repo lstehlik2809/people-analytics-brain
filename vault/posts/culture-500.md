@@ -48,8 +48,8 @@ To learn more about the methodology behind the tool, check out [this site](https
 ## Related notes
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
 - [[company-culture-and-financial-performance|Company culture as a forward signal of financial performance?]]
-- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 <!-- RELATED:END -->
 

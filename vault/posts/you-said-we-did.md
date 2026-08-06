@@ -66,9 +66,9 @@ Curious if anyone has done a similar exercise, and with what results.
 ## Related notes
 - [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 - [[honesty-in-engagement-vs-exit-surveys|Are people during exit surveys more honest in their responses than in engagement surveys?]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
-- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[survey-participation-and-attrition-prediction|People may signal their exit intentions not only by their actions but also by their inactions]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
+- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 <!-- RELATED:END -->
 
 ---

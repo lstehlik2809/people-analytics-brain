@@ -129,10 +129,10 @@ ggplot2::ggplot(simulated_data, aes(y = JobSatisfaction, x = AgilityMaturity, co
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
-- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[mixed-level-ml|Beyond the “flat Earth”]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 <!-- RELATED:END -->
 
 ---

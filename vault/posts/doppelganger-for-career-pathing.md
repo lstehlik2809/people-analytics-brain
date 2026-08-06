@@ -24,10 +24,10 @@ P.S. The illustrative pic is from the 1998 movie *[Sliding Doors](https://en.wik
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
+- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths"]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 - [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 <!-- RELATED:END -->
 

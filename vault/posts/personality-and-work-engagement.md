@@ -52,10 +52,10 @@ In short, personality matters, but it seems to be far from the one-ideal-persona
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[collaboration-and-personality|Collaboration and personality]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 <!-- RELATED:END -->
 
 ---

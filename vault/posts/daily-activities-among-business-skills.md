@@ -29,10 +29,10 @@ Check out where these two landed in the attached pics. Does it resonate? 🙃 Fo
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[big-consultancies-in-the-skills-semantic-space|Big consultancies in the skills semantic space]]
-- [[ona-skills-exploration|ONA as a tool for exploring the skill space in your company?]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
+- [[ona-skills-exploration|ONA as a tool for exploring the skill space in your company?]]
+- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
 - [[people-analytics-and-market-basket-analysis|I’ve finally lived to see the day…]]
-- [[team-maps|Experiencing and seeing team similarities and differences]]
 <!-- RELATED:END -->
 
 ---

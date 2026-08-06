@@ -95,11 +95,11 @@ P.S. As is evident from the code snippet above, the attached chart isn't straigh
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
+- [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
+- [[how-personality-risks-co-occur|How personality risks co-occur?]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
-- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
-- [[collaboration-and-personality|Collaboration and personality]]
 <!-- RELATED:END -->
 
 ---

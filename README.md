@@ -14,9 +14,9 @@ People_Analytics_Blog/_posts/*.Rmd        (source of truth)
         │  pipeline/convert.py            → clean markdown notes + assets + figures
         ▼
 vault/posts/*.md                          (the second brain)
-        │  pipeline/embed_link.py         → OpenAI embeddings + semantic "Related notes" wikilinks
+        │  pipeline/embed_link.py         → chunked full-note embeddings + semantic "Related notes"
         │  pipeline/build_llms.py         → llms.txt / llms-full.txt for AI agents
-        │  pipeline/build_semantic_index.mjs → in-browser semantic search index
+        │  pipeline/build_semantic_index.mjs → chunked full-note browser search index
         ▼
 site/ (Quartz 5)                          → static site with graph view, search, tag pages
         │  GitHub Actions (deploy.yml)
@@ -26,7 +26,9 @@ GitHub Pages
 
 - **For people:** graph view, backlinks, tags, `Ctrl+K` full-text search, and
   [in-browser semantic search](https://lstehlik2809.github.io/people-analytics-second-brain/semantic-search.html)
-  (transformers.js + MiniLM, no server).
+  (transformers.js + MiniLM, no server). Semantic retrieval and related-note
+  matching both index overlapping passages across each note's cleaned prose,
+  so later sections of long posts remain discoverable.
 - **For AI agents:** a public [MCP server](https://people-analytics-brain-mcp.ludek-stehlik.workers.dev)
   (`https://people-analytics-brain-mcp.ludek-stehlik.workers.dev/mcp`, Streamable HTTP, no auth) with
   `search_notes` / `get_note` / `list_notes` / `list_tags` tools, plus

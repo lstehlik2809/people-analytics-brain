@@ -35,10 +35,10 @@ If you have at least two job offers to choose from, you may find the app as usef
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
 - [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
-- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
+- [[overview-of-predictors-of-voluntary-employee-turnover|Overview of predictors of voluntary employee turnover]]
+- [[linkedin-connections-analysis|R Shiny app for LinkedIn connections analysis]]
+- [[people-analytics-challenge-from-orgnostic|People Analytics Challenge from Orgnostic: Plan for high growth]]
 <!-- RELATED:END -->
 
 ---

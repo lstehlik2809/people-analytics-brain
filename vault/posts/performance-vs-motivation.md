@@ -43,9 +43,9 @@ For a deeper dive into this research, check out the full article [here](https://
 ## Related notes
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
 - [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
-- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[time-management|Consequences of time management in the workplace]]
+- [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
+- [[job-attitudes-and-employee-outcomes|Employee outcomes & employees' job attitudes]]
 <!-- RELATED:END -->
 
 ---

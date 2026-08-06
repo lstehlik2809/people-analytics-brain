@@ -346,11 +346,11 @@ Na příkladu oaklandského baseballového mužstva jsme takto mohli sledovat ob
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
 - [[hr-analytika-a-odchodovost-zamstnanc|HR analytika a odchodovost zaměstnanců]]
 - [[paygap|Firemní audit rozdílu mezi platy mužů a žen]]
-- [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
-- [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
+- [[hrm-value-chain-and-sem|HRM value chain and structural equation modeling - Moneyball case]]
+- [[value-added-modeling|Goals saved above expected… for managers?]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

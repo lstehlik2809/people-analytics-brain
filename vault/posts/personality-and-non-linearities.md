@@ -187,10 +187,10 @@ ggplot()+
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
-- [[conditional-inference-tree|Divide and... understand]]
+- [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[collaboration-and-personality|Collaboration and personality]]
-- [[kohonen-self-organizing-maps|Kohonen's Self-Organizing Maps]]
-- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
+- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
+- [[conditional-inference-tree|Divide and... understand]]
 <!-- RELATED:END -->
 
 ---

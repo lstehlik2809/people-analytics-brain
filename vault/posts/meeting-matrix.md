@@ -28,10 +28,10 @@ Btw, what is your guess as to how much time you spend in each cell of the meetin
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
-- [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
 - [[meeting-planning|Fighting meeting overload]]
+- [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
+- [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[meetings-improvement|How to improve effectiveness of meetings?]]
 <!-- RELATED:END -->
 

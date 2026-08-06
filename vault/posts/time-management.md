@@ -24,10 +24,10 @@ original: https://blog-about-people-analytics.netlify.app/posts/2023-04-17-time-
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[timeboxing|Timeboxing. Does it really work?]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[job-demands-job-control-wellbeing|Surprising finding on the impact of job demands and control on workers’ well-being]]
+- [[agile-project-management|Does agile pay off?]]
+- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[micro-breaks|Effectiveness of micro-breaks at work]]
-- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 <!-- RELATED:END -->
 
 ---

@@ -186,11 +186,11 @@ For more tips on how to leverage collaboration data in the current uncertain eco
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[induced-centrality|Induced centralities]]
-- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
-- [[collaboration-and-personality|Collaboration and personality]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 - [[org-chart-and-collaboration|Org chart and collaboration]]
+- [[overloaded-employees|Warning system for overloaded employees]]
+- [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
+- [[distracted-time|Not-so-hidden cost of working in an office]]
+- [[good-manager|Signals of a good manager]]
 <!-- RELATED:END -->
 
 ---

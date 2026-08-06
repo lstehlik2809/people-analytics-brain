@@ -200,11 +200,11 @@ How about you? Are you able to engage in interactions and networking in a way th
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[extraversion-vs-neuroticism|Why are introverts often described in terms of negative emotionality, and should they be?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
-- [[big-five-vs-hexaco|Big Five vs. HEXACO]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 <!-- RELATED:END -->
 
 ---

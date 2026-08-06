@@ -21,10 +21,10 @@ As illustrated in the attached chart, large and recurring meetings can represent
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[meeting-planning|Fighting meeting overload]]
 - [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[meetings-improvement|How to improve effectiveness of meetings?]]
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
-- [[meeting-planning|Fighting meeting overload]]
 - [[ineffective-meetings|Why are meetings in/effective?]]
 <!-- RELATED:END -->
 

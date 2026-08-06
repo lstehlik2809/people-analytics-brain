@@ -93,10 +93,10 @@ P.S. Kudos to ChatGPT for extracting the data from the screenshot of the data ta
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
-- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
 - [[how-personality-risks-co-occur|How personality risks co-occur?]]
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
-- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
+- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 <!-- RELATED:END -->
 
 ---

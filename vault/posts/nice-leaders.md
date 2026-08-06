@@ -27,11 +27,11 @@ The article also contains other interesting results of various moderation and po
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[self-leadership|Self-Leadership: A New Superpower?]]
-- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 - [[impact-of-leaders|Want to maximize your impact as a leader?]]
-- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[collaboration-and-personality|Collaboration and personality]]
 <!-- RELATED:END -->
 
 ---

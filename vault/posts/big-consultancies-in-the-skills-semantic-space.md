@@ -31,8 +31,8 @@ P.S. The whole exercise reminded me of a [*semantic differential*](https://en.wi
 - [[daily-activities-among-business-skills|The hidden skill map - where life meets work]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
-- [[ona-skills-exploration|ONA as a tool for exploring the skill space in your company?]]
 - [[rebuilding-a-survey-with-the-help-of-nlp-tools|Rebuilding an employee survey with the help of NLP tools]]
+- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
 <!-- RELATED:END -->
 
 ---

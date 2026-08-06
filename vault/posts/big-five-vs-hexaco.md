@@ -247,11 +247,11 @@ Curious about others’ experiences with switching from the Big Five to HEXACO. 
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[collaboration-and-personality|Collaboration and personality]]
-- [[extraversion-vs-neuroticism|Why are introverts often described in terms of negative emotionality, and should they be?]]
 - [[personality-frameworks-contest|A showdown between the Big Five, Enneagram, MBTI, and astrology]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 <!-- RELATED:END -->
 
 ---

@@ -23,9 +23,9 @@ Using this approach and our clients' collaborative data, I looked at the relatio
 ## Related notes
 - [[distracted-time|Not-so-hidden cost of working in an office]]
 - [[time-management|Consequences of time management in the workplace]]
+- [[slack-batching|Always messaging]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
-- [[visual-inference-statistics|Visual statistical inference]]
 <!-- RELATED:END -->
 
 ---

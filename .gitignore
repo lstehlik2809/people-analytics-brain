@@ -6,6 +6,7 @@ site/public/
 site/.quartz-cache/
 pipeline/cache/embeddings.json
 pipeline/cache/search_index.json
+pipeline/cache/backups/
 pipeline/node_modules/
 mcp-server/node_modules/
 mcp-server/.wrangler/

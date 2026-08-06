@@ -25,11 +25,11 @@ Check it out here ➡️ https://peopleanalyticsblog.shinyapps.io/Hofstede_Cultu
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[cultural-traveler|A nerdy way to choose your next holiday destination]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
-- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[cultural-traveler|A nerdy way to choose your next holiday destination]]
 - [[culture-500|How does your company stack up in the Big Nine Cultural Values?]]
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[team-maps|Experiencing and seeing team similarities and differences]]
 <!-- RELATED:END -->
 
 ---

@@ -32,11 +32,11 @@ If you’d like to try the tool yourself, here’s the [link](https://apps.psych
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[collaboration-and-personality|Collaboration and personality]]
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
+- [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 <!-- RELATED:END -->
 
 ---

@@ -23,10 +23,10 @@ What about you? What work habits has GenAI changed in your case, if any?
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
 - [[dunning-kruger-effect-simulation|Making abstract ideas digestible with knobs and sliders]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
-- [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
-- [[ai-and-bullshit-asymmetry|Can AI help us fight the bullshit asymmetry?]]
+- [[chatgpt-emails-and-causalpy|ChatGPT as a new email writing coach?]]
 <!-- RELATED:END -->
 
 ---

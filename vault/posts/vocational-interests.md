@@ -28,11 +28,11 @@ Note: The attached schemes are taken from another excellent resource on this top
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
+- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
-- [[career-hurdles|And what are your career hurdles?]]
 - [[job-attitudes-and-employee-outcomes|Employee outcomes & employees' job attitudes]]
+- [[big-five-vs-hexaco|Big Five vs. HEXACO]]
 <!-- RELATED:END -->
 
 ---

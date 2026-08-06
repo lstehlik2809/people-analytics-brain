@@ -23,11 +23,11 @@ It seems that a reflective thinking style may bear some extra clues to workplace
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[big-five-personality-and-earnings|Link between the Big Five personality traits and earnings]]
+- [[self-leadership|Self-Leadership: A New Superpower?]]
 <!-- RELATED:END -->
 
 ---

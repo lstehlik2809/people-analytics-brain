@@ -59,11 +59,11 @@ P.S. I didn't test the reliability of GPT-4's responses, nor did I set its tempe
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[evidence-based-hrm-knowledge-test-results|Evaluation of the results of the evidence-based HRM knowledge test]]
 - [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
+- [[evidence-based-hrm-knowledge-test-results|Evaluation of the results of the evidence-based HRM knowledge test]]
 - [[ebm-gpt-bot|How to support the adoption of Evidence-Based Management with a specialized GPT bot]]
 - [[genai-and-leadership-judgement|Can genAI help people managers lead better?]]
-- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 <!-- RELATED:END -->
 
 ---

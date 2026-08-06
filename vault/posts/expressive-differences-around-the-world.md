@@ -26,8 +26,8 @@ Sure, there’s still a lot of variation within each country, and individual dif
 ## Related notes
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 - [[cultural-traveler|A nerdy way to choose your next holiday destination]]
-- [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
+- [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 <!-- RELATED:END -->
 

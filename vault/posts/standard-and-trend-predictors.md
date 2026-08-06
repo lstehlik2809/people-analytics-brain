@@ -31,11 +31,11 @@ Do you have a similar experience with or just a strong hunch about other metrics
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
-- [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
-- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
 - [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
+- [[change-detection|How to quickly navigate dashboard users to what they need to know?]]
+- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
 <!-- RELATED:END -->
 
 ---

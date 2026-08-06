@@ -59,10 +59,10 @@ GitHub repo
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[searching-and-querying-aihr-blog-posts|Searching & querying AIHR blog posts on People Analytics topics]]
-- [[nlp-llm-and-onboarding|Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding]]
-- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
+- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[nlp-llm-and-onboarding|Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding]]
 <!-- RELATED:END -->
 
 ---

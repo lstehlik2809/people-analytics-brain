@@ -22,9 +22,9 @@ While the client couldn’t rule out that there might be some individuals fittin
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[meeting-planning|Fighting meeting overload]]
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 - [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
-- [[meeting-planning|Fighting meeting overload]]
 - [[meeting-matrix|Eisenhower matrix for meetings]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
 <!-- RELATED:END -->

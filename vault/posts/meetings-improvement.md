@@ -47,9 +47,9 @@ Is there anything that you think is missing in the list, especially in the conte
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[ineffective-meetings|Why are meetings in/effective?]]
+- [[meeting-planning|Fighting meeting overload]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
 - [[meeting-matrix|Eisenhower matrix for meetings]]
-- [[meeting-planning|Fighting meeting overload]]
 - [[back-to-back-meetings|Are back-to-back meetings for good or bad?]]
 <!-- RELATED:END -->
 

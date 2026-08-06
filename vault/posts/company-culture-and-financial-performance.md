@@ -79,7 +79,7 @@ P.S. If you would like to replicate or extend the analysis, you can find the dat
 - [[culture-500|How does your company stack up in the Big Nine Cultural Values?]]
 - [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
-- [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
+- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
 <!-- RELATED:END -->
 
 ---

@@ -33,8 +33,8 @@ So pretty good news for APM proponents, however, it's good to keep in mind that 
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[time-management|Consequences of time management in the workplace]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[timeboxing|Timeboxing. Does it really work?]]
+- [[self-leadership|Self-Leadership: A New Superpower?]]
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
 - [[job-insecurity-and-behavioral-outcomes|Does a stick work?]]
 <!-- RELATED:END -->

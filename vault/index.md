@@ -11,7 +11,7 @@ This is the interconnected, "second brain" version of my [blog about people anal
 - 🔍 **Search** — press `Ctrl+K` (or `⌘K`) for full-text search across all notes.
 - 🔎 **<a href="./semantic-search.html" data-router-ignore>Semantic search</a>** — search by meaning rather than keywords; runs entirely in your browser (no server involved).
 - 🏷️ **Tags** — every note is tagged by topic (e.g. [[tags/causal-inference]], [[tags/employee-turnover]], [[tags/psychometrics]]); tag pages collect everything on a theme.
-- 🔗 **Related notes** — each note ends with its semantically closest neighbors, computed from embeddings of the full text.
+- 🔗 **Related notes** — each note ends with its semantically closest neighbors, computed from overlapping passages across its cleaned prose rather than a truncated prefix.
 
 Each note links back to the original blog post, where you'll find the full rendered outputs (charts, interactive apps, etc.).
 

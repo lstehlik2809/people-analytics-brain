@@ -303,11 +303,11 @@ A [GitHub repository](https://github.com/lstehlik2809/Beyond-Prediction-Exploiti
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
-- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
-- [[span-of-control-and-managerial-behavior|Can flatter orgs undermine people management?]]
-- [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
+- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
+- [[chatgpt-emails-and-causalpy|ChatGPT as a new email writing coach?]]
+- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
 <!-- RELATED:END -->
 
 ---

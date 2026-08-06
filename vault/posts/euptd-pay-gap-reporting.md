@@ -40,11 +40,11 @@ June 2027 is closer than it looks 😉
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
-- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[value-added-modeling|Goals saved above expected… for managers?]]
+- [[mixed-level-ml|Beyond the “flat Earth”]]
 <!-- RELATED:END -->
 
 ---

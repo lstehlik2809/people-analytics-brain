@@ -545,11 +545,11 @@ Skript k analýze je k dispozici ke stažení v podobě Jupyter Notebooku na mý
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
 - [[hr-analytika-a-odchodovost-zamstnanc|HR analytika a odchodovost zaměstnanců]]
 - [[moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt|Moneyball v HR]]
-- [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
-- [[interpretable-ml|Interpretable machine learning with modelStudio]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
 <!-- RELATED:END -->
 
 ---

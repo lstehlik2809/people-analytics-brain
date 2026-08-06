@@ -158,11 +158,11 @@ And it doesn't have to end there. For example, this estimate can be combined wit
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
 - [[bayesian-networks-in-people-analytics|Use of Bayesian networks in people analytics?]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[bayesian-belief-updating|A visual introduction to Bayesian belief updating]]
+- [[multilevel-modeling|Multilevel modeling in people analytics]]
 <!-- RELATED:END -->
 
 ---

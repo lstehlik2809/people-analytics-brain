@@ -32,8 +32,8 @@ Obviously, the size and demographics of the sample used are limited and conclusi
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[managers-and-performance-evaluations|A new broom sweeps clean]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[impact-of-leaders|Want to maximize your impact as a leader?]]
+- [[how-personality-risks-co-occur|How personality risks co-occur?]]
 <!-- RELATED:END -->
 
 ---

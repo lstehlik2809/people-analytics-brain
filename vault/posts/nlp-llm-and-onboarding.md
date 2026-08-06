@@ -25,9 +25,9 @@ If you want to check out the code behind the app, you can find it in [this GitHu
 ## Related notes
 - [[rebuilding-a-survey-with-the-help-of-nlp-tools|Rebuilding an employee survey with the help of NLP tools]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[people-analytics-second-brain|My second People Analytics brain - both for people and AI agents]]
 - [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
-- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
+- [[people-analytics-second-brain|My second People Analytics brain - both for people and AI agents]]
+- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
 <!-- RELATED:END -->
 
 ---

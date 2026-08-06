@@ -165,10 +165,10 @@ What is your approach to back-to-back meetings? Do you try to always have at lea
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[meeting-planning|Fighting meeting overload]]
-- [[meeting-matrix|Eisenhower matrix for meetings]]
-- [[makers-and-managers-schedule|Makers' schedule and managers' schedule in collaboration data]]
 - [[large-and-recurring-meetings|Where to look first when considering meeting reset?]]
-- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
+- [[meeting-matrix|Eisenhower matrix for meetings]]
+- [[timeboxing|Timeboxing. Does it really work?]]
+- [[slack-batching|Always messaging]]
 <!-- RELATED:END -->
 
 ---

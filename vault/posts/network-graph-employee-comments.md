@@ -314,10 +314,10 @@ networkD3::forceNetwork(
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
 - [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[induced-centrality|Induced centralities]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[collaboration-overload-and-bottlenecks|Hot spots of collaboration overload and collaboration bottlenecks and how to find them]]
+- [[probability-of-comments-in-a-survey|What makes people more likely to comment on a question in an employee survey?]]
 <!-- RELATED:END -->
 
 ---

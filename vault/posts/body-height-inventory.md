@@ -27,11 +27,11 @@ The inventory is in Czech, but the online translation in Chrome does a pretty go
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
 - [[cat-and-irt-demo|An interactive demo of Computerized Adaptive Testing]]
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
-- [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[evidence-based-hrm-knowledge-test|Evidence-based HRM knowledge test]]
+- [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 <!-- RELATED:END -->
 
 ---

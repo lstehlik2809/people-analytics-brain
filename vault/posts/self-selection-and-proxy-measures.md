@@ -30,11 +30,11 @@ Curious to hear how you have used indirect or behavioral indicators in your work
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[encouragement-design-and-ivs|Encouragement Design using instrumental variables]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
-- [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[visual-diff-in-diff|Causal insights with no code?]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 <!-- RELATED:END -->
 
 ---

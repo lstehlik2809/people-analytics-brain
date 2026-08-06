@@ -26,9 +26,9 @@ Have you implemented any interventions to boost engagement of employees in your 
 ## Related notes
 - [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
-- [[systematic-review-of-happiness-interventions|What actually makes us happier?]]
-- [[job-attitudes-and-employee-outcomes|Employee outcomes & employees' job attitudes]]
 - [[psychological-safety-and-rct|Fostering psychological safety in the workplace]]
+- [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
+- [[job-attitudes-and-employee-outcomes|Employee outcomes & employees' job attitudes]]
 <!-- RELATED:END -->
 
 ---

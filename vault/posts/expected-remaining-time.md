@@ -198,11 +198,11 @@ remaining_time_bootstraping_plotting(data=data_wine)
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
-- [[visual-inference-statistics|Visual statistical inference]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[tenure-vs-satisfaction|Simulating the "survivorship" effect in employee satisfaction data over time]]
+- [[people-related-metrics-distribution|It's perfectly normal not to be normal]]
 <!-- RELATED:END -->
 
 ---

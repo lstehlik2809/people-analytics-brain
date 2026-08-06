@@ -214,9 +214,9 @@ modelStudio::modelStudio(
 ## Related notes
 - [[personas-based-on-ml-local-interpretation-algos|Personas based on ML local interpretation algorithms]]
 - [[r-and-power-bi|Embedding R (or Python) ML models in Power BI dashboards]]
+- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
 - [[conditional-inference-tree|Divide and... understand]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 <!-- RELATED:END -->
 
 ---

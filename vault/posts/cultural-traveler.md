@@ -51,8 +51,8 @@ P.S. Hofstede’s country scores are broad national averages. They capture only 
 - [[hofstede-theory-of-cultural-dimensions|Hofstede's theory of cultural dimensions]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
 - [[expressive-differences-around-the-world|Adjusting priors on your “emotional radar” for smoother cross-cultural encounters]]
-- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
+- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
 <!-- RELATED:END -->
 
 ---

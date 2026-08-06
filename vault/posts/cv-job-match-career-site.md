@@ -32,10 +32,10 @@ P.S. It was also a good opportunity to try out [Shiny for Python by Posit](https
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
+- [[openai-personality-interpretation|Ask your personality using GPT]]
 - [[job-comparator|A bet on a new job]]
 - [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
-- [[openai-personality-interpretation|Ask your personality using GPT]]
-- [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
+- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
 <!-- RELATED:END -->
 
 ---

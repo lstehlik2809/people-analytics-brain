@@ -30,9 +30,9 @@ So, although FC measures are not completely immune to faking, they seem to show 
 ## Related notes
 - [[big-five-vs-hexaco|Big Five vs. HEXACO]]
 - [[personality-frameworks-contest|A showdown between the Big Five, Enneagram, MBTI, and astrology]]
-- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
-- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
+- [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
+- [[how-personality-risks-co-occur|How personality risks co-occur?]]
 <!-- RELATED:END -->
 
 ---

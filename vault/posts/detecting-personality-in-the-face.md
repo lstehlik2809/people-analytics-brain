@@ -192,9 +192,9 @@ It worked surprisingly well given how simple the approach is—at least for me a
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[ona-and-face-similarity|When facial similarity meets Network Science]]
-- [[dimensional-traits-vs-personality-types|Dimensional Traits vs. Personality Types]]
 - [[openai-personality-interpretation|Ask your personality using GPT]]
+- [[ona-and-face-similarity|When facial similarity meets Network Science]]
+- [[personality-frameworks-contest|A showdown between the Big Five, Enneagram, MBTI, and astrology]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[collaboration-and-personality|Collaboration and personality]]
 <!-- RELATED:END -->

@@ -110,9 +110,9 @@ print(g)
 ## Related notes
 - [[happiness-and-income|Happy today, richer tomorrow?]]
 - [[engagement-interventions|Effectiveness of interventions for encreasing employee engagement]]
+- [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[nudge-effectiveness|Signal vs. Noise: Why we can’t yet identify effective nudges]]
-- [[career-hurdles|And what are your career hurdles?]]
-- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
+- [[micro-breaks|Effectiveness of micro-breaks at work]]
 <!-- RELATED:END -->
 
 ---

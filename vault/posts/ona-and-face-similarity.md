@@ -41,10 +41,10 @@ P.S. Out of curiosity, I also ran the analysis with my own photo, and it seems I
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[detecting-personality-in-the-face|Can a simple algorithm read your personality from your face?]]
-- [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
 - [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
-- [[collaboration-and-personality|Collaboration and personality]]
 - [[cultural-traveler|A nerdy way to choose your next holiday destination]]
+- [[david-green-hr-people-sna-network|Mapping the People Analytics universe]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 <!-- RELATED:END -->
 
 ---

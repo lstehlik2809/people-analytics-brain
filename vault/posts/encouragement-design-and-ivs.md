@@ -51,11 +51,11 @@ The question was about the pros/cons of the nudging approach versus a difference
 
 <!-- RELATED:BEGIN -->
 ## Related notes
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
+- [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
 - [[visual-diff-in-diff|Causal insights with no code?]]
 - [[the-triple-filter-test|The Triple-Filter Test: How to prioritize HR interventions with panel data]]
-- [[did-with-repeated-cross-sectional-data|What a European cigarette tax study taught me about employee listening]]
-- [[econml-and-employee-attriton|How to get causal interpretation for the Employee Attrition dataset?]]
-- [[self-selection-and-proxy-measures|When self-selected behavior is a blessing, not a headache]]
 <!-- RELATED:END -->
 
 ---

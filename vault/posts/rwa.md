@@ -373,11 +373,11 @@ ggplot2::ggplot(final_results, aes(x = Predictor, y = RescaledWeight)) +
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
-- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
-- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
 - [[cross-lagged-panel-modeling|Getting (more) causal insights from employee survey data (without an RCT)]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
+- [[psw-and-selection-bias-in-employee-surveys|How to analyze employee survey results with less (selection) bias?]]
+- [[latent-class-analysis|Latent Class Analysis of responses from employee surveys]]
+- [[regression-to-the-mean|Employee commitment over time & regression to the mean]]
 <!-- RELATED:END -->
 
 ---

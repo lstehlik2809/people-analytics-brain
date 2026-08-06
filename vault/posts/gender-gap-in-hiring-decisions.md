@@ -31,9 +31,9 @@ original: https://blog-about-people-analytics.netlify.app/posts/2023-11-22-gende
 ## Related notes
 - [[interventions-reducing-gender-pay-gap|Evidence-based interventions that help reduce the gender pay gap]]
 - [[selection-procedures-validity-update|Visualizing shifts in validity estimates for selection procedures]]
-- [[career-hurdles|And what are your career hurdles?]]
-- [[video-interviews-and-biases|Biases introduced by video backgrounds during video interviews]]
 - [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
+- [[euptd-pay-gap-reporting|Pay gap estimation for small worker categories]]
+- [[video-interviews-and-biases|Biases introduced by video backgrounds during video interviews]]
 <!-- RELATED:END -->
 
 ---

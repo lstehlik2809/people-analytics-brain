@@ -25,8 +25,8 @@ I know this use case is not that common, but IMO still enough to make it worth k
 - [[nlp-llm-and-onboarding|Using NLP & LLM to combat 'tip-of-the-tongue' moments during onboarding]]
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
 - [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
-- [[big-consultancies-in-the-skills-semantic-space|Big consultancies in the skills semantic space]]
-- [[cv-job-match-career-site|Improving a company career site with tools from OpenAI]]
+- [[linkedin-contacts-job-positions|Analyzing LinkedIn connections' jobs using LLMs and the BERTopic package]]
+- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
 <!-- RELATED:END -->
 
 ---

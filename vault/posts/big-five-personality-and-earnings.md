@@ -24,11 +24,11 @@ I know of at least two aspects of my personality that are unnecessarily costing 
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[personality-and-work-engagement|Putting the "ideal" personality for high work engagement in a broader context]]
 - [[collaboration-and-personality|Collaboration and personality]]
+- [[job-personality-fit|Do people’s personalities vary across different jobs?]]
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
-- [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[personality-and-non-linearities|Nonlinear relationships between personality traits and business outcomes seem to be the norm rather than the exception]]
 <!-- RELATED:END -->
 
 ---

@@ -55,11 +55,11 @@ P.S. If you don’t follow Paul, you should. His LinkedIn posts may challenge so
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[causal-impact-of-leadership-skills|Novel way to measure leadership skills via causal inference (and AI)?]]
-- [[ai-suggestibility|Loftus & Palmer 2.0: Replicating human bias in AI]]
+- [[hr-tech-ai-shift|How AI is reshaping HR-tech]]
 - [[beyond-belief|Evidence-Based Management: Boring basics and better questions]]
+- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
 <!-- RELATED:END -->
 
 ---

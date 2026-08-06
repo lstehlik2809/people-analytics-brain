@@ -28,11 +28,11 @@ And of course, school entry dates are just one example. We could start with bein
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths]]
-- [[career-hurdles|And what are your career hurdles?]]
+- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths"]]
 - [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
 - [[trust-errors-learning-reflection|When to forgive, when to close the book]]
-- [[strength-based-development-and-distributions|Strength-based development and power-law vs. normal distribution of performance]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
+- [[impact-of-leaders|Want to maximize your impact as a leader?]]
 <!-- RELATED:END -->
 
 ---

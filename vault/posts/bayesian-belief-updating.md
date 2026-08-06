@@ -176,11 +176,11 @@ For those who would like to incorporate Bayesian reasoning into their managerial
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[visual-inference-statistics|Visual statistical inference]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
 - [[bayesian-simulation|Harnessing Bayesian analysis for business process simulation]]
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
-- [[conditional-inference-tree|Divide and... understand]]
+- [[visual-inference-statistics|Visual statistical inference]]
+- [[job-comparator|A bet on a new job]]
+- [[garden-of-forking-paths-redo|Refactoring the "Garden of Forking Paths"]]
+- [[conspiracy-theories-and-overfitting|Conspiracy theories as a specific example of overfitting?]]
 <!-- RELATED:END -->
 
 ---

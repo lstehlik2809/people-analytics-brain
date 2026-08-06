@@ -100,10 +100,10 @@ What might be the practical implications for managers?
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[team-level-predictors-of-innovation|Team-level predictors of innovation at work]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[cognitive-diversity|Can there be too much cognitive diversity in teams?]]
+- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[self-leadership|Self-Leadership: A New Superpower?]]
-- [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
+- [[managers-overconfidence|Where do managers put on their rose-tinted glasses the most?]]
 <!-- RELATED:END -->
 
 ---

@@ -32,9 +32,9 @@ For more interesting details of the study, check the original paper [here](https
 ## Related notes
 - [[performance-vs-motivation|Motivation vs. Performance: What causes what?]]
 - [[job-demands-job-control-wellbeing|Surprising finding on the impact of job demands and control on workers’ well-being]]
-- [[employee-satisfaction-and-company-bottom-line|Impact of employee satisfaction at work on a company's bottom line]]
+- [[instrumental-and-expressive-networks|Not all workplace relationships are created equal when it comes to retaining talent]]
 - [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
-- [[self-leadership|Self-Leadership: A New Superpower?]]
+- [[managers-and-performance-evaluations|"A new broom sweeps clean"]]
 <!-- RELATED:END -->
 
 ---

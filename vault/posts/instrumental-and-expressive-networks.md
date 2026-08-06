@@ -28,11 +28,11 @@ While there are some limitations to consider - such as the relatively small numb
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
 - [[contagious-turnover|Is contagious turnover overrated? Probably only if you ignore the managers.]]
-- [[vocational-interests|Vocational interests don't seem so uninteresting after all]]
+- [[psychometric-network-analysis|Psychometric network analysis & employee survey data]]
 - [[corporate-culture-trade-offs|The hidden trade-offs in corporate culture?]]
-- [[collaboration-and-personality|Collaboration and personality]]
+- [[predictors-of-stay-intentions-vs-actual-resignations|Talk vs. Walk: Predictors of staying intentions vs. actual quitting behavior]]
+- [[glassdoor|When flawed statistical & causal reasoning leads to a valid conclusion anyway]]
 <!-- RELATED:END -->
 
 ---

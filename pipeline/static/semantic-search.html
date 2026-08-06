@@ -72,7 +72,8 @@
   <h1>🔎 Semantic search</h1>
   <p class="sub">Search my people-analytics notes by meaning, not keywords — try
   “why do people quit” or “measuring personality reliably”. Runs entirely in your
-  browser. <a href="./">← Back to the brain</a></p>
+  browser. Long notes are indexed as passages across their cleaned prose.
+  <a href="./">← Back to the brain</a></p>
   <input id="q" type="search" placeholder="Preparing search…" disabled autofocus>
   <div id="status">Checking for cached model…</div>
   <div id="bar-wrap"><div id="bar"></div></div>
@@ -157,7 +158,8 @@
     barWrap.style.display = "none";
     input.disabled = false;
     input.placeholder = "Search by meaning…";
-    status.textContent = `Ready — ${index.posts.length} notes indexed.`;
+    const passageCount = index.passageCount ?? index.vectorCount ?? index.posts.reduce((n, p) => n + p.vecs.length, 0);
+    status.textContent = `Ready — ${index.posts.length} notes indexed across ${passageCount} body passages.`;
     input.focus();
 
     let timer;

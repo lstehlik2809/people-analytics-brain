@@ -45,8 +45,8 @@ Anything that surprised you or caught your attention?
 - [[self-awareness-and-personality|Does your personality interfere with your self-awareness?]]
 - [[insights-discovery-and-skills|Do Insights Discovery ‘colors’ relate to self-reported skills?]]
 - [[collaboration-and-personality|Collaboration and personality]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[personality-and-cultural-values|We are probably more similar - and different - than expected]]
+- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 <!-- RELATED:END -->
 
 ---

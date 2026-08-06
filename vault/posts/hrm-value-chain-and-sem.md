@@ -644,11 +644,11 @@ Finally, let's breathe some life into the dry numbers by watching a short clip f
 
 <!-- RELATED:BEGIN -->
 ## Related notes
-- [[rwa|RWA – A go-to tool for key drivers analysis of employee survey data?]]
-- [[bayesian-shrinkage|Using Bayesian shrinkage in reporting employee turnover]]
-- [[visual-inference-statistics|Visual statistical inference]]
+- [[moneyball-v-hr-od-hr-analytiky-ke-sportovn-analytice-a-zpt|Moneyball v HR]]
+- [[causal-inference-in-people-analytics|Beyond prediction: Exploiting organizational events for causal inference in people analytics]]
 - [[multilevel-modeling|Multilevel modeling in people analytics]]
-- [[people-analytics-popularity-after-covid|The impact of the COVID pandemic on the popularity of people analytics]]
+- [[value-added-modeling|Goals saved above expected… for managers?]]
+- [[people-manager-value-chain|What does a typical people manager value chain look like?]]
 <!-- RELATED:END -->
 
 ---

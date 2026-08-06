@@ -145,9 +145,9 @@ datatable(
 ## Related notes
 - [[company-culture-and-financial-performance|Company culture as a forward signal of financial performance?]]
 - [[culture-500|How does your company stack up in the Big Nine Cultural Values?]]
-- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
 - [[hofstede-wfh|What does national culture have to do with working from home?]]
-- [[network-graph-employee-comments|Using network graph modeling to capture overarching thematic clusters in employee comments]]
+- [[tas-c-suit-teams|Insights from the Team Assessment Survey results of C-suite teams]]
+- [[instrumental-and-expressive-networks|Not all workplace relationships are created equal when it comes to retaining talent]]
 <!-- RELATED:END -->
 
 ---

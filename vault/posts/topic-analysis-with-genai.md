@@ -90,9 +90,9 @@ for topic in topic_labels:
 <!-- RELATED:BEGIN -->
 ## Related notes
 - [[employee-feedback-analysis-using-openai|Employee feedback analysis using tools from OpenAI]]
-- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
-- [[chatgpt-and-employee-feedback|Using ChatGPT to summarize and explore employee feedback?]]
 - [[sentiment-analysis-validation|Sentiment analysis of employee survey comments using zero-shot classification]]
+- [[ai-powered-data-exploration-assistant|Testing my GenAI skepticism]]
+- [[rebuilding-a-survey-with-the-help-of-nlp-tools|Rebuilding an employee survey with the help of NLP tools]]
 - [[agentic-ai-for-visual-data-exploration|Agentic AI for visual data exploration]]
 <!-- RELATED:END -->
 
