@@ -547,6 +547,8 @@ ggplot(ship_gaps, aes(gap, ship_year, color = factor(wcf), shape = factor(wcf)))
        x = "Female survival minus male survival", y = NULL)
 ```
 
+![Female minus male survival in each main-sample wreck. Rust triangles mark a recorded women-and-children-first order.](./female-survival-in-marital-disasters/generated-figure-01.png)
+
 The range is not subtle. The *Birkenhead* sits at `r sprintf('%+.3f', ship_gaps$gap[ship_gaps$ship == 'HMS Birkenhead'])` because seven women were recorded aboard and all seven survived, alongside 549 men of whom `r scales::percent(mean(birkenhead_records$surv[birkenhead_records$female == 0], na.rm = TRUE), accuracy = .1)` lived. The most famous instance of women-and-children-first in the sample is a rate computed from seven people. I checked that denominator twice. The *Atlantic* sits at `r sprintf('%+.3f', ship_gaps$gap[ship_gaps$ship == 'SS Atlantic'])`; none of its recorded women survived. The *Mafalda* and *Morro Castle* sit close to zero, but on the same side as the rest: the *Birkenhead* is the only one of the sixteen where women did better, and the other `r sum(ship_gaps$gap < 0)` all fall the same way. That count is the simplest evidence in the post and the least dependent on any modelling choice.
 
 ```r
@@ -663,6 +665,8 @@ ggplot(inference, aes(estimate, factor(term, levels = rev(unique(terms$label))),
        x = "Estimated change in survival probability", y = NULL, color = NULL)
 ```
 
+![Coefficients from three models - Female from the sex-only model, Crew from the sex-and-crew model, the six interactions from the paper's joint weighted specification - each with heteroskedasticity-robust and ship-clustered 95% intervals. Robust intervals use n - K degrees of freedom, clustered intervals G - 1 = 15.](./female-survival-in-marital-disasters/generated-figure-02.png)
+
 The robust SE on `female` is `r sprintf('%.4f', se(h1_robust)['female'])`; ship clustering raises it to `r sprintf('%.4f', se(h1_cluster)['female'])`, roughly five times larger. The conclusion is unchanged either way - p = `r fmt_p(pvalue(h1_cluster)['female'])` on fifteen degrees of freedom - and the crew claim survives too, at p `r fmt_p(pvalue(h2_cluster)['crew'])`. The moderator claims are where the original precision does not survive ship-level inference. The captain-order interaction moves from p `r fmt_p(pvalue(joint_robust)['female:wcf'])` to `r fmt_p(pvalue(joint_cluster)['female:wcf'])`; British ships move from `r fmt_p(pvalue(joint_robust)['female:british'])` to `r fmt_p(pvalue(joint_cluster)['female:british'])`; the post-WWI interaction lands at `r fmt_p(pvalue(joint_cluster)['female:post_wwi'])`. Standard errors for the moderators are roughly two to three and a half times larger.
 
 The female and crew coefficients remain clearly distinguishable from zero under clustering. The moderator intervals contain zero as well as effects in either direction large enough to matter historically. Their width reflects the limited number of ships and the weak support for ship-level explanations.
@@ -740,6 +744,8 @@ ggplot(tibble(estimate = ri_null), aes(estimate)) +
                          " over all 560 placements"),
        x = "Placebo coefficient on female × recorded WCF order", y = "Assignments")
 ```
+
+![Enumerated permutation distribution from all 560 placements of three WCF labels. The line is the observed joint-model estimate.](./female-survival-in-marital-disasters/generated-figure-03.png)
 
 The p-value is `r sprintf('%.3f', ri_p)`. It is exhaustive rather than exact: the reference set is enumerated completely, with no simulation error anywhere in it, but "exact" in the randomization-test sense would require the three labels to have been assigned by a design that made all 560 placements equally likely, and no such design ever existed. Read it as a conditional permutation diagnostic and the point is plain enough: the observed estimate isn't unusual among arbitrary placements of three labels.
 
@@ -835,6 +841,8 @@ ggplot(loo, aes(estimate, omit_label)) +
   labs(title = "The British result is the leave-one-out exception",
        x = "Female × ship-condition coefficient", y = "Wreck omitted")
 ```
+
+![Each point is the interaction estimate after omitting the named wreck. Dashed lines show the full-sample estimate from the same one-hypothesis model.](./female-survival-in-marital-disasters/generated-figure-04.png)
 
 ```r
 kable(loo_table, align = c("l", "r", "r", "r"),
@@ -960,6 +968,8 @@ ggplot(child_results, aes(cutoff, child_gap)) +
        x = "Age below cutoff", y = "Female survival gap")
 ```
 
+![Female-minus-male survival gap among child passengers below each age cutoff, from surv ~ female × child | ship on the seven age-recording ships (delta-method bands, ship-clustered, t with six degrees of freedom). The dashed line is the same model's adult-passenger gap at the age-16 cutoff.](./female-survival-in-marital-disasters/generated-figure-05.png)
+
 ```r
 child_boot_model <- lm(surv ~ female * child + factor(ship), data = z16)
 wb_child <- wild_boot(child_boot_model, "female:child", 16)
@@ -1047,6 +1057,8 @@ ggplot(child_loo, aes(estimate, factor(omitted, levels = rev(sort(omitted))))) +
        x = "Female × child interaction", y = "Wreck omitted")
 ```
 
+![Female × child interaction after omitting each age-recording wreck, with enumerated wild-bootstrap 95% intervals (64 distinct sign patterns per fit). The dashed line is the full seven-ship estimate.](./female-survival-in-marital-disasters/generated-figure-06.png)
+
 At the sixteen-year cutoff, the adult female gap on these seven ships is `r sprintf('%+.3f', child_results$adult_gap[child_results$cutoff == 16])` and the gap among children is `r sprintf('%+.3f', child_results$child_gap[child_results$cutoff == 16])`. The quantity this section actually needs is the difference between those gaps, and the interaction estimates it directly: `r sprintf('%+.3f', child_results$diff[child_results$cutoff == 16])`, ship-clustered 95% CI `r sprintf('[%+.3f, %+.3f]', child_results$diff_lo[child_results$cutoff == 16], child_results$diff_hi[child_results$cutoff == 16])`, p = `r fmt_p(child_results$diff_p[child_results$cutoff == 16])`. On six degrees of freedom that interval includes zero. The enumerated wild bootstrap disagrees: `fwildclusterboot` runs all `r wb_child$B` sign patterns and returns `r sprintf('[%+.3f, %+.3f]', wb_child$lo, wb_child$hi)`, which excludes zero. Its p-value needs a word about convention. `boottest()` returns `r sprintf('%.0f', wb_child$p)` here, because it compares bootstrap statistics against the observed one strictly and no pattern exceeds it. But two patterns *equal* it: the `r wb_child$B` sign patterns collapse to `r wb_child$B / 2` distinct statistics under sign symmetry, and the identity pattern and its mirror reproduce the observed statistic by construction. Counting those ties inclusively - the conservative convention, and the one I use throughout - gives `r sprintf('2/%d = %.4f', wb_child$B, child_boot_floor)`, which is also the smallest value this reference set can produce. So the reported figure is a reporting choice on top of the package's output, not a number it printed.
 
 Two caveats on that disagreement, and then the reading. The bootstrap interval is obtained by inverting the same coarse reference set, so its endpoints are step functions of the null value being tested, not smooth 95% limits; and with cells this small the enumerated test has very little power. Enumeration is also worth not over-reading: running all 128 patterns removes simulation error, not the procedure's assumptions. Sign-flip validity rests on cluster-level symmetry and on clusters being large, and it is asymptotic in cluster size rather than exact in finite samples. There is a result that fits this regime - [Canay, Santos and Shaikh (2021)](https://ivancanay.com/papers/wild-bootstrap-clusters-2021.pdf) justify the wild bootstrap with the cluster count held fixed and cluster sizes growing, which is exactly the corner seven ships put us in - but it comes with homogeneity-like restrictions on how similar the clusters are, and for a studentized statistic of this kind it bounds overrejection rather than delivering validity outright. Seven wrecks ranging from 70 to 796 passengers, with sex and age compositions as different as the *Princess Victoria*'s five boys and no girls against the *Norge*'s 131 girls and 127 boys, are not the homogeneous case. So I do not treat the bootstrap as the arbiter here. Two procedures disagree, neither has a strong claim on this sample, and the reading has to survive that: the child–adult difference is consistently positive and close to `r sprintf('%+.2f', child_results$diff[child_results$cutoff == 16])` across every specification below, and imprecise in all of them. Across cutoffs the estimate barely moves, from `r sprintf('%+.3f', min(child_results$diff))` to `r sprintf('%+.3f', max(child_results$diff))`, though only the age-ten cutoff produces a clustered interval that clears zero; and the interaction is `r sprintf('%+.3f', coef(crew_adj)['female:child'])` (p = `r fmt_p(pvalue(crew_adj)['female:child'])`) in the sensitivity check that restores the under-sixteen crew records and adjusts for crew status.
@@ -1129,6 +1141,8 @@ ggplot(crew_ship_plot, aes(y = ship_year)) +
   labs(title = "Sex gaps within crew and within passengers, wreck by wreck",
        x = "Female survival minus male survival", y = NULL, color = NULL)
 ```
+
+![Raw female-minus-male survival gaps within crew and passenger groups. Lines connect estimates from the same wreck; a single endpoint means the other group has recorded members of only one sex.](./female-survival-in-marital-disasters/generated-figure-07.png)
 
 The direct test is a single interaction model, `surv ~ female * crew | ship` - unweighted, like the descriptive crew model earlier, so the estimand is the person-level within-ship contrast. It puts the female gap at `r sprintf('%+.3f', crew_gap_pax)` among passengers and `r sprintf('%+.3f', crew_gap_crew)` among crew. Whether those two gaps differ is the `female × crew` term: `r sprintf('%+.3f', crew_diff)`, ship-clustered 95% CI `r ci_text(crew_int, 'female:crew')`, p = `r fmt_p(pvalue(crew_int)['female:crew'])`. The wild cluster bootstrap widens that interval further, to `r sprintf('[%+.3f, %+.3f]', wb_crew$lo, wb_crew$hi)` with p = `r fmt_p(wb_crew$p)`. Both procedures agree here, which the child section could not say.
 

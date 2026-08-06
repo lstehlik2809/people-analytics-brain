@@ -6,6 +6,8 @@ Usage: python pipeline/convert.py [--force]
 """
 
 import argparse
+import base64
+import binascii
 import hashlib
 import json
 import re
@@ -15,7 +17,7 @@ from pathlib import Path
 
 import yaml
 from bs4 import BeautifulSoup
-from urllib.parse import unquote
+from urllib.parse import unquote, unquote_to_bytes
 
 BLOG_POSTS = Path(r"D:\_WORKFORCE_ANALYTICS\People_Analytics_Blog\_posts")
 BLOG_BASE_URL = "https://blog-about-people-analytics.netlify.app/posts/"
@@ -34,6 +36,18 @@ ATTR_RE = re.compile(r"(\)|\`)\{[^{}\n]*\}")  # pandoc attribute blocks after ) 
 CHUNK_RE = re.compile(r"^```\{(r|R)\b[^}]*\}\s*$", re.M)
 PY_CHUNK_RE = re.compile(r"^```\{python[^}]*\}\s*$", re.M)
 OTHER_CHUNK_RE = re.compile(r"^```\{[^}]*\}\s*$", re.M)
+# Distill sometimes embeds knitr figures directly into the rendered HTML even
+# when other post assets are external. Including a converter marker in the
+# content hash rebuilds only posts with this representation when support for it
+# changes, rather than invalidating the entire manifest.
+EMBEDDED_FIGURE_RE = re.compile(
+    rb"<div[^>]*class=[\"'][^\"']*\bfigure\b[^\"']*[\"'][^>]*>"
+    rb".*?<img[^>]+src=[\"']data:image/",
+    re.I | re.S,
+)
+EMBEDDED_FIGURE_HASH_MARKER = b"\0embedded-generated-figures-v1"
+DATA_IMAGE_RE = re.compile(
+    r"^data:(image/[a-z0-9.+-]+)((?:;[^,]*)?),(.*)$", re.I | re.S)
 
 
 def slugify_tag(tag: str) -> str:
@@ -78,8 +92,9 @@ def convert_body(body: str, post_dir: Path, asset_dir: Path, slug: str, warnings
         # spaces in a filename break markdown links, so normalize on copy
         dest_name = src.name.replace(" ", "-")
         asset_dir.mkdir(parents=True, exist_ok=True)
-        if not (asset_dir / dest_name).exists():
-            shutil.copy2(src, asset_dir / dest_name)
+        dest = asset_dir / dest_name
+        if not dest.exists() or src.read_bytes() != dest.read_bytes():
+            shutil.copy2(src, dest)
         return f"./{slug}/{dest_name}"
 
     def img_sub(m):
@@ -145,8 +160,12 @@ def norm_code(text: str) -> str:
 
 
 def extract_generated_figures(post_dir: Path, base_name: str):
-    """Figures knitr rendered into <base>_files/, each anchored to the code
-    block that precedes it in the rendered HTML (None = no code anchor)."""
+    """Find knitr figures, whether external or embedded as image data.
+
+    Each figure is anchored to the code block that precedes it in the rendered
+    HTML (None = no code anchor). Embedded data images are accepted only inside
+    a knitr ``div.figure`` so ordinary inline images are not duplicated.
+    """
     html_path = post_dir / f"{base_name}.html"
     if not html_path.exists():
         return []
@@ -158,13 +177,45 @@ def extract_generated_figures(post_dir: Path, base_name: str):
             last_pre = norm_code(el.get_text())
         else:
             src = el.get("src") or ""
-            if f"{base_name}_files/" in src and src.lower().endswith(
-                    (".png", ".jpg", ".jpeg", ".svg", ".gif")):
-                figs.append((last_pre, src, el.get("alt") or ""))
+            external = (f"{base_name}_files/" in src and
+                        src.lower().endswith(
+                            (".png", ".jpg", ".jpeg", ".svg", ".gif")))
+            embedded = (src.lower().startswith("data:image/") and
+                        el.find_parent("div", class_="figure") is not None)
+            if external or embedded:
+                alt = el.get("alt") or el.get("aria-label") or ""
+                figs.append((last_pre, src, alt))
     return figs
 
 
 FENCE_RE = re.compile(r"```[a-z]*\n(.*?)\n```", re.S)
+
+
+def decode_data_image(src: str):
+    """Return ``(bytes, extension)`` for a data-image URI, else ``None``."""
+    match = DATA_IMAGE_RE.match(src)
+    if not match:
+        return None
+    mime, params, payload = match.groups()
+    subtype = mime.split("/", 1)[1].lower()
+    extension = {
+        "jpeg": "jpg",
+        "jpg": "jpg",
+        "png": "png",
+        "gif": "gif",
+        "svg+xml": "svg",
+        "webp": "webp",
+    }.get(subtype)
+    if extension is None:
+        return None
+    try:
+        if ";base64" in params.lower():
+            data = base64.b64decode(re.sub(r"\s+", "", payload), validate=True)
+        else:
+            data = unquote_to_bytes(payload)
+    except (binascii.Error, ValueError):
+        return None
+    return (data, extension) if data else None
 
 
 def inject_figures(body: str, figs, post_dir: Path, asset_dir: Path,
@@ -174,15 +225,28 @@ def inject_figures(body: str, figs, post_dir: Path, asset_dir: Path,
     fences = [(norm_code(m.group(1)), m.end()) for m in FENCE_RE.finditer(body)]
     used = set()
     insertions, appendix = [], []
-    for anchor, src, alt in figs:
-        img = post_dir / unquote(src)
-        if not img.exists():
-            warnings.append(f"{slug}: missing generated figure {src}")
-            continue
-        dest_name = img.name.replace(" ", "-")
+    for figure_number, (anchor, src, alt) in enumerate(figs, start=1):
         asset_dir.mkdir(parents=True, exist_ok=True)
-        if not (asset_dir / dest_name).exists():
-            shutil.copy2(img, asset_dir / dest_name)
+        if src.lower().startswith("data:image/"):
+            decoded = decode_data_image(src)
+            if decoded is None:
+                warnings.append(
+                    f"{slug}: invalid or unsupported embedded generated figure")
+                continue
+            data, extension = decoded
+            dest_name = f"generated-figure-{figure_number:02d}.{extension}"
+            dest = asset_dir / dest_name
+            if not dest.exists() or dest.read_bytes() != data:
+                dest.write_bytes(data)
+        else:
+            img = post_dir / unquote(src)
+            if not img.exists():
+                warnings.append(f"{slug}: missing generated figure {src}")
+                continue
+            dest_name = img.name.replace(" ", "-")
+            dest = asset_dir / dest_name
+            if not dest.exists() or img.read_bytes() != dest.read_bytes():
+                shutil.copy2(img, dest)
         md_img = f"![{alt}](./{slug}/{dest_name})"
         pos = None
         if anchor:
@@ -269,7 +333,10 @@ def main():
         h = hashlib.sha256(b"v2:" + rmds[0].read_bytes())
         html = post_dir / f"{rmds[0].stem}.html"
         if html.exists():
-            h.update(html.read_bytes())
+            html_bytes = html.read_bytes()
+            h.update(html_bytes)
+            if EMBEDDED_FIGURE_RE.search(html_bytes):
+                h.update(EMBEDDED_FIGURE_HASH_MARKER)
         src_hash = h.hexdigest()
         slug = note_slug(post_dir.name)
         if slug in seen_slugs:
