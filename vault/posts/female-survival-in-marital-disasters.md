@@ -71,7 +71,7 @@ joint_term_label <- function(term) {
 
 # The Titanic prior
 
-For many people, especially data scientists, the word *Titanic* brings to mind not James Cameron’s film, but the passenger manifest they encountered as one of their first datasets while trying to break into the field. Kaggle’s famous [“Titanic: Machine Learning from Disaster”](https://www.kaggle.com/competitions/titanic) has served as a beginner competition for more than a decade, while versions of the dataset appear in introductory courses built around R, Python, and Stata.
+For many people in my network the word *Titanic* brings to mind not James Cameron’s film, but the passenger manifest they encountered as one of their first datasets while trying to break into the field. Kaggle’s famous [“Titanic: Machine Learning from Disaster”](https://www.kaggle.com/competitions/titanic) has served as a beginner competition for more than a decade, while versions of the dataset appear in introductory courses built around R, Python, and Stata.
 
 <div style="text-align:center">
 
@@ -81,9 +81,7 @@ For many people, especially data scientists, the word *Titanic* brings to mind n
 
 The standard modelling exercise is familiar: fit a logistic regression using variables such as sex, passenger class, and age. One coefficient tends to dwarf the others. Women survived; men, for the most part, did not.
 
-The model merely quantified a story already firmly lodged in the public imagination: officers lowering women and children into lifeboats while men stoically stood back.
-
-But that is just one ship. This post begins with a simple question: what happens when someone adds seventeen more?
+The model merely quantified a story already firmly lodged in the public imagination: officers lowering women and children into lifeboats while men stoically stood back. But that is just one ship. This post begins with a simple question: what happens when someone adds seventeen more?
 
 That is exactly what Mikael Elinder and Oscar Erixson did in a 2012 [PNAS paper](https://doi.org/10.1073/pnas.1207156109). They compiled an unusually large individual-level dataset covering 18 maritime disasters between 1852 and 2011: more than 15,000 people, each linked, where possible, to their sex, passenger or crew status, and survival outcome.
 
@@ -1186,7 +1184,7 @@ The data do not estimate the proposed explanations precisely enough to support t
 
 The child comparison shifts the moral reading without settling it: the estimated sex gap is near zero among child passengers and large among adults, and the difference between the two is estimated directly rather than inferred from two subgroup tests. But that difference sits exactly where the two inference procedures part company - the clustered interval on six degrees of freedom includes zero, the enumerated bootstrap interval does not - and with seven unequal wrecks neither procedure has a strong enough claim on this sample to break the tie. The point estimate is the steadier part: close to `r sprintf('%+.2f', child_results$diff[child_results$cutoff == 16])` whether the model saturates ship × child or not, and whether the sample is the seven age-recording wrecks or the nine the paper's combined definition allows. Leave-one-out is looser than that - positive in all seven omissions, but running from `r sprintf('%+.3f', min(child_loo$estimate))` to `r sprintf('%+.3f', max(child_loo$estimate))` - so the sign is stable and the size only broadly so. Imprecise in every one of them. Rescue norms or adult-mediated survival could produce the same pattern as physical differences in any case. The crew comparison blocks a tidy ending from the other side: crew status does not visibly close the gap. Crew status is only a proxy for training, information, and access - the workbook records no occupation and no location aboard - so what fails to close the gap is the proxy, and unmeasured job location remains a live alternative to any reading of that; the crew–passenger difference is imprecise in its own right besides. The records support a sturdy descriptive claim. They cannot apportion it among strength, clothing, access, occupational segregation, and men's refusal to help - those remain hypotheses.
 
-So, where did we end up? The Titanic can keep its place in the data-science classroom. One ship taught many of us logistic regression, the others teach the harder lesson: a sturdy coefficient is not the same thing as a tidy explanation 😉
+So, where did we end up? The Titanic can definitely keep its place in the data-science classroom. That one ship taught many of us logistic regression, but the others teach the harder lesson: a sturdy coefficient is not the same thing as a tidy explanation 😉
 
 P.S. Kudos to Elinder and Erixson for making the data public and letting the rest of us take it for another spin 🤓
 
@@ -1200,7 +1198,7 @@ sessionInfo()
 - [[segmentedregression|Modeling impact of the COVID-19 pandemic on people’s interest in work-life balance and well-being]]
 - [[dag-and-double-ml|A plausible model of data-generating process eats ML algorithms for breakfast]]
 - [[impact-of-pets-on-life-satisfaction|Before you believe the £70,000 cat]]
-- [[nobel-prize-and-causal-inference-popularity|Did the Nobel Prize put causal inference on the public radar?]]
+- [[car-accidents-near-home|Before you blame the driver, check the denominator]]
 <!-- RELATED:END -->
 
 ---
