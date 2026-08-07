@@ -85,9 +85,9 @@ The results overturned the Titanic-shaped prior. Across the other disasters, the
 While reading the paper, two broader thoughts and questions came to mind:
 
 1. The explanations proposed by the authors vary by ship, but the outcomes are recorded person by person. Anyone who has run a geo experiment, a market rollout, or a team-level intervention will recognise the problem. I was therefore curious to see which claims would survive once uncertainty was measured at the ship level - and how robust those claims might be given the small number of ships. 
-2. The authors’ summary seems to turn the Titanic’s story of chivalry on its head. But what does the observed female survival gap actually mean when sex appears to bundle together social treatment and physical capacity? Fortunately, the authors made their `r xfun::embed_file("data/sd01.xlsx", text = "data publicly available")`, so I did not have to stop at asking these questions - I could try to answer them.
+2. The authors’ summary seems to turn the Titanic’s story of chivalry on its head. But what does the observed female survival gap actually mean when sex appears to bundle together social treatment and physical capacity? 
 
-But before getting to that, let’s reproduce the paper’s original numbers and make sure we are playing on the same field.
+Fortunately, the authors made their `r xfun::embed_file("data/sd01.xlsx", text = "data publicly available")`, so I did not have to stop at asking these questions - I could try to answer them. But before getting to that, let’s reproduce the paper’s original numbers and make sure we are playing on the same field.
 
 # Reproducing the paper's numbers
 
