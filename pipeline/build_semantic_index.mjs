@@ -1,7 +1,7 @@
-// Build the client-side semantic search index.
-// Embeds overlapping passages across every vault note with the same model the browser page uses
-// (Xenova/all-MiniLM-L6-v2 via transformers.js), so query and corpus
-// vectors live in the same space. Output: pipeline/cache/semantic_index.json
+// Build the client-side hybrid search index. It retains cleaned passage text
+// for BM25 and embeds the same passages with the model used by the browser page
+// (Xenova/all-MiniLM-L6-v2 via transformers.js), so query and corpus vectors
+// live in the same space. Output: pipeline/cache/semantic_index.json
 //
 // Usage: node pipeline/build_semantic_index.mjs
 
@@ -21,7 +21,7 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const NOTES = path.join(ROOT, "vault", "posts");
 const OUT = path.join(ROOT, "pipeline", "cache", "semantic_index.json");
 const MODEL = "Xenova/all-MiniLM-L6-v2";
-const INDEX_SCHEMA = 2;
+const INDEX_SCHEMA = 3;
 
 function parseNote(file) {
   const text = readFileSync(file, "utf-8");
@@ -51,11 +51,11 @@ for (const file of files) {
     : Math.ceil((n.body.length - CHUNK_CHARS) / (CHUNK_CHARS - CHUNK_OVERLAP)) + 1;
   if (uncappedCount > MAX_CHUNKS) cappedCount++;
   passageCount += bodyChunks.length;
-  const texts = [
+  const passages = [
     `${n.title}. ${n.description} Topics: ${n.tags.join(", ")}`,
     ...bodyChunks,
   ];
-  const out = await extractor(texts, { pooling: "mean", normalize: true });
+  const out = await extractor(passages, { pooling: "mean", normalize: true });
   const [rows, dims] = out.dims;
   const data = out.data;
   const vecs = [];
@@ -63,7 +63,15 @@ for (const file of files) {
     vecs.push(Array.from(data.slice(r * dims, (r + 1) * dims), (x) => +x.toFixed(4)));
   }
   vecCount += rows;
-  posts.push({ slug, title: n.title, description: n.description, date: n.date, tags: n.tags, vecs });
+  posts.push({
+    slug,
+    title: n.title,
+    description: n.description,
+    date: n.date,
+    tags: n.tags,
+    passages,
+    vecs,
+  });
   if (posts.length % 50 === 0) console.log(`  ${posts.length}/${files.length}`);
 }
 

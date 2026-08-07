@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node --test test_semantic_text.mjs"
+    "test": "node --test test_semantic_text.mjs test_hybrid_search.mjs"
   },
   "keywords": [],
   "author": "",

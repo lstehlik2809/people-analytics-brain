@@ -34,6 +34,7 @@ jobs:
           cp pipeline/cache/llms-full.txt site/public/llms-full.txt
           cp pipeline/cache/semantic_index.json site/public/semantic_index.json
           cp pipeline/static/semantic-search.html site/public/semantic-search.html
+          cp pipeline/static/hybrid-search.mjs site/public/hybrid-search.mjs
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site/public

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Semantic search — Ludek's People Analytics Second Brain</title>
+<title>Hybrid search — Ludek's People Analytics Second Brain</title>
 <script>
   // match the theme chosen via the site's toggle (same localStorage key
   // and attribute as Quartz's darkmode plugin); falls back to OS scheme
@@ -69,10 +69,11 @@
 </head>
 <body>
 <main>
-  <h1>🔎 Semantic search</h1>
-  <p class="sub">Search my people-analytics notes by meaning, not keywords — try
-  “why do people quit” or “measuring personality reliably”. Runs entirely in your
-  browser. Long notes are indexed as passages across their cleaned prose.
+  <h1>🔎 Hybrid search</h1>
+  <p class="sub">Search my people-analytics notes by meaning and exact terminology — try
+  “why do people quit”, “difference in differences”, or “IPTW”. Semantic similarity
+  and BM25 keyword ranking are combined in your browser. Long notes are indexed as
+  passages across their cleaned prose.
   <a href="./">← Back to the brain</a></p>
   <input id="q" type="search" placeholder="Preparing search…" disabled autofocus>
   <div id="status">Checking for cached model…</div>
@@ -80,6 +81,12 @@
   <div id="results"></div>
 </main>
 <script type="module">
+  import {
+    buildBm25Index,
+    hybridSearch,
+    tokenize,
+  } from "./hybrid-search.mjs";
+
   // Versions are pinned; keep the three URLs below in sync with
   // pipeline/package.json (@huggingface/transformers) if ever upgraded.
   const TRANSFORMERS_URL = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.2.0";
@@ -146,6 +153,7 @@
       fetchWithProgress(WASM_URL, cache),
     ]);
     const index = await indexP;
+    const bm25Index = buildBm25Index(index.posts);
 
     // Hand the prefetched runtime straight to ONNX — no second download.
     env.backends.onnx.wasm.wasmPaths = {
@@ -157,9 +165,9 @@
 
     barWrap.style.display = "none";
     input.disabled = false;
-    input.placeholder = "Search by meaning…";
+    input.placeholder = "Search by meaning or keywords…";
     const passageCount = index.passageCount ?? index.vectorCount ?? index.posts.reduce((n, p) => n + p.vecs.length, 0);
-    status.textContent = `Ready — ${index.posts.length} notes indexed across ${passageCount} body passages.`;
+    status.textContent = `Ready — hybrid search across ${index.posts.length} notes and ${passageCount} body passages.`;
     input.focus();
 
     let timer;
@@ -174,26 +182,37 @@
       status.textContent = "Searching…";
       const out = await extractor(q, { pooling: "mean", normalize: true });
       const qv = out.data;
-      const scored = index.posts.map(p => {
-        let best = -1;
-        for (const v of p.vecs) {
-          let dot = 0;
-          for (let i = 0; i < v.length; i++) dot += v[i] * qv[i];
-          if (dot > best) best = dot;
-        }
-        return { p, s: best };
-      }).sort((a, b) => b.s - a.s).slice(0, 15);
-      status.textContent = `Top matches for “${q}”:`;
-      resultsEl.innerHTML = scored.map(({ p, s }) => `
+      const scored = hybridSearch(q, qv, index.posts, bm25Index);
+      status.textContent = `Top hybrid matches for “${q}”:`;
+      resultsEl.innerHTML = scored.map((hit) => {
+        const p = hit.post;
+        const passage = p.passages?.[hit.passageIndex] || p.description;
+        const signals = hit.semanticRank !== null && hit.lexicalRank !== null
+          ? "semantic + BM25"
+          : hit.lexicalRank !== null ? "BM25" : "semantic";
+        return `
         <a class="hit" href="./posts/${p.slug}">
           <h3>${esc(p.title)}</h3>
-          <p>${esc(p.description)}</p>
+          <p>${esc(snippet(passage, q))}</p>
           <div class="meta">
-            <span class="score">${(s * 100).toFixed(0)}% match</span>
+            <span class="score">${signals}</span>
             ${p.tags.slice(0, 4).map(t => `<span class="tag">${esc(t)}</span>`).join("")}
             <span class="date">${esc(p.date)}</span>
           </div>
-        </a>`).join("");
+        </a>`;
+      }).join("");
+    }
+    function snippet(text, query, width = 240) {
+      const clean = String(text || "").replace(/\s+/g, " ").trim();
+      if (clean.length <= width) return clean;
+      const lower = clean.toLowerCase();
+      const positions = tokenize(query)
+        .map(term => lower.indexOf(term))
+        .filter(position => position >= 0);
+      const anchor = positions.length ? Math.min(...positions) : 0;
+      const start = Math.max(0, Math.min(anchor - Math.floor(width / 3), clean.length - width));
+      return (start > 0 ? "…" : "") + clean.slice(start, start + width).trim() +
+        (start + width < clean.length ? "…" : "");
     }
     function esc(s) {
       return String(s).replace(/[&<>"']/g, c =>
